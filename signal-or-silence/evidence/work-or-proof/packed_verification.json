@@ -1,0 +1,9 @@
+{
+  "all_member_sha256_verified": true,
+  "archive": "receipts.tar.xz",
+  "archive_sha256": "33277515a5f09a174583b559965688119846564147f75cf21de631e558810a34",
+  "members": 5808,
+  "original_receipt_bytes_preserved": true,
+  "source_untouched": true,
+  "status": "PASS"
+}

@@ -1,0 +1,87 @@
+{
+  "status": "VERIFIED_OFFLINE",
+  "scope": "Installed 0.33.3 format schema-object support and schema/grammar implementation; runtime generations intentionally untested. Independent strict validator remains authoritative.",
+  "network_requests": 0,
+  "model_calls": 0,
+  "version": "0.33.3",
+  "sources": [
+    {
+      "path": "/opt/homebrew/Cellar/ollama/0.33.3/libexec/ollama",
+      "sha256": "92b379163dc2a7953f8f427253f2e01569f627027e8a3783c51b161c808311ce",
+      "bytes": 32959954,
+      "snippets": [
+        {
+          "needle": "mod\tgithub.com/ollama/ollama\tv0.33.3+dirty",
+          "offset": 16528238,
+          "hex": "6d6f64096769746875622e636f6d2f6f6c6c616d612f6f6c6c616d610976302e33332e332b6469727479"
+        },
+        {
+          "needle": "invalid format: expected \"json\" or a valid JSON Schema object",
+          "offset": 16253430,
+          "hex": "696e76616c696420666f726d61743a20657870656374656420226a736f6e22206f7220612076616c6964204a534f4e20536368656d61206f626a656374"
+        },
+        {
+          "needle": "github.com/ollama/ollama/llm.llamaServerChatResponseFormat",
+          "offset": 17508972,
+          "hex": "6769746875622e636f6d2f6f6c6c616d612f6f6c6c616d612f6c6c6d2e6c6c616d6153657276657243686174526573706f6e7365466f726d6174"
+        },
+        {
+          "needle": "github.com/ollama/ollama/x/mlxrunner.validateGrammarSchema",
+          "offset": 17660140,
+          "hex": "6769746875622e636f6d2f6f6c6c616d612f6f6c6c616d612f782f6d6c7872756e6e65722e76616c69646174654772616d6d6172536368656d61"
+        }
+      ]
+    },
+    {
+      "path": "/opt/homebrew/Cellar/ollama/0.33.3/libexec/lib/ollama/llama-server",
+      "sha256": "096db025808c9f7d5c95bb38346616aa71a5348455c6397c8de727c6d42b5db9",
+      "bytes": 13249296,
+      "snippets": [
+        {
+          "needle": "json_schema_to_grammar",
+          "offset": 6153210,
+          "hex": "6a736f6e5f736368656d615f746f5f6772616d6d6172"
+        },
+        {
+          "needle": "minItems",
+          "offset": 6661337,
+          "hex": "6d696e4974656d73"
+        },
+        {
+          "needle": "maxItems",
+          "offset": 6661346,
+          "hex": "6d61784974656d73"
+        },
+        {
+          "needle": "anyOf",
+          "offset": 6645973,
+          "hex": "616e794f66"
+        },
+        {
+          "needle": "enum",
+          "offset": 6661204,
+          "hex": "656e756d"
+        },
+        {
+          "needle": "additionalProperties",
+          "offset": 6661263,
+          "hex": "6164646974696f6e616c50726f70657274696573"
+        },
+        {
+          "needle": "maxLength",
+          "offset": 6661219,
+          "hex": "6d61784c656e677468"
+        }
+      ]
+    }
+  ],
+  "formula": {
+    "path": "/opt/homebrew/Cellar/ollama/0.33.3/.brew/ollama.rb",
+    "sha256": "d3bdb33986e948425bda3c4068892d48b18eec6ce6234b68cfe6c63502b05cc9",
+    "tag": "v0.33.3",
+    "revision": "b79067b0db7417f20108363bc22adb97f35c966a"
+  },
+  "saved_v01_preflight_version": {
+    "version": "0.33.3"
+  }
+}

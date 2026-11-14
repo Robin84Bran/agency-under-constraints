@@ -1,0 +1,1 @@
+{"additionalProperties":false,"properties":{"submitted":{"type":["boolean","null"]}},"required":["submitted"],"type":"object"}

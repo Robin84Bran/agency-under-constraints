@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "<SCRATCH>/orchestra/fresh-trl-codex/three-rules-one-lunch/v0.2/build/rebuild-clone-codex/source/build/analysis-rebuilt/v01-rebuild/source/trl_analysis.py", line 371, in <module>
+    main()
+  File "<SCRATCH>/orchestra/fresh-trl-codex/three-rules-one-lunch/v0.2/build/rebuild-clone-codex/source/build/analysis-rebuilt/v01-rebuild/source/trl_analysis.py", line 368, in main
+    analyze(a.root,a.base or a.root/'collection',a.out)
+  File "<SCRATCH>/orchestra/fresh-trl-codex/three-rules-one-lunch/v0.2/build/rebuild-clone-codex/source/build/analysis-rebuilt/v01-rebuild/source/trl_analysis.py", line 292, in analyze
+    raise Stop('paid start without reserved subhold')
+trl_io.Stop: paid start without reserved subhold

@@ -1,0 +1,25 @@
+{
+  "cell_rows": 24,
+  "frozen_analysis_reruns_in_canonical_project": 0,
+  "local_links_resolve": true,
+  "model_calls": 0,
+  "presentation_files_byte_identical": {
+    "README.md": "088c3c8b8ad5295b32aebb56de5e35b0abd490773195b25df2be4b31c5566798",
+    "RESULTS.md": "dd5137a891c0c9edf21280e4d3f0b0c7927527cb09298ff20d072cf82b104c56",
+    "baseline-cells.csv": "652808ebd2a4839e18f08d92683e01c65715867ed92c46e72f2ca2699672d906",
+    "baseline-episodes.json": "1bb9ad1792a5f90d330413b521a2dd99b0c1153afbfcb45cd66dcd070c5b759e",
+    "behavior.csv": "6de8e6a0c3058a4dd8ab6d663eb8ed3c90467b96d67c13e5f11537f80b8a24b4",
+    "cells.csv": "c1f1158ee47c3fdd0e60608bcfb8a86fac8307c2cd7dbab0a27971192c349816",
+    "claude-every-seed.csv": "0ac22ec6fb211461e384e852ea5163f64b9feb361a83fcccf341dcd761959b05",
+    "contrasts.csv": "06f71db7e220a5196d010285f482d8e097064bb10ac4b295791cc6d6f9f843f7",
+    "episodes.csv": "87383bf9cb89e49ec8fbb43f12635dc39e4ce9c3a371df0e51015640ef5e14ba",
+    "headline.svg": "eabf739e93d73dfc78a83fd773c7781f0207d5820ca7b84afd585e7bca2b5ac6"
+  },
+  "rebuild_copy": "<TMPDIR>/useful-core-rebuild-qugagrj7/useful-core",
+  "scheduled_episodes": 960,
+  "status": "PASS",
+  "svg_bars": 48,
+  "svg_parses": true,
+  "transient_adapter_guard_tests": 7,
+  "valid_episodes": 459
+}

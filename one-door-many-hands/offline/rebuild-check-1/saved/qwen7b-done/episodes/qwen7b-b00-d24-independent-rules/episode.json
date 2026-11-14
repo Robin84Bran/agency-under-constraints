@@ -1,0 +1,1 @@
+{"attempted":true,"fatal":null,"finished_at":"2026-11-11T10:25:50.133787+00:00","first_frozen_compatibility_check":false,"fleet":null,"reason":"local done/eval_count missing or incomplete","schema_valid":false,"status":"TRANSPORT_FAILURE","usage":{"cache_creation":0,"cache_read":0,"input":300,"output":20,"reported_cost_micro_usd":null}}

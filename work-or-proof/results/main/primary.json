@@ -1,0 +1,320 @@
+{
+  "acceptance_reason": "Independent finished-study review and all protocol gates required.",
+  "audit_floor_pass": true,
+  "bootstrap": {
+    "master_seed": 46711,
+    "orders": 16,
+    "replicates": 2000
+  },
+  "collection_complete": true,
+  "denominator_convention": "Recompute recall denominators within each resampled population; fixed cap for yield. Omit undefined intervals with reasons, never impute zero.",
+  "incomplete_coverage": false,
+  "leave_one_seed_block_out": [
+    {
+      "minimum_audits": {
+        "LT_audited": 1422,
+        "X_audited": 716
+      },
+      "omitted_seed": "20",
+      "omitted_source": "HA",
+      "recall_difference": 0.17770776566757493,
+      "yield_difference": 0.15859009680455013
+    },
+    {
+      "minimum_audits": {
+        "LT_audited": 1422,
+        "X_audited": 716
+      },
+      "omitted_seed": "21",
+      "omitted_source": "HA",
+      "recall_difference": 0.18147764192886456,
+      "yield_difference": 0.16129247357388976
+    },
+    {
+      "minimum_audits": {
+        "LT_audited": 1422,
+        "X_audited": 716
+      },
+      "omitted_seed": "22",
+      "omitted_source": "HA",
+      "recall_difference": 0.17755875340599456,
+      "yield_difference": 0.15845711517090952
+    },
+    {
+      "minimum_audits": {
+        "LT_audited": 1422,
+        "X_audited": 716
+      },
+      "omitted_seed": "23",
+      "omitted_source": "HA",
+      "recall_difference": 0.17923514134877383,
+      "yield_difference": 0.15995315854936643
+    },
+    {
+      "minimum_audits": {
+        "LT_audited": 1422,
+        "X_audited": 716
+      },
+      "omitted_seed": "24",
+      "omitted_source": "HA",
+      "recall_difference": 0.17803855020491804,
+      "yield_difference": 0.15845236582685093
+    },
+    {
+      "minimum_audits": {
+        "LT_audited": 1422,
+        "X_audited": 717
+      },
+      "omitted_seed": "25",
+      "omitted_source": "HA",
+      "recall_difference": 0.1790222666893733,
+      "yield_difference": 0.1597631847870227
+    },
+    {
+      "minimum_audits": {
+        "LT_audited": 1422,
+        "X_audited": 716
+      },
+      "omitted_seed": "26",
+      "omitted_source": "HA",
+      "recall_difference": 0.17892647309264306,
+      "yield_difference": 0.15967769659396802
+    },
+    {
+      "minimum_audits": {
+        "LT_audited": 1422,
+        "X_audited": 717
+      },
+      "omitted_seed": "27",
+      "omitted_source": "HA",
+      "recall_difference": 0.17899033549046323,
+      "yield_difference": 0.15973468872267113
+    },
+    {
+      "minimum_audits": {
+        "LT_audited": 1422,
+        "X_audited": 717
+      },
+      "omitted_seed": "28",
+      "omitted_source": "HA",
+      "recall_difference": 0.17661146117166213,
+      "yield_difference": 0.15761173192847988
+    },
+    {
+      "minimum_audits": {
+        "LT_audited": 1422,
+        "X_audited": 717
+      },
+      "omitted_seed": "29",
+      "omitted_source": "HA",
+      "recall_difference": 0.17907548535422343,
+      "yield_difference": 0.15981067822760864
+    },
+    {
+      "minimum_audits": {
+        "LT_audited": 1422,
+        "X_audited": 717
+      },
+      "omitted_seed": "30",
+      "omitted_source": "HA",
+      "recall_difference": 0.18149693460490463,
+      "yield_difference": 0.16197162977426863
+    },
+    {
+      "minimum_audits": {
+        "LT_audited": 1422,
+        "X_audited": 717
+      },
+      "omitted_seed": "31",
+      "omitted_source": "HA",
+      "recall_difference": 0.17661146117166213,
+      "yield_difference": 0.15761173192847988
+    },
+    {
+      "minimum_audits": {
+        "LT_audited": 1422,
+        "X_audited": 717
+      },
+      "omitted_seed": "32",
+      "omitted_source": "HA",
+      "recall_difference": 0.181328018125855,
+      "yield_difference": 0.16115949194024914
+    },
+    {
+      "minimum_audits": {
+        "LT_audited": 1422,
+        "X_audited": 717
+      },
+      "omitted_seed": "33",
+      "omitted_source": "HA",
+      "recall_difference": 0.17991634025885558,
+      "yield_difference": 0.16056107458886637
+    },
+    {
+      "minimum_audits": {
+        "LT_audited": 1422,
+        "X_audited": 717
+      },
+      "omitted_seed": "34",
+      "omitted_source": "HA",
+      "recall_difference": 0.17685094516348773,
+      "yield_difference": 0.1578254524111166
+    },
+    {
+      "minimum_audits": {
+        "LT_audited": 1422,
+        "X_audited": 717
+      },
+      "omitted_seed": "35",
+      "omitted_source": "HA",
+      "recall_difference": 0.17994827145776568,
+      "yield_difference": 0.16058957065321794
+    },
+    {
+      "minimum_audits": {
+        "LT_audited": 1422,
+        "X_audited": 717
+      },
+      "omitted_seed": "36",
+      "omitted_source": "HA",
+      "recall_difference": 0.17636585884353742,
+      "yield_difference": 0.1576069825844213
+    },
+    {
+      "minimum_audits": {
+        "LT_audited": 1422,
+        "X_audited": 716
+      },
+      "omitted_seed": "37",
+      "omitted_source": "HA",
+      "recall_difference": 0.17783549046321526,
+      "yield_difference": 0.15870408106195638
+    },
+    {
+      "minimum_audits": {
+        "LT_audited": 1422,
+        "X_audited": 717
+      },
+      "omitted_seed": "38",
+      "omitted_source": "HA",
+      "recall_difference": 0.17871892029972752,
+      "yield_difference": 0.15949247217568288
+    },
+    {
+      "minimum_audits": {
+        "LT_audited": 1422,
+        "X_audited": 716
+      },
+      "omitted_seed": "39",
+      "omitted_source": "HA",
+      "recall_difference": 0.17798450272479563,
+      "yield_difference": 0.158837062695597
+    },
+    {
+      "minimum_audits": {
+        "LT_audited": 1224,
+        "X_audited": 711
+      },
+      "omitted_seed": "0",
+      "omitted_source": "Rebel",
+      "recall_difference": 0.22504519628099173,
+      "yield_difference": 0.16553838716227223
+    },
+    {
+      "minimum_audits": {
+        "LT_audited": 1224,
+        "X_audited": 711
+      },
+      "omitted_seed": "1",
+      "omitted_source": "Rebel",
+      "recall_difference": 0.22601003535773712,
+      "yield_difference": 0.16514894094946758
+    },
+    {
+      "minimum_audits": {
+        "LT_audited": 1224,
+        "X_audited": 712
+      },
+      "omitted_seed": "2",
+      "omitted_source": "Rebel",
+      "recall_difference": 0.22540941127694858,
+      "yield_difference": 0.16525817586281524
+    },
+    {
+      "minimum_audits": {
+        "LT_audited": 1224,
+        "X_audited": 712
+      },
+      "omitted_seed": "3",
+      "omitted_source": "Rebel",
+      "recall_difference": 0.2243803440553746,
+      "yield_difference": 0.1675046156025299
+    },
+    {
+      "minimum_audits": {
+        "LT_audited": 1224,
+        "X_audited": 712
+      },
+      "omitted_seed": "4",
+      "omitted_source": "Rebel",
+      "recall_difference": 0.23374815244932431,
+      "yield_difference": 0.16824551327567047
+    }
+  ],
+  "limitation": "Conditional archive sensitivity; five Rebel seed blocks; first local replies fixed; endpoints rescale the same catches.",
+  "minimum_audits": {
+    "LT_audited": 1440,
+    "X_audited": 716
+  },
+  "point": {
+    "LT_FP_HA": 0.0,
+    "LT_FP_Rebel": 5.921875,
+    "LT_TP": 499.98828125,
+    "LT_TP_HA": 47.08203125,
+    "LT_TP_Rebel": 452.90625,
+    "LT_audited": 1440.0,
+    "X_FP_HA": 0.0,
+    "X_FP_Rebel": 4.01171875,
+    "X_TP": 368.39453125,
+    "X_TP_HA": 33.375,
+    "X_TP_Rebel": 335.01953125,
+    "X_audited": 719.12890625
+  },
+  "recall_difference": 0.1785532564450475,
+  "recall_difference_ci95": [
+    0.16178392270418807,
+    0.19773611904421914
+  ],
+  "scientific_acceptance": "UNKNOWN",
+  "source_guardrail_ci95": {
+    "HA": [
+      0.0,
+      0.0
+    ],
+    "Rebel": [
+      0.009875846501128669,
+      0.01954120140612076
+    ]
+  },
+  "source_guardrail_fpr": {
+    "HA": 0.0,
+    "Rebel": 0.01444359756097561
+  },
+  "source_recall_difference_ci95": {
+    "HA": [
+      0.1267156862745098,
+      0.2610294117647059
+    ],
+    "Rebel": [
+      0.15914040131596205,
+      0.19523455531620248
+    ]
+  },
+  "superiority": "passes",
+  "undefined_bootstrap_endpoints": {},
+  "yield_difference": 0.15999590264589378,
+  "yield_difference_ci95": [
+    0.1472676605688635,
+    0.17439971330679574
+  ]
+}

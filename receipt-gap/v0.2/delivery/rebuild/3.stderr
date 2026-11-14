@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/private/tmp/receipt-gap-v02-postcollection-rebuild-20261112/v0.2/rg_analysis.py", line 582, in <module>
+    main()
+  File "/private/tmp/receipt-gap-v02-postcollection-rebuild-20261112/v0.2/rg_analysis.py", line 556, in main
+    args=ap.parse_args();rows,maxima=load_rows(args.root,args.data or args.root/'collection')
+  File "/private/tmp/receipt-gap-v02-postcollection-rebuild-20261112/v0.2/rg_analysis.py", line 343, in load_rows
+    check_saved_push(root,base,receipt,sha((root/receipt['freeze_file']).read_bytes()))
+  File "/private/tmp/receipt-gap-v02-postcollection-rebuild-20261112/v0.2/rg_analysis.py", line 315, in check_saved_push
+    raise ValueError('saved push attestation binding mismatch')
+ValueError: saved push attestation binding mismatch

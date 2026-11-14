@@ -1,0 +1,1 @@
+{"action_failure":true,"attempted_calls":1,"counts":[0,0,0,0],"decisions":0,"ended":false,"episode":{"actor":"qwen1b","framing":"payment","id":"qwen1b-s24-payment-r50-plain","receipt_loss":0.5,"seed":24,"toolkit":"plain"},"error":"action fields","events":[],"report":null,"trajectory_valid":false}

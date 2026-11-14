@@ -1,0 +1,1 @@
+{"additionalProperties":false,"properties":{"op":{"enum":["read","check","annotate","render","deliver","wait"],"type":"string"},"ref":{"anyOf":[{"pattern":"^[a-f0-9]{12}$","type":"string"},{"type":"null"}]},"tier":{"enum":[null,"none","core","reduced","full"]}},"required":["op","ref","tier"],"type":"object"}

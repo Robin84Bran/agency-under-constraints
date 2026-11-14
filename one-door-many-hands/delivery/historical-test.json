@@ -1,0 +1,10 @@
+{
+  "baseline_verified": true,
+  "errors": 0,
+  "failures": 0,
+  "fixture": "exact immutable D3 collection baseline plus saved ledger byte prefixes/checkpoints",
+  "frozen_source_or_test_changes": false,
+  "success": true,
+  "test": "test_d3.D3.test_real_clearance_attestation_and_prefixes",
+  "tests_run": 1
+}

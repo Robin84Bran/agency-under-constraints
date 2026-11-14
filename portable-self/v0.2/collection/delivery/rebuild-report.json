@@ -1,0 +1,40 @@
+{
+  "analysis_byte_identical": true,
+  "analysis_bytes": 3894883,
+  "analysis_sha256": "ce11027738d94086487471f5be7334c5c68fa1f669ddd2e939089c867384e6b9",
+  "commands_log": "rebuild-commands.json",
+  "copied_files": 51040,
+  "copy_inputs_unchanged": true,
+  "copy_inventory_byte_identical": true,
+  "copy_is_independent": true,
+  "copy_root": "/private/tmp/portable-self-v02-independent-7hdq71ht/v0.2",
+  "exclusions_only": [
+    "__pycache__",
+    ".DS_Store",
+    ".git",
+    "*.lock"
+  ],
+  "flat_export_rows": {
+    "baseline-seeds.csv": 1440,
+    "calls.csv": 6411,
+    "episodes.csv": 1080,
+    "facts.csv": 17280,
+    "notes.csv": 3246
+  },
+  "frozen_analysis_rebuilds_in_copy": 1,
+  "frozen_offline_suite": "138/139 passed; historical STOP fixture assertion failed; original log retained",
+  "network_and_subprocess_guard": true,
+  "rebuilt_output": "/private/tmp/portable-self-v02-independent-7hdq71ht/analysis-rebuilt.json",
+  "removed_files": [
+    "collection/collector.lock",
+    "offline/dry-run/collector.lock"
+  ],
+  "source_analysis_invocations": 1,
+  "source_inputs_unchanged": true,
+  "standalone_svg_parses": true,
+  "tamper_checks": [
+    "changed substantive frozen bytes rejected",
+    "missing substantive frozen file rejected",
+    "extra substantive frozen-root input rejected"
+  ]
+}

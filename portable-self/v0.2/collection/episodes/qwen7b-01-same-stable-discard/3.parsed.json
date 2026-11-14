@@ -1,0 +1,1 @@
+{"actual_micro_usd":0,"error":null,"fatal":false,"metrics":{"input_tokens":276,"num_turns":null,"output_tokens":28,"reported_effort":"UNKNOWN","stop_reason":"stop"},"value":{"note":"c1 produced north, c2 produced east, c3 produced south, c4 produced west","slot":1}}

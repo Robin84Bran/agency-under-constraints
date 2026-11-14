@@ -1,0 +1,42 @@
+{
+  "collection_files_verified": 93772,
+  "freezes": [
+    {
+      "files": 404,
+      "manifest": "freeze.json",
+      "sha256": "eda67ccd5bbb5ce828e109b7ff1262ca73f16ebad68e74a2db8785ddb4825440"
+    },
+    {
+      "files": 425,
+      "manifest": "freeze-r1.json",
+      "sha256": "969f846be36a461558231b40f263afecacbd6d84dc5bf3dfa13e3332e43d2a96"
+    },
+    {
+      "files": 470,
+      "manifest": "freeze-r2.json",
+      "sha256": "2291d151b31e2a976bd9332842e315de01d7017b752e60f9e98ae639c9a1097e"
+    },
+    {
+      "files": 493,
+      "manifest": "freeze-r3.json",
+      "sha256": "e682335852d7f17c61186926b2b3e175745ef7955ca1b074d92bea9415c35e57"
+    },
+    {
+      "files": 520,
+      "manifest": "freeze-r4.json",
+      "sha256": "f610e5178bbd5154eb3aab0f28225f07ecf2f4c9d2bc9622fef0fb564500d42b"
+    },
+    {
+      "files": 549,
+      "manifest": "freeze-r5.json",
+      "sha256": "0cbe3ac556f67e8e0bc489055570612955136df948dd91ca5168f8b492a341a4"
+    }
+  ],
+  "mode": "fresh-clone",
+  "omitted_transients_with_saved_sha256": {
+    "collection/collector.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "scientific_code_or_evidence_changes": false,
+  "status": "PASS"
+}
+

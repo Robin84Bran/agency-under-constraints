@@ -1,0 +1,1 @@
+{"actual_micro_usd":0,"error":null,"fatal":false,"metrics":{"input_tokens":235,"num_turns":null,"output_tokens":27,"reported_effort":"UNKNOWN","stop_reason":"stop"},"value":{"note":"Write mode selected. Slot 1 is writable. Replace its note.","slot":1}}

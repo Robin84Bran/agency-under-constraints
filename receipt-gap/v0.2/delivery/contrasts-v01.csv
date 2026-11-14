@@ -1,0 +1,43 @@
+Actor,Loss,Contrast,Endpoint,Difference,Interval,Complete pairs,Decision
+Qwen 7B,0,keyed − plain,Dstar,-19.00 pp,"[-27.00, -12.00] pp; blocks=50, null=0",92,FAIL
+Qwen 7B,0,keyed − plain,D,-19.57 pp,"[-28.09, -11.70] pp; blocks=48, null=0",92,FAIL
+Qwen 7B,0,keyed − plain,Sstar,+0.00 pp,"[+0.00, +0.00] pp; blocks=50, null=0",92,FAIL
+Qwen 7B,0,check − plain,Dstar,+0.00 pp,"[+0.00, +0.00] pp; blocks=50, null=0",20,FAIL
+Qwen 7B,0,check − plain,D,+0.00 pp,"[+0.00, +0.00] pp; blocks=18, null=0",20,FAIL
+Qwen 7B,0,check − plain,Sstar,+0.00 pp,"[+0.00, +0.00] pp; blocks=50, null=0",20,FAIL
+Qwen 7B,0.5,keyed − plain,Dstar,-24.00 pp,"[-31.00, -17.00] pp; blocks=50, null=0",93,FAIL
+Qwen 7B,0.5,keyed − plain,D,-24.73 pp,"[-31.92, -17.58] pp; blocks=48, null=0",93,FAIL
+Qwen 7B,0.5,keyed − plain,Sstar,+1.00 pp,"[+0.00, +3.00] pp; blocks=50, null=0",93,FAIL
+Qwen 7B,0.5,check − plain,Dstar,+0.00 pp,"[+0.00, +0.00] pp; blocks=50, null=0",20,FAIL
+Qwen 7B,0.5,check − plain,D,+0.00 pp,"[+0.00, +0.00] pp; blocks=18, null=0",20,FAIL
+Qwen 7B,0.5,check − plain,Sstar,+0.00 pp,"[+0.00, +0.00] pp; blocks=50, null=0",20,FAIL
+Llama 8B,0,keyed − plain,Dstar,+0.00 pp,"[-3.00, +3.00] pp; blocks=50, null=0",1,FAIL
+Llama 8B,0,keyed − plain,D,+0.00 pp,"UNKNOWN; blocks=1, null=None",1,FAIL
+Llama 8B,0,keyed − plain,Sstar,+0.00 pp,"[+0.00, +0.00] pp; blocks=50, null=0",1,FAIL
+Llama 8B,0,check − plain,Dstar,-60.00 pp,"[-72.00, -47.00] pp; blocks=50, null=0",0,FAIL
+Llama 8B,0,check − plain,D,UNKNOWN,"UNKNOWN; blocks=0, null=None",0,FAIL
+Llama 8B,0,check − plain,Sstar,+0.00 pp,"[+0.00, +0.00] pp; blocks=50, null=0",0,FAIL
+Llama 8B,0.5,keyed − plain,Dstar,+0.00 pp,"[-3.00, +3.00] pp; blocks=50, null=0",1,FAIL
+Llama 8B,0.5,keyed − plain,D,+0.00 pp,"UNKNOWN; blocks=1, null=None",1,FAIL
+Llama 8B,0.5,keyed − plain,Sstar,+0.00 pp,"[+0.00, +0.00] pp; blocks=50, null=0",1,FAIL
+Llama 8B,0.5,check − plain,Dstar,-61.00 pp,"[-73.00, -48.00] pp; blocks=50, null=0",1,FAIL
+Llama 8B,0.5,check − plain,D,+100.00 pp,"UNKNOWN; blocks=1, null=None",1,FAIL
+Llama 8B,0.5,check − plain,Sstar,+0.00 pp,"[+0.00, +0.00] pp; blocks=50, null=0",1,FAIL
+Qwen 1.5B,0,keyed − plain,Dstar,-5.00 pp,"[-9.00, -1.00] pp; blocks=50, null=0",0,FAIL
+Qwen 1.5B,0,keyed − plain,D,UNKNOWN,"UNKNOWN; blocks=0, null=None",0,FAIL
+Qwen 1.5B,0,keyed − plain,Sstar,+2.00 pp,"[+0.00, +5.00] pp; blocks=50, null=0",0,FAIL
+Qwen 1.5B,0,check − plain,Dstar,+0.00 pp,"[+0.00, +0.00] pp; blocks=50, null=0",0,FAIL
+Qwen 1.5B,0,check − plain,D,UNKNOWN,"UNKNOWN; blocks=0, null=None",0,FAIL
+Qwen 1.5B,0,check − plain,Sstar,+0.00 pp,"[+0.00, +0.00] pp; blocks=50, null=0",0,FAIL
+Qwen 1.5B,0.5,keyed − plain,Dstar,-10.00 pp,"[-16.00, -5.00] pp; blocks=50, null=0",0,FAIL
+Qwen 1.5B,0.5,keyed − plain,D,UNKNOWN,"UNKNOWN; blocks=0, null=None",0,FAIL
+Qwen 1.5B,0.5,keyed − plain,Sstar,+1.00 pp,"[+0.00, +3.00] pp; blocks=50, null=0",0,FAIL
+Qwen 1.5B,0.5,check − plain,Dstar,+0.00 pp,"[+0.00, +0.00] pp; blocks=50, null=0",0,FAIL
+Qwen 1.5B,0.5,check − plain,D,UNKNOWN,"UNKNOWN; blocks=0, null=None",0,FAIL
+Qwen 1.5B,0.5,check − plain,Sstar,+0.00 pp,"[+0.00, +0.00] pp; blocks=50, null=0",0,FAIL
+Claude,0.5,keyed − plain,Dstar,+0.00 pp,"[+0.00, +0.00] pp; blocks=10, null=0",20,FAIL
+Claude,0.5,keyed − plain,D,+0.00 pp,"[+0.00, +0.00] pp; blocks=10, null=0",20,FAIL
+Claude,0.5,keyed − plain,Sstar,+50.00 pp,"[+20.00, +80.00] pp; blocks=10, null=0",20,FAIL
+Claude,0.5,check − plain,Dstar,+40.00 pp,"[+20.00, +60.00] pp; blocks=10, null=0",12,FAIL
+Claude,0.5,check − plain,D,+0.00 pp,"UNKNOWN; blocks=9, null=None",12,FAIL
+Claude,0.5,check − plain,Sstar,+5.00 pp,"[-15.00, +25.00] pp; blocks=10, null=0",12,FAIL

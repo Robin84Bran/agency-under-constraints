@@ -1,0 +1,29 @@
+{
+  "frozen_v02_missing_or_changed": [],
+  "inventory_entries_checked": {
+    "v01": 10056,
+    "v02_collection": 39008,
+    "v02_source": 55
+  },
+  "local_vs_fresh_differences": [
+    {
+      "fresh_sha256": null,
+      "inventory": "v01",
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "collection/collector.lock",
+      "saved_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "fresh_sha256": null,
+      "inventory": "v02_collection",
+      "local_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path": "v0.2/collection/collector.lock",
+      "saved_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "status": "PASS",
+  "v02_exact_freeze_additions_in_both": [
+    "README.md",
+    "RESULTS.md"
+  ]
+}

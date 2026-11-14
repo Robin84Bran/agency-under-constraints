@@ -1,0 +1,1 @@
+{"attempt":"regenerate audit after correcting table classification labels","resolution":"Generate corrected inventory as new audit-paths.json; no source or original evidence changed","result":"FileExistsError from create-once save; prior draft preserved as audit-paths-draft.json"}

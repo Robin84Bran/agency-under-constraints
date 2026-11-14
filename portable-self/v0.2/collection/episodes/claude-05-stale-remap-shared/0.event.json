@@ -1,0 +1,1 @@
+{"index":0,"payload":{"calibration":[[1,"east"],[2,"north"],[3,"west"],[4,"south"]],"console":"c-64cf3a63","memory":[{"note":"","slot":1},{"note":"","slot":2},{"note":"","slot":3},{"note":"","slot":4}],"mode":"write","targets":null,"visit":1,"writable_slot":null},"value":{"note":"c-64cf3a63: north=2 east=1 south=4 west=3","slot":4}}

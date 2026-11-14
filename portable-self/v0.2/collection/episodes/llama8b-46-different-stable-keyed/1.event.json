@@ -1,0 +1,1 @@
+{"index":1,"payload":{"calibration":[[1,"west"],[2,"north"],[3,"south"],[4,"east"]],"console":"c-6f6e9507","memory":[{"note":"","slot":2}],"mode":"write","targets":null,"visit":2,"writable_slot":2},"value":{"note":"Note from console 2: The controls are north,east,south,west.","slot":2}}

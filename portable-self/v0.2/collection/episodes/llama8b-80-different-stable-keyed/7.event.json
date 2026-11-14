@@ -1,0 +1,1 @@
+{"index":7,"payload":{"calibration":null,"console":"c-fd9afe27","memory":[{"note":"Replace east control with new instruction","slot":3}],"mode":"act","targets":["south","west","north","east"],"visit":8,"writable_slot":null},"value":{"controls":[1,2,3,4]}}

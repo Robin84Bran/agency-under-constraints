@@ -1,0 +1,24 @@
+{
+  "Qwen_RQ4": "FAIL",
+  "RQ1": "PASS",
+  "adapter_canonical_invocations": 1,
+  "all_42_cells_match_descriptive_counts": true,
+  "calculation_functions_unchanged": true,
+  "comparative_figure_xml_valid": true,
+  "frozen_native_canonical_invocations": 1,
+  "headline_byte_identical_to_descriptive": true,
+  "interval_counts": {
+    "v0.1": 187,
+    "v0.2": 187
+  },
+  "joint_safer_and_reliably_reported": false,
+  "model_calls": 0,
+  "predictions": {
+    "FAILED": 10,
+    "MET": 6
+  },
+  "status": "PASS",
+  "technical_acceptance": false,
+  "technical_cells_pass": 28,
+  "v02_analysis_completed": true
+}

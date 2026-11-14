@@ -1,0 +1,1 @@
+{"returncode":0,"running":{"models":[{"context_length":8192,"digest":"46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e","name":"llama3.1:8b"}]},"stderr_b64":"","stdout_b64":"eyJkb25lIjp0cnVlLCJkb25lX3JlYXNvbiI6InN0b3AiLCJldmFsX2NvdW50IjoyMCwibW9kZWwiOiJsbGFtYTMuMTo4YiIsInByb21wdF9ldmFsX2NvdW50IjozMDAsInJlc3BvbnNlIjoie1wiY2VsbHNcIjpbNDddfSJ9"}

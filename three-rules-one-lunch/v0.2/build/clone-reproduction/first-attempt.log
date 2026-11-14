@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "<SCRATCH>/orchestra/fresh-trl-codex/three-rules-one-lunch/v0.2/build/rebuild-clone-codex/source/trl_analysis.py", line 116, in <module>
+    if __name__=='__main__': main()
+  File "<SCRATCH>/orchestra/fresh-trl-codex/three-rules-one-lunch/v0.2/build/rebuild-clone-codex/source/trl_analysis.py", line 114, in main
+    analyze(a.root,a.base or a.root/'collection',a.out)
+  File "<SCRATCH>/orchestra/fresh-trl-codex/three-rules-one-lunch/v0.2/build/rebuild-clone-codex/source/trl_analysis.py", line 85, in analyze
+    if reuse_check: rebuild(root,out/'v01-rebuild')
+  File "<SCRATCH>/orchestra/fresh-trl-codex/three-rules-one-lunch/v0.2/build/rebuild-clone-codex/source/trl_reuse.py", line 37, in rebuild
+    subprocess.run(cmd,cwd=source,stdout=log,stderr=subprocess.STDOUT,check=True)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py", line 528, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/Library/Developer/CommandLineTools/usr/bin/python3', '-B', 'trl_analysis.py', '--out', '../analysis']' returned non-zero exit status 1.

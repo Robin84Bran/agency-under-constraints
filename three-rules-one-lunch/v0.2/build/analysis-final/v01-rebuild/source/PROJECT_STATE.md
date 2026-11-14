@@ -1,0 +1,13 @@
+# Three Rules, One Lunch project state
+
+Updated 2026-11-11. Authority: Robin authorized this folder's protocol revision, implementation, offline fixtures/tests/fake run, runbook and freeze. No models, push, collection, publication, shared-board edits or sibling writes. The supplied Codex claim was verified read-only. Shared claim release is outside the folder-only writable scope; the claim is not edited by hand.
+
+Outcome: Claude's AGREED-with-notes review is archived and adopted in PROTOCOL.md build r1. Original protocol retained. Python simulator matches the toy RNG and independent JS fixtures for all 100 study worlds. All four cohort schedules (960 episodes / 8,960 maximum calls) are fixed. Parser, harness, episode-hold ledger, code baselines, conservative scoring, registered bootstrap/predictions, baseline reward fractions and stale-peak metrics are implemented. Offline artifacts are under config/, fixtures/ and evidence/; development runs/logs remain under build/.
+
+Verification: evidence/test-report.json records the final test count and result. evidence/offline-dryrun.tar.gz contains 24 fake episodes / 224 simulated calls covering all cohorts/regimes at seeds 0 and 19, with all 960 planned rows represented in analysis. The independent temporary-checkout rebuild report binds its regenerated metrics and tables. Failed/earlier development logs and the initial fake run are retained under build/; no prior evidence is overwritten.
+
+Unresolved execution preconditions: installed CLI hash and candidate controls were inspected with --help and source excerpts only. Comprehensive startup/model-validation/auth/quota request coverage, aggregate output enforcement, schema/hidden overhead bound, and current pricing/cache premiums are UNKNOWN. Both collection entry points intentionally HOLD before inference, requiring a reviewed transport/budget amendment and new freeze before even the first local call. No runtime override. This is an offline implementation freeze, not a claim of live collection readiness or scientific acceptance.
+
+Budget: actual spend USD0. Conditional scheduled frontier holds USD18.083840; protected reserve USD1; total USD19.083840 within USD25. Project stop USD39 and absolute cumulative spend strictly below USD40 remain enforced. Fake ledger charges are fixtures only.
+
+Next owner: Claude reviews this package and resolves the documented pre-inference transport/budget gap offline, preserving this freeze/evidence. After that review/amendment/new freeze, Claude pushes exact inputs from an isolated research clone, records server evidence with RUN.md commands, then collects local first and Claude second. Analysis and independent fresh-clone verification precede acceptance. No publication is authorized here.

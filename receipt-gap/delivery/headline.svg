@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 789" role="img" aria-labelledby="title desc">
+<title id="title">Duplicate effects and exact-once completion</title>
+<desc id="desc">All planned episodes, including technical failures. Lower duplicates and higher exact-once completion are preferable. Each actor has three toolkits at 50% receipt loss and a plain 0% baseline. Claude has no 0% baseline.</desc>
+<rect width="1100" height="789" fill="white"/>
+<g font-family="Arial, sans-serif" fill="#15283b">
+<text x="24" y="30" font-size="23" font-weight="bold">Fewer duplicates do not establish reliable completion</text>
+<text x="24" y="55" font-size="14">50% receipt loss except rows marked 0%; request loss remains 20%.</text>
+<text x="24" y="85" font-size="14">Actor / toolkit</text>
+<text x="355" y="85" font-size="14" fill="#b94039">Duplicate rate ↓</text>
+<text x="675" y="85" font-size="14" fill="#176f79">Exact-once completion ↑</text>
+<text x="995" y="85" font-size="14">Valid actions</text>
+<line x1="355.0" x2="355.0" y1="105" y2="739" stroke="#e5e9ed"/>
+<text x="355.0" y="102" text-anchor="middle" font-size="11">0%</text>
+<line x1="421.25" x2="421.25" y1="105" y2="739" stroke="#e5e9ed"/>
+<text x="421.25" y="102" text-anchor="middle" font-size="11">25%</text>
+<line x1="487.5" x2="487.5" y1="105" y2="739" stroke="#e5e9ed"/>
+<text x="487.5" y="102" text-anchor="middle" font-size="11">50%</text>
+<line x1="553.75" x2="553.75" y1="105" y2="739" stroke="#e5e9ed"/>
+<text x="553.75" y="102" text-anchor="middle" font-size="11">75%</text>
+<line x1="620.0" x2="620.0" y1="105" y2="739" stroke="#e5e9ed"/>
+<text x="620.0" y="102" text-anchor="middle" font-size="11">100%</text>
+<line x1="675.0" x2="675.0" y1="105" y2="739" stroke="#e5e9ed"/>
+<text x="675.0" y="102" text-anchor="middle" font-size="11">0%</text>
+<line x1="741.25" x2="741.25" y1="105" y2="739" stroke="#e5e9ed"/>
+<text x="741.25" y="102" text-anchor="middle" font-size="11">25%</text>
+<line x1="807.5" x2="807.5" y1="105" y2="739" stroke="#e5e9ed"/>
+<text x="807.5" y="102" text-anchor="middle" font-size="11">50%</text>
+<line x1="873.75" x2="873.75" y1="105" y2="739" stroke="#e5e9ed"/>
+<text x="873.75" y="102" text-anchor="middle" font-size="11">75%</text>
+<line x1="940.0" x2="940.0" y1="105" y2="739" stroke="#e5e9ed"/>
+<text x="940.0" y="102" text-anchor="middle" font-size="11">100%</text>
+<text x="24" y="133" font-size="14">Qwen 7B · plain</text>
+<rect x="355" y="119" width="249.100" height="17" fill="#b94039"/>
+<text x="609.100" y="133" font-size="12">94.0%</text>
+<rect x="675" y="119" width="0.000" height="17" fill="#176f79"/>
+<text x="680.000" y="133" font-size="12">0.0%</text>
+<text x="995" y="133" font-size="13">94/100</text>
+<text x="24" y="172" font-size="14">Qwen 7B · keyed</text>
+<rect x="355" y="158" width="198.750" height="17" fill="#b94039"/>
+<text x="558.750" y="172" font-size="12">75.0%</text>
+<rect x="675" y="158" width="2.650" height="17" fill="#176f79"/>
+<text x="682.650" y="172" font-size="12">1.0%</text>
+<text x="995" y="172" font-size="13">99/100</text>
+<text x="24" y="211" font-size="14">Qwen 7B · check</text>
+<rect x="355" y="197" width="66.250" height="17" fill="#b94039"/>
+<text x="426.250" y="211" font-size="12">25.0%</text>
+<rect x="675" y="197" width="0.000" height="17" fill="#176f79"/>
+<text x="680.000" y="211" font-size="12">0.0%</text>
+<text x="995" y="211" font-size="13">25/100</text>
+<text x="24" y="250" font-size="14">Llama 8B · plain</text>
+<rect x="355" y="236" width="0.000" height="17" fill="#b94039"/>
+<text x="360.000" y="250" font-size="12">0.0%</text>
+<rect x="675" y="236" width="0.000" height="17" fill="#176f79"/>
+<text x="680.000" y="250" font-size="12">0.0%</text>
+<text x="995" y="250" font-size="13">2/100</text>
+<text x="24" y="289" font-size="14">Llama 8B · keyed</text>
+<rect x="355" y="275" width="0.000" height="17" fill="#b94039"/>
+<text x="360.000" y="289" font-size="12">0.0%</text>
+<rect x="675" y="275" width="0.000" height="17" fill="#176f79"/>
+<text x="680.000" y="289" font-size="12">0.0%</text>
+<text x="995" y="289" font-size="13">2/100</text>
+<text x="24" y="328" font-size="14">Llama 8B · check</text>
+<rect x="355" y="314" width="10.600" height="17" fill="#b94039"/>
+<text x="370.600" y="328" font-size="12">4.0%</text>
+<rect x="675" y="314" width="0.000" height="17" fill="#176f79"/>
+<text x="680.000" y="328" font-size="12">0.0%</text>
+<text x="995" y="328" font-size="13">67/100</text>
+<text x="24" y="367" font-size="14">Qwen 1.5B · plain</text>
+<rect x="355" y="353" width="10.600" height="17" fill="#b94039"/>
+<text x="370.600" y="367" font-size="12">4.0%</text>
+<rect x="675" y="353" width="0.000" height="17" fill="#176f79"/>
+<text x="680.000" y="367" font-size="12">0.0%</text>
+<text x="995" y="367" font-size="13">0/100</text>
+<text x="24" y="406" font-size="14">Qwen 1.5B · keyed</text>
+<rect x="355" y="392" width="0.000" height="17" fill="#b94039"/>
+<text x="360.000" y="406" font-size="12">0.0%</text>
+<rect x="675" y="392" width="2.650" height="17" fill="#176f79"/>
+<text x="682.650" y="406" font-size="12">1.0%</text>
+<text x="995" y="406" font-size="13">10/100</text>
+<text x="24" y="445" font-size="14">Qwen 1.5B · check</text>
+<rect x="355" y="431" width="0.000" height="17" fill="#b94039"/>
+<text x="360.000" y="445" font-size="12">0.0%</text>
+<rect x="675" y="431" width="0.000" height="17" fill="#176f79"/>
+<text x="680.000" y="445" font-size="12">0.0%</text>
+<text x="995" y="445" font-size="13">0/100</text>
+<text x="24" y="484" font-size="14">Claude · plain</text>
+<rect x="355" y="470" width="0.000" height="17" fill="#b94039"/>
+<text x="360.000" y="484" font-size="12">0.0%</text>
+<rect x="675" y="470" width="132.500" height="17" fill="#176f79"/>
+<text x="812.500" y="484" font-size="12">50.0%</text>
+<text x="995" y="484" font-size="13">20/20</text>
+<text x="24" y="523" font-size="14">Claude · keyed</text>
+<rect x="355" y="509" width="0.000" height="17" fill="#b94039"/>
+<text x="360.000" y="523" font-size="12">0.0%</text>
+<rect x="675" y="509" width="265.000" height="17" fill="#176f79"/>
+<text x="945.000" y="523" font-size="12">100.0%</text>
+<text x="995" y="523" font-size="13">20/20</text>
+<text x="24" y="562" font-size="14">Claude · check</text>
+<rect x="355" y="548" width="0.000" height="17" fill="#b94039"/>
+<text x="360.000" y="562" font-size="12">0.0%</text>
+<rect x="675" y="548" width="145.750" height="17" fill="#176f79"/>
+<text x="825.750" y="562" font-size="12">55.0%</text>
+<text x="995" y="562" font-size="13">12/20</text>
+<text x="24" y="601" font-size="14">Qwen 7B · plain · 0% baseline</text>
+<rect x="355" y="587" width="249.100" height="17" fill="#b94039"/>
+<text x="609.100" y="601" font-size="12">94.0%</text>
+<rect x="675" y="587" width="0.000" height="17" fill="#176f79"/>
+<text x="680.000" y="601" font-size="12">0.0%</text>
+<text x="995" y="601" font-size="13">94/100</text>
+<text x="24" y="640" font-size="14">Llama 8B · plain · 0% baseline</text>
+<rect x="355" y="626" width="0.000" height="17" fill="#b94039"/>
+<text x="360.000" y="640" font-size="12">0.0%</text>
+<rect x="675" y="626" width="0.000" height="17" fill="#176f79"/>
+<text x="680.000" y="640" font-size="12">0.0%</text>
+<text x="995" y="640" font-size="13">2/100</text>
+<text x="24" y="679" font-size="14">Qwen 1.5B · plain · 0% baseline</text>
+<rect x="355" y="665" width="5.300" height="17" fill="#b94039"/>
+<text x="365.300" y="679" font-size="12">2.0%</text>
+<rect x="675" y="665" width="0.000" height="17" fill="#176f79"/>
+<text x="680.000" y="679" font-size="12">0.0%</text>
+<text x="995" y="679" font-size="13">0/100</text>
+<text x="24" y="718" font-size="14">Claude · plain · 0% baseline</text>
+<text x="355" y="718" font-size="13">UNKNOWN — not collected</text>
+<text x="24" y="772" font-size="12">Post hoc display of registered cells; no error bars are implied. Exact counts and duplicate-admission rates are in the headline table.</text>
+</g></svg>

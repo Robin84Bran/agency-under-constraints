@@ -1,0 +1,24 @@
+test_real_clearance_attestation_and_prefixes (test_d3.D3) ... Timeout (0:00:40)!
+Thread 0x00000001f39f6180 (most recent call first):
+  File "<WORKSPACE>/06_intelligence/AI_research/research/one-door-many-hands/od_core.py", line 30 in sha
+ERROR
+
+======================================================================
+ERROR: test_real_clearance_attestation_and_prefixes (test_d3.D3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<WORKSPACE>/06_intelligence/AI_research/research/one-door-many-hands/tests/test_d3.py", line 138, in test_real_clearance_attestation_and_prefixes
+    self.assertTrue(clearance_valid(base));self.assertEqual(c['forecast']['total_micro_usd'],3563440)
+  File "<WORKSPACE>/06_intelligence/AI_research/research/one-door-many-hands/od_io.py", line 25, in save
+  File "<WORKSPACE>/06_intelligence/AI_research/research/one-door-many-hands/od_io.py", line 22, in save_bytes
+    if path.is_symlink(): raise Stop('symlink output')
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 1242, in open
+    return io.open(self, mode, buffering, encoding, errors, newline,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 1110, in _opener
+    return self._accessor.open(self, flags, mode)
+FileExistsError: [Errno 17] File exists: '<TMPDIR>/tmp3l1ob7gh/collection/episodes/claude-b84-d24-independent-rules/usage-resumes/0002/episode.json'
+
+----------------------------------------------------------------------
+Ran 1 test in 195.937s
+
+FAILED (errors=1)

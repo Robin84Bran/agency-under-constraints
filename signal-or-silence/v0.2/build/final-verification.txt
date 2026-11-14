@@ -1,0 +1,18 @@
+{
+  "authority": "Robin authorized build/tests/freeze only; Claude pushes and runs. No model call, push or collection performed.",
+  "content_sha256": "5054b6cf1776962626ddf17ee482c8d779c6a4e5ec38f9fd1f92a952cd0cd83d",
+  "format": 1,
+  "format_sentence": "Reply with only the JSON object, no other text.",
+  "frozen_utc": "2026-11-11T09:08:44.807476+00:00",
+  "inherited_content_sha256": "0da17d3afb0a34618baf2f154a4e01f6b65353f6c918ad258e2baa254534f446",
+  "new_calls": 0,
+  "new_usd": "0",
+  "primary_episodes": 240,
+  "project_acceptance": "UNKNOWN",
+  "push_status": "UNKNOWN",
+  "receipt_episodes": 120,
+  "runtime_identity_status": "UNKNOWN",
+  "scheduled_calls": 1868,
+  "status": "FROZEN_OFFLINE_NO_INFERENCE",
+  "version": "v0.2"
+}

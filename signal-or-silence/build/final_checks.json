@@ -1,0 +1,22 @@
+{
+  "calibration_judgments": 90,
+  "main_archived_judgments": 4320,
+  "new_calls": 0,
+  "new_usd": 0,
+  "portable_rebuild": "PASS",
+  "primary_episodes": 240,
+  "production_bootstrap_replicates": 10000,
+  "receipt_episodes": 120,
+  "renderer_smoke": "PASS",
+  "root_collection_absent": true,
+  "root_results_absent": true,
+  "scheduled_jobs": 5604,
+  "sibling_originals": 5760,
+  "sibling_replays_excluded": 48,
+  "sibling_reuse": 0,
+  "smoke_bootstrap_replicates": 16,
+  "source_episodes": 1440,
+  "status": "PASS",
+  "tests": 99,
+  "truth_reconciliation": "PASS"
+}

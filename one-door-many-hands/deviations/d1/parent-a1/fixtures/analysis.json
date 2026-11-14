@@ -1,0 +1,1 @@
+{"kind":"HAND_CHECKED_STATISTICAL_FIXTURES","bootstrap_multiplicity":{"terms":[[1,1],[0,1]],"units":[0,1],"sampled":[0,0,1],"expected":0.6666666666666666},"percentile":{"values":[0,10],"q":0.25,"expected":2.5},"all_null":{"optimal":0,"operational_value":0,"joint_primary":"FAIL"},"unstarted":{"joint_primary":"UNKNOWN"}}

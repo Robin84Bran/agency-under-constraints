@@ -1,0 +1,1 @@
+{"actual_micro_usd":0,"error":null,"fatal":false,"metrics":{"input_tokens":275,"num_turns":null,"output_tokens":32,"reported_effort":"UNKNOWN","stop_reason":"stop"},"value":{"note":"c-1 produces east, c-2 produces west, c-3 produces south, c-4 produces north","slot":1}}

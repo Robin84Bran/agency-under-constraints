@@ -1,0 +1,16 @@
+{
+  "files": {
+    "RESPONSE-codex-20261111-r1.md": {
+      "bytes": 2586,
+      "sha256": "f943c25721d6465d503cbd9392385c762444fad69bcefaac23821eb6816806cd"
+    },
+    "REVIEW-claude-20261111-r1.md": {
+      "bytes": 2675,
+      "sha256": "14251194353c6661b281f2dcb508648ffbfef148827398008f6f5526d1b542a7"
+    },
+    "REVIEW-claude-20261111-r2.md": {
+      "bytes": 1114,
+      "sha256": "7965497929416aa4579b22a612fe3e2286a28a94400a1041ad76cd9e35a1c506"
+    }
+  }
+}

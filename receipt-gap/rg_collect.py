@@ -1,0 +1,515 @@
+"""Serial collector. Importing this module never contacts a provider."""
+import contextlib
+import datetime as dt
+from decimal import Decimal, InvalidOperation, ROUND_CEILING
+import fcntl
+import json
+import os
+from pathlib import Path
+import subprocess
+import time
+import urllib.request
+
+from rg_core import (ROOT, P, PINS, SCHEMAS, ModelOutputError, World, action, canonical, episode_reservation,
+                     render, report, reserve, sha, strict_load, strict_envelope)
+
+
+class Stop(RuntimeError):
+    pass
+
+
+def now():
+    return dt.datetime.now(dt.timezone.utc).isoformat()
+
+
+def read(path):
+    return strict_load(Path(path).read_text())
+
+
+def syncdir(path):
+    fd = os.open(str(path), os.O_RDONLY)
+    try:
+        os.fsync(fd)
+    finally:
+        os.close(fd)
+
+
+def save(path, value):
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open('x') as f:
+        f.write(canonical(value)+'\n'); f.flush(); os.fsync(f.fileno())
+    syncdir(path.parent)
+
+
+def append(path, value):
+    with Path(path).open('a') as f:
+        f.write(canonical(value)+'\n'); f.flush(); os.fsync(f.fileno())
+    syncdir(Path(path).parent)
+
+
+@contextlib.contextmanager
+def lock(directory):
+    directory = Path(directory)
+    directory.mkdir(parents=True, exist_ok=True)
+    with (directory/'collector.lock').open('a') as f:
+        try:
+            fcntl.flock(f, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        except BlockingIOError:
+            raise Stop('concurrent collector admission rejected')
+        try:
+            yield
+        finally:
+            fcntl.flock(f, fcntl.LOCK_UN)
+
+
+class Ledger:
+    """Append-only integer microdollar holds. Caller holds collection lock."""
+    def __init__(self, path):
+        self.path, self.holds, self.spent, self.calls, self.finished = Path(path), {}, 0, {}, set()
+        if self.path.exists():
+            for line in self.path.read_text().splitlines():
+                self.apply(strict_load(line))
+
+    @property
+    def exposure(self):
+        return self.spent + sum(self.holds.values())
+
+    def apply(self, e):
+        op, ident = e['event'], e['id']
+        if op == 'reserve':
+            amount = e['amount']
+            if type(amount) is not int or amount < 0 or ident in self.holds or self.exposure+amount+1000000 > 25000000 or self.exposure+amount+1000000 >= 39000000:
+                raise Stop('reservation cap or duplicate episode')
+            self.holds[ident] = amount
+        elif op == 'settle':
+            amount, held, episode = e['actual'], e['reserved'], e['episode']
+            if any(type(v) is not int or v < 0 for v in (amount, held)) or ident in self.calls or episode not in self.holds or held > self.holds[episode] or episode in self.finished:
+                raise Stop('invalid settlement')
+            self.spent += amount
+            self.holds[episode] -= held
+            self.calls[ident] = amount
+        elif op == 'release':
+            if ident not in self.holds or ident in self.finished:
+                raise Stop('invalid release')
+            self.holds[ident] = 0
+            self.finished.add(ident)
+        else:
+            raise Stop('unknown ledger operation')
+
+    def event(self, **e):
+        e['time'] = now()
+        self.apply(e)
+        append(self.path, e)
+
+
+class ActiveTime:
+    def __init__(self, path, cap):
+        self.path, self.cap = Path(path), cap
+        events = [strict_load(x) for x in self.path.read_text().splitlines()] if self.path.exists() else []
+        self.holds, self.settled = {}, {}
+        for e in events:
+            if e['event'] == 'start':
+                if e['id'] in self.holds:
+                    raise Stop('duplicate timer')
+                self.holds[e['id']] = e['seconds']
+            elif e['event'] == 'settle' and e['id'] in self.holds and e['id'] not in self.settled:
+                self.settled[e['id']] = e['seconds']
+            else:
+                raise Stop('invalid timer ledger')
+        self.charged = sum(self.settled.get(k, v) for k, v in self.holds.items())
+        self.pending = time.monotonic()
+
+    def begin(self, ident, seconds):
+        if self.charged >= self.cap or self.charged+seconds > self.cap or ident in self.holds:
+            raise Stop('cumulative active-time cap')
+        append(self.path, {'event':'start','id':ident,'seconds':seconds,'time':now()})
+        self.holds[ident] = seconds
+        self.charged += seconds
+        return self.pending
+
+    def end(self, ident, began):
+        ended = time.monotonic()
+        elapsed = max(0, ended-began)
+        append(self.path, {'event':'settle','id':ident,'seconds':elapsed,'time':now()})
+        self.charged += elapsed - self.holds[ident]
+        self.settled[ident] = elapsed
+        self.pending = ended
+
+
+def claude_command(binary, phase, budget):
+    return [str(binary), '--print', '--safe-mode', '--restricted', '--strict-mcp-config',
+            '--mcp-config', '{"mcpServers":{}}', '--tools', '', '--disable-slash-commands',
+            '--no-chrome', '--no-session-persistence', '--setting-sources', '',
+            '--output-format', 'json', '--model', 'claude-opus-5-5', '--effort', 'medium',
+            '--system-prompt', P['system'], '--json-schema', canonical(SCHEMAS[phase]),
+            '--max-turns', '1', '--max-budget-usd', format(budget/1000000, '.6f')]
+
+
+def clean_env():
+    # Subscription credentials remain in the pre-existing CLI store, never copied.
+    env = {k:v for k,v in os.environ.items() if k in ('HOME','PATH','TMPDIR','LANG','USER','LOGNAME','SHELL')}
+    env.update(CLAUDE_CODE_MAX_OUTPUT_TOKENS='512', CLAUDE_CODE_MAX_RETRIES='0',
+               MAX_STRUCTURED_OUTPUT_RETRIES='0', CLAUDE_CODE_NONSTREAMING_TIMEOUT_RETRIES='0',
+               CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC='1', CLAUDE_CODE_NO_MODEL_FALLBACK='1', DISABLE_AUTOUPDATER='1')
+    return env
+
+
+def http(path, body=None, timeout=10):
+    data = None if body is None else canonical(body).encode()
+    req = urllib.request.Request('http://127.0.0.1:11435'+path, data=data, headers={'Content-Type':'application/json'})
+    with urllib.request.urlopen(req, timeout=timeout) as response:
+        raw = response.read().decode('utf8')
+    return raw
+
+
+class Local:
+    def preflight(self, actor):
+        tag, digest = PINS[actor]
+        version, tags, shown = http('/api/version'), http('/api/tags'), http('/api/show', {'model':tag})
+        found = {m['name']:m['digest'] for m in strict_load(tags)['models']}
+        if found.get(tag) != digest or not strict_load(shown).get('template'):
+            raise Stop('local identity/template preflight failed')
+        return {'version':strict_load(version),'tags':strict_load(tags),'show':strict_load(shown),
+                'expected_tag':tag,'expected_digest':digest,'requested_context':8192}
+
+    def generate(self, ep, prompt, phase, budget, work):
+        body = {'model':PINS[ep['actor']][0], 'prompt':prompt,'system':P['system'], 'format':'json','stream':False,
+                'options':{'temperature':.6,'top_k':16,'num_predict':192,'num_ctx':8192,'seed':ep['seed']}}
+        raw = http('/api/generate', body, 180)
+        # Running metadata is read only, after generation; capture errors rather than discard raw.
+        try:
+            ps = strict_load(http('/api/ps'))
+        except Exception as exc:
+            ps = {'error':str(exc)}
+        return {'stdout':raw,'stderr':'','returncode':0,'running':ps,'request':body}
+
+
+class Claude:
+    def __init__(self, binary):
+        self.binary = Path(binary).resolve()
+
+    def preflight(self, actor):
+        ev = read(ROOT/'evidence/cli-contract.json')
+        if sha(self.binary.read_bytes()) != ev['binary_sha256']:
+            raise Stop('CLI binary changed since offline verification')
+        helptext = subprocess.check_output([str(self.binary),'--help'], text=True, timeout=30)
+        if '--json-schema' not in helptext:
+            raise Stop('schema flag disappeared')
+        return {'binary_sha256':ev['binary_sha256'],'version':ev['version'],'help_sha256':sha(helptext.encode()),
+                'requested_effort':'medium','returned_effort':'UNKNOWN','output_token_limit':512}
+
+    def generate(self, ep, prompt, phase, budget, work):
+        cmd = claude_command(self.binary, phase, budget)
+        try:
+            p = subprocess.run(cmd,input=prompt,text=True,capture_output=True,cwd=work,
+                               env=clean_env(),timeout=420)
+            return {'stdout':p.stdout,'stderr':p.stderr,'returncode':p.returncode}
+        except subprocess.TimeoutExpired as exc:
+            # Partial bytes survive; no resend. Ledger keeps the call subhold.
+            return {'stdout':(exc.stdout or b'').decode() if isinstance(exc.stdout,bytes) else (exc.stdout or ''),
+                    'stderr':(exc.stderr or b'').decode() if isinstance(exc.stderr,bytes) else (exc.stderr or ''),
+                    'returncode':None,'transport_error':'timeout; uncertain start'}
+
+
+def usage(envelope, actor):
+    """Missing values are UNKNOWN, never implicit zero. Input cache classes disjoint."""
+    if actor != 'claude':
+        a, b = envelope.get('prompt_eval_count'), envelope.get('eval_count')
+    else:
+        u = envelope.get('usage', {})
+        vals = [u.get(k) for k in ('input_tokens','cache_read_input_tokens','cache_creation_input_tokens')]
+        a = sum(vals) if all(type(v) is int and v >= 0 for v in vals) else None
+        b = u.get('output_tokens')
+    return (a if type(a) is int and a >= 0 else None, b if type(b) is int and b >= 0 else None)
+
+
+def cost_micro(tin,tout,envelope):
+    cost=4*tin+20*tout
+    reported=envelope.get('total_cost_usd')
+    if reported is not None:
+        try:
+            value=Decimal(str(reported))
+        except InvalidOperation as exc:
+            raise Stop('invalid reported API-equivalent cost') from exc
+        if not value.is_finite() or value<0:
+            raise Stop('invalid reported API-equivalent cost')
+        cost=max(cost,int((value*1000000).to_integral_value(rounding=ROUND_CEILING)))
+    return cost
+
+
+def provider_envelope(raw, actor):
+    try:
+        return strict_envelope(raw['stdout'], actor)
+    except (ValueError, KeyError, TypeError) as exc:
+        raise Stop(str(exc)) from exc
+
+
+def decode(raw, ep, phase, bound, fake=False):
+    if raw.get('returncode') not in (0, 1) or raw.get('transport_error'):
+        raise Stop('transport failure or uncertain start')
+    e, payload_error = provider_envelope(raw, ep['actor'])
+    schema_failure = (ep['actor'] == 'claude' and e.get('type') == 'result' and
+                      e.get('subtype') == 'error_max_structured_output_retries' and e.get('is_error') is True)
+    if raw['returncode'] != 0 and not schema_failure:
+        raise Stop('transport failure or uncertain start')
+    tin, tout = usage(e, ep['actor'])
+    if ep['actor'] == 'claude':
+        if set(e.get('modelUsage', {})) != {'claude-opus-5-5'}:
+            raise Stop('unverified frontier identity')
+        if e.get('effort', 'medium') != 'medium':
+            raise Stop('conflicting frontier effort')
+        turns = e.get('num_turns')
+        valid_turns = type(turns) is int and (turns == 1 or
+                         (turns == 2 and e.get('stop_reason') in ('tool_use','max_tokens','length')))
+        success = e.get('subtype') == 'success' and e.get('is_error') is False
+        if e.get('type') != 'result' or not (success or schema_failure) or not valid_turns or e.get('stop_reason') not in ('end_turn','tool_use','max_tokens','length'):
+            raise Stop('frontier envelope, turn limit or truncation mismatch')
+        if tin is None or tout is None:
+            raise Stop('unknown frontier usage; hold retained')
+        if tin > bound['input_tokens'] or tout > 512:
+            raise Stop('frontier reservation overrun')
+        if schema_failure:
+            raise ModelOutputError('provider rejected model structured output')
+        if e.get('stop_reason') in ('max_tokens','length'):
+            raise ModelOutputError('truncated model output')
+        if payload_error:
+            raise ModelOutputError(payload_error)
+        v = e.get('structured_output')
+        if type(v) is not dict:
+            raise ModelOutputError('structured_output must be an object; no fallback')
+    else:
+        if e.get('model') != PINS[ep['actor']][0] or e.get('done') is not True or e.get('done_reason') not in ('stop','length'):
+            raise Stop('local identity, truncation or stop mismatch')
+        if tin is None or tout is None or tin+192 >= 8192:
+            raise Stop('local context usage unknown or exhausted')
+        running = raw.get('running', {}).get('models', [])
+        if not fake and not any(m.get('name') == PINS[ep['actor']][0] and m.get('digest') == PINS[ep['actor']][1] and m.get('context_length') == 8192 for m in running):
+            raise Stop('returned running identity/context mismatch')
+        if e.get('done_reason') == 'length':
+            raise ModelOutputError('truncated model output')
+        try:
+            v = strict_load(e.get('response'))
+        except (ValueError, TypeError, RecursionError) as exc:
+            raise ModelOutputError(str(exc)) from exc
+    return action(v, ep['toolkit']) if phase == 'action' else report(v)
+
+
+def checked_receipt(root, receipt, event_file, freeze_hash):
+    from rg_freeze import push_record
+    a = read(Path(root)/'collection'/receipt)
+    if a['freeze_sha256'] != freeze_hash or a['repo'] != 'Robin84Bran/research':
+        raise Stop('push attestation mismatch')
+    pushed = dt.datetime.fromisoformat(a['pushed_at'].replace('Z','+00:00'))
+    if pushed.tzinfo is None or pushed >= dt.datetime.now(dt.timezone.utc):
+        raise Stop('invalid server push time')
+    event=read(Path(root)/'collection'/event_file)
+    ref, timestamp = push_record(event, a['commit'])
+    if (timestamp!=a['pushed_at'] or ref!=a['remote_ref'] or
+        event.get('id')!=a['server_event_id'] or sha((Path(root)/'collection'/event_file).read_bytes())!=a['event_sha256']):
+        raise Stop('retained server event differs from attestation')
+    return pushed
+
+
+def push_gate(root):
+    from rg_freeze import verify, active_freeze, D1_FREEZE_SHA256, D2_FREEZE_SHA256
+    freeze_hash = verify(root)
+    name = active_freeze(root)
+    suffix = {'freeze-d3.json':'-d3', 'freeze-d2.json':'-d2'}.get(name, '')
+    pushed = checked_receipt(root, 'push'+suffix+'.json', 'push-event'+suffix+'.json', freeze_hash)
+    lineage = {freeze_hash:(pushed, None)}
+    if suffix:
+        amended = dt.datetime.fromisoformat(read(Path(root)/'freeze-d2.json')['created_at'])
+        lineage[D1_FREEZE_SHA256] = (checked_receipt(root, 'push.json', 'push-event.json', D1_FREEZE_SHA256), amended)
+    if suffix == '-d3':
+        amended = dt.datetime.fromisoformat(read(Path(root)/name)['created_at'])
+        lineage[D2_FREEZE_SHA256] = (checked_receipt(root, 'push-d2.json', 'push-event-d2.json', D2_FREEZE_SHA256), amended)
+    for start in (Path(root)/'collection/episodes').glob('*/*.start.json'):
+        record = read(start)
+        started = dt.datetime.fromisoformat(record['started_at'])
+        provenance = lineage.get(record.get('freeze_sha256'))
+        if provenance is None or (provenance[1] is not None and started >= provenance[1]):
+            raise Stop('call freeze outside attested amendment lineage')
+        if provenance[0] >= started:
+            raise Stop('push must precede every call')
+    return freeze_hash
+
+
+def d2_resume_gate(root, base):
+    """Acknowledge only the frozen D1 harness stop, never a general override."""
+    baseline = read(Path(root)/'evidence/d2-baseline.json')
+    for name, digest in baseline['files'].items():
+        path = base/name
+        if path.is_symlink():
+            raise Stop('D2 baseline symlink: '+name)
+        data = path.read_bytes()
+        if name in ('ledger.jsonl','claude-time.jsonl','local-time.jsonl'):
+            data = data[:baseline['sizes'][name]]
+        if sha(data) != digest:
+            raise Stop('D2 retained evidence changed: '+name)
+    ident = baseline['stopped_episode']
+    expected = {Path(n).name for n in baseline['files'] if n.startswith('episodes/'+ident+'/')}
+    if {p.name for p in (base/'episodes'/ident).iterdir()} != expected:
+        raise Stop('D2 terminal episode must not be continued')
+
+
+def d3_resume_gate(root, base):
+    """Acknowledge the exact retained model-key failure; no general STOP bypass."""
+    d2_resume_gate(root, base)
+    baseline = read(Path(root)/'evidence/d3-baseline.json')
+    for name, digest in baseline['files'].items():
+        path = base/name
+        if path.is_symlink():
+            raise Stop('D3 baseline symlink: '+name)
+        data = path.read_bytes()
+        if name in ('ledger.jsonl','claude-time.jsonl','local-time.jsonl'):
+            data = data[:baseline['sizes'][name]]
+        if sha(data) != digest:
+            raise Stop('D3 retained evidence changed: '+name)
+    ident = baseline['stopped_episode']
+    expected = {Path(n).name for n in baseline['files'] if n.startswith('episodes/'+ident+'/')}
+    if {p.name for p in (base/'episodes'/ident).iterdir()} != expected:
+        raise Stop('D3 terminal episode must not be continued')
+    saved = read(base/'episodes'/ident/'episode.json')
+    if (read(base/'STOP-d2.json')['reason'] != 'key' or saved['error'] != 'key' or
+            saved['attempted_calls'] != 9 or saved['decisions'] != 8 or
+            saved['action_failure'] is not True or saved['trajectory_valid'] is not False or
+            saved['report'] is not None):
+        raise Stop('D3 stopped-episode disposition mismatch')
+
+
+def durable_stop(base, reason, stop_name='STOP.json'):
+    if not (base/stop_name).exists():
+        save(base/stop_name, {'reason':reason,'time':now()})
+
+
+def run_episode(ep, transport, base, ledger, timer, freeze_hash, fake=False, stop_name='STOP.json'):
+    directory = base/'episodes'/ep['id']
+    directory.mkdir(parents=True,exist_ok=True)
+    if (directory/'episode.json').exists():
+        raise Stop('episode already terminal')
+    if list(directory.glob('*.start.json')):
+        raise Stop('started episode cannot be retried')
+    paid = ep['actor'] == 'claude'
+    if paid:
+        ledger.event(event='reserve',id=ep['id'],amount=episode_reservation(ep))
+    world = World(ep['seed'],ep['toolkit'],ep['receipt_loss'])
+    attempted, trajectory_valid, final, error = 0, True, None, None
+    for index in range(11):
+        phase = 'report' if world.ended else 'action'
+        prompt = render(ep,world.history,10-world.decisions,phase)
+        bound = reserve(prompt,phase)
+        call_id = ep['id']+'-'+str(index)
+        began = timer.begin(call_id, 430 if paid else 190)
+        save(directory/(str(index)+'.request.json'), {'phase':phase,'prompt':prompt,'prompt_sha256':sha(prompt.encode()),
+             'system':P['system'],'schema':SCHEMAS[phase],'reservation':bound})
+        save(directory/(str(index)+'.start.json'), {'id':call_id,'started_at':now(),'freeze_sha256':freeze_hash})
+        attempted += 1
+        fatal, parsed = False, None
+        try:
+            raw = transport.generate(ep,prompt,phase,bound['micro_usd'],directory)
+        except Exception as exc:
+            raw = {'stdout':'','stderr':'','returncode':None,'transport_error':type(exc).__name__+': '+str(exc)}
+        save(directory/(str(index)+'.raw.json'),raw)
+        try:
+            envelope, _ = provider_envelope(raw,ep['actor'])
+            tin, tout = usage(envelope,ep['actor'])
+        except (ValueError, KeyError, TypeError, AttributeError, Stop):
+            tin = tout = None
+        if paid and tin is not None and tout is not None:
+            actual = cost_micro(tin,tout,envelope)
+            ledger.event(event='settle',id=call_id,episode=ep['id'],reserved=bound['micro_usd'],actual=actual)
+            if tin > bound['input_tokens'] or tout > 512 or actual > bound['micro_usd'] or ledger.exposure+1000000 > 25000000 or ledger.exposure+1000000 >= 39000000:
+                fatal, error = True, 'measured reservation overrun'
+        elif paid:
+            fatal, error = True, 'unknown usage or uncertain start; hold retained'
+        try:
+            parsed = decode(raw,ep,phase,bound,fake)
+        except ModelOutputError as exc:
+            error = error or str(exc)
+        except (ValueError, KeyError, TypeError, AttributeError, Stop) as exc:
+            error = str(exc)
+            # Only explicitly typed model-content failures are episode-local.
+            fatal = True
+        if error:
+            if phase == 'action':
+                trajectory_valid = False
+            save(directory/(str(index)+'.parsed.json'),{'value':None,'error':error,'input_tokens':tin,'output_tokens':tout})
+            timer.end(call_id,began)
+            if fatal:
+                durable_stop(base,error,stop_name)
+            break
+        save(directory/(str(index)+'.parsed.json'),{'value':parsed,'error':None,'input_tokens':tin,'output_tokens':tout})
+        if phase == 'report':
+            final = parsed
+        else:
+            world.step(parsed)
+            save(directory/(str(index)+'.event.json'),world.events[-1])
+        timer.end(call_id,began)
+        if phase == 'report':
+            break
+    terminal = {'episode':ep,'attempted_calls':attempted,'trajectory_valid':trajectory_valid and world.ended,
+                'action_failure':not trajectory_valid,'report':final,'error':error,'events':world.events,
+                'counts':world.counts,'decisions':world.decisions,'ended':world.ended}
+    save(directory/'episode.json',terminal)
+    # Unknown call usage keeps the episode hold. A known terminal releases future calls.
+    if paid and not (base/stop_name).exists():
+        ledger.event(event='release',id=ep['id'])
+    return terminal
+
+
+def collect(root, cohort, binary=None, fake_transport=None, output=None):
+    root = Path(root)
+    fake = fake_transport is not None
+    base = Path(output) if output else root/'collection'
+    with lock(base):
+        from rg_freeze import active_freeze
+        amendment = active_freeze(root) if not fake else None
+        d3 = amendment == 'freeze-d3.json'
+        d2 = amendment == 'freeze-d2.json'
+        stop_name = 'STOP-d3.json' if d3 else ('STOP-d2.json' if d2 else 'STOP.json')
+        if d3:
+            d3_resume_gate(root,base)
+        elif d2:
+            d2_resume_gate(root,base)
+        if (base/'STOP.json').exists():
+            if not (d2 or d3) or cohort != 'claude':
+                raise Stop('durable STOP: '+read(base/'STOP.json')['reason'])
+        if (d2 or d3) and (base/stop_name).exists():
+            raise Stop('durable amendment STOP: '+read(base/stop_name)['reason'])
+        freeze_hash = 'OFFLINE-FAKE' if fake else push_gate(root)
+        schedule = read(root/'config/episodes.json')
+        actors = ['claude'] if cohort == 'claude' else ['qwen7b','llama8b','qwen1b']
+        if cohort == 'claude' and not fake:
+            for ep in schedule:
+                if ep['actor'] != 'claude' and not (base/'episodes'/ep['id']/'episode.json').exists():
+                    raise Stop('local cohort must finish or be explicitly accounted before frontier')
+        ledger = Ledger(base/'ledger.jsonl')
+        timer = ActiveTime(base/(cohort+'-time.jsonl'),7200 if cohort == 'claude' else 43200)
+        transport = fake_transport or (Claude(binary) if cohort == 'claude' and binary else Local())
+        if cohort == 'claude' and not binary and not fake:
+            raise Stop('explicit verified Claude binary required')
+        if fake:
+            save(base/'OFFLINE-FAKE.json',{'real_model_calls':0})
+        for actor in actors:
+            todo = [e for e in schedule if e['actor'] == actor]
+            if not fake:
+                token = actor+'-preflight-'+str(len(timer.holds))
+                began = timer.begin(token,40)
+                metadata = transport.preflight(actor)
+                save(base/'preflight'/(token+'.json'),metadata)
+                timer.end(token,began)
+            for ep in todo:
+                directory = base/'episodes'/ep['id']
+                if (directory/'episode.json').exists():
+                    continue
+                if directory.exists() and list(directory.glob('*.start.json')):
+                    durable_stop(base,'uncertain started episode; never rerun',stop_name)
+                    raise Stop('uncertain started episode')
+                try:
+                    run_episode(ep,transport,base,ledger,timer,freeze_hash,fake,stop_name)
+                except Stop as exc:
+                    durable_stop(base,str(exc),stop_name); raise
+                if (base/stop_name).exists():
+                    raise Stop(read(base/stop_name)['reason'])
+        return {'exposure_micro_usd':ledger.exposure,'settled_micro_usd':ledger.spent,'active_seconds':timer.charged}

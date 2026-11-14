@@ -1,0 +1,14 @@
+{
+  "counts": {
+    "original": 5760,
+    "replay": 48
+  },
+  "cutoff_utc": "2026-11-11T04:38:54.811806+00:00",
+  "format": 1,
+  "jobs": {},
+  "late_data_policy": "never replace; unmatched dispatch once fresh",
+  "matched": 0,
+  "reason": "New full-view payloads carry explicit episode scope, total and zero-omission markers; no byte-identical sibling prompt. No raw reply or verdict field was read to choose reuse.",
+  "selection_and_request_bytes_fixed_before_snapshot": true,
+  "snapshot_sha256": "bec3120a7988002b2adc9805e6c2199f89bd5caf0313d0d91a93ff930ff1a758"
+}

@@ -1,0 +1,1 @@
+{"attempted":true,"fatal":"transport failure/uncertain start; never resend","finished_at":"2026-11-11T15:58:41.998225+00:00","first_frozen_compatibility_check":true,"fleet":null,"reason":"transport failure/uncertain start; never resend","schema_valid":false,"status":"ENVELOPE_FAILURE","usage":{"cache_creation":0,"cache_read":0,"input":0,"output":0,"reported_cost_micro_usd":0}}

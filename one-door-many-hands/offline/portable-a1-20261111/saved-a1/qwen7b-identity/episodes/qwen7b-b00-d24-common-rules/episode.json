@@ -1,0 +1,1 @@
+{"attempted":true,"fatal":"local model identity mismatch","finished_at":"2026-11-11T10:41:45.806163+00:00","first_frozen_compatibility_check":false,"fleet":null,"reason":"local model identity mismatch","schema_valid":false,"status":"ENVELOPE_FAILURE","usage":{"cache_creation":0,"cache_read":0,"input":300,"output":20,"reported_cost_micro_usd":null}}

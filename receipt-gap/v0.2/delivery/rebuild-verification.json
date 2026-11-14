@@ -1,0 +1,118 @@
+{
+  "collection_repeated": false,
+  "commands": [
+    {
+      "argv": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "-B",
+        "delivery/prepare_rebuild.py",
+        "--fresh-clone",
+        "--output",
+        "/private/tmp/receipt-gap-v02-postcollection-rebuild-20261112/v0.2"
+      ],
+      "expected_returncode": 0,
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "-B",
+        "delivery/verify_delivery.py",
+        "--fresh-clone",
+        "--output",
+        "/private/tmp/receipt-gap-v02-postcollection-rebuild-20261112/integrity.json"
+      ],
+      "expected_returncode": 0,
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "-B",
+        "rg_freeze.py",
+        "verify",
+        "--freeze",
+        "freeze-r5.json"
+      ],
+      "expected_returncode": 0,
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "-B",
+        "rg_analysis.py",
+        "--root",
+        "/private/tmp/receipt-gap-v02-postcollection-rebuild-20261112/v0.2",
+        "--output",
+        "/private/tmp/receipt-gap-v02-postcollection-rebuild-20261112/analysis-v02.json"
+      ],
+      "expected_returncode": 1,
+      "returncode": 1
+    },
+    {
+      "argv": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "-B",
+        "delivery/summarize_saved.py",
+        "--output",
+        "/private/tmp/receipt-gap-v02-postcollection-rebuild-20261112/descriptive-replay-v02.json"
+      ],
+      "expected_returncode": 0,
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "-B",
+        "delivery/code_baselines.py",
+        "--output",
+        "/private/tmp/receipt-gap-v02-postcollection-rebuild-20261112/code-baselines"
+      ],
+      "expected_returncode": 0,
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "-B",
+        "delivery/verify_delivery.py",
+        "--fresh-clone"
+      ],
+      "expected_returncode": 1,
+      "returncode": 1
+    }
+  ],
+  "copy_excluded_only": [
+    "__pycache__",
+    ".DS_Store",
+    ".git",
+    "*.lock"
+  ],
+  "descriptive_rebuilds": {
+    "code-baselines/episodes.jsonl": {
+      "byte_identical": true,
+      "sha256": "2473871b267bc77b3baf2a0f7d845db98157521854ab94ec60b04d6d04cdabd9"
+    },
+    "code-baselines/summary.json": {
+      "byte_identical": true,
+      "sha256": "01dd5af991bf0248761e9f76dcfcdad853c710a323599da3185984ea4f040a98"
+    },
+    "descriptive-replay-v02.json": {
+      "byte_identical": true,
+      "sha256": "dd9c5bf61a06335a0b42e16bc585d8f463e347cec7b5c52b7ac464c0b9a5e87f"
+    }
+  },
+  "failure_signature_identical": true,
+  "frozen_analysis_byte_identity": null,
+  "frozen_analysis_reason": "Both original and copy fail before scoring on the same r5 receipt allowlist defect.",
+  "frozen_analysis_status": "UNKNOWN",
+  "omitted_transients_with_saved_sha256": {
+    "collection/collector.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "package_copy": "/private/tmp/receipt-gap-v02-postcollection-rebuild-20261112/v0.2",
+  "real_model_calls": 0,
+  "status": "PASS",
+  "summary": "Full sanitized copy: native r5 freeze PASS; original frozen-analysis failure reproduced. Descriptive replay and both post hoc baseline artifacts are byte-identical. Frozen numerical analysis identity is UNKNOWN because neither invocation produced a result.",
+  "tampered_saved_evidence_rejected": true
+}

@@ -1,0 +1,1 @@
+{"index":1,"payload":{"calibration":[[1,"west"],[2,"north"],[3,"south"],[4,"east"]],"console":"c-896169d8","memory":[{"note":"","slot":2}],"mode":"write","targets":null,"visit":2,"writable_slot":2},"value":{"note":"Replace slot 2 with 'east is east, west is west'","slot":2}}

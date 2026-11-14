@@ -1,0 +1,1 @@
+{"returncode":0,"running":{"models":[{"context_length":8192,"digest":"845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e","name":"qwen2.5:7b"}]},"stderr_b64":"","stdout_b64":"eyJkb25lIjp0cnVlLCJkb25lX3JlYXNvbiI6InN0b3AiLCJldmFsX2NvdW50IjoyMCwibW9kZWwiOiJxd2VuMi41OjdiIiwicHJvbXB0X2V2YWxfY291bnQiOjMwMCwicmVzcG9uc2UiOiJ7XCJjZWxsc1wiOlszXX0ifQ=="}

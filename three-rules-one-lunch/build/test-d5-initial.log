@@ -1,0 +1,28 @@
+test_identity_tool_accounting_guards_survive_generated_error (test_d5.EnvelopeTests) ... ok
+test_limit_missing_identity_or_optional_denials_is_still_nonstart (test_d5.EnvelopeTests) ... ok
+test_real_bytes_are_exact_including_sibling_envelope (test_d5.EnvelopeTests) ... ok
+test_saved_cap_is_generated_not_transport_or_overrun (test_d5.EnvelopeTests) ... ok
+test_saved_success_two_turns_and_end_turn_variant (test_d5.EnvelopeTests) ... ok
+test_sibling_payload_is_schema_failure_not_identity_failure (test_d5.EnvelopeTests) ... ok
+test_unparseable_output_stays_fatal (test_d5.EnvelopeTests) ... ok
+test_error_null_identity_statistics_do_not_crash_record_writer (test_d5.EpisodeTests) ... ok
+test_first_generated_max_tokens_failure_is_not_fatal_contract (test_d5.EpisodeTests) ... ok
+test_later_max_tokens_failure_keeps_earlier_rounds (test_d5.EpisodeTests) ... ok
+test_missing_structured_output_after_generation_ends_only_episode (test_d5.EpisodeTests) ... ok
+test_refusal_with_nonzero_usage_and_no_identity_is_model_failure (test_d5.EpisodeTests) ... ok
+test_schema_invalid_ends_only_episode (test_d5.EpisodeTests) ... ok
+test_unknown_transport_keeps_hold_and_stops (test_d5.EpisodeTests) ... ok
+test_zero_limit_missing_model_usage_pauses_then_resends_exact_bytes (test_d5.EpisodeTests) ... ok
+test_attestation_requires_exact_committed_blobs_and_all_parent_receipts (test_d5.FreezeCollectTests) ... ok
+test_freeze_binds_parents_baselines_science_and_current_tests (test_d5.FreezeCollectTests) ... ok
+test_future_integrity_stop_still_blocks (test_d5.FreezeCollectTests) ... ok
+test_ledger_prefixes_allow_appends_reject_rewrites_and_torn_tails (test_d5.FreezeCollectTests) ... ok
+test_new_start_cannot_claim_parent_hash_or_attest_late (test_d5.FreezeCollectTests) ... ok
+test_three_model_failures_continue_cohort_and_all_attempts_skipped_on_resume (test_d5.FreezeCollectTests) ... ok
+test_lineage_assigns_all_saved_starts_to_parents_and_no_new_starts (test_d5.RecordedTests) ... ok
+test_saved_disposition_and_all_original_bytes_preserved (test_d5.RecordedTests) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 261.078s
+
+OK

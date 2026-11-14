@@ -1,0 +1,1 @@
+{"artifacts":{},"calls":["qwen1b-s43-early-fallback-1"],"delivered":"none","ended":false,"episode":{"actor":"qwen1b","framing":"fallback","id":"qwen1b-s43-early-fallback","seed":43,"world":"early"},"error":"action ref","events":[],"failure_kind":"content","fatal":false,"report":null,"technically_complete":false}

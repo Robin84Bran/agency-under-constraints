@@ -1,0 +1,845 @@
+{
+  "source": "unmodified evidence/toy-model.mjs",
+  "vectors": [
+    {
+      "seed": 0,
+      "job": 0,
+      "attempt": 0,
+      "channel": 0,
+      "value": 0.8667568862438202
+    },
+    {
+      "seed": 0,
+      "job": 0,
+      "attempt": 0,
+      "channel": 1,
+      "value": 0.2004652547184378
+    },
+    {
+      "seed": 0,
+      "job": 0,
+      "attempt": 1,
+      "channel": 0,
+      "value": 0.31921909586526453
+    },
+    {
+      "seed": 0,
+      "job": 0,
+      "attempt": 1,
+      "channel": 1,
+      "value": 0.9841882074251771
+    },
+    {
+      "seed": 0,
+      "job": 0,
+      "attempt": 9,
+      "channel": 0,
+      "value": 0.0599983895663172
+    },
+    {
+      "seed": 0,
+      "job": 0,
+      "attempt": 9,
+      "channel": 1,
+      "value": 0.8215304678305984
+    },
+    {
+      "seed": 0,
+      "job": 1,
+      "attempt": 0,
+      "channel": 0,
+      "value": 0.9225343472789973
+    },
+    {
+      "seed": 0,
+      "job": 1,
+      "attempt": 0,
+      "channel": 1,
+      "value": 0.9557746497448534
+    },
+    {
+      "seed": 0,
+      "job": 1,
+      "attempt": 1,
+      "channel": 0,
+      "value": 0.5485321343876421
+    },
+    {
+      "seed": 0,
+      "job": 1,
+      "attempt": 1,
+      "channel": 1,
+      "value": 0.9417000224348158
+    },
+    {
+      "seed": 0,
+      "job": 1,
+      "attempt": 9,
+      "channel": 0,
+      "value": 0.6899378821253777
+    },
+    {
+      "seed": 0,
+      "job": 1,
+      "attempt": 9,
+      "channel": 1,
+      "value": 0.9416405688971281
+    },
+    {
+      "seed": 0,
+      "job": 2,
+      "attempt": 0,
+      "channel": 0,
+      "value": 0.0674447778146714
+    },
+    {
+      "seed": 0,
+      "job": 2,
+      "attempt": 0,
+      "channel": 1,
+      "value": 0.9730478525161743
+    },
+    {
+      "seed": 0,
+      "job": 2,
+      "attempt": 1,
+      "channel": 0,
+      "value": 0.17080005235038698
+    },
+    {
+      "seed": 0,
+      "job": 2,
+      "attempt": 1,
+      "channel": 1,
+      "value": 0.27661342988722026
+    },
+    {
+      "seed": 0,
+      "job": 2,
+      "attempt": 9,
+      "channel": 0,
+      "value": 0.1847929572686553
+    },
+    {
+      "seed": 0,
+      "job": 2,
+      "attempt": 9,
+      "channel": 1,
+      "value": 0.10436921822838485
+    },
+    {
+      "seed": 0,
+      "job": 3,
+      "attempt": 0,
+      "channel": 0,
+      "value": 0.015201079193502665
+    },
+    {
+      "seed": 0,
+      "job": 3,
+      "attempt": 0,
+      "channel": 1,
+      "value": 0.3982833721674979
+    },
+    {
+      "seed": 0,
+      "job": 3,
+      "attempt": 1,
+      "channel": 0,
+      "value": 0.9361286226194352
+    },
+    {
+      "seed": 0,
+      "job": 3,
+      "attempt": 1,
+      "channel": 1,
+      "value": 0.5095192168373615
+    },
+    {
+      "seed": 0,
+      "job": 3,
+      "attempt": 9,
+      "channel": 0,
+      "value": 0.6462717296089977
+    },
+    {
+      "seed": 0,
+      "job": 3,
+      "attempt": 9,
+      "channel": 1,
+      "value": 0.8661083767656237
+    },
+    {
+      "seed": 1,
+      "job": 0,
+      "attempt": 0,
+      "channel": 0,
+      "value": 0.0065258408430963755
+    },
+    {
+      "seed": 1,
+      "job": 0,
+      "attempt": 0,
+      "channel": 1,
+      "value": 0.6710024948697537
+    },
+    {
+      "seed": 1,
+      "job": 0,
+      "attempt": 1,
+      "channel": 0,
+      "value": 0.6694590740371495
+    },
+    {
+      "seed": 1,
+      "job": 0,
+      "attempt": 1,
+      "channel": 1,
+      "value": 0.18651203368790448
+    },
+    {
+      "seed": 1,
+      "job": 0,
+      "attempt": 9,
+      "channel": 0,
+      "value": 0.3444924356881529
+    },
+    {
+      "seed": 1,
+      "job": 0,
+      "attempt": 9,
+      "channel": 1,
+      "value": 0.09271484683267772
+    },
+    {
+      "seed": 1,
+      "job": 1,
+      "attempt": 0,
+      "channel": 0,
+      "value": 0.3815213465131819
+    },
+    {
+      "seed": 1,
+      "job": 1,
+      "attempt": 0,
+      "channel": 1,
+      "value": 0.1091179633513093
+    },
+    {
+      "seed": 1,
+      "job": 1,
+      "attempt": 1,
+      "channel": 0,
+      "value": 0.5415749528910965
+    },
+    {
+      "seed": 1,
+      "job": 1,
+      "attempt": 1,
+      "channel": 1,
+      "value": 0.8502851412631571
+    },
+    {
+      "seed": 1,
+      "job": 1,
+      "attempt": 9,
+      "channel": 0,
+      "value": 0.6989062505308539
+    },
+    {
+      "seed": 1,
+      "job": 1,
+      "attempt": 9,
+      "channel": 1,
+      "value": 0.5999309436883777
+    },
+    {
+      "seed": 1,
+      "job": 2,
+      "attempt": 0,
+      "channel": 0,
+      "value": 0.748930933419615
+    },
+    {
+      "seed": 1,
+      "job": 2,
+      "attempt": 0,
+      "channel": 1,
+      "value": 0.885785968741402
+    },
+    {
+      "seed": 1,
+      "job": 2,
+      "attempt": 1,
+      "channel": 0,
+      "value": 0.41051991912536323
+    },
+    {
+      "seed": 1,
+      "job": 2,
+      "attempt": 1,
+      "channel": 1,
+      "value": 0.421856194967404
+    },
+    {
+      "seed": 1,
+      "job": 2,
+      "attempt": 9,
+      "channel": 0,
+      "value": 0.12789353216066957
+    },
+    {
+      "seed": 1,
+      "job": 2,
+      "attempt": 9,
+      "channel": 1,
+      "value": 0.7726900412235409
+    },
+    {
+      "seed": 1,
+      "job": 3,
+      "attempt": 0,
+      "channel": 0,
+      "value": 0.3541397210210562
+    },
+    {
+      "seed": 1,
+      "job": 3,
+      "attempt": 0,
+      "channel": 1,
+      "value": 0.6971909769345075
+    },
+    {
+      "seed": 1,
+      "job": 3,
+      "attempt": 1,
+      "channel": 0,
+      "value": 0.4779275134205818
+    },
+    {
+      "seed": 1,
+      "job": 3,
+      "attempt": 1,
+      "channel": 1,
+      "value": 0.3623660875018686
+    },
+    {
+      "seed": 1,
+      "job": 3,
+      "attempt": 9,
+      "channel": 0,
+      "value": 0.5867618476040661
+    },
+    {
+      "seed": 1,
+      "job": 3,
+      "attempt": 9,
+      "channel": 1,
+      "value": 0.9111948928330094
+    },
+    {
+      "seed": 9,
+      "job": 0,
+      "attempt": 0,
+      "channel": 0,
+      "value": 0.05050810729153454
+    },
+    {
+      "seed": 9,
+      "job": 0,
+      "attempt": 0,
+      "channel": 1,
+      "value": 0.9692156517412513
+    },
+    {
+      "seed": 9,
+      "job": 0,
+      "attempt": 1,
+      "channel": 0,
+      "value": 0.8239776499103755
+    },
+    {
+      "seed": 9,
+      "job": 0,
+      "attempt": 1,
+      "channel": 1,
+      "value": 0.714588601142168
+    },
+    {
+      "seed": 9,
+      "job": 0,
+      "attempt": 9,
+      "channel": 0,
+      "value": 0.8514537133742124
+    },
+    {
+      "seed": 9,
+      "job": 0,
+      "attempt": 9,
+      "channel": 1,
+      "value": 0.3037939115893096
+    },
+    {
+      "seed": 9,
+      "job": 1,
+      "attempt": 0,
+      "channel": 0,
+      "value": 0.006237485678866506
+    },
+    {
+      "seed": 9,
+      "job": 1,
+      "attempt": 0,
+      "channel": 1,
+      "value": 0.4849332943558693
+    },
+    {
+      "seed": 9,
+      "job": 1,
+      "attempt": 1,
+      "channel": 0,
+      "value": 0.2661720847245306
+    },
+    {
+      "seed": 9,
+      "job": 1,
+      "attempt": 1,
+      "channel": 1,
+      "value": 0.29119291668757796
+    },
+    {
+      "seed": 9,
+      "job": 1,
+      "attempt": 9,
+      "channel": 0,
+      "value": 0.6137858219444752
+    },
+    {
+      "seed": 9,
+      "job": 1,
+      "attempt": 9,
+      "channel": 1,
+      "value": 0.01043278444558382
+    },
+    {
+      "seed": 9,
+      "job": 2,
+      "attempt": 0,
+      "channel": 0,
+      "value": 0.30535575025714934
+    },
+    {
+      "seed": 9,
+      "job": 2,
+      "attempt": 0,
+      "channel": 1,
+      "value": 0.7519856083672494
+    },
+    {
+      "seed": 9,
+      "job": 2,
+      "attempt": 1,
+      "channel": 0,
+      "value": 0.12459061038680375
+    },
+    {
+      "seed": 9,
+      "job": 2,
+      "attempt": 1,
+      "channel": 1,
+      "value": 0.07257130881771445
+    },
+    {
+      "seed": 9,
+      "job": 2,
+      "attempt": 9,
+      "channel": 0,
+      "value": 0.7942689235787839
+    },
+    {
+      "seed": 9,
+      "job": 2,
+      "attempt": 9,
+      "channel": 1,
+      "value": 0.246704310644418
+    },
+    {
+      "seed": 9,
+      "job": 3,
+      "attempt": 0,
+      "channel": 0,
+      "value": 0.30079007358290255
+    },
+    {
+      "seed": 9,
+      "job": 3,
+      "attempt": 0,
+      "channel": 1,
+      "value": 0.37632726202718914
+    },
+    {
+      "seed": 9,
+      "job": 3,
+      "attempt": 1,
+      "channel": 0,
+      "value": 0.8967649932019413
+    },
+    {
+      "seed": 9,
+      "job": 3,
+      "attempt": 1,
+      "channel": 1,
+      "value": 0.23695705202408135
+    },
+    {
+      "seed": 9,
+      "job": 3,
+      "attempt": 9,
+      "channel": 0,
+      "value": 0.22844485705718398
+    },
+    {
+      "seed": 9,
+      "job": 3,
+      "attempt": 9,
+      "channel": 1,
+      "value": 0.05149970902130008
+    },
+    {
+      "seed": 49,
+      "job": 0,
+      "attempt": 0,
+      "channel": 0,
+      "value": 0.36849192972294986
+    },
+    {
+      "seed": 49,
+      "job": 0,
+      "attempt": 0,
+      "channel": 1,
+      "value": 0.6861057789064944
+    },
+    {
+      "seed": 49,
+      "job": 0,
+      "attempt": 1,
+      "channel": 0,
+      "value": 0.1561526304576546
+    },
+    {
+      "seed": 49,
+      "job": 0,
+      "attempt": 1,
+      "channel": 1,
+      "value": 0.038233343278989196
+    },
+    {
+      "seed": 49,
+      "job": 0,
+      "attempt": 9,
+      "channel": 0,
+      "value": 0.9407570683397353
+    },
+    {
+      "seed": 49,
+      "job": 0,
+      "attempt": 9,
+      "channel": 1,
+      "value": 0.16965068038553
+    },
+    {
+      "seed": 49,
+      "job": 1,
+      "attempt": 0,
+      "channel": 0,
+      "value": 0.8778426477219909
+    },
+    {
+      "seed": 49,
+      "job": 1,
+      "attempt": 0,
+      "channel": 1,
+      "value": 0.07943537132814527
+    },
+    {
+      "seed": 49,
+      "job": 1,
+      "attempt": 1,
+      "channel": 0,
+      "value": 0.8742499670479447
+    },
+    {
+      "seed": 49,
+      "job": 1,
+      "attempt": 1,
+      "channel": 1,
+      "value": 0.694214649964124
+    },
+    {
+      "seed": 49,
+      "job": 1,
+      "attempt": 9,
+      "channel": 0,
+      "value": 0.7020948792342097
+    },
+    {
+      "seed": 49,
+      "job": 1,
+      "attempt": 9,
+      "channel": 1,
+      "value": 0.09186487668193877
+    },
+    {
+      "seed": 49,
+      "job": 2,
+      "attempt": 0,
+      "channel": 0,
+      "value": 0.5424234948586673
+    },
+    {
+      "seed": 49,
+      "job": 2,
+      "attempt": 0,
+      "channel": 1,
+      "value": 0.832080562133342
+    },
+    {
+      "seed": 49,
+      "job": 2,
+      "attempt": 1,
+      "channel": 0,
+      "value": 0.8646136650349945
+    },
+    {
+      "seed": 49,
+      "job": 2,
+      "attempt": 1,
+      "channel": 1,
+      "value": 0.98429149761796
+    },
+    {
+      "seed": 49,
+      "job": 2,
+      "attempt": 9,
+      "channel": 0,
+      "value": 0.8684204206801951
+    },
+    {
+      "seed": 49,
+      "job": 2,
+      "attempt": 9,
+      "channel": 1,
+      "value": 0.5155357266776264
+    },
+    {
+      "seed": 49,
+      "job": 3,
+      "attempt": 0,
+      "channel": 0,
+      "value": 0.6046559000387788
+    },
+    {
+      "seed": 49,
+      "job": 3,
+      "attempt": 0,
+      "channel": 1,
+      "value": 0.5578197101131082
+    },
+    {
+      "seed": 49,
+      "job": 3,
+      "attempt": 1,
+      "channel": 0,
+      "value": 0.8635964025743306
+    },
+    {
+      "seed": 49,
+      "job": 3,
+      "attempt": 1,
+      "channel": 1,
+      "value": 0.38223480130545795
+    },
+    {
+      "seed": 49,
+      "job": 3,
+      "attempt": 9,
+      "channel": 0,
+      "value": 0.13164605828933418
+    },
+    {
+      "seed": 49,
+      "job": 3,
+      "attempt": 9,
+      "channel": 1,
+      "value": 0.22311170655302703
+    },
+    {
+      "seed": 4294967295,
+      "job": 0,
+      "attempt": 0,
+      "channel": 0,
+      "value": 0.3674778356216848
+    },
+    {
+      "seed": 4294967295,
+      "job": 0,
+      "attempt": 0,
+      "channel": 1,
+      "value": 0.8277782497461885
+    },
+    {
+      "seed": 4294967295,
+      "job": 0,
+      "attempt": 1,
+      "channel": 0,
+      "value": 0.3894912819378078
+    },
+    {
+      "seed": 4294967295,
+      "job": 0,
+      "attempt": 1,
+      "channel": 1,
+      "value": 0.1607866669073701
+    },
+    {
+      "seed": 4294967295,
+      "job": 0,
+      "attempt": 9,
+      "channel": 0,
+      "value": 0.547997007612139
+    },
+    {
+      "seed": 4294967295,
+      "job": 0,
+      "attempt": 9,
+      "channel": 1,
+      "value": 0.7830030468758196
+    },
+    {
+      "seed": 4294967295,
+      "job": 1,
+      "attempt": 0,
+      "channel": 0,
+      "value": 0.2523335781879723
+    },
+    {
+      "seed": 4294967295,
+      "job": 1,
+      "attempt": 0,
+      "channel": 1,
+      "value": 0.7667107263114303
+    },
+    {
+      "seed": 4294967295,
+      "job": 1,
+      "attempt": 1,
+      "channel": 0,
+      "value": 0.9323175521567464
+    },
+    {
+      "seed": 4294967295,
+      "job": 1,
+      "attempt": 1,
+      "channel": 1,
+      "value": 0.7349556712433696
+    },
+    {
+      "seed": 4294967295,
+      "job": 1,
+      "attempt": 9,
+      "channel": 0,
+      "value": 0.7424170174635947
+    },
+    {
+      "seed": 4294967295,
+      "job": 1,
+      "attempt": 9,
+      "channel": 1,
+      "value": 0.6079909997060895
+    },
+    {
+      "seed": 4294967295,
+      "job": 2,
+      "attempt": 0,
+      "channel": 0,
+      "value": 0.8796455173287541
+    },
+    {
+      "seed": 4294967295,
+      "job": 2,
+      "attempt": 0,
+      "channel": 1,
+      "value": 0.21947208046913147
+    },
+    {
+      "seed": 4294967295,
+      "job": 2,
+      "attempt": 1,
+      "channel": 0,
+      "value": 0.6272061001509428
+    },
+    {
+      "seed": 4294967295,
+      "job": 2,
+      "attempt": 1,
+      "channel": 1,
+      "value": 0.06586480070836842
+    },
+    {
+      "seed": 4294967295,
+      "job": 2,
+      "attempt": 9,
+      "channel": 0,
+      "value": 0.8724759132601321
+    },
+    {
+      "seed": 4294967295,
+      "job": 2,
+      "attempt": 9,
+      "channel": 1,
+      "value": 0.12918613757938147
+    },
+    {
+      "seed": 4294967295,
+      "job": 3,
+      "attempt": 0,
+      "channel": 0,
+      "value": 0.8230571595486253
+    },
+    {
+      "seed": 4294967295,
+      "job": 3,
+      "attempt": 0,
+      "channel": 1,
+      "value": 0.6823002160526812
+    },
+    {
+      "seed": 4294967295,
+      "job": 3,
+      "attempt": 1,
+      "channel": 0,
+      "value": 0.8706801512744278
+    },
+    {
+      "seed": 4294967295,
+      "job": 3,
+      "attempt": 1,
+      "channel": 1,
+      "value": 0.7781524902675301
+    },
+    {
+      "seed": 4294967295,
+      "job": 3,
+      "attempt": 9,
+      "channel": 0,
+      "value": 0.128164891153574
+    },
+    {
+      "seed": 4294967295,
+      "job": 3,
+      "attempt": 9,
+      "channel": 1,
+      "value": 0.25741127762012184
+    }
+  ]
+}

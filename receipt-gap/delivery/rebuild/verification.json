@@ -1,0 +1,51 @@
+{
+  "commands": [
+    {
+      "command": [
+        "python3",
+        "-B",
+        "rg_freeze.py",
+        "verify"
+      ],
+      "cwd": "/private/tmp/receipt-gap-independent-20261111",
+      "started_at": "2026-11-11T11:02:15.706693+00:00",
+      "returncode": 0
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "cwd": "/private/tmp/receipt-gap-independent-20261111",
+      "started_at": "2026-11-11T11:02:15.855899+00:00",
+      "returncode": 0
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "rg_analysis.py",
+        "--data",
+        "collection",
+        "--output",
+        "<WORKSPACE>/06_intelligence/AI_research/research/receipt-gap/delivery/rebuild/analysis-r2-d3.json"
+      ],
+      "cwd": "/private/tmp/receipt-gap-independent-20261111",
+      "started_at": "2026-11-11T11:02:20.705907+00:00",
+      "returncode": 0
+    }
+  ],
+  "same_machine_full_data_copy": true,
+  "fresh_git_clone": false,
+  "byte_identical": true,
+  "primary_sha256": "622a8bd6b887a59755c5164c9d0231e1072377d67294cdc28d1142a82343a3e9",
+  "rebuild_sha256": "622a8bd6b887a59755c5164c9d0231e1072377d67294cdc28d1142a82343a3e9",
+  "bytes": 78795,
+  "note": "Independent package uses copied frozen inputs and saved collection, no transport, symlink or source imports. Claude fresh-clone review remains a separate acceptance gate."
+}

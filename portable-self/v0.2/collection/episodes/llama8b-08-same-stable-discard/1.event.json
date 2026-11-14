@@ -1,0 +1,1 @@
+{"index":1,"payload":{"calibration":[[1,"west"],[2,"east"],[3,"north"],[4,"south"]],"console":"c-b7efffc3","memory":[{"note":"","slot":1},{"note":"","slot":2},{"note":"","slot":3},{"note":"","slot":4}],"mode":"write","targets":null,"visit":2,"writable_slot":null},"value":{"note":"The console is demonstrating the controls in a different order than the calibration list.","slot":3}}

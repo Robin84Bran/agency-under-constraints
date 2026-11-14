@@ -1,0 +1,261 @@
+{
+  "cells": {
+    "claude/check/0.5": {
+      "FD": 0,
+      "J": 16,
+      "TP": 0,
+      "duplicates": 0,
+      "exact_once": 18,
+      "known": 20,
+      "n": 20,
+      "reports": 20,
+      "valid": 20
+    },
+    "claude/keyed/0.5": {
+      "FD": 0,
+      "J": 7,
+      "TP": 0,
+      "duplicates": 0,
+      "exact_once": 20,
+      "known": 20,
+      "n": 20,
+      "reports": 20,
+      "valid": 20
+    },
+    "claude/plain/0.5": {
+      "FD": 0,
+      "J": 0,
+      "TP": 0,
+      "duplicates": 0,
+      "exact_once": 10,
+      "known": 20,
+      "n": 20,
+      "reports": 20,
+      "valid": 20
+    },
+    "llama8b/check/0": {
+      "FD": 8,
+      "J": 4,
+      "TP": 11,
+      "duplicates": 100,
+      "exact_once": 0,
+      "known": 100,
+      "n": 100,
+      "reports": 100,
+      "valid": 100
+    },
+    "llama8b/check/0.5": {
+      "FD": 10,
+      "J": 6,
+      "TP": 10,
+      "duplicates": 100,
+      "exact_once": 0,
+      "known": 100,
+      "n": 100,
+      "reports": 100,
+      "valid": 100
+    },
+    "llama8b/keyed/0": {
+      "FD": 3,
+      "J": 2,
+      "TP": 1,
+      "duplicates": 27,
+      "exact_once": 0,
+      "known": 100,
+      "n": 100,
+      "reports": 100,
+      "valid": 100
+    },
+    "llama8b/keyed/0.5": {
+      "FD": 1,
+      "J": 1,
+      "TP": 0,
+      "duplicates": 28,
+      "exact_once": 0,
+      "known": 100,
+      "n": 100,
+      "reports": 100,
+      "valid": 100
+    },
+    "llama8b/plain/0": {
+      "FD": 5,
+      "J": 0,
+      "TP": 1,
+      "duplicates": 100,
+      "exact_once": 0,
+      "known": 100,
+      "n": 100,
+      "reports": 100,
+      "valid": 100
+    },
+    "llama8b/plain/0.5": {
+      "FD": 5,
+      "J": 0,
+      "TP": 1,
+      "duplicates": 100,
+      "exact_once": 0,
+      "known": 100,
+      "n": 100,
+      "reports": 100,
+      "valid": 100
+    },
+    "qwen1b/check/0": {
+      "FD": 0,
+      "J": 0,
+      "TP": 0,
+      "duplicates": 100,
+      "exact_once": 0,
+      "known": 100,
+      "n": 100,
+      "reports": 89,
+      "valid": 100
+    },
+    "qwen1b/check/0.5": {
+      "FD": 0,
+      "J": 0,
+      "TP": 0,
+      "duplicates": 100,
+      "exact_once": 0,
+      "known": 100,
+      "n": 100,
+      "reports": 90,
+      "valid": 100
+    },
+    "qwen1b/keyed/0": {
+      "FD": 0,
+      "J": 0,
+      "TP": 0,
+      "duplicates": 5,
+      "exact_once": 0,
+      "known": 100,
+      "n": 100,
+      "reports": 12,
+      "valid": 14
+    },
+    "qwen1b/keyed/0.5": {
+      "FD": 0,
+      "J": 0,
+      "TP": 0,
+      "duplicates": 3,
+      "exact_once": 0,
+      "known": 100,
+      "n": 100,
+      "reports": 11,
+      "valid": 14
+    },
+    "qwen1b/plain/0": {
+      "FD": 1,
+      "J": 0,
+      "TP": 0,
+      "duplicates": 100,
+      "exact_once": 0,
+      "known": 100,
+      "n": 100,
+      "reports": 78,
+      "valid": 100
+    },
+    "qwen1b/plain/0.5": {
+      "FD": 3,
+      "J": 0,
+      "TP": 0,
+      "duplicates": 100,
+      "exact_once": 0,
+      "known": 100,
+      "n": 100,
+      "reports": 74,
+      "valid": 100
+    },
+    "qwen7b/check/0": {
+      "FD": 13,
+      "J": 0,
+      "TP": 0,
+      "duplicates": 100,
+      "exact_once": 0,
+      "known": 100,
+      "n": 100,
+      "reports": 100,
+      "valid": 100
+    },
+    "qwen7b/check/0.5": {
+      "FD": 21,
+      "J": 0,
+      "TP": 2,
+      "duplicates": 100,
+      "exact_once": 0,
+      "known": 100,
+      "n": 100,
+      "reports": 100,
+      "valid": 100
+    },
+    "qwen7b/keyed/0": {
+      "FD": 4,
+      "J": 3,
+      "TP": 3,
+      "duplicates": 74,
+      "exact_once": 3,
+      "known": 100,
+      "n": 100,
+      "reports": 96,
+      "valid": 96
+    },
+    "qwen7b/keyed/0.5": {
+      "FD": 3,
+      "J": 2,
+      "TP": 0,
+      "duplicates": 62,
+      "exact_once": 2,
+      "known": 100,
+      "n": 100,
+      "reports": 96,
+      "valid": 96
+    },
+    "qwen7b/plain/0": {
+      "FD": 38,
+      "J": 0,
+      "TP": 5,
+      "duplicates": 100,
+      "exact_once": 0,
+      "known": 100,
+      "n": 100,
+      "reports": 100,
+      "valid": 100
+    },
+    "qwen7b/plain/0.5": {
+      "FD": 34,
+      "J": 0,
+      "TP": 7,
+      "duplicates": 100,
+      "exact_once": 0,
+      "known": 100,
+      "n": 100,
+      "reports": 100,
+      "valid": 100
+    }
+  },
+  "errors": {
+    "qwen1b / key": 44,
+    "qwen1b / report boolean/null required": 74,
+    "qwen1b / truncated model output": 128,
+    "qwen7b / key": 2,
+    "qwen7b / truncated model output": 6
+  },
+  "kind": "POST HOC DESCRIPTIVE TABULATION FROM TERMINALS; FROZEN ANALYSIS FAILED BEFORE SCORING",
+  "resources": {
+    "claude": {
+      "calls": 526,
+      "episodes": 60
+    },
+    "llama8b": {
+      "calls": 6600,
+      "episodes": 600
+    },
+    "qwen1b": {
+      "calls": 4892,
+      "episodes": 600
+    },
+    "qwen7b": {
+      "calls": 6516,
+      "episodes": 600
+    }
+  }
+}

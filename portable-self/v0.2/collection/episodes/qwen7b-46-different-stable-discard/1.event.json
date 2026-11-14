@@ -1,0 +1,1 @@
+{"index":1,"payload":{"calibration":[[1,"west"],[2,"north"],[3,"south"],[4,"east"]],"console":"c-6f6e9507","memory":[{"note":"","slot":1},{"note":"","slot":2},{"note":"","slot":3},{"note":"","slot":4}],"mode":"write","targets":null,"visit":2,"writable_slot":null},"value":{"note":"Console c-6f6e9507 showed west, now showing north.","slot":1}}

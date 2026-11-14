@@ -1,0 +1,18 @@
+test_bad_committed_parent_manifest_file_or_freeze_is_rejected (test_d3d.D3dTests) ... ok
+test_clearance_prefixes_allow_append_and_reject_rewrite_or_torn_tail (test_d3d.D3dTests) ... ok
+test_clearance_refuses_other_fatal_partial_stop_or_uncertain_budget (test_d3d.D3dTests) ... ok
+test_d3c_attestation_after_d3b_starts_checks_every_historical_blob (test_d3d.D3dTests) ... ok
+test_future_integrity_stop_gets_new_path_and_cannot_be_cleared_as_pause (test_d3d.D3dTests) ... ok
+test_historical_stop_contract_and_episode_bytes_remain_binding (test_d3d.D3dTests) ... ok
+test_missing_attestation_time_or_changed_raw_event_blocks (test_d3d.D3dTests) ... ok
+test_missing_or_stale_tests_block_new_seal (test_d3d.D3dTests) ... ok
+test_new_starts_cannot_be_laundered_into_historical_provenance (test_d3d.D3dTests) ... ok
+test_parent_freezes_scope_and_create_once (test_d3d.D3dTests) ... ok
+test_parent_receipt_is_required_even_with_d3d_receipt (test_d3d.D3dTests) ... ok
+test_resume_skips_attempted_episode_and_retains_fail_and_stop (test_d3d.D3dTests) ... ok
+test_start_before_attestation_or_with_parent_hash_blocks (test_d3d.D3dTests) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 308.833s
+
+OK

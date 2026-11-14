@@ -1,0 +1,1 @@
+{"actual_micro_usd":0,"error":"frontier reported transport failure; no retry","failure_kind":"transport","fatal":false,"input_tokens":0,"output_tokens":0,"returned_effort":"UNKNOWN","stop_reason":"stop_sequence","usage_status":"KNOWN","value":null}

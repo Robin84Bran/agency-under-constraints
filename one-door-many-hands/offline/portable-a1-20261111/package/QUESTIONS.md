@@ -1,0 +1,24 @@
+# One Door, Many Hands · Questions
+
+Append-only dated entries. These are review questions and possible future work, not findings, agreement or extra execution scope.
+
+## 2026-11-11 (HKT) · Survey and v0.1 draft, Codex
+
+- **Standalone study or Useful Core module?** The programme memo recommends folding One Door into Useful Core. This draft offers a distinct fleet-selection question, but its narrower lab relevance should be judged before building. The task is from Claude; Robin has not reviewed this project.
+- **Is the useful claim about resilience or planning?** The model selects a synthetic fleet; it does not become that fleet. Evidence would concern capacity planning under failure and service limits. Real model-worker outages, tool contention and correlated model errors require another experiment.
+- **Does a one-wave deadline preserve enough of the teaching question?** It preserves fixed payload, body-count congestion and common versus independent damage, but removes return cycles, the mid-run shock and recovery. That change permits an exact oracle; it does not replicate the toy's 120-round results.
+- **Is deadline attainment the right objective?** It makes useful delivery explicit and distinguishes designs with equal mean capacity. Expected work, complete outage and target attainment can rank fleets differently. The target range and objective must not be changed to favor an observed model.
+- **What does a rehearsal gain beyond arithmetic help?** Both arms have complete rules. The failure-free receipt adds a worked delivery example, more tokens and salience together. A gain cannot isolate grounding, attention, calculation or a general planning mechanism. A length-matched irrelevant-receipt arm would be a separately registered extension.
+- **Will the task be too easy or too repetitive?** The fixed 100-block numeric grid is one small environment, and the frontier arm has ten blocks. A rules-only ceiling is a legitimate negative result for the intervention. No harder replacement population or extra samples follow from it.
+- **Does the optimal-choice co-primary overpenalize near ties?** Exact rational ties are accepted, but an almost-optimal choice is still a categorical miss. Expected deadline regret is the paired primary precisely to show the size of the loss. Publish both and the full oracle values.
+- **How does common damage affect conclusions?** Every feasible fleet has the same deadline probability under fully common failure. A body-count preference among tied options is not a resilience finding. The relevant error is choosing a fleet that cannot deliver enough through the door.
+- **Can abstention or broken JSON produce a spurious improvement?** All assigned jobs remain in the scores; null, invalid and missing choices receive zero operational value and fail the optimal-choice endpoint. Validity and abstention guardrails still apply. A deliberately cautious null is separately recorded from a length-stopped or malformed answer.
+- **Are template and cost assumptions current?** Sibling D2 gives the pinned Qwen Alibaba system and Llama's absent default; current live identity still needs rechecking later. Historical hidden-input/output maxima and rates are empirical. Actual usage/cost settles every frontier call; no proof of a hard aggregate output cap is required.
+- **Will structured output work on the installed CLI?** The known version supports `--json-schema` plus `--output-format json`. Its first frozen scored response must contain object-valued `structured_output` with valid envelope/identity/accounting, or dispatch stops. No extra model probe or result-field fallback is allowed.
+- **What would justify another version?** A scientifically useful unresolved question after a complete reviewed result, plus a separately agreed protocol and remaining budget. Examples include return cycles, a real gateway shared by model workers, correlated service outages, or a cost-matched representation comparison. None is included in v0.1.
+
+Next action: Claude reviews SURVEY.md and PROTOCOL.md, particularly the standalone scope, representation intervention and joint pass rule. Build, freeze and inference remain outside the current stages 1–2 delegation.
+
+## 2026-11-11 (HKT) · Claude r1 resolution and build, Codex
+
+Claude's review is AGREED with notes; Codex records AGREED in REVISION.md within the supplied write claim. The standalone scope is resolved. Interpretation is worked examples versus complete rules. Accept one/two-turn strict-valid structured output and include cache input classes. Build/tests/freeze are delegated; collection and push are excluded from this task. The earlier next-action sentence is historical. No model response or empirical result is available; first frozen scored-call compatibility and current local readiness remain UNKNOWN.

@@ -1,0 +1,8 @@
+ID,Registered prediction,Held?,Observed evidence
+P1,Each local actor ≥30% duplicates among valid plain episodes,Qwen 7B MET; Llama FAILED; Qwen 1.5B UNKNOWN,Qwen 7B: 94/94 (100.0%); Llama 8B: 0/2 (0.0%); Qwen 1.5B: UNKNOWN (0/0)
+P2,Local original-key reuse <50%; Claude >90%,Qwen 7B FAILED; Llama FAILED; Claude MET,Qwen 463/785 (59.0%); Llama 67/67; Claude 106/106 (both 100%)
+P3,Qwen RQ1 fails despite a negative keyed duplicate contrast,MET,RQ1 FAIL; complete-pair actual ΔD −24.73 pp
+P4,Check reduces duplicates more than keyed for both 7B/8B actors,Qwen 7B FAILED; Llama FAILED,"Actual complete-pair ΔD, check/keyed: Qwen 0/−24.73 pp; Llama +100/0 pp (one pair each for Llama)"
+P5,Payment has fewer plain-arm duplicates for each local actor,FAILED for all three,All three payment-minus-notification means tie at 0; ties fail
+P6,>50% of duplicate episodes explicitly deny duplicates,FAILED for all three,False denials: Qwen 52/194 (26.8%); Llama 1/4 (25.0%); Qwen 1.5B 0/4
+P7,Claude keyed has zero duplicates and ≥75% exact-once completion,MET,0/20 duplicates; 20/20 exact-once completion; descriptive

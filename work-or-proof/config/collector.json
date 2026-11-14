@@ -1,0 +1,31 @@
+{
+  "active_cap_seconds": 43200,
+  "endpoint": "http://127.0.0.1:11435",
+  "expected_runtime_version": "0.33.3",
+  "format": "json",
+  "max_requests": 5808,
+  "model_store": "ANTresidency/Honest_Agent/models/ollama",
+  "models": [
+    {
+      "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+      "name": "qwen7b",
+      "tag": "qwen2.5:7b"
+    },
+    {
+      "digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+      "name": "llama8b",
+      "tag": "llama3.1:8b"
+    }
+  ],
+  "new_frontier_call_cap": 0,
+  "new_model_call_usd_cap": 0,
+  "request_options": {
+    "num_predict": 192,
+    "temperature": 0.6,
+    "top_k": 16
+  },
+  "runtime_identity_reason": "Offline build; endpoint never contacted. Capture metadata before first call and compare every resume.",
+  "runtime_identity_status": "UNKNOWN",
+  "stream": false,
+  "timeout_seconds": 180
+}

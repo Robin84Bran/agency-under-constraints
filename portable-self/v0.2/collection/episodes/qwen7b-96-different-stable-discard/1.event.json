@@ -1,0 +1,1 @@
+{"index":1,"payload":{"calibration":[[1,"north"],[2,"east"],[3,"west"],[4,"south"]],"console":"c-de46948a","memory":[{"note":"","slot":1},{"note":"","slot":2},{"note":"","slot":3},{"note":"","slot":4}],"mode":"write","targets":null,"visit":2,"writable_slot":null},"value":{"note":"Console c-de46948a produced north, east, west, south in that order.","slot":1}}

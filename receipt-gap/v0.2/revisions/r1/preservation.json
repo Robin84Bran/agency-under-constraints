@@ -1,0 +1,1 @@
+{"changed_files_with_exact_original_witnesses":["PROJECT_STATE.md","RUN.md","rg.py","rg_analysis.py","rg_collect.py","rg_freeze.py","tests/test_v02.py"],"git_commands":0,"model_calls":0,"parent_freeze_sha256":"eda67ccd5bbb5ce828e109b7ff1262ca73f16ebad68e74a2db8785ddb4825440","pushes":0,"unchanged_parent_files":397,"v02_ledger_unchanged":true}

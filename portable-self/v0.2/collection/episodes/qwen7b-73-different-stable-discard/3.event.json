@@ -1,0 +1,1 @@
+{"index":3,"payload":{"calibration":[[1,"north"],[2,"west"],[3,"south"],[4,"east"]],"console":"c-0628aacf","memory":[{"note":"","slot":1},{"note":"","slot":2},{"note":"","slot":3},{"note":"","slot":4}],"mode":"write","targets":null,"visit":4,"writable_slot":null},"value":{"note":"Console c-0628aacf controls are 1:north, 2:west, 3:south, 4:east.","slot":1}}

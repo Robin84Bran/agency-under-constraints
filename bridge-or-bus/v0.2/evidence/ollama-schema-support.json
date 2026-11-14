@@ -1,0 +1,87 @@
+{
+  "conclusion": "format accepts a schema object; JSON-Schema-to-grammar implementation including anyOf is present",
+  "formula": {
+    "path": "/opt/homebrew/Cellar/ollama/0.33.3/.brew/ollama.rb",
+    "revision": "b79067b0db7417f20108363bc22adb97f35c966a",
+    "sha256": "d3bdb33986e948425bda3c4068892d48b18eec6ce6234b68cfe6c63502b05cc9",
+    "tag": "v0.33.3"
+  },
+  "limits": "Not a runtime-generation test or proof that every keyword is perfectly enforced. Independent validator remains authoritative.",
+  "live_schema_compilation_status": "UNKNOWN",
+  "method": "offline installed-binary byte probes and formula tag/revision; no execution or network",
+  "model_calls": 0,
+  "network_requests": 0,
+  "sources": [
+    {
+      "bytes": 32959954,
+      "path": "/opt/homebrew/Cellar/ollama/0.33.3/libexec/ollama",
+      "sha256": "92b379163dc2a7953f8f427253f2e01569f627027e8a3783c51b161c808311ce",
+      "snippets": [
+        {
+          "hex": "6d6f64096769746875622e636f6d2f6f6c6c616d612f6f6c6c616d610976302e33332e332b6469727479",
+          "offset": 16528238,
+          "text": "mod\tgithub.com/ollama/ollama\tv0.33.3+dirty"
+        },
+        {
+          "hex": "696e76616c696420666f726d61743a20657870656374656420226a736f6e22206f7220612076616c6964204a534f4e20536368656d61206f626a656374",
+          "offset": 16253430,
+          "text": "invalid format: expected \"json\" or a valid JSON Schema object"
+        },
+        {
+          "hex": "6769746875622e636f6d2f6f6c6c616d612f6f6c6c616d612f7365727665722e282a536572766572292e47656e657261746548616e646c6572",
+          "offset": 18650096,
+          "text": "github.com/ollama/ollama/server.(*Server).GenerateHandler"
+        },
+        {
+          "hex": "6769746875622e636f6d2f6f6c6c616d612f6f6c6c616d612f6c6c6d2e282a6c6c616d6153657276657252756e6e6572292e436f6d706c6574696f6e",
+          "offset": 17507895,
+          "text": "github.com/ollama/ollama/llm.(*llamaServerRunner).Completion"
+        },
+        {
+          "hex": "6769746875622e636f6d2f6f6c6c616d612f6f6c6c616d612f6c6c6d2e6c6c616d6153657276657243686174526573706f6e7365466f726d6174",
+          "offset": 17508972,
+          "text": "github.com/ollama/ollama/llm.llamaServerChatResponseFormat"
+        },
+        {
+          "hex": "736368656d61206d7573742062652061204a534f4e206f626a656374",
+          "offset": 16047802,
+          "text": "schema must be a JSON object"
+        }
+      ]
+    },
+    {
+      "bytes": 13249296,
+      "path": "/opt/homebrew/Cellar/ollama/0.33.3/libexec/lib/ollama/llama-server",
+      "sha256": "096db025808c9f7d5c95bb38346616aa71a5348455c6397c8de727c6d42b5db9",
+      "snippets": [
+        {
+          "hex": "6a736f6e5f736368656d615f746f5f6772616d6d6172",
+          "offset": 6153210,
+          "text": "json_schema_to_grammar"
+        },
+        {
+          "hex": "616e794f66",
+          "offset": 6645973,
+          "text": "anyOf"
+        },
+        {
+          "hex": "656e756d",
+          "offset": 6661204,
+          "text": "enum"
+        },
+        {
+          "hex": "6164646974696f6e616c50726f70657274696573",
+          "offset": 6661263,
+          "text": "additionalProperties"
+        },
+        {
+          "hex": "6d61784c656e677468",
+          "offset": 6661219,
+          "text": "maxLength"
+        }
+      ]
+    }
+  ],
+  "status": "VERIFIED",
+  "version": "0.33.3"
+}

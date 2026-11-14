@@ -1,0 +1,244 @@
+{
+  "active_cap_seconds": 43200,
+  "active_seconds_charged": 885.1597469940043,
+  "attempted": 5808,
+  "by_model": {
+    "llama8b": {
+      "attempted": 2904,
+      "by_phase": {
+        "calls": {
+          "attempted": 2880,
+          "input_tokens": 397235,
+          "observed_input_tokens": 397235,
+          "observed_output_tokens": 20160,
+          "observed_seconds": 430.635529365001,
+          "output_tokens": 20160,
+          "resource_status": "OK",
+          "returned": 2880,
+          "seconds": 430.635529365001,
+          "technical_reply_failures": 0,
+          "transport_or_protocol_failures": 0,
+          "uncertain": 0
+        },
+        "replays": {
+          "attempted": 24,
+          "input_tokens": 3691,
+          "observed_input_tokens": 3691,
+          "observed_output_tokens": 168,
+          "observed_seconds": 3.4839325839996036,
+          "output_tokens": 168,
+          "resource_status": "OK",
+          "returned": 24,
+          "seconds": 3.4839325839996036,
+          "technical_reply_failures": 0,
+          "transport_or_protocol_failures": 0,
+          "uncertain": 0
+        }
+      },
+      "completed": 2904,
+      "failed": 0,
+      "input_tokens": 400926,
+      "output_tokens": 20328,
+      "returned": 2904,
+      "seconds": 434.1194619490006,
+      "seconds_status": "OK",
+      "technical_reply_failures": 0,
+      "transport_or_protocol_failures": 0,
+      "uncertain": 0,
+      "usage_status": "OK"
+    },
+    "qwen7b": {
+      "attempted": 2904,
+      "by_phase": {
+        "calls": {
+          "attempted": 2880,
+          "input_tokens": 451955,
+          "observed_input_tokens": 451955,
+          "observed_output_tokens": 20160,
+          "observed_seconds": 380.197134059,
+          "output_tokens": 20160,
+          "resource_status": "OK",
+          "returned": 2880,
+          "seconds": 380.197134059,
+          "technical_reply_failures": 0,
+          "transport_or_protocol_failures": 0,
+          "uncertain": 0
+        },
+        "replays": {
+          "attempted": 24,
+          "input_tokens": 4147,
+          "observed_input_tokens": 4147,
+          "observed_output_tokens": 168,
+          "observed_seconds": 6.985110044000066,
+          "output_tokens": 168,
+          "resource_status": "OK",
+          "returned": 24,
+          "seconds": 6.985110044000066,
+          "technical_reply_failures": 0,
+          "transport_or_protocol_failures": 0,
+          "uncertain": 0
+        }
+      },
+      "completed": 2904,
+      "failed": 0,
+      "input_tokens": 456102,
+      "output_tokens": 20328,
+      "returned": 2904,
+      "seconds": 387.1822441030001,
+      "seconds_status": "OK",
+      "technical_reply_failures": 0,
+      "transport_or_protocol_failures": 0,
+      "uncertain": 0,
+      "usage_status": "OK"
+    }
+  },
+  "completed": 5808,
+  "failed": 0,
+  "freeze_sha256": "75e19187ace057a67afb72b45505d8b4cf419b25a3abf0302dbaab629ae07bf7",
+  "new_frontier_calls": 0,
+  "new_model_call_usd": 0,
+  "planned_primary": 5760,
+  "planned_replays": 48,
+  "push": {
+    "attested_by": "Claude",
+    "commit": "63dd76114c2adab2ae59d8e06220cbee56e5b234",
+    "freeze_sha256": "75e19187ace057a67afb72b45505d8b4cf419b25a3abf0302dbaab629ae07bf7",
+    "note": "Offline attestation supplied by operator; build does not contact GitHub.",
+    "pushed_at": "2026-11-11T04:11:53+00:00",
+    "remote": "https://github.com/Robin84Bran/research",
+    "server_timestamp_source": "GitHub REST API GET /repos/Robin84Bran/research/activity: branch_creation 63dd761 at 2026-11-11T04:11:53Z"
+  },
+  "replay_attempted": 48,
+  "replay_completed": 48,
+  "replays": {
+    "llama8b": {
+      "HA|final|llama8b": {
+        "attempts": 2,
+        "raw_identical": 2,
+        "verdict_identical": 2
+      },
+      "HA|final|qwen1.5b": {
+        "attempts": 2,
+        "raw_identical": 2,
+        "verdict_identical": 2
+      },
+      "HA|final|qwen7b": {
+        "attempts": 2,
+        "raw_identical": 2,
+        "verdict_identical": 2
+      },
+      "HA|trace|llama8b": {
+        "attempts": 2,
+        "raw_identical": 2,
+        "verdict_identical": 2
+      },
+      "HA|trace|qwen1.5b": {
+        "attempts": 2,
+        "raw_identical": 2,
+        "verdict_identical": 2
+      },
+      "HA|trace|qwen7b": {
+        "attempts": 2,
+        "raw_identical": 2,
+        "verdict_identical": 2
+      },
+      "Rebel|final|llama8b": {
+        "attempts": 2,
+        "raw_identical": 2,
+        "verdict_identical": 2
+      },
+      "Rebel|final|qwen1.5b": {
+        "attempts": 2,
+        "raw_identical": 2,
+        "verdict_identical": 2
+      },
+      "Rebel|final|qwen7b": {
+        "attempts": 2,
+        "raw_identical": 2,
+        "verdict_identical": 2
+      },
+      "Rebel|trace|llama8b": {
+        "attempts": 2,
+        "raw_identical": 2,
+        "verdict_identical": 2
+      },
+      "Rebel|trace|qwen1.5b": {
+        "attempts": 2,
+        "raw_identical": 2,
+        "verdict_identical": 2
+      },
+      "Rebel|trace|qwen7b": {
+        "attempts": 2,
+        "raw_identical": 2,
+        "verdict_identical": 2
+      }
+    },
+    "qwen7b": {
+      "HA|final|llama8b": {
+        "attempts": 2,
+        "raw_identical": 2,
+        "verdict_identical": 2
+      },
+      "HA|final|qwen1.5b": {
+        "attempts": 2,
+        "raw_identical": 2,
+        "verdict_identical": 2
+      },
+      "HA|final|qwen7b": {
+        "attempts": 2,
+        "raw_identical": 2,
+        "verdict_identical": 2
+      },
+      "HA|trace|llama8b": {
+        "attempts": 2,
+        "raw_identical": 2,
+        "verdict_identical": 2
+      },
+      "HA|trace|qwen1.5b": {
+        "attempts": 2,
+        "raw_identical": 2,
+        "verdict_identical": 2
+      },
+      "HA|trace|qwen7b": {
+        "attempts": 2,
+        "raw_identical": 2,
+        "verdict_identical": 2
+      },
+      "Rebel|final|llama8b": {
+        "attempts": 2,
+        "raw_identical": 2,
+        "verdict_identical": 2
+      },
+      "Rebel|final|qwen1.5b": {
+        "attempts": 2,
+        "raw_identical": 2,
+        "verdict_identical": 2
+      },
+      "Rebel|final|qwen7b": {
+        "attempts": 2,
+        "raw_identical": 2,
+        "verdict_identical": 2
+      },
+      "Rebel|trace|llama8b": {
+        "attempts": 2,
+        "raw_identical": 2,
+        "verdict_identical": 2
+      },
+      "Rebel|trace|qwen1.5b": {
+        "attempts": 2,
+        "raw_identical": 2,
+        "verdict_identical": 2
+      },
+      "Rebel|trace|qwen7b": {
+        "attempts": 2,
+        "raw_identical": 2,
+        "verdict_identical": 2
+      }
+    }
+  },
+  "returned": 5808,
+  "stop_reason": null,
+  "technical_reply_failures": 0,
+  "transport_or_protocol_failures": 0,
+  "uncertain": 0
+}

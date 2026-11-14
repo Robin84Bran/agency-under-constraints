@@ -1,0 +1,1 @@
+{"index":3,"payload":{"calibration":[[1,"west"],[2,"north"],[3,"south"],[4,"east"]],"console":"c-db1b7cb8","memory":[{"note":"","slot":1},{"note":"","slot":2},{"note":"","slot":3},{"note":"","slot":4}],"mode":"write","targets":null,"visit":4,"writable_slot":null},"value":{"note":"c-db1b7cb8:1 -> west, c-db1b7cb8:2 -> north, c-db1b7cb8:3 -> south, c-db1b7cb8:4 -> east","slot":1}}

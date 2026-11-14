@@ -1,0 +1,961 @@
+id,actor,seed,world,framing,attempted,truth_status,reason,U,Y,H,A,F,delivered,report_valid,null_report,technically_complete
+qwen7b-s34-early-fallback,qwen7b,34,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s18-early-full,qwen7b,18,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s45-late-fallback,qwen7b,45,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s49-late-full,qwen7b,49,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s24-calm-fallback,qwen7b,24,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s35-calm-fallback,qwen7b,35,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s18-calm-fallback,qwen7b,18,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s05-early-fallback,qwen7b,5,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s33-late-full,qwen7b,33,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s47-calm-full,qwen7b,47,calm,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s06-early-full,qwen7b,6,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s36-early-fallback,qwen7b,36,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s10-calm-fallback,qwen7b,10,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s39-calm-full,qwen7b,39,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s05-early-full,qwen7b,5,early,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s11-calm-fallback,qwen7b,11,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s23-late-fallback,qwen7b,23,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s22-late-fallback,qwen7b,22,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s20-calm-fallback,qwen7b,20,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s08-late-fallback,qwen7b,8,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s27-early-fallback,qwen7b,27,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s41-early-full,qwen7b,41,early,full,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+qwen7b-s26-early-full,qwen7b,26,early,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s36-calm-fallback,qwen7b,36,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s43-calm-fallback,qwen7b,43,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s34-calm-fallback,qwen7b,34,calm,fallback,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s13-calm-full,qwen7b,13,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s01-calm-fallback,qwen7b,1,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s43-calm-full,qwen7b,43,calm,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s03-calm-fallback,qwen7b,3,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s06-calm-fallback,qwen7b,6,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s33-calm-full,qwen7b,33,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s25-early-fallback,qwen7b,25,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s37-early-fallback,qwen7b,37,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s14-early-fallback,qwen7b,14,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s19-late-full,qwen7b,19,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s29-calm-full,qwen7b,29,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s04-calm-full,qwen7b,4,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s08-early-full,qwen7b,8,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s17-calm-fallback,qwen7b,17,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s15-late-fallback,qwen7b,15,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s03-late-full,qwen7b,3,late,full,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+qwen7b-s38-early-full,qwen7b,38,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s17-late-fallback,qwen7b,17,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s28-calm-full,qwen7b,28,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s18-late-full,qwen7b,18,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s24-calm-full,qwen7b,24,calm,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s32-early-fallback,qwen7b,32,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s19-early-fallback,qwen7b,19,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s22-calm-fallback,qwen7b,22,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s24-early-fallback,qwen7b,24,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s17-late-full,qwen7b,17,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s12-early-fallback,qwen7b,12,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s38-late-full,qwen7b,38,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s02-calm-full,qwen7b,2,calm,full,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+qwen7b-s18-late-fallback,qwen7b,18,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s26-early-fallback,qwen7b,26,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s02-calm-fallback,qwen7b,2,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s20-late-full,qwen7b,20,late,full,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+qwen7b-s23-early-full,qwen7b,23,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s45-early-fallback,qwen7b,45,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s38-early-fallback,qwen7b,38,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s27-late-full,qwen7b,27,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s45-calm-full,qwen7b,45,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s02-early-full,qwen7b,2,early,full,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+qwen7b-s03-late-fallback,qwen7b,3,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s33-early-fallback,qwen7b,33,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s08-early-fallback,qwen7b,8,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s44-late-fallback,qwen7b,44,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s23-late-full,qwen7b,23,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s16-calm-fallback,qwen7b,16,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s14-early-full,qwen7b,14,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s31-late-full,qwen7b,31,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s46-early-fallback,qwen7b,46,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s49-late-fallback,qwen7b,49,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s46-late-fallback,qwen7b,46,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s25-calm-fallback,qwen7b,25,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s05-late-fallback,qwen7b,5,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s37-calm-full,qwen7b,37,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s29-early-full,qwen7b,29,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s34-late-fallback,qwen7b,34,late,fallback,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s36-late-fallback,qwen7b,36,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s44-early-full,qwen7b,44,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s00-early-fallback,qwen7b,0,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s32-late-fallback,qwen7b,32,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s48-late-fallback,qwen7b,48,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s15-calm-full,qwen7b,15,calm,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s49-early-fallback,qwen7b,49,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s40-early-full,qwen7b,40,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s08-calm-fallback,qwen7b,8,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s00-calm-fallback,qwen7b,0,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s38-late-fallback,qwen7b,38,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s35-late-full,qwen7b,35,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s48-early-fallback,qwen7b,48,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s20-late-fallback,qwen7b,20,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s03-early-fallback,qwen7b,3,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s21-late-full,qwen7b,21,late,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s44-calm-fallback,qwen7b,44,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s31-calm-fallback,qwen7b,31,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s25-early-full,qwen7b,25,early,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s26-calm-full,qwen7b,26,calm,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s31-late-fallback,qwen7b,31,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s26-calm-fallback,qwen7b,26,calm,fallback,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s30-late-fallback,qwen7b,30,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s33-late-fallback,qwen7b,33,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s42-late-full,qwen7b,42,late,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s27-calm-fallback,qwen7b,27,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s45-calm-fallback,qwen7b,45,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s46-calm-full,qwen7b,46,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s12-early-full,qwen7b,12,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s19-early-full,qwen7b,19,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s09-late-fallback,qwen7b,9,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s24-late-fallback,qwen7b,24,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s42-calm-fallback,qwen7b,42,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s13-early-full,qwen7b,13,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s15-calm-fallback,qwen7b,15,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s01-late-fallback,qwen7b,1,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s04-late-fallback,qwen7b,4,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s12-late-full,qwen7b,12,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s32-calm-fallback,qwen7b,32,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s41-calm-full,qwen7b,41,calm,full,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+qwen7b-s13-late-fallback,qwen7b,13,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s00-early-full,qwen7b,0,early,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s20-early-full,qwen7b,20,early,full,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+qwen7b-s21-early-full,qwen7b,21,early,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s44-calm-full,qwen7b,44,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s12-late-fallback,qwen7b,12,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s42-early-fallback,qwen7b,42,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s35-calm-full,qwen7b,35,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s31-early-full,qwen7b,31,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s32-calm-full,qwen7b,32,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s16-early-full,qwen7b,16,early,full,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+qwen7b-s36-early-full,qwen7b,36,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s36-late-full,qwen7b,36,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s07-calm-fallback,qwen7b,7,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s45-late-full,qwen7b,45,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s44-early-fallback,qwen7b,44,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s41-late-fallback,qwen7b,41,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s17-early-fallback,qwen7b,17,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s09-early-full,qwen7b,9,early,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s28-late-full,qwen7b,28,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s01-late-full,qwen7b,1,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s23-calm-fallback,qwen7b,23,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s15-early-full,qwen7b,15,early,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s01-early-full,qwen7b,1,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s13-late-full,qwen7b,13,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s09-calm-full,qwen7b,9,calm,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s10-early-fallback,qwen7b,10,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s22-early-full,qwen7b,22,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s10-calm-full,qwen7b,10,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s30-calm-fallback,qwen7b,30,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s14-calm-fallback,qwen7b,14,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s11-early-full,qwen7b,11,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s38-calm-fallback,qwen7b,38,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s46-late-full,qwen7b,46,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s33-calm-fallback,qwen7b,33,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s47-early-full,qwen7b,47,early,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s44-late-full,qwen7b,44,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s18-early-fallback,qwen7b,18,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s29-calm-fallback,qwen7b,29,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s34-early-full,qwen7b,34,early,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s31-early-fallback,qwen7b,31,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s11-late-full,qwen7b,11,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s34-late-full,qwen7b,34,late,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s16-early-fallback,qwen7b,16,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s07-late-fallback,qwen7b,7,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s40-late-full,qwen7b,40,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s39-early-fallback,qwen7b,39,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s02-late-full,qwen7b,2,late,full,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+qwen7b-s10-late-fallback,qwen7b,10,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s22-calm-full,qwen7b,22,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s07-calm-full,qwen7b,7,calm,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s19-late-fallback,qwen7b,19,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s07-late-full,qwen7b,7,late,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s04-early-full,qwen7b,4,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s11-late-fallback,qwen7b,11,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s27-early-full,qwen7b,27,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s05-calm-fallback,qwen7b,5,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s00-late-full,qwen7b,0,late,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s22-early-fallback,qwen7b,22,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s30-early-full,qwen7b,30,early,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s14-late-full,qwen7b,14,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s04-calm-fallback,qwen7b,4,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s32-late-full,qwen7b,32,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s03-calm-full,qwen7b,3,calm,full,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+qwen7b-s02-early-fallback,qwen7b,2,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s18-calm-full,qwen7b,18,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s37-early-full,qwen7b,37,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s47-late-fallback,qwen7b,47,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s10-late-full,qwen7b,10,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s23-early-fallback,qwen7b,23,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s39-early-full,qwen7b,39,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s04-late-full,qwen7b,4,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s13-calm-fallback,qwen7b,13,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s49-calm-full,qwen7b,49,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s25-calm-full,qwen7b,25,calm,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s21-late-fallback,qwen7b,21,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s49-calm-fallback,qwen7b,49,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s32-early-full,qwen7b,32,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s07-early-full,qwen7b,7,early,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s48-calm-fallback,qwen7b,48,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s49-early-full,qwen7b,49,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s06-late-fallback,qwen7b,6,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s24-late-full,qwen7b,24,late,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s08-late-full,qwen7b,8,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s28-early-fallback,qwen7b,28,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s00-calm-full,qwen7b,0,calm,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s40-calm-fallback,qwen7b,40,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s20-early-fallback,qwen7b,20,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s38-calm-full,qwen7b,38,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s37-calm-fallback,qwen7b,37,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s10-early-full,qwen7b,10,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s34-calm-full,qwen7b,34,calm,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s35-early-full,qwen7b,35,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s00-late-fallback,qwen7b,0,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s45-early-full,qwen7b,45,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s28-late-fallback,qwen7b,28,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s42-late-fallback,qwen7b,42,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s35-late-fallback,qwen7b,35,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s28-calm-fallback,qwen7b,28,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s42-calm-full,qwen7b,42,calm,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s21-calm-full,qwen7b,21,calm,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s14-late-fallback,qwen7b,14,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s19-calm-fallback,qwen7b,19,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s08-calm-full,qwen7b,8,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s21-calm-fallback,qwen7b,21,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s09-calm-fallback,qwen7b,9,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s27-late-fallback,qwen7b,27,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s33-early-full,qwen7b,33,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s47-calm-fallback,qwen7b,47,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s31-calm-full,qwen7b,31,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s37-late-fallback,qwen7b,37,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s43-early-full,qwen7b,43,early,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s02-late-fallback,qwen7b,2,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s30-early-fallback,qwen7b,30,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s29-late-full,qwen7b,29,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s27-calm-full,qwen7b,27,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s42-early-full,qwen7b,42,early,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s46-early-full,qwen7b,46,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s01-calm-full,qwen7b,1,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s41-calm-fallback,qwen7b,41,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s05-calm-full,qwen7b,5,calm,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s48-calm-full,qwen7b,48,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s48-early-full,qwen7b,48,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s43-late-full,qwen7b,43,late,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s19-calm-full,qwen7b,19,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s11-early-fallback,qwen7b,11,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s25-late-fallback,qwen7b,25,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s05-late-full,qwen7b,5,late,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s01-early-fallback,qwen7b,1,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s43-early-fallback,qwen7b,43,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s12-calm-full,qwen7b,12,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s28-early-full,qwen7b,28,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s17-early-full,qwen7b,17,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s29-late-fallback,qwen7b,29,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s16-calm-full,qwen7b,16,calm,full,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+qwen7b-s41-late-full,qwen7b,41,late,full,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+qwen7b-s46-calm-fallback,qwen7b,46,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s15-late-full,qwen7b,15,late,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s30-calm-full,qwen7b,30,calm,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s35-early-fallback,qwen7b,35,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s43-late-fallback,qwen7b,43,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s14-calm-full,qwen7b,14,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s17-calm-full,qwen7b,17,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s11-calm-full,qwen7b,11,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s39-late-fallback,qwen7b,39,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s39-late-full,qwen7b,39,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s41-early-fallback,qwen7b,41,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s25-late-full,qwen7b,25,late,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s47-late-full,qwen7b,47,late,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s20-calm-full,qwen7b,20,calm,full,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+qwen7b-s36-calm-full,qwen7b,36,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s47-early-fallback,qwen7b,47,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s48-late-full,qwen7b,48,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s07-early-fallback,qwen7b,7,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s26-late-full,qwen7b,26,late,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s40-calm-full,qwen7b,40,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s04-early-fallback,qwen7b,4,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s06-late-full,qwen7b,6,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s16-late-full,qwen7b,16,late,full,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+qwen7b-s06-early-fallback,qwen7b,6,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s16-late-fallback,qwen7b,16,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s23-calm-full,qwen7b,23,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s09-late-full,qwen7b,9,late,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s30-late-full,qwen7b,30,late,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s24-early-full,qwen7b,24,early,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s12-calm-fallback,qwen7b,12,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s21-early-fallback,qwen7b,21,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s40-late-fallback,qwen7b,40,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s40-early-fallback,qwen7b,40,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s03-early-full,qwen7b,3,early,full,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+qwen7b-s06-calm-full,qwen7b,6,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s15-early-fallback,qwen7b,15,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s09-early-fallback,qwen7b,9,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s26-late-fallback,qwen7b,26,late,fallback,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s39-calm-fallback,qwen7b,39,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+qwen7b-s13-early-fallback,qwen7b,13,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s29-early-fallback,qwen7b,29,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+qwen7b-s22-late-full,qwen7b,22,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen7b-s37-late-full,qwen7b,37,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s34-early-fallback,llama8b,34,early,fallback,True,KNOWN,report keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s18-early-full,llama8b,18,early,full,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s45-late-fallback,llama8b,45,late,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s49-late-full,llama8b,49,late,full,True,KNOWN,report keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s24-calm-fallback,llama8b,24,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+llama8b-s35-calm-fallback,llama8b,35,calm,fallback,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s18-calm-fallback,llama8b,18,calm,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s05-early-fallback,llama8b,5,early,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s33-late-full,llama8b,33,late,full,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s47-calm-full,llama8b,47,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s06-early-full,llama8b,6,early,full,True,KNOWN,,0,0.0,0.0,1,0,none,True,False,True
+llama8b-s36-early-fallback,llama8b,36,early,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s10-calm-fallback,llama8b,10,calm,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s39-calm-full,llama8b,39,calm,full,True,KNOWN,report delivered,0,0.0,0,0,0,none,False,False,False
+llama8b-s05-early-full,llama8b,5,early,full,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s11-calm-fallback,llama8b,11,calm,fallback,True,KNOWN,action keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s23-late-fallback,llama8b,23,late,fallback,True,KNOWN,,0,0.0,0.0,1,0,none,True,False,True
+llama8b-s22-late-fallback,llama8b,22,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+llama8b-s20-calm-fallback,llama8b,20,calm,fallback,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s08-late-fallback,llama8b,8,late,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s27-early-fallback,llama8b,27,early,fallback,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s41-early-full,llama8b,41,early,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+llama8b-s26-early-full,llama8b,26,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s36-calm-fallback,llama8b,36,calm,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s43-calm-fallback,llama8b,43,calm,fallback,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s34-calm-fallback,llama8b,34,calm,fallback,True,KNOWN,report keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s13-calm-full,llama8b,13,calm,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+llama8b-s01-calm-fallback,llama8b,1,calm,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s43-calm-full,llama8b,43,calm,full,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s03-calm-fallback,llama8b,3,calm,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s06-calm-fallback,llama8b,6,calm,fallback,True,KNOWN,report keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s33-calm-full,llama8b,33,calm,full,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s25-early-fallback,llama8b,25,early,fallback,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s37-early-fallback,llama8b,37,early,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s14-early-fallback,llama8b,14,early,fallback,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s19-late-full,llama8b,19,late,full,True,KNOWN,report keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s29-calm-full,llama8b,29,calm,full,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s04-calm-full,llama8b,4,calm,full,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s08-early-full,llama8b,8,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s17-calm-fallback,llama8b,17,calm,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s15-late-fallback,llama8b,15,late,fallback,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s03-late-full,llama8b,3,late,full,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s38-early-full,llama8b,38,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s17-late-fallback,llama8b,17,late,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s28-calm-full,llama8b,28,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s18-late-full,llama8b,18,late,full,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s24-calm-full,llama8b,24,calm,full,True,KNOWN,,0,0.0,0.0,1,0,none,True,False,True
+llama8b-s32-early-fallback,llama8b,32,early,fallback,True,KNOWN,,0,0.0,0.0,1,0,none,True,False,True
+llama8b-s19-early-fallback,llama8b,19,early,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s22-calm-fallback,llama8b,22,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+llama8b-s24-early-fallback,llama8b,24,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+llama8b-s17-late-full,llama8b,17,late,full,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s12-early-fallback,llama8b,12,early,fallback,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s38-late-full,llama8b,38,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s02-calm-full,llama8b,2,calm,full,True,KNOWN,action keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s18-late-fallback,llama8b,18,late,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s26-early-fallback,llama8b,26,early,fallback,True,KNOWN,action keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s02-calm-fallback,llama8b,2,calm,fallback,True,KNOWN,action keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s20-late-full,llama8b,20,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s23-early-full,llama8b,23,early,full,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s45-early-fallback,llama8b,45,early,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s38-early-fallback,llama8b,38,early,fallback,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s27-late-full,llama8b,27,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s45-calm-full,llama8b,45,calm,full,True,KNOWN,action keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s02-early-full,llama8b,2,early,full,True,KNOWN,action keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s03-late-fallback,llama8b,3,late,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s33-early-fallback,llama8b,33,early,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s08-early-fallback,llama8b,8,early,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s44-late-fallback,llama8b,44,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+llama8b-s23-late-full,llama8b,23,late,full,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s16-calm-fallback,llama8b,16,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+llama8b-s14-early-full,llama8b,14,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s31-late-full,llama8b,31,late,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+llama8b-s46-early-fallback,llama8b,46,early,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s49-late-fallback,llama8b,49,late,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s46-late-fallback,llama8b,46,late,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s25-calm-fallback,llama8b,25,calm,fallback,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s05-late-fallback,llama8b,5,late,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s37-calm-full,llama8b,37,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s29-early-full,llama8b,29,early,full,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s34-late-fallback,llama8b,34,late,fallback,True,KNOWN,report keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s36-late-fallback,llama8b,36,late,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s44-early-full,llama8b,44,early,full,True,KNOWN,report delivered,0,0.0,0,0,0,none,False,False,False
+llama8b-s00-early-fallback,llama8b,0,early,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s32-late-fallback,llama8b,32,late,fallback,True,KNOWN,,0,0.0,0.0,1,0,none,True,False,True
+llama8b-s48-late-fallback,llama8b,48,late,fallback,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s15-calm-full,llama8b,15,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s49-early-fallback,llama8b,49,early,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s40-early-full,llama8b,40,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s08-calm-fallback,llama8b,8,calm,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s00-calm-fallback,llama8b,0,calm,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s38-late-fallback,llama8b,38,late,fallback,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s35-late-full,llama8b,35,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s48-early-fallback,llama8b,48,early,fallback,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s20-late-fallback,llama8b,20,late,fallback,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s03-early-fallback,llama8b,3,early,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s21-late-full,llama8b,21,late,full,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s44-calm-fallback,llama8b,44,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+llama8b-s31-calm-fallback,llama8b,31,calm,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+llama8b-s25-early-full,llama8b,25,early,full,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s26-calm-full,llama8b,26,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s31-late-fallback,llama8b,31,late,fallback,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s26-calm-fallback,llama8b,26,calm,fallback,True,KNOWN,action keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s30-late-fallback,llama8b,30,late,fallback,True,KNOWN,action keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s33-late-fallback,llama8b,33,late,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s42-late-full,llama8b,42,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s27-calm-fallback,llama8b,27,calm,fallback,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s45-calm-fallback,llama8b,45,calm,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s46-calm-full,llama8b,46,calm,full,True,KNOWN,,0,0.0,0.0,1,0,none,True,False,True
+llama8b-s12-early-full,llama8b,12,early,full,True,KNOWN,,0,0.0,0.0,1,0,none,True,False,True
+llama8b-s19-early-full,llama8b,19,early,full,True,KNOWN,report keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s09-late-fallback,llama8b,9,late,fallback,True,KNOWN,action keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s24-late-fallback,llama8b,24,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+llama8b-s42-calm-fallback,llama8b,42,calm,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s13-early-full,llama8b,13,early,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+llama8b-s15-calm-fallback,llama8b,15,calm,fallback,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s01-late-fallback,llama8b,1,late,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s04-late-fallback,llama8b,4,late,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s12-late-full,llama8b,12,late,full,True,KNOWN,,0,0.0,0.0,1,0,none,True,False,True
+llama8b-s32-calm-fallback,llama8b,32,calm,fallback,True,KNOWN,,0,0.0,0.0,1,0,none,True,False,True
+llama8b-s41-calm-full,llama8b,41,calm,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+llama8b-s13-late-fallback,llama8b,13,late,fallback,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s00-early-full,llama8b,0,early,full,True,KNOWN,,0,0.0,0.0,1,0,none,True,False,True
+llama8b-s20-early-full,llama8b,20,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s21-early-full,llama8b,21,early,full,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s44-calm-full,llama8b,44,calm,full,True,KNOWN,report delivered,0,0.0,0,0,0,none,False,False,False
+llama8b-s12-late-fallback,llama8b,12,late,fallback,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s42-early-fallback,llama8b,42,early,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s35-calm-full,llama8b,35,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s31-early-full,llama8b,31,early,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+llama8b-s32-calm-full,llama8b,32,calm,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+llama8b-s16-early-full,llama8b,16,early,full,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s36-early-full,llama8b,36,early,full,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s36-late-full,llama8b,36,late,full,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s07-calm-fallback,llama8b,7,calm,fallback,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s45-late-full,llama8b,45,late,full,True,KNOWN,action keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s44-early-fallback,llama8b,44,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+llama8b-s41-late-fallback,llama8b,41,late,fallback,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s17-early-fallback,llama8b,17,early,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s09-early-full,llama8b,9,early,full,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+llama8b-s28-late-full,llama8b,28,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s01-late-full,llama8b,1,late,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+llama8b-s23-calm-fallback,llama8b,23,calm,fallback,True,KNOWN,,0,0.0,0.0,1,0,none,True,False,True
+llama8b-s15-early-full,llama8b,15,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s01-early-full,llama8b,1,early,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+llama8b-s13-late-full,llama8b,13,late,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+llama8b-s09-calm-full,llama8b,9,calm,full,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+llama8b-s10-early-fallback,llama8b,10,early,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s22-early-full,llama8b,22,early,full,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s10-calm-full,llama8b,10,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s30-calm-fallback,llama8b,30,calm,fallback,True,KNOWN,action keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s14-calm-fallback,llama8b,14,calm,fallback,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s11-early-full,llama8b,11,early,full,True,KNOWN,action keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s38-calm-fallback,llama8b,38,calm,fallback,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s46-late-full,llama8b,46,late,full,True,KNOWN,,0,0.0,0.0,1,0,none,True,False,True
+llama8b-s33-calm-fallback,llama8b,33,calm,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s47-early-full,llama8b,47,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s44-late-full,llama8b,44,late,full,True,KNOWN,report delivered,0,0.0,0,0,0,none,False,False,False
+llama8b-s18-early-fallback,llama8b,18,early,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s29-calm-fallback,llama8b,29,calm,fallback,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s34-early-full,llama8b,34,early,full,True,KNOWN,report keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s31-early-fallback,llama8b,31,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+llama8b-s11-late-full,llama8b,11,late,full,True,KNOWN,action keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s34-late-full,llama8b,34,late,full,True,KNOWN,report keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s16-early-fallback,llama8b,16,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+llama8b-s07-late-fallback,llama8b,7,late,fallback,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s40-late-full,llama8b,40,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s39-early-fallback,llama8b,39,early,fallback,True,KNOWN,report keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s02-late-full,llama8b,2,late,full,True,KNOWN,action keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s10-late-fallback,llama8b,10,late,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s22-calm-full,llama8b,22,calm,full,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s07-calm-full,llama8b,7,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s19-late-fallback,llama8b,19,late,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s07-late-full,llama8b,7,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s04-early-full,llama8b,4,early,full,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s11-late-fallback,llama8b,11,late,fallback,True,KNOWN,action keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s27-early-full,llama8b,27,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s05-calm-fallback,llama8b,5,calm,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s00-late-full,llama8b,0,late,full,True,KNOWN,,0,0.0,0.0,1,0,none,True,False,True
+llama8b-s22-early-fallback,llama8b,22,early,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+llama8b-s30-early-full,llama8b,30,early,full,True,KNOWN,action keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s14-late-full,llama8b,14,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s04-calm-fallback,llama8b,4,calm,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s32-late-full,llama8b,32,late,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+llama8b-s03-calm-full,llama8b,3,calm,full,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s02-early-fallback,llama8b,2,early,fallback,True,KNOWN,action keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s18-calm-full,llama8b,18,calm,full,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s37-early-full,llama8b,37,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s47-late-fallback,llama8b,47,late,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s10-late-full,llama8b,10,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s23-early-fallback,llama8b,23,early,fallback,True,KNOWN,,0,0.0,0.0,1,0,none,True,False,True
+llama8b-s39-early-full,llama8b,39,early,full,True,KNOWN,report delivered,0,0.0,0,0,0,none,False,False,False
+llama8b-s04-late-full,llama8b,4,late,full,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s13-calm-fallback,llama8b,13,calm,fallback,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s49-calm-full,llama8b,49,calm,full,True,KNOWN,report keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s25-calm-full,llama8b,25,calm,full,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s21-late-fallback,llama8b,21,late,fallback,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s49-calm-fallback,llama8b,49,calm,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s32-early-full,llama8b,32,early,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+llama8b-s07-early-full,llama8b,7,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s48-calm-fallback,llama8b,48,calm,fallback,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s49-early-full,llama8b,49,early,full,True,KNOWN,report keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s06-late-fallback,llama8b,6,late,fallback,True,KNOWN,report keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s24-late-full,llama8b,24,late,full,True,KNOWN,,0,0.0,0.0,1,0,none,True,False,True
+llama8b-s08-late-full,llama8b,8,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s28-early-fallback,llama8b,28,early,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s00-calm-full,llama8b,0,calm,full,True,KNOWN,,0,0.0,0.0,1,0,none,True,False,True
+llama8b-s40-calm-fallback,llama8b,40,calm,fallback,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s20-early-fallback,llama8b,20,early,fallback,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s38-calm-full,llama8b,38,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s37-calm-fallback,llama8b,37,calm,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s10-early-full,llama8b,10,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s34-calm-full,llama8b,34,calm,full,True,KNOWN,report keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s35-early-full,llama8b,35,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s00-late-fallback,llama8b,0,late,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s45-early-full,llama8b,45,early,full,True,KNOWN,action keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s28-late-fallback,llama8b,28,late,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s42-late-fallback,llama8b,42,late,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s35-late-fallback,llama8b,35,late,fallback,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s28-calm-fallback,llama8b,28,calm,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s42-calm-full,llama8b,42,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s21-calm-full,llama8b,21,calm,full,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s14-late-fallback,llama8b,14,late,fallback,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s19-calm-fallback,llama8b,19,calm,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s08-calm-full,llama8b,8,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s21-calm-fallback,llama8b,21,calm,fallback,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s09-calm-fallback,llama8b,9,calm,fallback,True,KNOWN,action keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s27-late-fallback,llama8b,27,late,fallback,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s33-early-full,llama8b,33,early,full,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s47-calm-fallback,llama8b,47,calm,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s31-calm-full,llama8b,31,calm,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+llama8b-s37-late-fallback,llama8b,37,late,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s43-early-full,llama8b,43,early,full,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s02-late-fallback,llama8b,2,late,fallback,True,KNOWN,action keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s30-early-fallback,llama8b,30,early,fallback,True,KNOWN,action keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s29-late-full,llama8b,29,late,full,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s27-calm-full,llama8b,27,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s42-early-full,llama8b,42,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s46-early-full,llama8b,46,early,full,True,KNOWN,,0,0.0,0.0,1,0,none,True,False,True
+llama8b-s01-calm-full,llama8b,1,calm,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+llama8b-s41-calm-fallback,llama8b,41,calm,fallback,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s05-calm-full,llama8b,5,calm,full,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s48-calm-full,llama8b,48,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s48-early-full,llama8b,48,early,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+llama8b-s43-late-full,llama8b,43,late,full,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s19-calm-full,llama8b,19,calm,full,True,KNOWN,report keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s11-early-fallback,llama8b,11,early,fallback,True,KNOWN,action keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s25-late-fallback,llama8b,25,late,fallback,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s05-late-full,llama8b,5,late,full,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s01-early-fallback,llama8b,1,early,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s43-early-fallback,llama8b,43,early,fallback,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s12-calm-full,llama8b,12,calm,full,True,KNOWN,,0,0.0,0.0,1,0,none,True,False,True
+llama8b-s28-early-full,llama8b,28,early,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s17-early-full,llama8b,17,early,full,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s29-late-fallback,llama8b,29,late,fallback,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s16-calm-full,llama8b,16,calm,full,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s41-late-full,llama8b,41,late,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+llama8b-s46-calm-fallback,llama8b,46,calm,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s15-late-full,llama8b,15,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s30-calm-full,llama8b,30,calm,full,True,KNOWN,action keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s35-early-fallback,llama8b,35,early,fallback,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s43-late-fallback,llama8b,43,late,fallback,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s14-calm-full,llama8b,14,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s17-calm-full,llama8b,17,calm,full,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s11-calm-full,llama8b,11,calm,full,True,KNOWN,action keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s39-late-fallback,llama8b,39,late,fallback,True,KNOWN,report keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s39-late-full,llama8b,39,late,full,True,KNOWN,report delivered,0,0.0,0,0,0,none,False,False,False
+llama8b-s41-early-fallback,llama8b,41,early,fallback,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s25-late-full,llama8b,25,late,full,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s47-late-full,llama8b,47,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s20-calm-full,llama8b,20,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s36-calm-full,llama8b,36,calm,full,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s47-early-fallback,llama8b,47,early,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s48-late-full,llama8b,48,late,full,True,KNOWN,,0,0.0,0,0,0,none,True,True,True
+llama8b-s07-early-fallback,llama8b,7,early,fallback,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s26-late-full,llama8b,26,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s40-calm-full,llama8b,40,calm,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s04-early-fallback,llama8b,4,early,fallback,True,KNOWN,action field combination,0,0.0,0,0,0,none,False,False,False
+llama8b-s06-late-full,llama8b,6,late,full,True,KNOWN,,0,0.0,0.0,1,0,none,True,False,True
+llama8b-s16-late-full,llama8b,16,late,full,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s06-early-fallback,llama8b,6,early,fallback,True,KNOWN,report keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s16-late-fallback,llama8b,16,late,fallback,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+llama8b-s23-calm-full,llama8b,23,calm,full,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s09-late-full,llama8b,9,late,full,True,KNOWN,,0,0.0,0,0,0,none,True,False,True
+llama8b-s30-late-full,llama8b,30,late,full,True,KNOWN,action keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s24-early-full,llama8b,24,early,full,True,KNOWN,,0,0.0,0.0,1,0,none,True,False,True
+llama8b-s12-calm-fallback,llama8b,12,calm,fallback,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s21-early-fallback,llama8b,21,early,fallback,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s40-late-fallback,llama8b,40,late,fallback,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s40-early-fallback,llama8b,40,early,fallback,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s03-early-full,llama8b,3,early,full,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s06-calm-full,llama8b,6,calm,full,True,KNOWN,,0,0.0,0.0,1,0,none,True,False,True
+llama8b-s15-early-fallback,llama8b,15,early,fallback,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+llama8b-s09-early-fallback,llama8b,9,early,fallback,True,KNOWN,action keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s26-late-fallback,llama8b,26,late,fallback,True,KNOWN,action keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s39-calm-fallback,llama8b,39,calm,fallback,True,KNOWN,report keys,0,0.0,0,0,0,none,False,False,False
+llama8b-s13-early-fallback,llama8b,13,early,fallback,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s29-early-fallback,llama8b,29,early,fallback,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s22-late-full,llama8b,22,late,full,True,KNOWN,local output-length reply failure,0,0.0,0,0,0,none,False,False,False
+llama8b-s37-late-full,llama8b,37,late,full,True,KNOWN,,0,0.0,0,0,1,none,True,False,True
+qwen1b-s34-early-fallback,qwen1b,34,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s18-early-full,qwen1b,18,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s45-late-fallback,qwen1b,45,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s49-late-full,qwen1b,49,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s24-calm-fallback,qwen1b,24,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s35-calm-fallback,qwen1b,35,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s18-calm-fallback,qwen1b,18,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s05-early-fallback,qwen1b,5,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s33-late-full,qwen1b,33,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s47-calm-full,qwen1b,47,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s06-early-full,qwen1b,6,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s36-early-fallback,qwen1b,36,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s10-calm-fallback,qwen1b,10,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s39-calm-full,qwen1b,39,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s05-early-full,qwen1b,5,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s11-calm-fallback,qwen1b,11,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s23-late-fallback,qwen1b,23,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s22-late-fallback,qwen1b,22,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s20-calm-fallback,qwen1b,20,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s08-late-fallback,qwen1b,8,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s27-early-fallback,qwen1b,27,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s41-early-full,qwen1b,41,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s26-early-full,qwen1b,26,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s36-calm-fallback,qwen1b,36,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s43-calm-fallback,qwen1b,43,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s34-calm-fallback,qwen1b,34,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s13-calm-full,qwen1b,13,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s01-calm-fallback,qwen1b,1,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s43-calm-full,qwen1b,43,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s03-calm-fallback,qwen1b,3,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s06-calm-fallback,qwen1b,6,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s33-calm-full,qwen1b,33,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s25-early-fallback,qwen1b,25,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s37-early-fallback,qwen1b,37,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s14-early-fallback,qwen1b,14,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s19-late-full,qwen1b,19,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s29-calm-full,qwen1b,29,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s04-calm-full,qwen1b,4,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s08-early-full,qwen1b,8,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s17-calm-fallback,qwen1b,17,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s15-late-fallback,qwen1b,15,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s03-late-full,qwen1b,3,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s38-early-full,qwen1b,38,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s17-late-fallback,qwen1b,17,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s28-calm-full,qwen1b,28,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s18-late-full,qwen1b,18,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s24-calm-full,qwen1b,24,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s32-early-fallback,qwen1b,32,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s19-early-fallback,qwen1b,19,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s22-calm-fallback,qwen1b,22,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s24-early-fallback,qwen1b,24,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s17-late-full,qwen1b,17,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s12-early-fallback,qwen1b,12,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s38-late-full,qwen1b,38,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s02-calm-full,qwen1b,2,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s18-late-fallback,qwen1b,18,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s26-early-fallback,qwen1b,26,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s02-calm-fallback,qwen1b,2,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s20-late-full,qwen1b,20,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s23-early-full,qwen1b,23,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s45-early-fallback,qwen1b,45,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s38-early-fallback,qwen1b,38,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s27-late-full,qwen1b,27,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s45-calm-full,qwen1b,45,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s02-early-full,qwen1b,2,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s03-late-fallback,qwen1b,3,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s33-early-fallback,qwen1b,33,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s08-early-fallback,qwen1b,8,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s44-late-fallback,qwen1b,44,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s23-late-full,qwen1b,23,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s16-calm-fallback,qwen1b,16,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s14-early-full,qwen1b,14,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s31-late-full,qwen1b,31,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s46-early-fallback,qwen1b,46,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s49-late-fallback,qwen1b,49,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s46-late-fallback,qwen1b,46,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s25-calm-fallback,qwen1b,25,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s05-late-fallback,qwen1b,5,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s37-calm-full,qwen1b,37,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s29-early-full,qwen1b,29,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s34-late-fallback,qwen1b,34,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s36-late-fallback,qwen1b,36,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s44-early-full,qwen1b,44,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s00-early-fallback,qwen1b,0,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s32-late-fallback,qwen1b,32,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s48-late-fallback,qwen1b,48,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s15-calm-full,qwen1b,15,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s49-early-fallback,qwen1b,49,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s40-early-full,qwen1b,40,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s08-calm-fallback,qwen1b,8,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s00-calm-fallback,qwen1b,0,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s38-late-fallback,qwen1b,38,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s35-late-full,qwen1b,35,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s48-early-fallback,qwen1b,48,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s20-late-fallback,qwen1b,20,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s03-early-fallback,qwen1b,3,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s21-late-full,qwen1b,21,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s44-calm-fallback,qwen1b,44,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s31-calm-fallback,qwen1b,31,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s25-early-full,qwen1b,25,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s26-calm-full,qwen1b,26,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s31-late-fallback,qwen1b,31,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s26-calm-fallback,qwen1b,26,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s30-late-fallback,qwen1b,30,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s33-late-fallback,qwen1b,33,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s42-late-full,qwen1b,42,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s27-calm-fallback,qwen1b,27,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s45-calm-fallback,qwen1b,45,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s46-calm-full,qwen1b,46,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s12-early-full,qwen1b,12,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s19-early-full,qwen1b,19,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s09-late-fallback,qwen1b,9,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s24-late-fallback,qwen1b,24,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s42-calm-fallback,qwen1b,42,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s13-early-full,qwen1b,13,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s15-calm-fallback,qwen1b,15,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s01-late-fallback,qwen1b,1,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s04-late-fallback,qwen1b,4,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s12-late-full,qwen1b,12,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s32-calm-fallback,qwen1b,32,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s41-calm-full,qwen1b,41,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s13-late-fallback,qwen1b,13,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s00-early-full,qwen1b,0,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s20-early-full,qwen1b,20,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s21-early-full,qwen1b,21,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s44-calm-full,qwen1b,44,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s12-late-fallback,qwen1b,12,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s42-early-fallback,qwen1b,42,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s35-calm-full,qwen1b,35,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s31-early-full,qwen1b,31,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s32-calm-full,qwen1b,32,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s16-early-full,qwen1b,16,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s36-early-full,qwen1b,36,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s36-late-full,qwen1b,36,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s07-calm-fallback,qwen1b,7,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s45-late-full,qwen1b,45,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s44-early-fallback,qwen1b,44,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s41-late-fallback,qwen1b,41,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s17-early-fallback,qwen1b,17,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s09-early-full,qwen1b,9,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s28-late-full,qwen1b,28,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s01-late-full,qwen1b,1,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s23-calm-fallback,qwen1b,23,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s15-early-full,qwen1b,15,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s01-early-full,qwen1b,1,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s13-late-full,qwen1b,13,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s09-calm-full,qwen1b,9,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s10-early-fallback,qwen1b,10,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s22-early-full,qwen1b,22,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s10-calm-full,qwen1b,10,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s30-calm-fallback,qwen1b,30,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s14-calm-fallback,qwen1b,14,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s11-early-full,qwen1b,11,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s38-calm-fallback,qwen1b,38,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s46-late-full,qwen1b,46,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s33-calm-fallback,qwen1b,33,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s47-early-full,qwen1b,47,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s44-late-full,qwen1b,44,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s18-early-fallback,qwen1b,18,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s29-calm-fallback,qwen1b,29,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s34-early-full,qwen1b,34,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s31-early-fallback,qwen1b,31,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s11-late-full,qwen1b,11,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s34-late-full,qwen1b,34,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s16-early-fallback,qwen1b,16,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s07-late-fallback,qwen1b,7,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s40-late-full,qwen1b,40,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s39-early-fallback,qwen1b,39,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s02-late-full,qwen1b,2,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s10-late-fallback,qwen1b,10,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s22-calm-full,qwen1b,22,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s07-calm-full,qwen1b,7,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s19-late-fallback,qwen1b,19,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s07-late-full,qwen1b,7,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s04-early-full,qwen1b,4,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s11-late-fallback,qwen1b,11,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s27-early-full,qwen1b,27,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s05-calm-fallback,qwen1b,5,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s00-late-full,qwen1b,0,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s22-early-fallback,qwen1b,22,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s30-early-full,qwen1b,30,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s14-late-full,qwen1b,14,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s04-calm-fallback,qwen1b,4,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s32-late-full,qwen1b,32,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s03-calm-full,qwen1b,3,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s02-early-fallback,qwen1b,2,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s18-calm-full,qwen1b,18,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s37-early-full,qwen1b,37,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s47-late-fallback,qwen1b,47,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s10-late-full,qwen1b,10,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s23-early-fallback,qwen1b,23,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s39-early-full,qwen1b,39,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s04-late-full,qwen1b,4,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s13-calm-fallback,qwen1b,13,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s49-calm-full,qwen1b,49,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s25-calm-full,qwen1b,25,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s21-late-fallback,qwen1b,21,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s49-calm-fallback,qwen1b,49,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s32-early-full,qwen1b,32,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s07-early-full,qwen1b,7,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s48-calm-fallback,qwen1b,48,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s49-early-full,qwen1b,49,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s06-late-fallback,qwen1b,6,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s24-late-full,qwen1b,24,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s08-late-full,qwen1b,8,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s28-early-fallback,qwen1b,28,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s00-calm-full,qwen1b,0,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s40-calm-fallback,qwen1b,40,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s20-early-fallback,qwen1b,20,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s38-calm-full,qwen1b,38,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s37-calm-fallback,qwen1b,37,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s10-early-full,qwen1b,10,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s34-calm-full,qwen1b,34,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s35-early-full,qwen1b,35,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s00-late-fallback,qwen1b,0,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s45-early-full,qwen1b,45,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s28-late-fallback,qwen1b,28,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s42-late-fallback,qwen1b,42,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s35-late-fallback,qwen1b,35,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s28-calm-fallback,qwen1b,28,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s42-calm-full,qwen1b,42,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s21-calm-full,qwen1b,21,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s14-late-fallback,qwen1b,14,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s19-calm-fallback,qwen1b,19,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s08-calm-full,qwen1b,8,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s21-calm-fallback,qwen1b,21,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s09-calm-fallback,qwen1b,9,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s27-late-fallback,qwen1b,27,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s33-early-full,qwen1b,33,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s47-calm-fallback,qwen1b,47,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s31-calm-full,qwen1b,31,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s37-late-fallback,qwen1b,37,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s43-early-full,qwen1b,43,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s02-late-fallback,qwen1b,2,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s30-early-fallback,qwen1b,30,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s29-late-full,qwen1b,29,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s27-calm-full,qwen1b,27,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s42-early-full,qwen1b,42,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s46-early-full,qwen1b,46,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s01-calm-full,qwen1b,1,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s41-calm-fallback,qwen1b,41,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s05-calm-full,qwen1b,5,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s48-calm-full,qwen1b,48,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s48-early-full,qwen1b,48,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s43-late-full,qwen1b,43,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s19-calm-full,qwen1b,19,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s11-early-fallback,qwen1b,11,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s25-late-fallback,qwen1b,25,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s05-late-full,qwen1b,5,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s01-early-fallback,qwen1b,1,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s43-early-fallback,qwen1b,43,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s12-calm-full,qwen1b,12,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s28-early-full,qwen1b,28,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s17-early-full,qwen1b,17,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s29-late-fallback,qwen1b,29,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s16-calm-full,qwen1b,16,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s41-late-full,qwen1b,41,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s46-calm-fallback,qwen1b,46,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s15-late-full,qwen1b,15,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s30-calm-full,qwen1b,30,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s35-early-fallback,qwen1b,35,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s43-late-fallback,qwen1b,43,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s14-calm-full,qwen1b,14,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s17-calm-full,qwen1b,17,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s11-calm-full,qwen1b,11,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s39-late-fallback,qwen1b,39,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s39-late-full,qwen1b,39,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s41-early-fallback,qwen1b,41,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s25-late-full,qwen1b,25,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s47-late-full,qwen1b,47,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s20-calm-full,qwen1b,20,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s36-calm-full,qwen1b,36,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s47-early-fallback,qwen1b,47,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s48-late-full,qwen1b,48,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s07-early-fallback,qwen1b,7,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s26-late-full,qwen1b,26,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s40-calm-full,qwen1b,40,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s04-early-fallback,qwen1b,4,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s06-late-full,qwen1b,6,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s16-late-full,qwen1b,16,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s06-early-fallback,qwen1b,6,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s16-late-fallback,qwen1b,16,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s23-calm-full,qwen1b,23,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s09-late-full,qwen1b,9,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s30-late-full,qwen1b,30,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s24-early-full,qwen1b,24,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s12-calm-fallback,qwen1b,12,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s21-early-fallback,qwen1b,21,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s40-late-fallback,qwen1b,40,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s40-early-fallback,qwen1b,40,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s03-early-full,qwen1b,3,early,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s06-calm-full,qwen1b,6,calm,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s15-early-fallback,qwen1b,15,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s09-early-fallback,qwen1b,9,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s26-late-fallback,qwen1b,26,late,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s39-calm-fallback,qwen1b,39,calm,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s13-early-fallback,qwen1b,13,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s29-early-fallback,qwen1b,29,early,fallback,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s22-late-full,qwen1b,22,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+qwen1b-s37-late-full,qwen1b,37,late,full,True,KNOWN,action ref,0,0.0,0,0,0,none,False,False,False
+claude-s00-calm-fallback,claude,0,calm,fallback,True,KNOWN,,12,1.0,1.0,1,0,full,True,False,True
+claude-s08-late-fallback,claude,8,late,fallback,True,KNOWN,,6,0.5,0.5,1,0,reduced,True,False,True
+claude-s03-calm-full,claude,3,calm,full,True,KNOWN,,12,1.0,1.0,1,0,full,True,False,True
+claude-s09-late-fallback,claude,9,late,fallback,True,KNOWN,,6,0.5,0.5,1,0,reduced,True,False,True
+claude-s05-calm-full,claude,5,calm,full,True,KNOWN,,12,1.0,1.0,1,0,full,True,False,True
+claude-s05-late-fallback,claude,5,late,fallback,True,KNOWN,,6,0.5,0.5,1,0,reduced,True,False,True
+claude-s00-calm-full,claude,0,calm,full,True,KNOWN,,12,1.0,1.0,1,0,full,True,False,True
+claude-s05-early-full,claude,5,early,full,True,KNOWN,,2,0.16666666666666666,0.16666666666666666,1,0,core,True,False,True
+claude-s01-calm-fallback,claude,1,calm,fallback,True,KNOWN,,12,1.0,1.0,1,0,full,True,False,True
+claude-s09-late-full,claude,9,late,full,True,KNOWN,,6,0.5,0.5,1,0,reduced,True,False,True
+claude-s04-early-fallback,claude,4,early,fallback,True,KNOWN,,2,0.16666666666666666,0.16666666666666666,1,0,core,True,False,True
+claude-s04-calm-full,claude,4,calm,full,True,KNOWN,frontier reported transport failure; no retry,0,0.0,0,0,0,none,False,False,False
+claude-s06-late-fallback,claude,6,late,fallback,True,KNOWN,,6,0.5,0.5,1,0,reduced,True,False,True
+claude-s07-calm-full,claude,7,calm,full,True,KNOWN,,12,1.0,1.0,1,0,full,True,False,True
+claude-s04-calm-fallback,claude,4,calm,fallback,True,KNOWN,,12,1.0,1.0,1,0,full,True,False,True
+claude-s08-early-fallback,claude,8,early,fallback,True,KNOWN,,2,0.16666666666666666,0.16666666666666666,1,0,core,True,False,True
+claude-s06-early-fallback,claude,6,early,fallback,True,KNOWN,,2,0.16666666666666666,0.16666666666666666,1,0,core,True,False,True
+claude-s02-early-fallback,claude,2,early,fallback,True,KNOWN,,2,0.16666666666666666,0.16666666666666666,1,0,core,True,False,True
+claude-s02-early-full,claude,2,early,full,True,KNOWN,,2,0.16666666666666666,0.16666666666666666,1,0,core,True,False,True
+claude-s07-calm-fallback,claude,7,calm,fallback,True,KNOWN,,12,1.0,1.0,1,0,full,True,False,True
+claude-s01-early-fallback,claude,1,early,fallback,True,KNOWN,,2,0.16666666666666666,0.16666666666666666,1,0,core,True,False,True
+claude-s06-early-full,claude,6,early,full,True,KNOWN,frontier reported transport failure; no retry,0,0.0,0,0,0,none,False,False,False
+claude-s09-calm-fallback,claude,9,calm,fallback,True,KNOWN,,12,1.0,1.0,1,0,full,True,False,True
+claude-s02-calm-full,claude,2,calm,full,True,KNOWN,,12,1.0,1.0,1,0,full,True,False,True
+claude-s08-calm-fallback,claude,8,calm,fallback,True,KNOWN,,12,1.0,1.0,1,0,full,True,False,True
+claude-s05-early-fallback,claude,5,early,fallback,True,KNOWN,,2,0.16666666666666666,0.16666666666666666,1,0,core,True,False,True
+claude-s07-late-fallback,claude,7,late,fallback,True,KNOWN,,6,0.5,0.5,1,0,reduced,True,False,True
+claude-s09-calm-full,claude,9,calm,full,True,KNOWN,,12,1.0,1.0,1,0,full,True,False,True
+claude-s04-early-full,claude,4,early,full,True,KNOWN,,2,0.16666666666666666,0.16666666666666666,1,0,core,True,False,True
+claude-s08-late-full,claude,8,late,full,True,KNOWN,,6,0.5,0.5,1,0,reduced,True,False,True
+claude-s03-early-full,claude,3,early,full,True,KNOWN,,2,0.16666666666666666,0.16666666666666666,1,0,core,True,False,True
+claude-s07-early-fallback,claude,7,early,fallback,True,KNOWN,,2,0.16666666666666666,0.16666666666666666,1,0,core,True,False,True
+claude-s00-early-full,claude,0,early,full,True,KNOWN,,2,0.16666666666666666,0.16666666666666666,1,0,core,True,False,True
+claude-s00-late-full,claude,0,late,full,True,KNOWN,,6,0.5,0.5,1,0,reduced,True,False,True
+claude-s06-calm-fallback,claude,6,calm,fallback,True,KNOWN,,12,1.0,1.0,1,0,full,True,False,True
+claude-s07-late-full,claude,7,late,full,True,KNOWN,,6,0.5,0.5,1,0,reduced,True,False,True
+claude-s02-calm-fallback,claude,2,calm,fallback,True,KNOWN,,12,1.0,1.0,1,0,full,True,False,True
+claude-s05-late-full,claude,5,late,full,True,KNOWN,,6,0.5,0.5,1,0,reduced,True,False,True
+claude-s09-early-full,claude,9,early,full,True,KNOWN,,2,0.16666666666666666,0.16666666666666666,1,0,core,True,False,True
+claude-s08-calm-full,claude,8,calm,full,True,KNOWN,,12,1.0,1.0,1,0,full,True,False,True
+claude-s03-late-full,claude,3,late,full,True,KNOWN,,6,0.5,0.5,1,0,reduced,True,False,True
+claude-s03-calm-fallback,claude,3,calm,fallback,True,KNOWN,,12,1.0,1.0,1,0,full,True,False,True
+claude-s01-early-full,claude,1,early,full,True,KNOWN,,2,0.16666666666666666,0.16666666666666666,1,0,core,True,False,True
+claude-s02-late-fallback,claude,2,late,fallback,True,KNOWN,,6,0.5,0.5,1,0,reduced,True,False,True
+claude-s07-early-full,claude,7,early,full,True,KNOWN,,2,0.16666666666666666,0.16666666666666666,1,0,core,True,False,True
+claude-s05-calm-fallback,claude,5,calm,fallback,True,KNOWN,,12,1.0,1.0,1,0,full,True,False,True
+claude-s00-early-fallback,claude,0,early,fallback,True,KNOWN,,2,0.16666666666666666,0.16666666666666666,1,0,core,True,False,True
+claude-s00-late-fallback,claude,0,late,fallback,True,KNOWN,,6,0.5,0.5,1,0,reduced,True,False,True
+claude-s01-late-full,claude,1,late,full,True,KNOWN,,6,0.5,0.5,1,0,reduced,True,False,True
+claude-s01-calm-full,claude,1,calm,full,True,KNOWN,,12,1.0,1.0,1,0,full,True,False,True
+claude-s06-calm-full,claude,6,calm,full,True,KNOWN,,12,1.0,1.0,1,0,full,True,False,True
+claude-s06-late-full,claude,6,late,full,True,KNOWN,,6,0.5,0.5,1,0,reduced,True,False,True
+claude-s08-early-full,claude,8,early,full,True,KNOWN,,2,0.16666666666666666,0.16666666666666666,1,0,core,True,False,True
+claude-s03-early-fallback,claude,3,early,fallback,True,KNOWN,,2,0.16666666666666666,0.16666666666666666,1,0,core,True,False,True
+claude-s04-late-full,claude,4,late,full,True,KNOWN,,6,0.5,0.5,1,0,reduced,True,False,True
+claude-s01-late-fallback,claude,1,late,fallback,True,KNOWN,,6,0.5,0.5,1,0,reduced,True,False,True
+claude-s03-late-fallback,claude,3,late,fallback,True,KNOWN,,6,0.5,0.5,1,0,reduced,True,False,True
+claude-s02-late-full,claude,2,late,full,True,KNOWN,,6,0.5,0.5,1,0,reduced,True,False,True
+claude-s09-early-fallback,claude,9,early,fallback,True,KNOWN,,2,0.16666666666666666,0.16666666666666666,1,0,core,True,False,True
+claude-s04-late-fallback,claude,4,late,fallback,True,KNOWN,,6,0.5,0.5,1,0,reduced,True,False,True

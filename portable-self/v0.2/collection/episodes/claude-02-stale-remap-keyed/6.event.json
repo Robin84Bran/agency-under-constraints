@@ -1,0 +1,1 @@
+{"index":6,"payload":{"calibration":null,"console":"c-f2851db1","memory":[{"note":"c-f2851db1: 1=west 2=south 3=east 4=north","slot":2}],"mode":"act","targets":["west","east","north","south"],"visit":7,"writable_slot":null},"value":{"controls":[1,3,4,2]}}

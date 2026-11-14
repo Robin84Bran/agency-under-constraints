@@ -1,0 +1,3 @@
+actor,regime,reason,episodes
+claude,central,unexpected real tool/subagent activity,1
+claude,central,MODEL-CAUSED: generated Claude error/refusal/truncation,2

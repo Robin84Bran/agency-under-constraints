@@ -1,0 +1,1 @@
+{"draw_vectors":120,"dry_run_episodes":12,"dry_run_fake_calls":72,"errors":0,"failures":0,"final_analysis":"offline/analysis-final-r2.json","final_frontier_micro_usd":15805440,"kind":"offline builder verification","protected_reserve_micro_usd":1000000,"real_model_calls":0,"tests":70}

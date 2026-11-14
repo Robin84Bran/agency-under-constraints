@@ -1,0 +1,1 @@
+{"index":5,"payload":{"calibration":null,"console":"c-15da32df","memory":[{"note":"console c-15da32df:1 east","slot":1},{"note":"console c-b95836d2:2 north","slot":2},{"note":"console c-144dd497:3 south","slot":3},{"note":"","slot":4}],"mode":"act","targets":["west","east","south","north"],"visit":6,"writable_slot":null},"value":{"controls":[null,2,3,1]}}

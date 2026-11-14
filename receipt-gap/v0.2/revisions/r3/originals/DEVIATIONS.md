@@ -1,0 +1,29 @@
+# v0.2 deviations
+
+Pre-push r1 was the first harness revision. It replaces fatal handling only for
+proven pre-generation subscription usage-limit refusals. This implements Claude's
+programme-wide decision relayed to this builder, recorded in `REVISIONS.md`.
+It makes no scientific change and does not relax handling for ambiguous starts.
+
+Original freeze bytes and evidence are retained. The active freeze is
+`freeze-r1.json`; reviewer attest and collect commands in `RUN.md` select it
+explicitly. Fresh push and attestation remain prerequisites for all real calls.
+No v0.2 refusal had previously been scored, and no STOP needed clearing.
+
+
+## r2: saved-envelope disposition audit (2026-11-12 HKT)
+
+Claude requested saved-byte diagnosis and harness repair. r2 preserves both parent
+freezes and records the reply's classification as UNKNOWN: parseable ENOTFOUND,
+zero tokens and cost, no exact 429. The programme's four classes do not cover it.
+STOP clearance is recorded as false; no historical terminal, STOP or ledger is
+rewritten. The revised analysis excludes this unresolved operational episode from
+model metrics. A programme ruling is required before clearance or any resend.
+
+The separate proven harness bug is fatal exit-code handling of generated error
+replies. Collector and independent replay now handle generated max-token errors,
+refusals and structured-output failures as episode failures; missing modelUsage on
+errors is not an identity mismatch. Safety/accounting boundaries remain enforced.
+`freeze-r2.json` is the active amendment; see `revisions/r2/README.md`, its
+saved-byte diagnosis/rebuild, original witnesses and three ledger prefix snapshots.
+Fresh r2 attestation preserves old receipts and each call's original provenance.

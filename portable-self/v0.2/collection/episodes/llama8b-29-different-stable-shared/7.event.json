@@ -1,0 +1,1 @@
+{"index":7,"payload":{"calibration":null,"console":"c-a46da667","memory":[{"note":"The controls are: north, east, south, west. To use: 1. north, 2. east, 3. south, 4. west.","slot":1},{"note":"","slot":2},{"note":"","slot":3},{"note":"","slot":4}],"mode":"act","targets":["north","west","south","east"],"visit":8,"writable_slot":null},"value":{"controls":[1,2,3,4]}}

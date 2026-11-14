@@ -1,0 +1,88 @@
+test_actual_usage_releases_only_settled_reserve (test_v02.BudgetTests) ... ok
+test_cap_cannot_increase (test_v02.BudgetTests) ... ok
+test_corrupt_duplicate_and_negative_events_stop (test_v02.BudgetTests) ... ok
+test_equality_at_gate_is_permitted (test_v02.BudgetTests) ... ok
+test_independent_all_job_reservation_arithmetic (test_v02.BudgetTests) ... ok
+test_outstanding_reserve_is_fully_charged (test_v02.BudgetTests) ... ok
+test_prior_spend_causes_rejection (test_v02.BudgetTests) ... ok
+test_real_v01_reconciliation (test_v02.BudgetTests) ... ok
+test_torn_ledger_stops (test_v02.BudgetTests) ... ok
+test_unknown_prior_is_rejected (test_v02.BudgetTests) ... ok
+test_budget_rejects_before_any_generation (test_v02.CollectionTests) ... ok
+test_existing_lock_is_preserved_and_prevents_dispatch (test_v02.CollectionTests) ... ok
+test_fake_dispatch_and_durable_receipt (test_v02.CollectionTests) ... ok
+test_full_runner_stop_releases_lock_but_keeps_failure (test_v02.CollectionTests) ... ok
+test_full_runner_uses_fake_transport_and_releases_lock (test_v02.CollectionTests) ... ok
+test_input_overrun_is_saved_and_settled_then_stops (test_v02.CollectionTests) ... ok
+test_isolated_module_does_not_change_v01_globals (test_v02.CollectionTests) ... ok
+test_orphan_receipt_rejected (test_v02.CollectionTests) ... ok
+test_orphan_start_rejected (test_v02.CollectionTests) ... ok
+test_output_overrun_stops (test_v02.CollectionTests) ... ok
+test_prices_or_reservations_cannot_drift (test_v02.CollectionTests) ... ok
+test_receipt_and_start_drift_rejected (test_v02.CollectionTests) ... ok
+test_reservation_without_start_is_never_dispatched (test_v02.CollectionTests) ... ok
+test_resume_never_resends_saved_receipts (test_v02.CollectionTests) ... ok
+test_settlement_receipt_disagreement_rejected (test_v02.CollectionTests) ... ok
+test_start_without_receipt_is_never_dispatched (test_v02.CollectionTests) ... ok
+test_three_transport_failures_stop_and_remain_saved (test_v02.CollectionTests) ... ok
+test_unchanged_CLI_command_timeout_and_envelope (test_v02.CollectionTests) ... ok
+test_unknown_usage_keeps_full_reserve (test_v02.CollectionTests) ... ok
+test_wrong_effort_stops (test_v02.CollectionTests) ... ok
+test_wrong_model_stops_after_one_and_on_resume (test_v02.CollectionTests) ... ok
+test_actual_v01_format_diagnostic_census (test_v02.FormatTests) ... ok
+test_duplicate_keys_fail (test_v02.FormatTests) ... ok
+test_fences_fail (test_v02.FormatTests) ... ok
+test_fixed_sentence_bytes (test_v02.FormatTests) ... ok
+test_hashes_are_version_specific_and_exact (test_v02.FormatTests) ... ok
+test_inherited_parser_extra_keys_policy_unchanged (test_v02.FormatTests) ... ok
+test_integrity_override_survives_lenient_diagnostic (test_v02.FormatTests) ... ok
+test_lenient_rejects_multiple_nested_or_illegal_objects (test_v02.FormatTests) ... ok
+test_malformed_and_wrong_values_fail (test_v02.FormatTests) ... ok
+test_multiple_objects_fail (test_v02.FormatTests) ... ok
+test_prose_fails (test_v02.FormatTests) ... ok
+test_scheduled_cells_and_existing_F_overlap (test_v02.FormatTests) ... ok
+test_strict_false (test_v02.FormatTests) ... ok
+test_strict_null (test_v02.FormatTests) ... ok
+test_strict_true (test_v02.FormatTests) ... ok
+test_transform_preserves_order_ids_and_payload_bytes (test_v02.FormatTests) ... ok
+test_attestation_creates_exclusively_and_records_freeze (test_v02.GateTests) ... ok
+test_collection_symlink_refused (test_v02.GateTests) ... ok
+test_drift_rejected_before_dispatch (test_v02.GateTests) ... ok
+test_freeze_never_overwrites (test_v02.GateTests) ... ok
+test_invalid_attestation_fields_rejected (test_v02.GateTests) ... ok
+test_no_push_blocks_before_transport (test_v02.GateTests) ... ok
+test_push_after_first_start_rejected (test_v02.GateTests) ... ok
+test_push_before_freeze_rejected (test_v02.GateTests) ... ok
+test_rechecks_preserve_registered_reports (test_v02.GateTests) ... ok
+test_wrong_push_hash_rejected (test_v02.GateTests) ... ok
+test_all_breach_cannot_pass (test_v02.PolicyTests) ... ok
+test_all_clear_cannot_pass (test_v02.PolicyTests) ... ok
+test_all_null_cannot_pass (test_v02.PolicyTests) ... ok
+test_bootstrap_support_and_multiplicity (test_v02.PolicyTests) ... ok
+test_complete_forecast_components_and_secondary_cannot_rescue (test_v02.PolicyTests) ... ok
+test_decisive_weights_apply_within_truth_subset (test_v02.PolicyTests) ... ok
+test_exact_triple_weights_can_defeat_trajectory_pass (test_v02.PolicyTests) ... ok
+test_forecasts_unknown_until_completion (test_v02.PolicyTests) ... ok
+test_missing_remains_in_all_denominators (test_v02.PolicyTests) ... ok
+test_perfect_policy_passes_both_weightings (test_v02.PolicyTests) ... ok
+test_prose_is_technical_failure_not_abstention (test_v02.PolicyTests) ... ok
+test_real_schedule_analysis_adapter_incomplete_counts (test_v02.PolicyTests) ... ok
+test_report_renderer_writes_only_versioned_outputs (test_v02.PolicyTests) ... ok
+
+----------------------------------------------------------------------
+Ran 70 tests in 2.570s
+
+OK
+
+{
+  "status": "PASS",
+  "tests_run": 70,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "tested_utc": "2026-11-11T09:08:37.499013+00:00",
+  "adapter_sha256": "059956d8260b4b3737e8bb8234926882c1b88bf9dad955cd8e3d6fbb632a411d",
+  "test_sources": {
+    "test_v02.py": "022545864344ac8bffdbb1f0f96dc440c247b00493c63aecf1e241e061a3f478"
+  }
+}

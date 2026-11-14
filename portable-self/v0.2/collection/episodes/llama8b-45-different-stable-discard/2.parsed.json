@@ -1,0 +1,1 @@
+{"actual_micro_usd":0,"error":null,"fatal":false,"metrics":{"input_tokens":252,"num_turns":null,"output_tokens":41,"reported_effort":"UNKNOWN","stop_reason":"stop"},"value":{"note":"The console's controls are: 1. south, 2. east, 3. north, 4. west.","slot":2}}

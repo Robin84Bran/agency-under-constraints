@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "rg_freeze.py",
+    "verify"
+  ],
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "Traceback (most recent call last):\n  File \"<WORKSPACE>/06_intelligence/AI_research/research/receipt-gap/rg_freeze.py\", line 334, in <module>\n    main()\n  File \"<WORKSPACE>/06_intelligence/AI_research/research/receipt-gap/rg_freeze.py\", line 331, in main\n    print({'prepare':prepare,'freeze':freeze,'freeze-d1':freeze_d1,'freeze-d2':freeze_d2,'freeze-d3':freeze_d3,'verify':verify}[a.command](a.root))\n  File \"<WORKSPACE>/06_intelligence/AI_research/research/receipt-gap/rg_freeze.py\", line 179, in verify\n    verify_manifest(root, f)\n  File \"<WORKSPACE>/06_intelligence/AI_research/research/receipt-gap/rg_freeze.py\", line 103, in verify_manifest\n    raise Stop('frozen input changed: '+name)\nrg_collect.Stop: frozen input changed: README.md\n",
+  "expected_presentation_only_mismatch": true,
+  "native_verifier_passed_in_independent_registered_package": true
+}

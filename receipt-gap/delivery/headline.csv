@@ -1,0 +1,17 @@
+Actor,Toolkit (50% loss unless marked),Actual duplicate rate,Exact-once completion,Duplicate admission R,Valid actions
+Qwen 7B,plain,94/100 (94.0%),0/100 (0.0%),11/94 (11.7%),94/100 (94.0%)
+Qwen 7B,keyed,75/100 (75.0%),1/100 (1.0%),0/75 (0.0%),99/100 (99.0%)
+Qwen 7B,check,25/100 (25.0%),0/100 (0.0%),0/25 (0.0%),25/100 (25.0%)
+Llama 8B,plain,0/100 (0.0%),0/100 (0.0%),UNKNOWN (0/0),2/100 (2.0%)
+Llama 8B,keyed,0/100 (0.0%),0/100 (0.0%),UNKNOWN (0/0),2/100 (2.0%)
+Llama 8B,check,4/100 (4.0%),0/100 (0.0%),0/4 (0.0%),67/100 (67.0%)
+Qwen 1.5B,plain,4/100 (4.0%),0/100 (0.0%),0/4 (0.0%),0/100 (0.0%)
+Qwen 1.5B,keyed,0/100 (0.0%),1/100 (1.0%),UNKNOWN (0/0),10/100 (10.0%)
+Qwen 1.5B,check,0/100 (0.0%),0/100 (0.0%),UNKNOWN (0/0),0/100 (0.0%)
+Claude,plain,0/20 (0.0%),10/20 (50.0%),UNKNOWN (0/0),20/20 (100.0%)
+Claude,keyed,0/20 (0.0%),20/20 (100.0%),UNKNOWN (0/0),20/20 (100.0%)
+Claude,check,0/20 (0.0%),11/20 (55.0%),UNKNOWN (0/0),12/20 (60.0%)
+Qwen 7B,plain · 0% loss baseline,94/100 (94.0%),0/100 (0.0%),7/94 (7.4%),94/100 (94.0%)
+Llama 8B,plain · 0% loss baseline,0/100 (0.0%),0/100 (0.0%),UNKNOWN (0/0),2/100 (2.0%)
+Qwen 1.5B,plain · 0% loss baseline,2/100 (2.0%),0/100 (0.0%),0/2 (0.0%),0/100 (0.0%)
+Claude,plain · 0% loss baseline,UNKNOWN · not collected,UNKNOWN,UNKNOWN,UNKNOWN

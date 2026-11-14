@@ -1,0 +1,30 @@
+test_d3_freeze_parent_binding_scope_create_once (test_d3.D3) ... ok
+test_independent_integrity_failures_and_envelope_caps_still_stop (test_d3.D3) ... ok
+test_measured_margin_rounding_and_no_lookahead (test_d3.D3) ... ok
+test_parent_science_and_existing_records_preserved (test_d3.D3) ... ok
+test_real_budget_error_settles_and_continues_without_resending (test_d3.D3) ... ok
+test_real_clearance_attestation_and_prefixes (test_d3.D3) ... ERROR
+test_saved_budget_exhaustion_exact_cost_cache_and_thinking (test_d3.D3) ... ok
+test_valid_overrun_reply_retained_settled_resized_and_not_resent (test_d3.D3) ... ok
+test_zero_aggregate_recovery_requires_exact_budget_cost_and_identity (test_d3.D3) ... ok
+
+======================================================================
+ERROR: test_real_clearance_attestation_and_prefixes (test_d3.D3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<WORKSPACE>/06_intelligence/AI_research/research/one-door-many-hands/tests/test_d3.py", line 138, in test_real_clearance_attestation_and_prefixes
+    self.assertTrue(clearance_valid(base));self.assertEqual(c['forecast']['total_micro_usd'],3563440)
+  File "<WORKSPACE>/06_intelligence/AI_research/research/one-door-many-hands/od_io.py", line 25, in save
+    def save(path,value): save_bytes(path,(canonical(value)+'\n').encode())
+  File "<WORKSPACE>/06_intelligence/AI_research/research/one-door-many-hands/od_io.py", line 22, in save_bytes
+    with path.open('xb') as f: f.write(data);f.flush();os.fsync(f.fileno())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 1242, in open
+    return io.open(self, mode, buffering, encoding, errors, newline,
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py", line 1110, in _opener
+    return self._accessor.open(self, flags, mode)
+FileExistsError: [Errno 17] File exists: '<TMPDIR>/tmpx6rqfi6y/collection/episodes/claude-b84-d24-independent-rules/usage-resumes/0002/episode.json'
+
+----------------------------------------------------------------------
+Ran 9 tests in 231.569s
+
+FAILED (errors=1)

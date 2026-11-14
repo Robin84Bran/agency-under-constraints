@@ -1,0 +1,21 @@
+..........................................................................................E.E.........................................................
+======================================================================
+ERROR: test_nonstreaming_reads_entire_http_body_across_wire_chunks (test_d3.TransportTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<WORKSPACE>/06_intelligence/AI_research/research/three-rules-one-lunch/tests/test_d3.py", line 47, in test_nonstreaming_reads_entire_http_body_across_wire_chunks
+    response=http.client.HTTPResponse(Socket());response.begin()
+AttributeError: 'function' object has no attribute 'client'
+
+======================================================================
+ERROR: test_short_content_length_raises_instead_of_accepting_first_chunk (test_d3.TransportTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<WORKSPACE>/06_intelligence/AI_research/research/three-rules-one-lunch/tests/test_d3.py", line 57, in test_short_content_length_raises_instead_of_accepting_first_chunk
+    response=http.client.HTTPResponse(Socket());response.begin()
+AttributeError: 'function' object has no attribute 'client'
+
+----------------------------------------------------------------------
+Ran 150 tests in 100.819s
+
+FAILED (errors=2)

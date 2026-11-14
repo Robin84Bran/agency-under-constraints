@@ -1,0 +1,43 @@
+Actor,Loss %,Toolkit,Frame,N,Valid actions,Valid reports,Actual D count,D* rate,Exact once,All done ≥once,Unknown truth,Technical gate
+Qwen 7B,0,plain,N,50,47,47,47,100.0%,0,11,0,FAIL
+Qwen 7B,0,plain,P,50,47,47,47,100.0%,0,0,0,FAIL
+Qwen 7B,0,keyed,N,50,49,49,44,90.0%,0,17,0,PASS
+Qwen 7B,0,keyed,P,50,49,49,36,72.0%,0,3,0,PASS
+Qwen 7B,0,check,N,50,5,5,5,100.0%,0,0,0,FAIL
+Qwen 7B,0,check,P,50,20,20,20,100.0%,0,0,0,FAIL
+Qwen 7B,50,plain,N,50,47,47,47,100.0%,0,5,0,FAIL
+Qwen 7B,50,plain,P,50,47,47,47,100.0%,0,0,0,FAIL
+Qwen 7B,50,keyed,N,50,49,49,47,96.0%,1,11,0,PASS
+Qwen 7B,50,keyed,P,50,50,50,28,56.0%,0,2,0,PASS
+Qwen 7B,50,check,N,50,5,5,5,100.0%,0,0,0,FAIL
+Qwen 7B,50,check,P,50,20,20,20,100.0%,0,0,0,FAIL
+Llama 8B,0,plain,N,50,2,2,0,96.0%,0,0,0,FAIL
+Llama 8B,0,plain,P,50,0,0,0,100.0%,0,0,0,FAIL
+Llama 8B,0,keyed,N,50,2,2,0,96.0%,0,0,0,FAIL
+Llama 8B,0,keyed,P,50,0,0,0,100.0%,0,0,0,FAIL
+Llama 8B,0,check,N,50,27,27,3,48.0%,0,0,0,FAIL
+Llama 8B,0,check,P,50,37,37,1,28.0%,0,0,0,FAIL
+Llama 8B,50,plain,N,50,2,2,0,96.0%,0,0,0,FAIL
+Llama 8B,50,plain,P,50,0,0,0,100.0%,0,0,0,FAIL
+Llama 8B,50,keyed,N,50,2,2,0,96.0%,0,0,0,FAIL
+Llama 8B,50,keyed,P,50,0,0,0,100.0%,0,0,0,FAIL
+Llama 8B,50,check,N,50,31,31,4,46.0%,0,0,0,FAIL
+Llama 8B,50,check,P,50,36,36,0,28.0%,0,0,0,FAIL
+Qwen 1.5B,0,plain,N,50,0,0,1,100.0%,0,0,0,FAIL
+Qwen 1.5B,0,plain,P,50,0,0,1,100.0%,0,0,0,FAIL
+Qwen 1.5B,0,keyed,N,50,3,2,0,94.0%,1,1,0,FAIL
+Qwen 1.5B,0,keyed,P,50,2,1,0,96.0%,1,1,0,FAIL
+Qwen 1.5B,0,check,N,50,0,0,0,100.0%,0,0,0,FAIL
+Qwen 1.5B,0,check,P,50,0,0,0,100.0%,0,0,0,FAIL
+Qwen 1.5B,50,plain,N,50,0,0,2,100.0%,0,0,0,FAIL
+Qwen 1.5B,50,plain,P,50,0,0,2,100.0%,0,0,0,FAIL
+Qwen 1.5B,50,keyed,N,50,5,5,0,90.0%,1,1,0,FAIL
+Qwen 1.5B,50,keyed,P,50,5,2,0,90.0%,0,0,0,FAIL
+Qwen 1.5B,50,check,N,50,0,0,0,100.0%,0,0,0,FAIL
+Qwen 1.5B,50,check,P,50,0,0,0,100.0%,0,0,0,FAIL
+Claude,50,plain,N,10,10,10,0,0.0%,5,5,0,PASS
+Claude,50,plain,P,10,10,10,0,0.0%,5,5,0,PASS
+Claude,50,keyed,N,10,10,10,0,0.0%,10,10,0,PASS
+Claude,50,keyed,P,10,10,10,0,0.0%,10,10,0,PASS
+Claude,50,check,N,10,6,6,0,40.0%,6,6,0,FAIL
+Claude,50,check,P,10,6,6,0,40.0%,5,5,0,FAIL

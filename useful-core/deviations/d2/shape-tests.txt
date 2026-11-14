@@ -1,0 +1,42 @@
+test_exact_stopping_bytes_are_transport_not_identity_or_limit (test_d2.EnvelopeTests) ... ok
+test_generated_error_shapes_do_not_stop_cohort (test_d2.EnvelopeTests) ... ok
+test_integrity_and_genuine_uncertainty_stay_fatal (test_d2.EnvelopeTests) ... ok
+test_limit_missing_model_usage_and_capacity_metadata (test_d2.EnvelopeTests) ... ok
+test_saved_bytes_mid_episode_settle_without_retry_then_next_episode (test_d2.EnvelopeTests) ... ok
+test_supplied_real_sibling_bytes_and_two_turn_success (test_d2.EnvelopeTests) ... ok
+test_bad_reports_preserve_committed_utility (test_a1.FailureTests) ... ok
+test_cache_classes_count_once_and_missing_stays_unknown (test_a1.FailureTests) ... ok
+test_each_action_validator_ends_only_episode_in_both_cohorts (test_a1.FailureTests) ... ok
+test_exhausted_schema_generation_is_content_with_known_accounting (test_a1.FailureTests) ... ok
+test_first_frontier_content_failure_revalidates_and_continues (test_a1.FailureTests) ... ok
+test_incomplete_local_does_not_hide_integrity_failure (test_a1.FailureTests) ... ok
+test_length_keeps_identity_usage_and_input_integrity_gates (test_a1.FailureTests) ... ok
+test_local_malformed_payloads_preserve_usage (test_a1.FailureTests) ... ok
+test_paid_bad_metadata_keeps_unsettled_hold (test_a1.FailureTests) ... ok
+test_parseable_generated_execution_failure_is_model_failure_d2 (test_a1.FailureTests) ... ok
+test_payload_duplicates_nonfinite_and_metadata_strictness (test_a1.FailureTests) ... ok
+test_report_transport_failure_retains_delivery (test_a1.FailureTests) ... ok
+test_unexpected_adapter_and_decoder_errors_are_harness_fatal (test_a1.FailureTests) ... ok
+test_command_isolation_and_cost (test_runtime.AdapterTests) ... ok
+test_local_incomplete_and_length_episode_only (test_runtime.AdapterTests) ... ok
+test_local_running_context (test_runtime.AdapterTests) ... ok
+test_missing_payload_is_model_failure (test_runtime.AdapterTests) ... ok
+test_paid_contract_failures (test_runtime.AdapterTests) ... ok
+test_real_template_system_chain_and_override (test_runtime.AdapterTests) ... ok
+test_two_turn_and_one_turn_strict_payload (test_runtime.AdapterTests) ... ok
+test_collector_pauses_cleanly_without_stop (test_d1.ResumeTests) ... ok
+test_crash_before_pause_reconstructs_only_exact_refusal (test_d1.ResumeTests) ... ok
+test_d1_retains_existing_success_content_and_fatal_accounting (test_d1.ResumeTests) ... ok
+test_generated_error_is_content_and_unclassified_zero_error_stays_fatal (test_d1.ResumeTests) ... ok
+test_identical_resume_at_first_midway_and_report (test_d1.ResumeTests) ... ok
+test_legitimate_journal_appends_allowed_prefix_tamper_rejected (test_d1.ResumeTests) ... ok
+test_partial_dispatch_or_crash_after_generation_never_resends (test_d1.ResumeTests) ... ok
+test_pause_zero_cost_no_contract_no_fatal_stop_no_model_call (test_d1.ResumeTests) ... ok
+test_prior_history_and_identical_request_are_pinned (test_d1.ResumeTests) ... ok
+test_real_clock_gate_and_unknown_reset_remain_paused (test_d1.ResumeTests) ... ok
+test_repeated_limit_same_position_releases_no_model_hold_and_counts_events (test_d1.ResumeTests) ... ok
+
+----------------------------------------------------------------------
+Ran 37 tests in 2.312s
+
+OK

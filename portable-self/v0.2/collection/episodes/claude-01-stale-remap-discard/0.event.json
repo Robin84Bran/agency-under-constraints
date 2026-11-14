@@ -1,0 +1,1 @@
+{"index":0,"payload":{"calibration":[[1,"south"],[2,"north"],[3,"east"],[4,"west"]],"console":"c-022a5218","memory":[{"note":"","slot":1},{"note":"","slot":2},{"note":"","slot":3},{"note":"","slot":4}],"mode":"write","targets":null,"visit":1,"writable_slot":null},"value":{"note":"c-022a5218: 1=S 2=N 3=E 4=W","slot":1}}

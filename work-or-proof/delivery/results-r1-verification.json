@@ -1,0 +1,18 @@
+{
+  "tests_command": "python3 -B -m unittest discover -s tests -v",
+  "offline_tests_passed": 74,
+  "verify_command": "python3 -B wop.py verify",
+  "freeze_verification": "PASS",
+  "registered_files": 5187,
+  "current_root_registered_file_mismatches": [],
+  "original_freeze_sha256": "75e19187ace057a67afb72b45505d8b4cf419b25a3abf0302dbaab629ae07bf7",
+  "question_registered_sha256": "54fbb5b6d61cf8674f4dacbeb29acf49b957109797efe49d00fe520dc12ad8da",
+  "general_reader_summary_words": 150,
+  "analysis_artifact_hashes_checked": 8,
+  "delivery_renderer_byte_match": true,
+  "new_model_calls": 0,
+  "git_commands": 0,
+  "scientific_acceptance": "ACCEPTED",
+  "acceptance_basis": "Claude results-r1 review conditional on Fix 1 and Fix 2; both addressed in RESPONSE-results-r1.md.",
+  "supersedes": "delivery/verification.json and delivery/staged_validation.json are historical pre-review records."
+}

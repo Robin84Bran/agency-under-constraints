@@ -1,0 +1,1 @@
+{"actual_micro_usd":11014,"error":null,"fatal":false,"metrics":{"input_tokens":1595,"num_turns":2,"output_tokens":126,"reported_effort":"UNKNOWN","stop_reason":"tool_use"},"value":{"controls":[4,2,1,3]}}

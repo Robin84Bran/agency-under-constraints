@@ -1,0 +1,1 @@
+{"additionalProperties":false,"properties":{"all_done":{"type":["boolean","null"]},"any_duplicate":{"type":["boolean","null"]}},"required":["all_done","any_duplicate"],"type":"object"}

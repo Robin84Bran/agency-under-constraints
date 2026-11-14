@@ -1,0 +1,1 @@
+{"exclusion_rules":["__pycache__ (directories)",".DS_Store (files)",".git (directories)","*.lock (files)"],"files":{"collection/collector.lock":{"bytes":0,"frozen_baseline":"deviations/d2/collection-baseline.json","sha256":"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"}}}

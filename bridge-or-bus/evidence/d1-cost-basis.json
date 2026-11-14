@@ -1,0 +1,32 @@
+{
+  "bound_status": "UNKNOWN",
+  "measured": {
+    "input_tokens": 1282,
+    "max_usd": 0.0119,
+    "measured_calls": 2880,
+    "output_tokens": 393,
+    "prices": {
+      "fixed_input_overhead_tokens": 1500,
+      "input": 4.0,
+      "output": 20.0,
+      "overhead_source": "v0.3 trials: hidden CLI input per call median 544, max 826 tokens (995 calls); rounded up",
+      "source": "platform.claude.com/docs/en/about-claude/pricing (standard API, checked 2026-11-09)"
+    }
+  },
+  "planned": {
+    "by_model": {
+      "claude": 1868,
+      "llama8b": 1868,
+      "qwen7b": 1868
+    },
+    "claude_all_reservations_usd": 24.261584,
+    "jobs": 5604,
+    "max_prompt_characters": 1887,
+    "planning_reserve_usd": 5,
+    "preflight_jobs": 0,
+    "zero_reuse_assumed": true
+  },
+  "reason": "Measured/estimated maxima, not enforceable output limits. USD39 operational reserve gate; actual overrun stops.",
+  "source": "independently reconciled archived Claude main calls",
+  "status": "PASS"
+}

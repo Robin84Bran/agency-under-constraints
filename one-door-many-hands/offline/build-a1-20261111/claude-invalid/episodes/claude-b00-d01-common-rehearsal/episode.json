@@ -1,0 +1,1 @@
+{"attempted":true,"fatal":null,"finished_at":"2026-11-11T10:41:45.930570+00:00","first_frozen_compatibility_check":false,"fleet":null,"reason":"invalid Claude structured_output","schema_valid":false,"status":"REPLY_FAILURE","usage":{"cache_creation":50,"cache_read":100,"input":100,"output":20,"reported_cost_micro_usd":2000}}

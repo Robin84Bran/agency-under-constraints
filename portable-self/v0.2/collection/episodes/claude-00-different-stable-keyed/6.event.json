@@ -1,0 +1,1 @@
+{"index":6,"payload":{"calibration":null,"console":"c-7392435e","memory":[{"note":"c-7392435e: 1=south 2=east 3=west 4=north","slot":3}],"mode":"act","targets":["north","south","west","east"],"visit":7,"writable_slot":null},"value":{"controls":[4,1,3,2]}}

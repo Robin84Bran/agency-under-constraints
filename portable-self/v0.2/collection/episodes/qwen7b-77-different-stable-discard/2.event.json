@@ -1,0 +1,1 @@
+{"index":2,"payload":{"calibration":[[1,"north"],[2,"south"],[3,"east"],[4,"west"]],"console":"c-8450d166","memory":[{"note":"","slot":1},{"note":"","slot":2},{"note":"","slot":3},{"note":"","slot":4}],"mode":"write","targets":null,"visit":3,"writable_slot":null},"value":{"note":"console c-8450d166:1 north, c-8450d166:2 south, c-8450d166:3 east, c-8450d166:4 west","slot":1}}

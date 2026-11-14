@@ -1,0 +1,1 @@
+{"index":7,"payload":{"calibration":null,"console":"c-3fae3add","memory":[{"note":"Console c-3fae3add observed control 1 producing 'west'.","slot":1}],"mode":"act","targets":["east","south","north","west"],"visit":8,"writable_slot":null},"value":{"controls":[null,null,null,null]}}

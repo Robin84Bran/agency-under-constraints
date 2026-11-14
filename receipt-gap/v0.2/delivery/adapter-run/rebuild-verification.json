@@ -1,0 +1,173 @@
+{
+  "artifacts": {
+    "README.md": {
+      "byte_identical": true,
+      "bytes": 13523,
+      "sha256": "a706760114f4e85c9964905e269b28419dd75efdd5300bfdde8a59e3bf943bac"
+    },
+    "RESULTS.md": {
+      "byte_identical": true,
+      "bytes": 42585,
+      "sha256": "3a232b09e17690a11bac56f8baf6517f0ccec5d81ddf454fb2a25d993ad554dc"
+    },
+    "analysis-v02-compat.json": {
+      "byte_identical": true,
+      "bytes": 79315,
+      "sha256": "e459557d277f177d8b5300713026055e8c11a77fe1925deb0d9ace470a94f53f"
+    },
+    "behavior-v02.csv": {
+      "byte_identical": true,
+      "bytes": 1620,
+      "sha256": "beb24022cbdc8cc0e8762f31ea8eee53641347b258d0c32f7357c95ded2fcff8"
+    },
+    "cells.csv": {
+      "byte_identical": true,
+      "bytes": 5630,
+      "sha256": "580c308ad272af2fcdde228f7684d1e2fde8f26e67da5b8f472ede7db9e4c654"
+    },
+    "code-baselines.csv": {
+      "byte_identical": true,
+      "bytes": 2596,
+      "sha256": "75358b202da219e62fd12f3688822570d3327b6fca338ee4226487754aa36202"
+    },
+    "contrasts-v01.csv": {
+      "byte_identical": true,
+      "bytes": 3763,
+      "sha256": "6c78deee2aaa4d055268031c3e491eab2605f86faedfeace6334131787cf17ff"
+    },
+    "contrasts-v02.csv": {
+      "byte_identical": true,
+      "bytes": 3900,
+      "sha256": "573e793074b67bfe1a3cb1ba225e0d2f73739175b619ccafa61efd3afc4b861c"
+    },
+    "headline.csv": {
+      "byte_identical": true,
+      "bytes": 2290,
+      "sha256": "7620bffd36b5455f76c8e8add7cbd0f2013fd351e944a1b1f05e3b0e5be5911a"
+    },
+    "headline.svg": {
+      "byte_identical": true,
+      "bytes": 15340,
+      "sha256": "4510922b5219f71489a4020587af3ea8e7ecb232ea8778676340c9b5e1db42f2"
+    },
+    "intervals.csv": {
+      "byte_identical": true,
+      "bytes": 30609,
+      "sha256": "7ce405462d51d1bbef862146e9a12e12a18dc0c108bf2a460cf06a289feea194"
+    },
+    "predictions.csv": {
+      "byte_identical": true,
+      "bytes": 815,
+      "sha256": "87fa6bae521e9ef3b7d0762902ccf04fa08b21afaaf26e7927e3843731f152f3"
+    },
+    "presentation-summary.json": {
+      "byte_identical": true,
+      "bytes": 4864,
+      "sha256": "81590c01b181d7bc94083759c7c2492a8e3f93a60a6ef181f5527040ab51b709"
+    },
+    "reports-v02.csv": {
+      "byte_identical": true,
+      "bytes": 2164,
+      "sha256": "370d75f9db2656774310652a2cdd085c7e24cd21b62f990bb84d8666e5a7eef5"
+    }
+  },
+  "canonical_adapter_scoring_invocations": 1,
+  "collection_repeated": false,
+  "commands": [
+    {
+      "argv": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "-B",
+        "delivery/prepare_rebuild.py",
+        "--fresh-clone",
+        "--output",
+        "/private/tmp/receipt-gap-v02-adapter-rebuild-20261112/v0.2"
+      ],
+      "expected_returncode": 0,
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "-B",
+        "delivery/verify_delivery.py",
+        "--fresh-clone",
+        "--output",
+        "/private/tmp/receipt-gap-v02-adapter-rebuild-20261112/integrity.json"
+      ],
+      "expected_returncode": 0,
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "-B",
+        "rg_freeze.py",
+        "verify",
+        "--freeze",
+        "freeze-r5.json"
+      ],
+      "expected_returncode": 0,
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "-B",
+        "delivery/r5_compatibility.py",
+        "--output",
+        "/private/tmp/receipt-gap-v02-adapter-rebuild-20261112/analysis-v02-compat.json"
+      ],
+      "expected_returncode": 0,
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "-B",
+        "delivery/render_results.py"
+      ],
+      "expected_returncode": 0,
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "-B",
+        "delivery/verify_delivery.py",
+        "--fresh-clone"
+      ],
+      "expected_returncode": 1,
+      "returncode": 1
+    },
+    {
+      "argv": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "-B",
+        "delivery/verify_delivery.py",
+        "--fresh-clone"
+      ],
+      "expected_returncode": 0,
+      "returncode": 0
+    }
+  ],
+  "copied_adapter_scoring_invocations": 1,
+  "copy_excluded_only": [
+    "__pycache__",
+    ".DS_Store",
+    ".git",
+    "*.lock"
+  ],
+  "fresh_git_clone": false,
+  "frozen_analysis_byte_identity": true,
+  "locks_absent": true,
+  "omitted_transients_with_saved_sha256": {
+    "collection/collector.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "package_copy": "/private/tmp/receipt-gap-v02-adapter-rebuild-20261112/v0.2",
+  "real_model_calls": 0,
+  "same_machine_full_data_copy": true,
+  "status": "PASS",
+  "summary": "Fresh-clone-style complete copy with lock files absent: native r5 freeze and integrity PASS; adapted frozen analysis and all 13 presentation artifacts byte-identical. Saved-evidence tampering rejected. No model, network, push or Git calls.",
+  "tampered_saved_evidence_rejected": true
+}

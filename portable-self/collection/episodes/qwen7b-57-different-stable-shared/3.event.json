@@ -1,0 +1,1 @@
+{"index":3,"payload":{"calibration":[[1,"east"],[2,"west"],[3,"north"],[4,"south"]],"console":"c-cf24860a","memory":[{"note":"south","slot":1},{"note":"west","slot":2},{"note":"east","slot":3},{"note":"","slot":4}],"mode":"write","targets":null,"visit":4,"writable_slot":null},"value":{"note":"north","slot":4}}

@@ -1,0 +1,56 @@
+{
+  "analysis_code_changes": 0,
+  "byte_identical": true,
+  "collection_calls": 0,
+  "collection_invocations": 0,
+  "command": [
+    "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "-B",
+    "delivery/reproduce.py",
+    "--fresh-clone",
+    "--fixtures"
+  ],
+  "copy_retained_transients": [],
+  "copy_root": "<TMPDIR>/bridge-or-bus-v02-rebuild-lcv5qw8a/v0.2",
+  "expected_sha256": "daec3a018eac0db5bd7d031274da07dd91c62221f647e69e5901bfd12c5ff9f5",
+  "fixtures": {
+    "analysis_sha256": "56f05dfbb38fadb39fd8e3115dfb85e124a6c6189966f6eaade305a78303e115",
+    "dry_run_episodes": 32,
+    "fake_generations": 160,
+    "kind": "OFFLINE_FIXTURES_ONLY",
+    "model_calls": 0,
+    "status": "PASS"
+  },
+  "freeze_sha256": {
+    "freeze-r1.json": "0381913a685bb837d2c227fb6bb7b75bc8b1944bd69c9280bfa086d3159ceeee",
+    "freeze-r2.json": "31dfdb3b8bcacd361e6c85fd90520d46bc9cb18fb237b65bdebc37901064d272",
+    "freeze-r3.json": "41998f58e147abccc8dad7edd472f5ebabdc9c0d21364ad95f34f9e41e823a51",
+    "freeze.json": "c1c108d06741d3e9c00751915b4e33933ad620e819cb5905d505fc481e2272e4"
+  },
+  "independent_direct_byte_comparison": true,
+  "latest_inventory_files": 107,
+  "mode": "fresh-clone",
+  "omitted_transients": {
+    "collection-r2/collector.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "collection-r2/cost.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "collection/collector.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "collection/cost.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "original_empirical_analysis_invocations": 1,
+  "package_files_verified": 64412,
+  "prompt_changes": 0,
+  "r1_preserved_files": 9611,
+  "r2_preserved_files": 52724,
+  "removed_transient_files": {
+    "collection-r2/collector.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "collection-r2/cost.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "collection/collector.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "collection/cost.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "result_bytes": 1213207,
+  "result_sha256": "daec3a018eac0db5bd7d031274da07dd91c62221f647e69e5901bfd12c5ff9f5",
+  "source_root": "<WORKSPACE>/06_intelligence/AI_research/research/bridge-or-bus/v0.2",
+  "statement": "Separate filesystem COPY with only the documented publication exclusions; not a network clone or a separate reviewer.",
+  "status": "PASS",
+  "subprocess_exit_status": 0
+}

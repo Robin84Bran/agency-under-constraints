@@ -1,0 +1,1 @@
+{"actual_micro_usd":11052,"error":null,"fatal":false,"metrics":{"input_tokens":1476,"num_turns":2,"output_tokens":172,"reported_effort":"UNKNOWN","stop_reason":"tool_use"},"value":{"note":"c-486de87d v1: N=3 E=4 S=1 W=2 (1=S 2=W 3=N 4=E)","slot":1}}

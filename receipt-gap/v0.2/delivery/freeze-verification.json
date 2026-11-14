@@ -1,0 +1,243 @@
+{
+  "freezes": [
+    {
+      "frozen_files": 404,
+      "manifest": "freeze.json",
+      "sha256": "eda67ccd5bbb5ce828e109b7ff1262ca73f16ebad68e74a2db8785ddb4825440",
+      "status": "PASS",
+      "superseded_files_verified_via_original_witnesses": {
+        "PROJECT_STATE.md": [
+          "revisions/r1/originals/PROJECT_STATE.md"
+        ],
+        "RUN.md": [
+          "revisions/r1/originals/RUN.md"
+        ],
+        "rg.py": [
+          "revisions/r1/originals/rg.py"
+        ],
+        "rg_analysis.py": [
+          "revisions/r1/originals/rg_analysis.py"
+        ],
+        "rg_collect.py": [
+          "revisions/r1/originals/rg_collect.py"
+        ],
+        "rg_freeze.py": [
+          "revisions/r1/originals/rg_freeze.py"
+        ],
+        "tests/test_failures.py": [
+          "revisions/r2/originals/tests/test_failures.py"
+        ],
+        "tests/test_v02.py": [
+          "revisions/r1/originals/tests/test_v02.py"
+        ]
+      }
+    },
+    {
+      "frozen_files": 425,
+      "manifest": "freeze-r1.json",
+      "sha256": "969f846be36a461558231b40f263afecacbd6d84dc5bf3dfa13e3332e43d2a96",
+      "status": "PASS",
+      "superseded_files_verified_via_original_witnesses": {
+        "DEVIATIONS.md": [
+          "revisions/r2/originals/DEVIATIONS.md"
+        ],
+        "PROJECT_STATE.md": [
+          "revisions/r2/originals/PROJECT_STATE.md"
+        ],
+        "RESULTS.md": [
+          "revisions/r2/originals/RESULTS.md"
+        ],
+        "REVISIONS.md": [
+          "revisions/r2/originals/REVISIONS.md"
+        ],
+        "RUN.md": [
+          "revisions/r2/originals/RUN.md"
+        ],
+        "rg.py": [
+          "revisions/r2/originals/rg.py"
+        ],
+        "rg_analysis.py": [
+          "revisions/r2/originals/rg_analysis.py"
+        ],
+        "rg_collect.py": [
+          "revisions/r2/originals/rg_collect.py"
+        ],
+        "rg_freeze.py": [
+          "revisions/r2/originals/rg_freeze.py"
+        ],
+        "rg_usage_limit.py": [
+          "revisions/r2/originals/rg_usage_limit.py",
+          "revisions/r3/originals/rg_usage_limit.py"
+        ],
+        "tests/test_failures.py": [
+          "revisions/r2/originals/tests/test_failures.py"
+        ],
+        "tests/test_usage_limit.py": [
+          "revisions/r2/originals/tests/test_usage_limit.py"
+        ],
+        "tests/test_v02.py": [
+          "revisions/r2/originals/tests/test_v02.py"
+        ]
+      }
+    },
+    {
+      "frozen_files": 470,
+      "manifest": "freeze-r2.json",
+      "sha256": "2291d151b31e2a976bd9332842e315de01d7017b752e60f9e98ae639c9a1097e",
+      "status": "PASS",
+      "superseded_files_verified_via_original_witnesses": {
+        "DEVIATIONS.md": [
+          "revisions/r3/originals/DEVIATIONS.md"
+        ],
+        "PROJECT_STATE.md": [
+          "revisions/r3/originals/PROJECT_STATE.md"
+        ],
+        "RESULTS.md": [
+          "revisions/r3/originals/RESULTS.md"
+        ],
+        "REVISIONS.md": [
+          "revisions/r3/originals/REVISIONS.md"
+        ],
+        "RUN.md": [
+          "revisions/r3/originals/RUN.md"
+        ],
+        "rg.py": [
+          "revisions/r3/originals/rg.py"
+        ],
+        "rg_analysis.py": [
+          "revisions/r3/originals/rg_analysis.py"
+        ],
+        "rg_collect.py": [
+          "revisions/r3/originals/rg_collect.py"
+        ],
+        "rg_freeze.py": [
+          "revisions/r3/originals/rg_freeze.py"
+        ],
+        "rg_revision.py": [
+          "revisions/r3/originals/rg_revision.py"
+        ],
+        "rg_usage_limit.py": [
+          "revisions/r2/originals/rg_usage_limit.py",
+          "revisions/r3/originals/rg_usage_limit.py"
+        ],
+        "tests/test_envelope_revision.py": [
+          "revisions/r3/originals/tests/test_envelope_revision.py"
+        ],
+        "tests/test_failures.py": [
+          "revisions/r3/originals/tests/test_failures.py"
+        ],
+        "tests/test_v02.py": [
+          "revisions/r3/originals/tests/test_v02.py"
+        ]
+      }
+    },
+    {
+      "frozen_files": 493,
+      "manifest": "freeze-r3.json",
+      "sha256": "e682335852d7f17c61186926b2b3e175745ef7955ca1b074d92bea9415c35e57",
+      "status": "PASS",
+      "superseded_files_verified_via_original_witnesses": {
+        "DEVIATIONS.md": [
+          "revisions/r4/originals/DEVIATIONS.md"
+        ],
+        "PROJECT_STATE.md": [
+          "revisions/r4/originals/PROJECT_STATE.md"
+        ],
+        "RESULTS.md": [
+          "revisions/r4/originals/RESULTS.md"
+        ],
+        "REVISIONS.md": [
+          "revisions/r4/originals/REVISIONS.md"
+        ],
+        "RUN.md": [
+          "revisions/r4/originals/RUN.md"
+        ],
+        "rg.py": [
+          "revisions/r4/originals/rg.py"
+        ],
+        "rg_analysis.py": [
+          "revisions/r5/originals/rg_analysis.py"
+        ],
+        "rg_collect.py": [
+          "revisions/r4/originals/rg_collect.py"
+        ],
+        "rg_freeze.py": [
+          "revisions/r4/originals/rg_freeze.py"
+        ],
+        "rg_revision.py": [
+          "revisions/r4/originals/rg_revision.py"
+        ],
+        "rg_usage_limit.py": [
+          "revisions/r5/originals/rg_usage_limit.py"
+        ],
+        "tests/test_dns_r3.py": [
+          "revisions/r5/originals/tests/test_dns_r3.py"
+        ],
+        "tests/test_v02.py": [
+          "revisions/r4/originals/tests/test_v02.py"
+        ]
+      }
+    },
+    {
+      "frozen_files": 520,
+      "manifest": "freeze-r4.json",
+      "sha256": "f610e5178bbd5154eb3aab0f28225f07ecf2f4c9d2bc9622fef0fb564500d42b",
+      "status": "PASS",
+      "superseded_files_verified_via_original_witnesses": {
+        "DEVIATIONS.md": [
+          "revisions/r5/originals/DEVIATIONS.md"
+        ],
+        "PROJECT_STATE.md": [
+          "revisions/r5/originals/PROJECT_STATE.md"
+        ],
+        "RESULTS.md": [
+          "revisions/r5/originals/RESULTS.md"
+        ],
+        "REVISIONS.md": [
+          "revisions/r5/originals/REVISIONS.md"
+        ],
+        "RUN.md": [
+          "revisions/r5/originals/RUN.md"
+        ],
+        "rg.py": [
+          "revisions/r5/originals/rg.py"
+        ],
+        "rg_analysis.py": [
+          "revisions/r5/originals/rg_analysis.py"
+        ],
+        "rg_collect.py": [
+          "revisions/r5/originals/rg_collect.py"
+        ],
+        "rg_freeze.py": [
+          "revisions/r5/originals/rg_freeze.py"
+        ],
+        "rg_revision.py": [
+          "revisions/r5/originals/rg_revision.py"
+        ],
+        "rg_usage_limit.py": [
+          "revisions/r5/originals/rg_usage_limit.py"
+        ],
+        "tests/test_dns_r3.py": [
+          "revisions/r5/originals/tests/test_dns_r3.py"
+        ],
+        "tests/test_saved_r4.py": [
+          "revisions/r5/originals/tests/test_saved_r4.py"
+        ],
+        "tests/test_v02.py": [
+          "revisions/r5/originals/tests/test_v02.py"
+        ]
+      }
+    },
+    {
+      "frozen_files": 549,
+      "manifest": "freeze-r5.json",
+      "sha256": "0cbe3ac556f67e8e0bc489055570612955136df948dd91ca5168f8b492a341a4",
+      "status": "PASS",
+      "superseded_files_verified_via_original_witnesses": {}
+    }
+  ],
+  "preservation_r2_r4_r5": "PASS",
+  "status": "PASS",
+  "v01_baseline_aggregate": "6f413c91d3d7c690755a9e84c1160871d0fd1c236b31ddee10f79d7b6edc6f9e",
+  "v01_baseline_files_unchanged": 47699
+}

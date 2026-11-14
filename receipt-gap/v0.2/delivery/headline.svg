@@ -1,0 +1,289 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1420 1085" role="img" aria-labelledby="title desc">
+<title id="title">The Receipt Gap: v0.1 and v0.2, same planned seeds</title>
+<desc id="desc">Four columns: actual duplicate rate, exact-once completion, duplicate admission, and valid actions. First dot in each row is v0.1; second is v0.2. UNKNOWN is not plotted. No uncertainty intervals are implied.</desc>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Arial,sans-serif" font-size="12" fill="#15283b">
+<text x="15" y="25" font-size="21">The Receipt Gap · v0.1 (blue) and v0.2 constrained actions (orange)</text>
+<text x="15" y="48">Registered cells from frozen calculations; v0.2 uses the disclosed scope adapter. D/S/R/valid use their own denominators.</text>
+<text x="300" y="77" font-weight="bold">Duplicates ↓</text>
+<line x1="300.0" x2="300.0" y1="95" y2="1065" stroke="#e6eaef"/>
+<text x="300.0" y="94">0%</text>
+<line x1="395.0" x2="395.0" y1="95" y2="1065" stroke="#e6eaef"/>
+<text x="395.0" y="94">50%</text>
+<line x1="490.0" x2="490.0" y1="95" y2="1065" stroke="#e6eaef"/>
+<text x="490.0" y="94">100%</text>
+<text x="580" y="77" font-weight="bold">Exact-once completion ↑</text>
+<line x1="580.0" x2="580.0" y1="95" y2="1065" stroke="#e6eaef"/>
+<text x="580.0" y="94">0%</text>
+<line x1="675.0" x2="675.0" y1="95" y2="1065" stroke="#e6eaef"/>
+<text x="675.0" y="94">50%</text>
+<line x1="770.0" x2="770.0" y1="95" y2="1065" stroke="#e6eaef"/>
+<text x="770.0" y="94">100%</text>
+<text x="860" y="77" font-weight="bold">Duplicate admission ↑</text>
+<line x1="860.0" x2="860.0" y1="95" y2="1065" stroke="#e6eaef"/>
+<text x="860.0" y="94">0%</text>
+<line x1="955.0" x2="955.0" y1="95" y2="1065" stroke="#e6eaef"/>
+<text x="955.0" y="94">50%</text>
+<line x1="1050.0" x2="1050.0" y1="95" y2="1065" stroke="#e6eaef"/>
+<text x="1050.0" y="94">100%</text>
+<text x="1140" y="77" font-weight="bold">Valid actions ↑</text>
+<line x1="1140.0" x2="1140.0" y1="95" y2="1065" stroke="#e6eaef"/>
+<text x="1140.0" y="94">0%</text>
+<line x1="1235.0" x2="1235.0" y1="95" y2="1065" stroke="#e6eaef"/>
+<text x="1235.0" y="94">50%</text>
+<line x1="1330.0" x2="1330.0" y1="95" y2="1065" stroke="#e6eaef"/>
+<text x="1330.0" y="94">100%</text>
+<text x="15" y="130">Qwen 7B · plain</text>
+<circle cx="478.6" cy="114" r="4" fill="#23699b"/>
+<text x="485.6" y="118" fill="#23699b">94.0%</text>
+<circle cx="580.0" cy="114" r="4" fill="#23699b"/>
+<text x="587.0" y="118" fill="#23699b">0.0%</text>
+<circle cx="882.2340425531914" cy="114" r="4" fill="#23699b"/>
+<text x="889.2340425531914" y="118" fill="#23699b">11.7%</text>
+<circle cx="1318.6" cy="114" r="4" fill="#23699b"/>
+<text x="1325.6" y="118" fill="#23699b">94.0%</text>
+<circle cx="490.0" cy="136" r="4" fill="#c26815"/>
+<text x="497.0" y="140" fill="#c26815">100.0%</text>
+<circle cx="580.0" cy="136" r="4" fill="#c26815"/>
+<text x="587.0" y="140" fill="#c26815">0.0%</text>
+<circle cx="873.3" cy="136" r="4" fill="#c26815"/>
+<text x="880.3" y="140" fill="#c26815">7.0%</text>
+<circle cx="1330.0" cy="136" r="4" fill="#c26815"/>
+<text x="1337.0" y="140" fill="#c26815">100.0%</text>
+<text x="15" y="190">Qwen 7B · keyed</text>
+<circle cx="442.5" cy="174" r="4" fill="#23699b"/>
+<text x="449.5" y="178" fill="#23699b">75.0%</text>
+<circle cx="581.9" cy="174" r="4" fill="#23699b"/>
+<text x="588.9" y="178" fill="#23699b">1.0%</text>
+<circle cx="860.0" cy="174" r="4" fill="#23699b"/>
+<text x="867.0" y="178" fill="#23699b">0.0%</text>
+<circle cx="1328.1" cy="174" r="4" fill="#23699b"/>
+<text x="1335.1" y="178" fill="#23699b">99.0%</text>
+<circle cx="417.8" cy="196" r="4" fill="#c26815"/>
+<text x="424.8" y="200" fill="#c26815">62.0%</text>
+<circle cx="583.8" cy="196" r="4" fill="#c26815"/>
+<text x="590.8" y="200" fill="#c26815">2.0%</text>
+<circle cx="860.0" cy="196" r="4" fill="#c26815"/>
+<text x="867.0" y="200" fill="#c26815">0.0%</text>
+<circle cx="1322.4" cy="196" r="4" fill="#c26815"/>
+<text x="1329.4" y="200" fill="#c26815">96.0%</text>
+<text x="15" y="250">Qwen 7B · check</text>
+<circle cx="347.5" cy="234" r="4" fill="#23699b"/>
+<text x="354.5" y="238" fill="#23699b">25.0%</text>
+<circle cx="580.0" cy="234" r="4" fill="#23699b"/>
+<text x="587.0" y="238" fill="#23699b">0.0%</text>
+<circle cx="860.0" cy="234" r="4" fill="#23699b"/>
+<text x="867.0" y="238" fill="#23699b">0.0%</text>
+<circle cx="1187.5" cy="234" r="4" fill="#23699b"/>
+<text x="1194.5" y="238" fill="#23699b">25.0%</text>
+<circle cx="490.0" cy="256" r="4" fill="#c26815"/>
+<text x="497.0" y="260" fill="#c26815">100.0%</text>
+<circle cx="580.0" cy="256" r="4" fill="#c26815"/>
+<text x="587.0" y="260" fill="#c26815">0.0%</text>
+<circle cx="863.8" cy="256" r="4" fill="#c26815"/>
+<text x="870.8" y="260" fill="#c26815">2.0%</text>
+<circle cx="1330.0" cy="256" r="4" fill="#c26815"/>
+<text x="1337.0" y="260" fill="#c26815">100.0%</text>
+<text x="15" y="310">Llama 8B · plain</text>
+<circle cx="300.0" cy="294" r="4" fill="#23699b"/>
+<text x="307.0" y="298" fill="#23699b">0.0%</text>
+<circle cx="580.0" cy="294" r="4" fill="#23699b"/>
+<text x="587.0" y="298" fill="#23699b">0.0%</text>
+<text x="865" y="298" fill="#23699b">UNKNOWN</text>
+<circle cx="1143.8" cy="294" r="4" fill="#23699b"/>
+<text x="1150.8" y="298" fill="#23699b">2.0%</text>
+<circle cx="490.0" cy="316" r="4" fill="#c26815"/>
+<text x="497.0" y="320" fill="#c26815">100.0%</text>
+<circle cx="580.0" cy="316" r="4" fill="#c26815"/>
+<text x="587.0" y="320" fill="#c26815">0.0%</text>
+<circle cx="861.9" cy="316" r="4" fill="#c26815"/>
+<text x="868.9" y="320" fill="#c26815">1.0%</text>
+<circle cx="1330.0" cy="316" r="4" fill="#c26815"/>
+<text x="1337.0" y="320" fill="#c26815">100.0%</text>
+<text x="15" y="370">Llama 8B · keyed</text>
+<circle cx="300.0" cy="354" r="4" fill="#23699b"/>
+<text x="307.0" y="358" fill="#23699b">0.0%</text>
+<circle cx="580.0" cy="354" r="4" fill="#23699b"/>
+<text x="587.0" y="358" fill="#23699b">0.0%</text>
+<text x="865" y="358" fill="#23699b">UNKNOWN</text>
+<circle cx="1143.8" cy="354" r="4" fill="#23699b"/>
+<text x="1150.8" y="358" fill="#23699b">2.0%</text>
+<circle cx="353.2" cy="376" r="4" fill="#c26815"/>
+<text x="360.2" y="380" fill="#c26815">28.0%</text>
+<circle cx="580.0" cy="376" r="4" fill="#c26815"/>
+<text x="587.0" y="380" fill="#c26815">0.0%</text>
+<circle cx="860.0" cy="376" r="4" fill="#c26815"/>
+<text x="867.0" y="380" fill="#c26815">0.0%</text>
+<circle cx="1330.0" cy="376" r="4" fill="#c26815"/>
+<text x="1337.0" y="380" fill="#c26815">100.0%</text>
+<text x="15" y="430">Llama 8B · check</text>
+<circle cx="307.6" cy="414" r="4" fill="#23699b"/>
+<text x="314.6" y="418" fill="#23699b">4.0%</text>
+<circle cx="580.0" cy="414" r="4" fill="#23699b"/>
+<text x="587.0" y="418" fill="#23699b">0.0%</text>
+<circle cx="860.0" cy="414" r="4" fill="#23699b"/>
+<text x="867.0" y="418" fill="#23699b">0.0%</text>
+<circle cx="1267.3" cy="414" r="4" fill="#23699b"/>
+<text x="1274.3" y="418" fill="#23699b">67.0%</text>
+<circle cx="490.0" cy="436" r="4" fill="#c26815"/>
+<text x="497.0" y="440" fill="#c26815">100.0%</text>
+<circle cx="580.0" cy="436" r="4" fill="#c26815"/>
+<text x="587.0" y="440" fill="#c26815">0.0%</text>
+<circle cx="879.0" cy="436" r="4" fill="#c26815"/>
+<text x="886.0" y="440" fill="#c26815">10.0%</text>
+<circle cx="1330.0" cy="436" r="4" fill="#c26815"/>
+<text x="1337.0" y="440" fill="#c26815">100.0%</text>
+<text x="15" y="490">Qwen 1.5B · plain</text>
+<circle cx="307.6" cy="474" r="4" fill="#23699b"/>
+<text x="314.6" y="478" fill="#23699b">4.0%</text>
+<circle cx="580.0" cy="474" r="4" fill="#23699b"/>
+<text x="587.0" y="478" fill="#23699b">0.0%</text>
+<circle cx="860.0" cy="474" r="4" fill="#23699b"/>
+<text x="867.0" y="478" fill="#23699b">0.0%</text>
+<circle cx="1140.0" cy="474" r="4" fill="#23699b"/>
+<text x="1147.0" y="478" fill="#23699b">0.0%</text>
+<circle cx="490.0" cy="496" r="4" fill="#c26815"/>
+<text x="497.0" y="500" fill="#c26815">100.0%</text>
+<circle cx="580.0" cy="496" r="4" fill="#c26815"/>
+<text x="587.0" y="500" fill="#c26815">0.0%</text>
+<circle cx="860.0" cy="496" r="4" fill="#c26815"/>
+<text x="867.0" y="500" fill="#c26815">0.0%</text>
+<circle cx="1330.0" cy="496" r="4" fill="#c26815"/>
+<text x="1337.0" y="500" fill="#c26815">100.0%</text>
+<text x="15" y="550">Qwen 1.5B · keyed</text>
+<circle cx="300.0" cy="534" r="4" fill="#23699b"/>
+<text x="307.0" y="538" fill="#23699b">0.0%</text>
+<circle cx="581.9" cy="534" r="4" fill="#23699b"/>
+<text x="588.9" y="538" fill="#23699b">1.0%</text>
+<text x="865" y="538" fill="#23699b">UNKNOWN</text>
+<circle cx="1159.0" cy="534" r="4" fill="#23699b"/>
+<text x="1166.0" y="538" fill="#23699b">10.0%</text>
+<circle cx="305.7" cy="556" r="4" fill="#c26815"/>
+<text x="312.7" y="560" fill="#c26815">3.0%</text>
+<circle cx="580.0" cy="556" r="4" fill="#c26815"/>
+<text x="587.0" y="560" fill="#c26815">0.0%</text>
+<circle cx="860.0" cy="556" r="4" fill="#c26815"/>
+<text x="867.0" y="560" fill="#c26815">0.0%</text>
+<circle cx="1166.6" cy="556" r="4" fill="#c26815"/>
+<text x="1173.6" y="560" fill="#c26815">14.0%</text>
+<text x="15" y="610">Qwen 1.5B · check</text>
+<circle cx="300.0" cy="594" r="4" fill="#23699b"/>
+<text x="307.0" y="598" fill="#23699b">0.0%</text>
+<circle cx="580.0" cy="594" r="4" fill="#23699b"/>
+<text x="587.0" y="598" fill="#23699b">0.0%</text>
+<text x="865" y="598" fill="#23699b">UNKNOWN</text>
+<circle cx="1140.0" cy="594" r="4" fill="#23699b"/>
+<text x="1147.0" y="598" fill="#23699b">0.0%</text>
+<circle cx="490.0" cy="616" r="4" fill="#c26815"/>
+<text x="497.0" y="620" fill="#c26815">100.0%</text>
+<circle cx="580.0" cy="616" r="4" fill="#c26815"/>
+<text x="587.0" y="620" fill="#c26815">0.0%</text>
+<circle cx="860.0" cy="616" r="4" fill="#c26815"/>
+<text x="867.0" y="620" fill="#c26815">0.0%</text>
+<circle cx="1330.0" cy="616" r="4" fill="#c26815"/>
+<text x="1337.0" y="620" fill="#c26815">100.0%</text>
+<text x="15" y="670">Claude · plain</text>
+<circle cx="300.0" cy="654" r="4" fill="#23699b"/>
+<text x="307.0" y="658" fill="#23699b">0.0%</text>
+<circle cx="675.0" cy="654" r="4" fill="#23699b"/>
+<text x="682.0" y="658" fill="#23699b">50.0%</text>
+<text x="865" y="658" fill="#23699b">UNKNOWN</text>
+<circle cx="1330.0" cy="654" r="4" fill="#23699b"/>
+<text x="1337.0" y="658" fill="#23699b">100.0%</text>
+<circle cx="300.0" cy="676" r="4" fill="#c26815"/>
+<text x="307.0" y="680" fill="#c26815">0.0%</text>
+<circle cx="675.0" cy="676" r="4" fill="#c26815"/>
+<text x="682.0" y="680" fill="#c26815">50.0%</text>
+<text x="865" y="680" fill="#c26815">UNKNOWN</text>
+<circle cx="1330.0" cy="676" r="4" fill="#c26815"/>
+<text x="1337.0" y="680" fill="#c26815">100.0%</text>
+<text x="15" y="730">Claude · keyed</text>
+<circle cx="300.0" cy="714" r="4" fill="#23699b"/>
+<text x="307.0" y="718" fill="#23699b">0.0%</text>
+<circle cx="770.0" cy="714" r="4" fill="#23699b"/>
+<text x="777.0" y="718" fill="#23699b">100.0%</text>
+<text x="865" y="718" fill="#23699b">UNKNOWN</text>
+<circle cx="1330.0" cy="714" r="4" fill="#23699b"/>
+<text x="1337.0" y="718" fill="#23699b">100.0%</text>
+<circle cx="300.0" cy="736" r="4" fill="#c26815"/>
+<text x="307.0" y="740" fill="#c26815">0.0%</text>
+<circle cx="770.0" cy="736" r="4" fill="#c26815"/>
+<text x="777.0" y="740" fill="#c26815">100.0%</text>
+<text x="865" y="740" fill="#c26815">UNKNOWN</text>
+<circle cx="1330.0" cy="736" r="4" fill="#c26815"/>
+<text x="1337.0" y="740" fill="#c26815">100.0%</text>
+<text x="15" y="790">Claude · check</text>
+<circle cx="300.0" cy="774" r="4" fill="#23699b"/>
+<text x="307.0" y="778" fill="#23699b">0.0%</text>
+<circle cx="684.5" cy="774" r="4" fill="#23699b"/>
+<text x="691.5" y="778" fill="#23699b">55.0%</text>
+<text x="865" y="778" fill="#23699b">UNKNOWN</text>
+<circle cx="1254.0" cy="774" r="4" fill="#23699b"/>
+<text x="1261.0" y="778" fill="#23699b">60.0%</text>
+<circle cx="300.0" cy="796" r="4" fill="#c26815"/>
+<text x="307.0" y="800" fill="#c26815">0.0%</text>
+<circle cx="751.0" cy="796" r="4" fill="#c26815"/>
+<text x="758.0" y="800" fill="#c26815">90.0%</text>
+<text x="865" y="800" fill="#c26815">UNKNOWN</text>
+<circle cx="1330.0" cy="796" r="4" fill="#c26815"/>
+<text x="1337.0" y="800" fill="#c26815">100.0%</text>
+<text x="15" y="850">Qwen 7B · plain · 0% loss</text>
+<circle cx="478.6" cy="834" r="4" fill="#23699b"/>
+<text x="485.6" y="838" fill="#23699b">94.0%</text>
+<circle cx="580.0" cy="834" r="4" fill="#23699b"/>
+<text x="587.0" y="838" fill="#23699b">0.0%</text>
+<circle cx="874.1489361702128" cy="834" r="4" fill="#23699b"/>
+<text x="881.1489361702128" y="838" fill="#23699b">7.4%</text>
+<circle cx="1318.6" cy="834" r="4" fill="#23699b"/>
+<text x="1325.6" y="838" fill="#23699b">94.0%</text>
+<circle cx="490.0" cy="856" r="4" fill="#c26815"/>
+<text x="497.0" y="860" fill="#c26815">100.0%</text>
+<circle cx="580.0" cy="856" r="4" fill="#c26815"/>
+<text x="587.0" y="860" fill="#c26815">0.0%</text>
+<circle cx="869.5" cy="856" r="4" fill="#c26815"/>
+<text x="876.5" y="860" fill="#c26815">5.0%</text>
+<circle cx="1330.0" cy="856" r="4" fill="#c26815"/>
+<text x="1337.0" y="860" fill="#c26815">100.0%</text>
+<text x="15" y="910">Llama 8B · plain · 0% loss</text>
+<circle cx="300.0" cy="894" r="4" fill="#23699b"/>
+<text x="307.0" y="898" fill="#23699b">0.0%</text>
+<circle cx="580.0" cy="894" r="4" fill="#23699b"/>
+<text x="587.0" y="898" fill="#23699b">0.0%</text>
+<text x="865" y="898" fill="#23699b">UNKNOWN</text>
+<circle cx="1143.8" cy="894" r="4" fill="#23699b"/>
+<text x="1150.8" y="898" fill="#23699b">2.0%</text>
+<circle cx="490.0" cy="916" r="4" fill="#c26815"/>
+<text x="497.0" y="920" fill="#c26815">100.0%</text>
+<circle cx="580.0" cy="916" r="4" fill="#c26815"/>
+<text x="587.0" y="920" fill="#c26815">0.0%</text>
+<circle cx="861.9" cy="916" r="4" fill="#c26815"/>
+<text x="868.9" y="920" fill="#c26815">1.0%</text>
+<circle cx="1330.0" cy="916" r="4" fill="#c26815"/>
+<text x="1337.0" y="920" fill="#c26815">100.0%</text>
+<text x="15" y="970">Qwen 1.5B · plain · 0% loss</text>
+<circle cx="303.8" cy="954" r="4" fill="#23699b"/>
+<text x="310.8" y="958" fill="#23699b">2.0%</text>
+<circle cx="580.0" cy="954" r="4" fill="#23699b"/>
+<text x="587.0" y="958" fill="#23699b">0.0%</text>
+<circle cx="860.0" cy="954" r="4" fill="#23699b"/>
+<text x="867.0" y="958" fill="#23699b">0.0%</text>
+<circle cx="1140.0" cy="954" r="4" fill="#23699b"/>
+<text x="1147.0" y="958" fill="#23699b">0.0%</text>
+<circle cx="490.0" cy="976" r="4" fill="#c26815"/>
+<text x="497.0" y="980" fill="#c26815">100.0%</text>
+<circle cx="580.0" cy="976" r="4" fill="#c26815"/>
+<text x="587.0" y="980" fill="#c26815">0.0%</text>
+<circle cx="860.0" cy="976" r="4" fill="#c26815"/>
+<text x="867.0" y="980" fill="#c26815">0.0%</text>
+<circle cx="1330.0" cy="976" r="4" fill="#c26815"/>
+<text x="1337.0" y="980" fill="#c26815">100.0%</text>
+<text x="15" y="1030">Claude · plain · 0% loss</text>
+<text x="305" y="1018" fill="#23699b">UNKNOWN</text>
+<text x="585" y="1018" fill="#23699b">UNKNOWN</text>
+<text x="865" y="1018" fill="#23699b">UNKNOWN</text>
+<text x="1145" y="1018" fill="#23699b">UNKNOWN</text>
+<text x="305" y="1040" fill="#c26815">UNKNOWN</text>
+<text x="585" y="1040" fill="#c26815">UNKNOWN</text>
+<text x="865" y="1040" fill="#c26815">UNKNOWN</text>
+<text x="1145" y="1040" fill="#c26815">UNKNOWN</text>
+</g></svg>

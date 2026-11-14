@@ -1,0 +1,16 @@
+{
+  "verified_at": "2026-11-11T04:32:17.847034+00:00",
+  "checks": {
+    "source_settings_hashes": true,
+    "ollama_settings_derived_from_source_ast": true,
+    "source_cli_has_no_configured_token_cap": true,
+    "plain_prompt_verbatim_and_explicit_prompt_unchanged": true,
+    "request_budget_and_runtime_arithmetic": true,
+    "all_saved_local_requests_match_source_settings_and_pins": true,
+    "all_sizing_sources_still_match_saved_hashes": true,
+    "one_disposition_per_finding_and_final_AGREED": true,
+    "dated_questions_append_present": true
+  },
+  "verified_source_files": 8200,
+  "local_original_receipts": 5680
+}

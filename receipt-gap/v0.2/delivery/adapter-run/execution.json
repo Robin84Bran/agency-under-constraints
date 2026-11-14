@@ -1,0 +1,19 @@
+{
+  "adapter_sha256": "d00d80c1afacf5c4fdc93e6c5ff366ea7a3f6fed42aea414d4b811b0cd2188c1",
+  "canonical_adapter_analysis_invocations": 1,
+  "command": [
+    "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "-B",
+    "delivery/r5_compatibility.py",
+    "--output",
+    "delivery/analysis-v02-compat.json"
+  ],
+  "completed_at": "2026-11-11T23:34:42.890547+00:00",
+  "freeze_r5_sha256": "0cbe3ac556f67e8e0bc489055570612955136df948dd91ca5168f8b492a341a4",
+  "model_calls": 0,
+  "output_sha256": "e459557d277f177d8b5300713026055e8c11a77fe1925deb0d9ace470a94f53f",
+  "previous_native_invocation_failed_before_scoring": true,
+  "returncode": 0,
+  "started_at": "2026-11-11T23:34:25.361542+00:00",
+  "status": "PASS"
+}

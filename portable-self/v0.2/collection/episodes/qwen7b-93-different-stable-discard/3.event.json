@@ -1,0 +1,1 @@
+{"index":3,"payload":{"calibration":[[1,"west"],[2,"east"],[3,"north"],[4,"south"]],"console":"c-1720f070","memory":[{"note":"","slot":1},{"note":"","slot":2},{"note":"","slot":3},{"note":"","slot":4}],"mode":"write","targets":null,"visit":4,"writable_slot":null},"value":{"note":"console c-1720f070:1 west, 2 east, 3 north, 4 south","slot":1}}

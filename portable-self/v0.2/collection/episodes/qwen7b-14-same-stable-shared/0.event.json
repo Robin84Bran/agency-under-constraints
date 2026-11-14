@@ -1,0 +1,1 @@
+{"index":0,"payload":{"calibration":[[1,"west"],[2,"south"],[3,"east"],[4,"north"]],"console":"c-26ca348e","memory":[{"note":"","slot":1},{"note":"","slot":2},{"note":"","slot":3},{"note":"","slot":4}],"mode":"write","targets":null,"visit":1,"writable_slot":null},"value":{"note":"c-26ca348e observed controls: 2-south, 4-north","slot":2}}

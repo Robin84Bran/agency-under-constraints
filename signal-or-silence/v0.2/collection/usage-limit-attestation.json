@@ -1,0 +1,1 @@
+{"attested_utc":"2026-11-11T14:04:07.291504+00:00","deviation_freeze_sha256":"5995ec352f834c6e898bf5a228b1ee11c7968c211fd5b3cd553f56dbad0280c1","operator":"Claude","parent_freeze_sha256":"ff77f225e74a80b522e5dbe82869213565e86ea032f30fbeae1b7080c1984373","scope":"Reviewed harness-only deviation; resume identical requests after stated reset."}

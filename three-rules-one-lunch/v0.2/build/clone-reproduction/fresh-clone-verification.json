@@ -1,0 +1,164 @@
+{
+  "byte_identical_outputs": {
+    "baselines.csv": {
+      "bytes": 759,
+      "sha256": "cf505c7ea87478094828f5058d01089037e3d55ba2743095850b8ae751af2494"
+    },
+    "episodes.json": {
+      "bytes": 1564644,
+      "sha256": "49c7ce4591abbfaa90c81e135326f02b2ac3920308ee769c3aade5d71a65a49d"
+    },
+    "frontier-seeds.csv": {
+      "bytes": 2926,
+      "sha256": "5b6c778a140fe1a537a00a25d73fb3b0aa06633f7492a90e4115cb005d41a845"
+    },
+    "headline.svg": {
+      "bytes": 4535,
+      "sha256": "a03564981148c22bfadfbf0af55380c3b978cb41a9fb7f53a28a962f3f220305"
+    },
+    "summary.json": {
+      "bytes": 315378,
+      "sha256": "e9bc0a867a3f9af206dd33e5a5f8be7f206fd173c8a698fb2e40aba3e17d61a9"
+    },
+    "tables.csv": {
+      "bytes": 1656,
+      "sha256": "04de03376d57becfdb36a86d46934897c3289799547697e1f4dc672a455390fb"
+    },
+    "tables.md": {
+      "bytes": 2809,
+      "sha256": "28bfcbd675f0fb1e52bb64d84444b4ad5943af7a59d899cc968ccbd50f908c2a"
+    },
+    "v01-rebuild/analysis/episodes.json": {
+      "bytes": 1376404,
+      "sha256": "8749ca46033dda6910bff094908fb9722ffa3dfa4ca773d6cde959efe0303d63"
+    },
+    "v01-rebuild/analysis/frontier-seeds.csv": {
+      "bytes": 2926,
+      "sha256": "5b6c778a140fe1a537a00a25d73fb3b0aa06633f7492a90e4115cb005d41a845"
+    },
+    "v01-rebuild/analysis/summary.json": {
+      "bytes": 237408,
+      "sha256": "c701e8bbd0caab883a9fdc8a087396aad4c5168d98017e060098d39145f5c2ae"
+    },
+    "v01-rebuild/analysis/tables.csv": {
+      "bytes": 1246,
+      "sha256": "2df22aee13e3a31c214313a339e72c5adc327a596e64cb0ae3a63b557f4e272c"
+    },
+    "v01-rebuild/analysis/tables.md": {
+      "bytes": 2574,
+      "sha256": "e4127760660a366d5cace6acd5097aac558c7b6e4fa3fb3a5e063f62939c8a8f"
+    }
+  },
+  "command": "python3 -B v0.2/build/clone-reproduction/reproduce.py --out v0.2/build/rebuild-clone-codex-neutral",
+  "comparison_reference": "<WORKSPACE>/06_intelligence/AI_research/research/three-rules-one-lunch/v0.2/build/analysis-final",
+  "copy_method": "cp -R fresh-trl fresh-trl-codex",
+  "copy_root": "<SCRATCH>/orchestra/fresh-trl-codex/three-rules-one-lunch",
+  "failure_reason": "frozen v0.1 absolute-path substring claude- falsely classifies local starts as paid under claude-501; fixed by neutral temporary projection path",
+  "frozen_source_or_evidence_edits": 0,
+  "git_commands": 0,
+  "git_writes": 0,
+  "local_frozen_evidence_reverified_unchanged": {
+    "absent_transient_locks": {},
+    "permitted_absent_locks_with_saved_sha256": {
+      "collection/collector.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "v0.2/collection/collector.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "source_projection_excludes_post_freeze_reports": [
+      "README.md",
+      "RESULTS.md"
+    ],
+    "status": "PASS",
+    "v01_inventory_entries": 10056,
+    "v02_collection_inventory_entries": 39008,
+    "v02_source_entries_including_freeze": 55
+  },
+  "model_calls": 0,
+  "network_calls": 0,
+  "published_inventory_verification": {
+    "absent_transient_locks": {
+      "collection/collector.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "v0.2/collection/collector.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "byte_identical_v02_outputs": {
+      "baselines.csv": {
+        "bytes": 759,
+        "sha256": "cf505c7ea87478094828f5058d01089037e3d55ba2743095850b8ae751af2494"
+      },
+      "episodes.json": {
+        "bytes": 1564644,
+        "sha256": "49c7ce4591abbfaa90c81e135326f02b2ac3920308ee769c3aade5d71a65a49d"
+      },
+      "frontier-seeds.csv": {
+        "bytes": 2926,
+        "sha256": "5b6c778a140fe1a537a00a25d73fb3b0aa06633f7492a90e4115cb005d41a845"
+      },
+      "headline.svg": {
+        "bytes": 4535,
+        "sha256": "a03564981148c22bfadfbf0af55380c3b978cb41a9fb7f53a28a962f3f220305"
+      },
+      "summary.json": {
+        "bytes": 315378,
+        "sha256": "e9bc0a867a3f9af206dd33e5a5f8be7f206fd173c8a698fb2e40aba3e17d61a9"
+      },
+      "tables.csv": {
+        "bytes": 1656,
+        "sha256": "04de03376d57becfdb36a86d46934897c3289799547697e1f4dc672a455390fb"
+      },
+      "tables.md": {
+        "bytes": 2809,
+        "sha256": "28bfcbd675f0fb1e52bb64d84444b4ad5943af7a59d899cc968ccbd50f908c2a"
+      }
+    },
+    "git_operations": 0,
+    "model_calls": 0,
+    "network_calls": 0,
+    "permitted_absent_locks_with_saved_sha256": {
+      "collection/collector.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "v0.2/collection/collector.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "source_projection_excludes_post_freeze_reports": [
+      "README.md",
+      "RESULTS.md"
+    ],
+    "status": "PASS",
+    "v01_byte_identity": {
+      "byte_identical_outputs": {
+        "episodes.json": "8749ca46033dda6910bff094908fb9722ffa3dfa4ca773d6cde959efe0303d63",
+        "frontier-seeds.csv": "5b6c778a140fe1a537a00a25d73fb3b0aa06633f7492a90e4115cb005d41a845",
+        "summary.json": "c701e8bbd0caab883a9fdc8a087396aad4c5168d98017e060098d39145f5c2ae",
+        "tables.csv": "2df22aee13e3a31c214313a339e72c5adc327a596e64cb0ae3a63b557f4e272c",
+        "tables.md": "e4127760660a366d5cace6acd5097aac558c7b6e4fa3fb3a5e063f62939c8a8f"
+      },
+      "legacy_tests": null,
+      "model_calls": 0,
+      "network_calls": 0,
+      "source_files": 10056,
+      "status": "PASS"
+    },
+    "v01_inventory_entries": 10056,
+    "v02_collection_inventory_entries": 39008,
+    "v02_source_entries_including_freeze": 55
+  },
+  "python": "3.9.6 (default, Jan  9 2026, 11:03:41) \n[Clang 17.0.0 (clang-1700.6.4.2)]",
+  "read_only_fresh_clone_reverified": {
+    "absent_transient_locks": {
+      "collection/collector.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "v0.2/collection/collector.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "permitted_absent_locks_with_saved_sha256": {
+      "collection/collector.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "v0.2/collection/collector.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "source_projection_excludes_post_freeze_reports": [
+      "README.md",
+      "RESULTS.md"
+    ],
+    "status": "PASS",
+    "v01_inventory_entries": 10056,
+    "v02_collection_inventory_entries": 39008,
+    "v02_source_entries_including_freeze": 55
+  },
+  "reproduction_output": "<SCRATCH>/orchestra/fresh-trl-codex/three-rules-one-lunch/v0.2/build/rebuild-clone-codex-neutral",
+  "retained_failed_attempt": "first-attempt-v01.log",
+  "status": "PASS"
+}

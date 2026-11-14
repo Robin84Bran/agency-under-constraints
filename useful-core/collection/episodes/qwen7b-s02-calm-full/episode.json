@@ -1,0 +1,1 @@
+{"artifacts":{},"calls":["qwen7b-s02-calm-full-1"],"delivered":"none","ended":false,"episode":{"actor":"qwen7b","framing":"full","id":"qwen7b-s02-calm-full","seed":2,"world":"calm"},"error":"action field combination","events":[],"failure_kind":"content","fatal":false,"report":null,"technically_complete":false}

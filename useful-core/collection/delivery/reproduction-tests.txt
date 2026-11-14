@@ -1,0 +1,12 @@
+test_absent_declared_lock_only_is_skipped (__main__.TransientGuardTests) ... ok
+test_declared_normal_file_cannot_be_exempted (__main__.TransientGuardTests) ... ok
+test_missing_normal_evidence_is_fatal (__main__.TransientGuardTests) ... ok
+test_modified_normal_evidence_is_fatal (__main__.TransientGuardTests) ... ok
+test_present_lock_is_still_verified (__main__.TransientGuardTests) ... ok
+test_sidecar_hash_must_match_frozen_pin (__main__.TransientGuardTests) ... ok
+test_undeclared_lock_is_fatal (__main__.TransientGuardTests) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.014s
+
+OK

@@ -1,0 +1,122 @@
+{
+  "created_at": "2026-11-11T11:10:25.289016+00:00",
+  "files": {
+    "QUESTIONS-post-analysis.md": {
+      "bytes": 3291,
+      "sha256": "0e0dc36399f16643c93c668cf124e59f4531ceb3b155f3fce90ee34b2d79fa51"
+    },
+    "README.md": {
+      "bytes": 10387,
+      "sha256": "dd5b6fc5eec20c80e42fee6e41c11a3c9f1abc9292ebeab50f62a396a81964f5"
+    },
+    "RESULTS.md": {
+      "bytes": 44315,
+      "sha256": "c371c8b9df92309cb0c55c883370d1df84c156287a95f519cd189550ad2c244d"
+    },
+    "collection/analysis-r2-d3.json": {
+      "bytes": 78795,
+      "sha256": "622a8bd6b887a59755c5164c9d0231e1072377d67294cdc28d1142a82343a3e9"
+    },
+    "delivery/PROJECT_STATE.md": {
+      "bytes": 2655,
+      "sha256": "e4c5327c94eb1a1a701cd3929bb8752e041f0e52886431654ad1859485b66b94"
+    },
+    "delivery/README.registered.md": {
+      "bytes": 1671,
+      "sha256": "e3ebd7b56782f541d902e16f1a6e95b983cc0d7edd630364d762e30719650b91"
+    },
+    "delivery/cells.csv": {
+      "bytes": 2151,
+      "sha256": "c198b8da85e5c3d0280986f00e3861dad41b4bf5fcce2d87b43fec50d9b9acf4"
+    },
+    "delivery/check-behavior.csv": {
+      "bytes": 1276,
+      "sha256": "e92f4e79ec8d9be9bb06bd9daaa33cc4163e57247181449efe25195bb1d18b18"
+    },
+    "delivery/collection-before-analysis.json": {
+      "bytes": 7664603,
+      "sha256": "17cab421237f372575c9f15d4be07ef85e246fcb4c73c83f1c03daf2e759dcae"
+    },
+    "delivery/contrasts.csv": {
+      "bytes": 1580,
+      "sha256": "110075a7e31cd9554e4449d350f950d152767f0bb8c30526ad627b112f75f029"
+    },
+    "delivery/effects.csv": {
+      "bytes": 1953,
+      "sha256": "a3c43127c787cd2aeec2942e3cbe88523b59786cab5c3c85a038b233d79a282d"
+    },
+    "delivery/final-verification.json": {
+      "bytes": 790,
+      "sha256": "25ba50a0ccf952ecd3af5d1838782cc1339a9d2773f3f782a18c299b1ab607db"
+    },
+    "delivery/headline.csv": {
+      "bytes": 1303,
+      "sha256": "623c199a39cca8bb063828404b344e5c7bfa19f54743f323d052e6c7084adc97"
+    },
+    "delivery/headline.svg": {
+      "bytes": 7992,
+      "sha256": "2fa1daf7d34cbf2470ff10a046775e52a2c2e9150a8fa96a82e432be2760434b"
+    },
+    "delivery/key-behavior.csv": {
+      "bytes": 1921,
+      "sha256": "47dfff99245bf2cf0b2afde85a161b99fb6e49e95ab2cc1bc1818b0f3f8df3df"
+    },
+    "delivery/pre-analysis-verification.json": {
+      "bytes": 1244,
+      "sha256": "74735b8631174d34fb6592fcfde64f0f511615583334dcb67bdcff3e7a3e2024"
+    },
+    "delivery/predictions.csv": {
+      "bytes": 1124,
+      "sha256": "9e5bde58daf6ad87d51427e76898a244c64976fc3e663b3d0a6ca93e64861353"
+    },
+    "delivery/prepare_rebuild.py": {
+      "bytes": 2171,
+      "sha256": "7e3c981557e444561da97eb336915bb1e83f494e041db6f05771006ea7194618"
+    },
+    "delivery/presentation-check-notes.md": {
+      "bytes": 828,
+      "sha256": "23298ab59775d21ee676a894f05c7858877124972c7871bfd7f56b4cb32fced3"
+    },
+    "delivery/presentation-summary.json": {
+      "bytes": 182377,
+      "sha256": "9bfbf35177a2e4227d8da57fe3c912ada8c1d957f761457da08b7063497e40fd"
+    },
+    "delivery/rebuild/1.log": {
+      "bytes": 65,
+      "sha256": "d0e2db89f072f431cad3c603ff0a0d0e016b40d0732b1908614b8ba928d1cd72"
+    },
+    "delivery/rebuild/2.log": {
+      "bytes": 9066,
+      "sha256": "758c05ab67c53fcf2c07b811338c130d6618f1a86c01b6af355617a8613f2e33"
+    },
+    "delivery/rebuild/3.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "delivery/rebuild/analysis-r2-d3.json": {
+      "bytes": 78795,
+      "sha256": "622a8bd6b887a59755c5164c9d0231e1072377d67294cdc28d1142a82343a3e9"
+    },
+    "delivery/rebuild/verification.json": {
+      "bytes": 1486,
+      "sha256": "a877d735f8c1180333c5cb521e32b83a5df3b324d1aead8735db7a444036582e"
+    },
+    "delivery/render_results.py": {
+      "bytes": 47199,
+      "sha256": "27aa84eb9880091a8e6edcebcd0c3bc32edc88f41255b95b00964bd7c00fa015"
+    },
+    "delivery/reports.csv": {
+      "bytes": 4885,
+      "sha256": "eda2176644c902cad32f3c0612b2697693e78f9f230fbc9b990fab63777509ff"
+    },
+    "delivery/root-freeze-presentation-check.json": {
+      "bytes": 1076,
+      "sha256": "22b66aedb9c3180aa457b3408106d898ad961b8ba09edebeeb9e7fbec9b80050"
+    },
+    "delivery/verify_delivery.py": {
+      "bytes": 5498,
+      "sha256": "91bd22efb1e3cde62281bf35ad3590d7a417f7dc867285c96a4812b59c6d2e79"
+    }
+  },
+  "kind": "Post-analysis delivery artifact inventory; not a replacement scientific freeze"
+}

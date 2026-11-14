@@ -1,0 +1,37 @@
+{
+  "authority": "Claude delegating reviewer; saved-byte diagnosis and harness fix only; no model calls, pushes or Git",
+  "created_at": "2026-11-11T16:02:52.693269+00:00",
+  "files": {
+    "collection/STOP.json": "13cbfc57afbc75f18e1cd1f01e385c5157fa999250df621a3b187fb1c1dfe32d",
+    "collection/episodes/claude-s00-notification-r50-check/0.parsed.json": "3589e149f1e7ab2462170f23089651dcfe99d89987550d4b52b8a1055c44e3d1",
+    "collection/episodes/claude-s00-notification-r50-check/0.raw.json": "358c59daddca28a2cc0f759538a7c718a464eae311f4399ca3c50ad3971f4c85",
+    "collection/episodes/claude-s00-notification-r50-check/0.request.json": "b69b6b935f02c9d3a7128f983e4d588678d0f068a83410002523eeaf782f0080",
+    "collection/episodes/claude-s00-notification-r50-check/0.start.json": "d580ea2fb10be776d56d68c3d1b54ba628c103fab3c3f30526cb2ca484492a16",
+    "collection/episodes/claude-s00-notification-r50-check/dispatches/0/0/raw.json": "358c59daddca28a2cc0f759538a7c718a464eae311f4399ca3c50ad3971f4c85",
+    "collection/episodes/claude-s00-notification-r50-check/dispatches/0/0/start.json": "d580ea2fb10be776d56d68c3d1b54ba628c103fab3c3f30526cb2ca484492a16",
+    "collection/episodes/claude-s00-notification-r50-check/episode.json": "3908e9396e7a754f07a3497994cfbe9dc53604b0e4b66307ed9ef81d4e515a07",
+    "collection/push-event.json": "6b1210b75a9b385531b812bdb1e9507a2d0537d027b1232833acc429dc408013",
+    "collection/push.json": "913529d1518435f75defe308e0cb32e344054cbd55ea6b32bc26170baba110f6"
+  },
+  "parents": {
+    "freeze-r1.json": "969f846be36a461558231b40f263afecacbd6d84dc5bf3dfa13e3332e43d2a96",
+    "freeze.json": "eda67ccd5bbb5ce828e109b7ff1262ca73f16ebad68e74a2db8785ddb4825440"
+  },
+  "prefixes": {
+    "collection/claude-time.jsonl": {
+      "bytes": 459,
+      "sha256": "9586b560af113b288c17701a271726b6880597c9d25409e9ff21f580fb8d74e5",
+      "snapshot": "revisions/r2/prefixes/claude-time.jsonl"
+    },
+    "collection/ledger.jsonl": {
+      "bytes": 580,
+      "sha256": "6fff38e9bd5cad2beff72998e40a70b5af330f0f73f36094e00a6a4857370b57",
+      "snapshot": "revisions/r2/prefixes/ledger.jsonl"
+    },
+    "collection/local-time.jsonl": {
+      "bytes": 4438152,
+      "sha256": "97c8dbe128323c50f6a173439f8b62ac5dde21adfdb6f264defe1b4adc628ad1",
+      "snapshot": "revisions/r2/prefixes/local-time.jsonl"
+    }
+  }
+}

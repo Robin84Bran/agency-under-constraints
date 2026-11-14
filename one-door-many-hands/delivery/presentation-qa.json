@@ -1,0 +1,19 @@
+{
+  "assigned": 3720,
+  "baseline_cells": 256,
+  "intentional_null": 87,
+  "model_cells": 48,
+  "paired_choices": 1860,
+  "python_sources_compile": true,
+  "resources_reconcile_to_ledger": true,
+  "retained_failed_check": {
+    "cause": "summation-order roundoff around 1e-16",
+    "check": "bit-exact equality of baseline aggregate floating-point means across differently ordered arms",
+    "resolution": "numeric equality within absolute 1e-12 for this mathematical comparison; saved analysis byte comparisons remain exact",
+    "result": "FAILED"
+  },
+  "scope": "Presentation QA only; frozen scientific analysis not recomputed.",
+  "svg_xml_valid": true,
+  "technical": 2,
+  "valid": 3718
+}

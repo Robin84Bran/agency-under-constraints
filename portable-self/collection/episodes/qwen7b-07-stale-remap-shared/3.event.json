@@ -1,0 +1,1 @@
+{"index":3,"payload":{"calibration":[[1,"north"],[2,"east"],[3,"west"],[4,"south"]],"console":"c-321d822c","memory":[{"note":"east","slot":1},{"note":"","slot":2},{"note":"south","slot":3},{"note":"north","slot":4}],"mode":"write","targets":null,"visit":4,"writable_slot":null},"value":{"note":"west","slot":2}}

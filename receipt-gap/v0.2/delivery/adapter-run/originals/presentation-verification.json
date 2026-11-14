@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "presentation_only": true,
+  "terminal_rows": 1860,
+  "headline_rows": 16,
+  "version_01_frozen_analysis_status": "FAIL",
+  "version_02_frozen_analysis_status": "UNKNOWN",
+  "unmodified_analysis_sha256": "e001f0925c0ef2d11b811de0643c2f9cabe7342771d27838349485ea6ff92d69",
+  "frozen_native_invocations_in_canonical_folder": 1,
+  "model_collection_repeated": false,
+  "comparative_figure_xml_valid": true,
+  "code_baselines_model_calls": 0,
+  "technical_cells_v01_pass": 8,
+  "technical_cells_v02_pass": 28,
+  "joint_acceptance_claimed": false
+}

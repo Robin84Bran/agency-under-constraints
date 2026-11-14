@@ -1,0 +1,1 @@
+{"index":4,"payload":{"calibration":null,"console":"c-f5dbffeb","memory":[{"note":"Replace slot 3 with 'new note' in write mode.","slot":3}],"mode":"act","targets":["south","north","west","east"],"visit":5,"writable_slot":null},"value":{"controls":[null,null,null,null]}}

@@ -1,0 +1,1 @@
+{"index":1,"payload":{"calibration":[[1,"east"],[2,"south"],[3,"west"],[4,"north"]],"console":"c-ad4853a2","memory":[{"note":"1: east, 2: south, 3: west, 4: north","slot":1},{"note":"","slot":2},{"note":"","slot":3},{"note":"","slot":4}],"mode":"write","targets":null,"visit":2,"writable_slot":null},"value":{"note":"1: east, 2: south, 3: west, 4: north","slot":4}}

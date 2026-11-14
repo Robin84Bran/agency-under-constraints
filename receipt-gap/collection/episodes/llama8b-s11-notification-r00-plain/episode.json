@@ -1,0 +1,1 @@
+{"action_failure":true,"attempted_calls":1,"counts":[0,0,0,0],"decisions":0,"ended":false,"episode":{"actor":"llama8b","framing":"notification","id":"llama8b-s11-notification-r00-plain","receipt_loss":0,"seed":11,"toolkit":"plain"},"error":"key","events":[],"report":null,"trajectory_valid":false}

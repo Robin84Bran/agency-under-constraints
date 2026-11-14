@@ -1,0 +1,1 @@
+{"index":1,"payload":{"calibration":[[1,"north"],[2,"west"],[3,"east"],[4,"south"]],"console":"c-7fba211a","memory":[{"note":"c-94b84c36 console observed: slot 1 - east","slot":1},{"note":"","slot":2},{"note":"","slot":3},{"note":"","slot":4}],"mode":"write","targets":null,"visit":2,"writable_slot":null},"value":{"note":"c-94b84c36 console observed: slot 2 - west","slot":2}}

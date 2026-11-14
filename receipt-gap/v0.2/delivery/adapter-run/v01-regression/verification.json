@@ -1,0 +1,47 @@
+{
+  "adapter_sha256": "d00d80c1afacf5c4fdc93e6c5ff366ea7a3f6fed42aea414d4b811b0cd2188c1",
+  "command": [
+    "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "-B",
+    "<WORKSPACE>/06_intelligence/AI_research/research/receipt-gap/v0.2/delivery/r5_compatibility.py",
+    "--root",
+    "<WORKSPACE>/06_intelligence/AI_research/research/receipt-gap",
+    "--output",
+    "<WORKSPACE>/06_intelligence/AI_research/research/receipt-gap/v0.2/delivery/adapter-run/v01-regression/analysis-v01.json"
+  ],
+  "model_calls": 0,
+  "r5_receipt_valid": true,
+  "returncode": 0,
+  "status": "PASS",
+  "tampered_receipt_fields_rejected": [
+    "freeze_sha256",
+    "event_sha256",
+    "server_event_id",
+    "repo",
+    "commit",
+    "remote_ref",
+    "pushed_at",
+    "freeze_file"
+  ],
+  "unchanged_calculation_functions": {
+    "rg_analysis.py:analyze": "92d8a6a70286cd6ae50b828084eafb5ef02ce33652a0037028749ea3bd22d992",
+    "rg_analysis.py:behavior": "581a5cdd56bab59025a8f13ad0371adcfa0545b7f9554ad351acc5575102ad55",
+    "rg_analysis.py:contrast": "cb32dd189f4f764f56bbafe4eb8f3410c45eccdd4effa9f8248673f11c6ebfec",
+    "rg_analysis.py:framing": "c619efcab66c8ed7024e90ccb460ba17b0f757b35abdaecafe985f2d154aaf91",
+    "rg_analysis.py:replay": "66911aa8769ee530f6bbe3b3b586dff6a071c316a4271b597b456e481999eaf0",
+    "rg_analysis.py:score": "7b9a6aa09fd8199dcf4eba9d539dff1afc84fcf62ca022e4b77885d9b6d1c89a",
+    "rg_analysis.py:summarize": "4de639fd167ec68c20cd4be4b2cf65be88dff54492d6edd33591459503eddc5b",
+    "rg_stats.py:aggregate_blocks": "ea0416ad55ee68932ffdac759daa508c3ab23efdb200c7153ffd36e5836ae078",
+    "rg_stats.py:bootstrap_endpoints": "5cd4e342a0c4730a621d3ac1c7a847d1af456c5e987f86d42274af6c7672f4bd",
+    "rg_stats.py:evaluate_sample": "0dec7dd1e31dcb5ec8701065a29100e5de0c3d21019b09f23908a6a395c97a41",
+    "rg_stats.py:inverse_group_weights": "915457b3fa10a25ee050d7d1c90bb8b6ba61331bb9da8a0d7c3cb973a21f1844",
+    "rg_stats.py:percentile": "413ed5e87b26e72562bb3d831a52310ef9c7edd8dc6e2e4cf3bebe5080786636",
+    "rg_stats.py:ratio": "460f4e3e365968bc3b895399d52605f6c59a032062b05d2d53bf97fa5f8285b0",
+    "rg_stats.py:weighted_rate": "cdadd1706dc71967c5d234513ac8f7d49b2e58f0ddaaa9cfd9ce2c2772cb166e",
+    "rg_stats.py:wilson": "50f3ce9f52002fe8dfc399f15756427231a81cb31a589f1fbed90c4766574e55"
+  },
+  "v01_byte_identical": true,
+  "v01_bytes": 78795,
+  "v01_sha256": "622a8bd6b887a59755c5164c9d0231e1072377d67294cdc28d1142a82343a3e9",
+  "v02_analysis_executed": false
+}

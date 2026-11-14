@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="815" viewBox="0 0 1160 815" role="img" aria-labelledby="title desc">
+<title id="title">One Door, Many Hands: rules and rehearsal</title>
+<desc id="desc">Sixteen actor and condition rows. Expected deadline regret, exact optimal choices, and schema-valid rates. Lower regret and higher optimal rates are better. All doors pooled. Claude uses ten blocks; local models use one hundred.</desc>
+<rect width="1160" height="815" fill="#fff"/>
+<style>text{font-family:Arial,sans-serif;fill:#152235;font-size:13px}.small{font-size:12px}</style>
+<text x="20" y="30" font-size="21">Worked examples did not improve the registered primary outcome</text>
+<text x="20" y="54">All assigned decisions; intentional nulls and technical failures retain their penalties</text>
+<text x="20" y="87">Actor / failure mode / evidence</text>
+<text x="425" y="87">Regret (lower is better)</text>
+<text x="730" y="87">Optimal choices (higher is better)</text>
+<text x="1050" y="87">Valid</text>
+<text x="20" y="134">Qwen 2.5 7B / indep. / rules</text>
+<rect x="425" y="120" width="240" height="19" fill="#f0f2f5"/>
+<rect x="425" y="120" width="65.807" height="19" fill="#087f8c"/>
+<text x="675" y="134">0.274</text>
+<rect x="730" y="120" width="235" height="19" fill="#f0f2f5"/>
+<rect x="730" y="120" width="80.683" height="19" fill="#087f8c"/>
+<text x="975" y="134">34.3%</text>
+<text x="1050" y="134">100.0%</text>
+<text x="20" y="174">Qwen 2.5 7B / indep. / rehearsal</text>
+<rect x="425" y="160" width="240" height="19" fill="#f0f2f5"/>
+<rect x="425" y="160" width="92.183" height="19" fill="#c24e32"/>
+<text x="675" y="174">0.384</text>
+<rect x="730" y="160" width="235" height="19" fill="#f0f2f5"/>
+<rect x="730" y="160" width="50.133" height="19" fill="#c24e32"/>
+<text x="975" y="174">21.3%</text>
+<text x="1050" y="174">100.0%</text>
+<text x="20" y="214">Qwen 2.5 7B / common / rules</text>
+<rect x="425" y="200" width="240" height="19" fill="#f0f2f5"/>
+<rect x="425" y="200" width="75.456" height="19" fill="#087f8c"/>
+<text x="675" y="214">0.314</text>
+<rect x="730" y="200" width="235" height="19" fill="#f0f2f5"/>
+<rect x="730" y="200" width="96.350" height="19" fill="#087f8c"/>
+<text x="975" y="214">41.0%</text>
+<text x="1050" y="214">100.0%</text>
+<text x="20" y="254">Qwen 2.5 7B / common / rehearsal</text>
+<rect x="425" y="240" width="240" height="19" fill="#f0f2f5"/>
+<rect x="425" y="240" width="86.832" height="19" fill="#c24e32"/>
+<text x="675" y="254">0.362</text>
+<rect x="730" y="240" width="235" height="19" fill="#f0f2f5"/>
+<rect x="730" y="240" width="72.850" height="19" fill="#c24e32"/>
+<text x="975" y="254">31.0%</text>
+<text x="1050" y="254">100.0%</text>
+<text x="20" y="294">Llama 3.1 8B / indep. / rules</text>
+<rect x="425" y="280" width="240" height="19" fill="#f0f2f5"/>
+<rect x="425" y="280" width="60.168" height="19" fill="#087f8c"/>
+<text x="675" y="294">0.251</text>
+<rect x="730" y="280" width="235" height="19" fill="#f0f2f5"/>
+<rect x="730" y="280" width="92.433" height="19" fill="#087f8c"/>
+<text x="975" y="294">39.3%</text>
+<text x="1050" y="294">100.0%</text>
+<text x="20" y="334">Llama 3.1 8B / indep. / rehearsal</text>
+<rect x="425" y="320" width="240" height="19" fill="#f0f2f5"/>
+<rect x="425" y="320" width="71.852" height="19" fill="#c24e32"/>
+<text x="675" y="334">0.299</text>
+<rect x="730" y="320" width="235" height="19" fill="#f0f2f5"/>
+<rect x="730" y="320" width="67.367" height="19" fill="#c24e32"/>
+<text x="975" y="334">28.7%</text>
+<text x="1050" y="334">100.0%</text>
+<text x="20" y="374">Llama 3.1 8B / common / rules</text>
+<rect x="425" y="360" width="240" height="19" fill="#f0f2f5"/>
+<rect x="425" y="360" width="57.840" height="19" fill="#087f8c"/>
+<text x="675" y="374">0.241</text>
+<rect x="730" y="360" width="235" height="19" fill="#f0f2f5"/>
+<rect x="730" y="360" width="126.900" height="19" fill="#087f8c"/>
+<text x="975" y="374">54.0%</text>
+<text x="1050" y="374">100.0%</text>
+<text x="20" y="414">Llama 3.1 8B / common / rehearsal</text>
+<rect x="425" y="400" width="240" height="19" fill="#f0f2f5"/>
+<rect x="425" y="400" width="59.360" height="19" fill="#c24e32"/>
+<text x="675" y="414">0.247</text>
+<rect x="730" y="400" width="235" height="19" fill="#f0f2f5"/>
+<rect x="730" y="400" width="127.683" height="19" fill="#c24e32"/>
+<text x="975" y="414">54.3%</text>
+<text x="1050" y="414">100.0%</text>
+<text x="20" y="454">Qwen 2.5 1.5B / indep. / rules</text>
+<rect x="425" y="440" width="240" height="19" fill="#f0f2f5"/>
+<rect x="425" y="440" width="85.717" height="19" fill="#087f8c"/>
+<text x="675" y="454">0.357</text>
+<rect x="730" y="440" width="235" height="19" fill="#f0f2f5"/>
+<rect x="730" y="440" width="40.733" height="19" fill="#087f8c"/>
+<text x="975" y="454">17.3%</text>
+<text x="1050" y="454">100.0%</text>
+<text x="20" y="494">Qwen 2.5 1.5B / indep. / rehearsal</text>
+<rect x="425" y="480" width="240" height="19" fill="#f0f2f5"/>
+<rect x="425" y="480" width="88.106" height="19" fill="#c24e32"/>
+<text x="675" y="494">0.367</text>
+<rect x="730" y="480" width="235" height="19" fill="#f0f2f5"/>
+<rect x="730" y="480" width="35.250" height="19" fill="#c24e32"/>
+<text x="975" y="494">15.0%</text>
+<text x="1050" y="494">100.0%</text>
+<text x="20" y="534">Qwen 2.5 1.5B / common / rules</text>
+<rect x="425" y="520" width="240" height="19" fill="#f0f2f5"/>
+<rect x="425" y="520" width="74.864" height="19" fill="#087f8c"/>
+<text x="675" y="534">0.312</text>
+<rect x="730" y="520" width="235" height="19" fill="#f0f2f5"/>
+<rect x="730" y="520" width="94.783" height="19" fill="#087f8c"/>
+<text x="975" y="534">40.3%</text>
+<text x="1050" y="534">100.0%</text>
+<text x="20" y="574">Qwen 2.5 1.5B / common / rehearsal</text>
+<rect x="425" y="560" width="240" height="19" fill="#f0f2f5"/>
+<rect x="425" y="560" width="77.072" height="19" fill="#c24e32"/>
+<text x="675" y="574">0.321</text>
+<rect x="730" y="560" width="235" height="19" fill="#f0f2f5"/>
+<rect x="730" y="560" width="90.083" height="19" fill="#c24e32"/>
+<text x="975" y="574">38.3%</text>
+<text x="1050" y="574">100.0%</text>
+<text x="20" y="614">Claude Opus 5.5 / indep. / rules</text>
+<rect x="425" y="600" width="240" height="19" fill="#f0f2f5"/>
+<rect x="425" y="600" width="5.990" height="19" fill="#087f8c"/>
+<text x="675" y="614">0.025</text>
+<rect x="730" y="600" width="235" height="19" fill="#f0f2f5"/>
+<rect x="730" y="600" width="227.167" height="19" fill="#087f8c"/>
+<text x="975" y="614">96.7%</text>
+<text x="1050" y="614">96.7%</text>
+<text x="20" y="654">Claude Opus 5.5 / indep. / rehearsal</text>
+<rect x="425" y="640" width="240" height="19" fill="#f0f2f5"/>
+<rect x="425" y="640" width="5.990" height="19" fill="#c24e32"/>
+<text x="675" y="654">0.025</text>
+<rect x="730" y="640" width="235" height="19" fill="#f0f2f5"/>
+<rect x="730" y="640" width="227.167" height="19" fill="#c24e32"/>
+<text x="975" y="654">96.7%</text>
+<text x="1050" y="654">96.7%</text>
+<text x="20" y="694">Claude Opus 5.5 / common / rules</text>
+<rect x="425" y="680" width="240" height="19" fill="#f0f2f5"/>
+<rect x="425" y="680" width="0.000" height="19" fill="#087f8c"/>
+<text x="675" y="694">0.000</text>
+<rect x="730" y="680" width="235" height="19" fill="#f0f2f5"/>
+<rect x="730" y="680" width="235.000" height="19" fill="#087f8c"/>
+<text x="975" y="694">100.0%</text>
+<text x="1050" y="694">100.0%</text>
+<text x="20" y="734">Claude Opus 5.5 / common / rehearsal</text>
+<rect x="425" y="720" width="240" height="19" fill="#f0f2f5"/>
+<rect x="425" y="720" width="0.000" height="19" fill="#c24e32"/>
+<text x="675" y="734">0.000</text>
+<rect x="730" y="720" width="235" height="19" fill="#f0f2f5"/>
+<rect x="730" y="720" width="235.000" height="19" fill="#c24e32"/>
+<text x="975" y="734">100.0%</text>
+<text x="1050" y="734">100.0%</text>
+<text x="20" y="782" class="small">Each row: 300 decisions per local actor; 30 per Claude condition. Failure modes and evidence are pre-registered.</text>
+<text x="20" y="802" class="small">Bars use 0–1 scales. Primary: Qwen 7B, independent failure; other actor and mechanism contrasts are descriptive.</text>
+</svg>

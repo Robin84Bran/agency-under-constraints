@@ -1,0 +1,2966 @@
+{
+  "episodes": {
+    "claude-05-rename-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-05-stable-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-08-required-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-00-required-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-04-rename-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-03-rename-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-06-unit-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-06-stable-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-06-required-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-08-stable-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-01-required-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-08-required-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-00-rename-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-03-stable-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-06-rename-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-06-required-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-07-required-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-07-unit-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-08-rename-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-07-rename-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-00-rename-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-08-unit-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-02-stable-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-01-stable-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-08-stable-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-00-unit-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-09-stable-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-03-rename-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-04-stable-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-05-required-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-05-unit-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-02-unit-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-03-required-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-09-unit-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-01-required-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-06-unit-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-01-rename-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-04-unit-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-03-stable-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-03-unit-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-02-required-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-02-rename-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-01-unit-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-06-rename-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-03-required-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-09-rename-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-00-unit-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-06-stable-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-09-stable-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-09-unit-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-07-unit-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-03-unit-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-00-required-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-08-unit-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-08-rename-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-09-required-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-09-required-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-00-stable-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-01-stable-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-04-required-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-02-rename-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-04-unit-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-05-required-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-09-rename-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-05-unit-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-04-stable-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-02-required-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-04-rename-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-07-stable-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-07-stable-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-00-stable-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-01-rename-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-02-unit-stale": [
+      {
+        "input_tokens": 2752,
+        "output_tokens": 576,
+        "micro_usd": 22528
+      },
+      {
+        "input_tokens": 3200,
+        "output_tokens": 576,
+        "micro_usd": 24320
+      },
+      {
+        "input_tokens": 3584,
+        "output_tokens": 576,
+        "micro_usd": 25856
+      },
+      {
+        "input_tokens": 4032,
+        "output_tokens": 576,
+        "micro_usd": 27648
+      },
+      {
+        "input_tokens": 4480,
+        "output_tokens": 576,
+        "micro_usd": 29440
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      },
+      {
+        "input_tokens": 4928,
+        "output_tokens": 576,
+        "micro_usd": 31232
+      }
+    ],
+    "claude-01-unit-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-05-rename-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-07-required-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-02-stable-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-05-stable-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-04-required-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ],
+    "claude-07-rename-registry": [
+      {
+        "input_tokens": 2880,
+        "output_tokens": 576,
+        "micro_usd": 23040
+      },
+      {
+        "input_tokens": 3264,
+        "output_tokens": 576,
+        "micro_usd": 24576
+      },
+      {
+        "input_tokens": 3712,
+        "output_tokens": 576,
+        "micro_usd": 26368
+      },
+      {
+        "input_tokens": 4160,
+        "output_tokens": 576,
+        "micro_usd": 28160
+      },
+      {
+        "input_tokens": 4608,
+        "output_tokens": 576,
+        "micro_usd": 29952
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      },
+      {
+        "input_tokens": 4992,
+        "output_tokens": 576,
+        "micro_usd": 31488
+      }
+    ]
+  },
+  "micro_usd": 15493120,
+  "protected_micro_usd": 2000000
+}

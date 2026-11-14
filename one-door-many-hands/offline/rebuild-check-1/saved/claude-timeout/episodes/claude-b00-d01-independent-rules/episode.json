@@ -1,0 +1,1 @@
+{"attempted":true,"fatal":"unknown frontier usage/cost; full hold retained","finished_at":"2026-11-11T10:25:50.413447+00:00","first_frozen_compatibility_check":true,"fleet":null,"reason":"transport failure/uncertain start; never resend","schema_valid":false,"status":"ENVELOPE_FAILURE","usage":null}

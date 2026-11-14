@@ -1,0 +1,1 @@
+{"copy": "/private/tmp/portable-self-v02-independent-7hdq71ht/v0.2", "analysis_byte_identical": true, "sha256": "ce11027738d94086487471f5be7334c5c68fa1f669ddd2e939089c867384e6b9", "exports": {"episodes.csv": 1080, "facts.csv": 17280, "calls.csv": 6411, "notes.csv": 3246, "baseline-seeds.csv": 1440}}

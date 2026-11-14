@@ -1,0 +1,22 @@
+{
+  "identical_outputs_sha256": {
+    "config/all_certificates.json": "9aba478b300c871538d87a91bb546a1548f8440023ff43435418108cc4cfc2e4",
+    "config/design.json": "1c1144beb1cb3a1bd6156acec94c9139d3e8c04f47051dc6d2c8e731817dc5e4",
+    "config/instructions.json": "7339899895561e75db4fee51de40792c7d7f485186100437445731d22a4cc2fc",
+    "config/request_summary.json": "e0cd2c041a2654c8cd4470c7486296113e1b054130d28373155b47e715338041",
+    "config/requests.json": "917aa18175cc68cbe6e9723f4ba377b14b553b9fe5e64d9dcbcef2c20ff93a68",
+    "imported/dataset.json": "6c012647c717ef1109e395e5ef157c1d64d792af4307028cbe12c3e5963c392d",
+    "imported/reconciliation.json": "3458fc0f8f15099cb24c876f6c6dc0ab87110f8e317e6f093f32f2fdbfc4983f",
+    "imported/retrospective_sufficiency.json": "b4966b82f7b647e713c54cb27da39a3e8a1faf2150317af3d97f33b54b376523",
+    "imported/validation_counts.json": "c3f26c062d9cd9e70bbee14d1acb2c1c6ab04f419913ab950322267db4dbafb5"
+  },
+  "network_allowed": false,
+  "original_archive_available": false,
+  "primary_episodes": 240,
+  "provider_modules_imported": false,
+  "receipt_episodes": 120,
+  "reconciliation": "PASS",
+  "requests": 5604,
+  "source_files": 5143,
+  "status": "PASS"
+}

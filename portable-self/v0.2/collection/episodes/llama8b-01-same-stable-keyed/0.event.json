@@ -1,0 +1,1 @@
+{"index":0,"payload":{"calibration":[[1,"north"],[2,"east"],[3,"south"],[4,"west"]],"console":"c-022a5218","memory":[{"note":"","slot":1}],"mode":"write","targets":null,"visit":1,"writable_slot":1},"value":{"note":"Replace console 1 with new label: new-north","slot":1}}

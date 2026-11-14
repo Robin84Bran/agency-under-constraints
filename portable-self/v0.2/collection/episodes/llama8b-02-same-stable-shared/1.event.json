@@ -1,0 +1,1 @@
+{"index":1,"payload":{"calibration":[[1,"east"],[2,"south"],[3,"north"],[4,"west"]],"console":"c-f2851db1","memory":[{"note":"","slot":1},{"note":"east is south","slot":2},{"note":"","slot":3},{"note":"","slot":4}],"mode":"write","targets":null,"visit":2,"writable_slot":null},"value":{"note":"north is east","slot":1}}

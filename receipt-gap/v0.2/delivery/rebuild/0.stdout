@@ -1,0 +1,8 @@
+{
+  "copied_to": "/private/tmp/receipt-gap-v02-postcollection-rebuild-20261112/v0.2",
+  "excluded_files_with_saved_sha256": {
+    "collection/collector.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "collection_repeated": false,
+  "analysis_executed": false
+}

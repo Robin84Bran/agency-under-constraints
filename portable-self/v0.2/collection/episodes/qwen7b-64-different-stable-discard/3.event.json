@@ -1,0 +1,1 @@
+{"index":3,"payload":{"calibration":[[1,"north"],[2,"south"],[3,"west"],[4,"east"]],"console":"c-6937be8d","memory":[{"note":"","slot":1},{"note":"","slot":2},{"note":"","slot":3},{"note":"","slot":4}],"mode":"write","targets":null,"visit":4,"writable_slot":null},"value":{"note":"Console c-6937be8d produced north, south, west, east in that order.","slot":1}}

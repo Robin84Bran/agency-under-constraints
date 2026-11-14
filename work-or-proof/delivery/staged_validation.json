@@ -1,0 +1,9 @@
+{
+  "copied_files_matched_before_cleanup": 28426,
+  "disposable_copy_removed": true,
+  "independent_fresh_clone_analysis": "UNKNOWN",
+  "reason": "Local copied-input validation only; independent review and numerical rebuild remain pending.",
+  "registered_files_verified": 5187,
+  "staged_freeze_verification": "PASS",
+  "staged_portable_import": "PASS"
+}

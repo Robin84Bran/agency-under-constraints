@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "<WORKSPACE>/06_intelligence/AI_research/research/three-rules-one-lunch/trl_freeze.py", line 650, in <module>
+    main()
+  File "<WORKSPACE>/06_intelligence/AI_research/research/three-rules-one-lunch/trl_freeze.py", line 625, in main
+    print(attest(a.root,a.event,a.commit,a.repo_path,a.clone_root,a.freeze_file))
+  File "<WORKSPACE>/06_intelligence/AI_research/research/three-rules-one-lunch/trl_freeze.py", line 522, in attest
+    raise Stop('checkout differs from pushed commit')
+trl_io.Stop: checkout differs from pushed commit

@@ -1,0 +1,7 @@
+{
+  "changed_present_lock_rejected": "PASS",
+  "changed_scientific_input_rejected": "PASS",
+  "exact_absent_empty_lock_allowed": "PASS",
+  "unknown_missing_rejected": "PASS",
+  "wrong_saved_lock_hash_rejected": "PASS"
+}

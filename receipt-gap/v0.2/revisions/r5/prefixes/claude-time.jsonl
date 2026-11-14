@@ -1,0 +1,8 @@
+{"event":"start","id":"claude-preflight-0","seconds":40,"time":"2026-11-11T15:59:39.773051+00:00"}
+{"event":"settle","id":"claude-preflight-0","seconds":0.190661333,"time":"2026-11-11T15:59:39.955837+00:00"}
+{"event":"start","id":"claude-s00-notification-r50-check-0","seconds":430,"time":"2026-11-11T15:59:39.956803+00:00"}
+{"event":"settle","id":"claude-s00-notification-r50-check-0","seconds":0.22338791700000016,"time":"2026-11-11T15:59:40.179222+00:00"}
+{"event":"start","id":"claude-preflight-2","seconds":40,"time":"2026-11-11T17:37:27.775959+00:00"}
+{"event":"settle","id":"claude-preflight-2","seconds":0.2985312499999999,"time":"2026-11-11T17:37:27.963790+00:00"}
+{"event":"start","id":"claude-s00-notification-r50-check-0-attempt1","seconds":430,"time":"2026-11-11T17:37:27.965225+00:00"}
+{"event":"settle","id":"claude-s00-notification-r50-check-0-attempt1","seconds":1.4010039579999995,"time":"2026-11-11T17:37:29.364784+00:00"}

@@ -1,0 +1,23 @@
+{
+  "active_registered_inputs_reconstructable": 406,
+  "all_freeze_bytes_preserved": true,
+  "canonical_analysis_sha256": "622a8bd6b887a59755c5164c9d0231e1072377d67294cdc28d1142a82343a3e9",
+  "changed_registered_paths": [
+    "README.md"
+  ],
+  "fresh_clone_reviewer_check": "UNKNOWN",
+  "fresh_clone_reviewer_reason": "Independent same-machine full-data copy completed; Claude review remains pending",
+  "independent_rebuild_byte_identical": true,
+  "new_collection_files": [
+    "analysis-r2-d3.json"
+  ],
+  "prediction_subclaims": {
+    "FAILED": 11,
+    "MET": 4,
+    "UNKNOWN": 1
+  },
+  "readme_reason": "Explicit reader-facing README delivery; exact registered bytes archived",
+  "status": "PASS",
+  "technical_acceptance": false,
+  "unchanged_pre_analysis_collection_files": 47263
+}

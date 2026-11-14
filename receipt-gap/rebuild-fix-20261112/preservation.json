@@ -1,0 +1,22 @@
+{
+  "changed": {
+    "v0.2/delivery/PROJECT_STATE.md": {
+      "after_sha256": "fc049f0b7592b7b2fd560c899d07e2823ba67480774f50138af68fdefc80e6c2",
+      "before_sha256": "526d65f946365349088fe453f9511422dc4adcb73b64b1573649103522f1b234"
+    },
+    "v0.2/delivery/RESULTS.md": {
+      "after_sha256": "7f1c5d5dbff2b88e8b552d31a82d6fe7ce0ae93f734587202017f17a57b4a778",
+      "before_sha256": "3a232b09e17690a11bac56f8baf6517f0ccec5d81ddf454fb2a25d993ad554dc"
+    },
+    "v0.2/delivery/package-manifest.json": {
+      "after_sha256": "accd320d048c445585ea82b7cf30f00d8236bab46d0ae560a6abed86f4575638",
+      "before_sha256": "65749fd7c163dd554ad3a956d2007ee3767277f9fe46f8ea0717a4af1c47344c"
+    }
+  },
+  "deleted_files": [],
+  "frozen_evidence_and_numerical_outputs_unchanged": true,
+  "preexisting_files": 142134,
+  "scope": "All pre-existing files, including locks, frozen seals, collection, analyses, generated numerical artifacts and archived adapter records.",
+  "unchanged_files": 142131,
+  "unchanged_paths_and_sha256_aggregate": "b964d75c1ceebf237051315179c108b277c871371735e56a25c789ca4d31f6cf"
+}

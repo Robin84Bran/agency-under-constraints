@@ -1,0 +1,33 @@
+{
+  "active_sha256": "eeacae1853e959be9bc8ccf2a70abdac7eb2b0b6ab487c16d5950652acf6341d",
+  "all_saved_push_receipts_and_start_generations": "verified by frozen push_gate",
+  "analysis_output_sha256": "ce11027738d94086487471f5be7334c5c68fa1f669ddd2e939089c867384e6b9",
+  "authority": "Claude delegated analysis and delivery under the Claude/Codex agreement; no new model calls or publication",
+  "claim_context": "Delegating reviewer holds the project claim. Its recorded collection task and a malformed sibling Codex claim are left untouched; this task follows the explicit delegated v0.2 scope. Shared claim metadata is outside this session write boundary.",
+  "collection_invocations_in_this_delivery": 0,
+  "freezes": {
+    "freeze-claude-envelope.json": {
+      "files": 2172,
+      "sha256": "eeacae1853e959be9bc8ccf2a70abdac7eb2b0b6ab487c16d5950652acf6341d"
+    },
+    "freeze-usage-limit.json": {
+      "files": 2141,
+      "sha256": "525b8bcdad71aa5d063ea93c3d769684191d4bef0be4ab96eef8e0eb3e7a15c4"
+    },
+    "freeze.json": {
+      "files": 2123,
+      "sha256": "087be69b49b2445d882e71f53bd9579de233382790943c071bcdce6cd27b7948"
+    }
+  },
+  "frozen_analysis_sha256": "4cad4270bbd37a9808ad3fbf2df7bd282f20135a3bb2533f3a795fbdcaaa80e4",
+  "historical_v01_raw_archive": "separate parent package; immutable v01 inventory and hashes bundled",
+  "offline_tests": {
+    "errors": 0,
+    "failures": 1,
+    "log": "collection/post-analysis-offline-check.log",
+    "passed": 138,
+    "tests": 139
+  },
+  "predecessor_source_reconstruction": "verified by frozen verifier",
+  "source_analysis_invocations_in_this_delivery": 1
+}

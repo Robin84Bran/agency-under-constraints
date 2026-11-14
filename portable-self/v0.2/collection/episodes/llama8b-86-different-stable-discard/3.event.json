@@ -1,0 +1,1 @@
+{"index":3,"payload":{"calibration":[[1,"south"],[2,"east"],[3,"north"],[4,"west"]],"console":"c-22ea0928","memory":[{"note":"","slot":1},{"note":"","slot":2},{"note":"","slot":3},{"note":"","slot":4}],"mode":"write","targets":null,"visit":4,"writable_slot":null},"value":{"note":"The calibration labels are: 1 - south, 2 - east, 3 - north, 4 - west","slot":2}}

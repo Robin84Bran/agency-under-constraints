@@ -1,0 +1,21 @@
+{
+  "parent_freeze_sha256": "44e17293d9619f5df6e0a18e0bc3ce430801a3205e364cc85f51183c54541bdb",
+  "original_freeze_sha256": "716c5abdda450c463ca7e3a6e2df6863c7156d83bd82507e9cb6d72472811c2f",
+  "protocol_sha256": "4945824173470b279d900de578449dcd21c72ac8d42168cbc3824f6cf964c0ab",
+  "unchanged": {
+    "ps_core.py": "ec112fdedc526c8d9de2b79771ec2ffa68fbe3908f2f28e73cd79eb667db4a3e",
+    "ps_collect.py": "630c6ecd60dc8e6c1adbf66aec55ef7ffdbb79d841ed958de84cc3440a8549e2",
+    "ps_analysis.py": "225dcfb89ba820e2b6bfb2308d1808b6f1b74e186b478da442c8186371bdba19",
+    "ps_baselines.py": "7dd2f79dbc464f0ad2c309409fb8ebe81d7150523c685c92339c0bdfb0bbd2c8",
+    "ps_io.py": "40458f84e4ca93fad5c655ca8a61b8494e5b688994013163e467c4fa57d32cc3",
+    "ps_offline.py": "9d0498d30d5da174c128d416480605d2237041a2707ed6cb3b627b2d74e9a48e",
+    "config/prompts.json": "4d248dcd4f699c7787a63aa2b2d468fbafe8c73a01f1769b32c3ce00791eeb10",
+    "config/episodes.json": "d7a153e56c1ba47f373c8989490f1866a2b690881fcd48f2f8e0de82d9b8bab2",
+    "config/worlds.json": "315f66ab91934b4537537c96b74f3c832a5e90b1c9b2a2050949d1ac7fe92c83",
+    "config/baselines.json": "4e96b1aa611317fb5aa7859c2ac658348574ac00b4fa4f96f81c5df92c223809",
+    "config/write-schema.json": "456403ce680b98c260bca1044546960f6fe37004d88976ffab7c7facf1fb862a",
+    "fixtures/generator-vectors.json": "abfd3d3b8863b1d72bc0da17dae7cf686968a6987f07069b9167de7863561a19"
+  },
+  "source": "<WORKSPACE>/06_intelligence/AI_research/research/portable-self",
+  "observed_at": "2026-11-11T11:17:47.366151+00:00"
+}

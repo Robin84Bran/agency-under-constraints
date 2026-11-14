@@ -1,0 +1,1 @@
+{"returncode":0,"stderr":"","stdout":"{\"done\":true,\"done_reason\":\"stop\",\"eval_count\":30,\"model\":\"qwen2.5:1.5b\",\"prompt_eval_count\":558,\"response\":\"{\\\"note\\\":\\\"1=north 2=east 3=south 4=west\\\",\\\"slot\\\":1}\"}"}

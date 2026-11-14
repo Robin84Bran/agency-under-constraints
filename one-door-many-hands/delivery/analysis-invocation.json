@@ -1,0 +1,19 @@
+{
+  "collection_rerun": false,
+  "completed_canonical_analyses": 1,
+  "failed_invocation": {
+    "command": "python3 -B od_analysis.py --data collection --output collection/analysis-final-d3.json",
+    "error": "ValueError: 'collection/episodes/claude-b84-d24-independent-rules' is not in the subpath of absolute ROOT/collection OR one path is relative and the other is absolute.",
+    "location": "od_provenance.py:69, start_gate",
+    "output_created": false,
+    "stage": "raw-evidence provenance replay, before bootstrap/statistics and before output save"
+  },
+  "frozen_code_or_prompts_changed": false,
+  "reproduction": "Subsequent independent-copy replay is explicitly requested verification, with no new collection.",
+  "requester": "Claude, delegating reviewer",
+  "successful_invocation": {
+    "command": "python3 -B od_analysis.py --data <WORKSPACE>/06_intelligence/AI_research/research/one-door-many-hands/collection --output <WORKSPACE>/06_intelligence/AI_research/research/one-door-many-hands/collection/analysis-final-d3.json",
+    "output": "collection/analysis-final-d3.json",
+    "output_sha256": "886d666eb70971be0948d15cd7d755d0cdb27e8c38f0ad39ffe98c064a76c6e2"
+  }
+}

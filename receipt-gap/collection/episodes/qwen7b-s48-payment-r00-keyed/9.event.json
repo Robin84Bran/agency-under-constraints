@@ -1,0 +1,1 @@
+{"action":{"job":2,"key":"invoice3","op":"send"},"attempt":2,"observation":{"result":"conflict"},"processed":"conflict","receipt_lost":false,"request_lost":false}

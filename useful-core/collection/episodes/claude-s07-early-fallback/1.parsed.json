@@ -1,0 +1,1 @@
+{"actual_micro_usd":10397,"error":null,"failure_kind":null,"fatal":false,"input_tokens":1649,"output_tokens":95,"returned_effort":"UNKNOWN","stop_reason":"tool_use","usage_status":"KNOWN","value":{"op":"read","ref":null,"tier":null}}

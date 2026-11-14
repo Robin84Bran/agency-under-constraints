@@ -1,0 +1,1 @@
+{"elapsed_seconds":0.007725499999999996,"envelope":null,"episode_id":"qwen7b-38-required-registry","error":"Stop: unexpected model system prompt","finished":"2026-11-11T09:44:50.295505+00:00","id":"qwen7b-38-required-registry-action-0","parsed":null,"phase":"action","response_sha256":null,"returncode":null,"returned_effort":null,"slot":0,"stderr_sha256":null,"usage":null}

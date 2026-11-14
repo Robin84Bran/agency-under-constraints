@@ -1,0 +1,18 @@
+{
+  "absent_transient_locks": {},
+  "git_operations": 0,
+  "model_calls": 0,
+  "network_calls": 0,
+  "permitted_absent_locks_with_saved_sha256": {
+    "collection/collector.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "v0.2/collection/collector.lock": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "source_projection_excludes_post_freeze_reports": [
+    "README.md",
+    "RESULTS.md"
+  ],
+  "status": "PASS",
+  "v01_inventory_entries": 10056,
+  "v02_collection_inventory_entries": 39008,
+  "v02_source_entries_including_freeze": 55
+}

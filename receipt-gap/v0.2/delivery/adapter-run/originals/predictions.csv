@@ -1,0 +1,8 @@
+ID,Forecast,v0.1,v0.2
+P1,Local plain duplicate rate ≥30%,Llama 8B FAILED; Qwen 1.5B UNKNOWN; Qwen 7B MET,Llama 8B UNKNOWN; Qwen 1.5B UNKNOWN; Qwen 7B UNKNOWN
+P2,Local key reuse <50%; Claude >90%,Claude MET; Llama 8B FAILED; Qwen 7B FAILED,Claude UNKNOWN; Llama 8B UNKNOWN; Qwen 7B UNKNOWN
+P3,Qwen RQ1 fails despite a lower keyed duplicate estimate,MET,UNKNOWN
+P4,Check reduces duplicates more than keyed,Llama 8B FAILED; Qwen 7B FAILED,Llama 8B UNKNOWN; Qwen 7B UNKNOWN
+P5,Payment has fewer plain duplicates than notification,Llama 8B FAILED; Qwen 1.5B FAILED; Qwen 7B FAILED,Llama 8B UNKNOWN; Qwen 1.5B UNKNOWN; Qwen 7B UNKNOWN
+P6,>50% of duplicates explicitly denied,Llama 8B FAILED; Qwen 1.5B FAILED; Qwen 7B FAILED,Llama 8B UNKNOWN; Qwen 1.5B UNKNOWN; Qwen 7B UNKNOWN
+P7,Claude keyed: zero duplicates and ≥75% exact-once,MET,UNKNOWN

@@ -1,0 +1,100 @@
+{
+  "README.md": {
+    "byte_identical": true,
+    "rebuilt_bytes": 13523,
+    "rebuilt_sha256": "a706760114f4e85c9964905e269b28419dd75efdd5300bfdde8a59e3bf943bac",
+    "source_bytes": 13523,
+    "source_sha256": "a706760114f4e85c9964905e269b28419dd75efdd5300bfdde8a59e3bf943bac"
+  },
+  "RESULTS.md": {
+    "byte_identical": false,
+    "rebuilt_bytes": 42731,
+    "rebuilt_sha256": "7f1c5d5dbff2b88e8b552d31a82d6fe7ce0ae93f734587202017f17a57b4a778",
+    "source_bytes": 42585,
+    "source_sha256": "3a232b09e17690a11bac56f8baf6517f0ccec5d81ddf454fb2a25d993ad554dc"
+  },
+  "analysis-v02-compat.json": {
+    "byte_identical": true,
+    "rebuilt_bytes": 79315,
+    "rebuilt_sha256": "e459557d277f177d8b5300713026055e8c11a77fe1925deb0d9ace470a94f53f",
+    "source_bytes": 79315,
+    "source_sha256": "e459557d277f177d8b5300713026055e8c11a77fe1925deb0d9ace470a94f53f"
+  },
+  "behavior-v02.csv": {
+    "byte_identical": true,
+    "rebuilt_bytes": 1620,
+    "rebuilt_sha256": "beb24022cbdc8cc0e8762f31ea8eee53641347b258d0c32f7357c95ded2fcff8",
+    "source_bytes": 1620,
+    "source_sha256": "beb24022cbdc8cc0e8762f31ea8eee53641347b258d0c32f7357c95ded2fcff8"
+  },
+  "cells.csv": {
+    "byte_identical": true,
+    "rebuilt_bytes": 5630,
+    "rebuilt_sha256": "580c308ad272af2fcdde228f7684d1e2fde8f26e67da5b8f472ede7db9e4c654",
+    "source_bytes": 5630,
+    "source_sha256": "580c308ad272af2fcdde228f7684d1e2fde8f26e67da5b8f472ede7db9e4c654"
+  },
+  "code-baselines.csv": {
+    "byte_identical": true,
+    "rebuilt_bytes": 2596,
+    "rebuilt_sha256": "75358b202da219e62fd12f3688822570d3327b6fca338ee4226487754aa36202",
+    "source_bytes": 2596,
+    "source_sha256": "75358b202da219e62fd12f3688822570d3327b6fca338ee4226487754aa36202"
+  },
+  "contrasts-v01.csv": {
+    "byte_identical": true,
+    "rebuilt_bytes": 3763,
+    "rebuilt_sha256": "6c78deee2aaa4d055268031c3e491eab2605f86faedfeace6334131787cf17ff",
+    "source_bytes": 3763,
+    "source_sha256": "6c78deee2aaa4d055268031c3e491eab2605f86faedfeace6334131787cf17ff"
+  },
+  "contrasts-v02.csv": {
+    "byte_identical": true,
+    "rebuilt_bytes": 3900,
+    "rebuilt_sha256": "573e793074b67bfe1a3cb1ba225e0d2f73739175b619ccafa61efd3afc4b861c",
+    "source_bytes": 3900,
+    "source_sha256": "573e793074b67bfe1a3cb1ba225e0d2f73739175b619ccafa61efd3afc4b861c"
+  },
+  "headline.csv": {
+    "byte_identical": true,
+    "rebuilt_bytes": 2290,
+    "rebuilt_sha256": "7620bffd36b5455f76c8e8add7cbd0f2013fd351e944a1b1f05e3b0e5be5911a",
+    "source_bytes": 2290,
+    "source_sha256": "7620bffd36b5455f76c8e8add7cbd0f2013fd351e944a1b1f05e3b0e5be5911a"
+  },
+  "headline.svg": {
+    "byte_identical": true,
+    "rebuilt_bytes": 15340,
+    "rebuilt_sha256": "4510922b5219f71489a4020587af3ea8e7ecb232ea8778676340c9b5e1db42f2",
+    "source_bytes": 15340,
+    "source_sha256": "4510922b5219f71489a4020587af3ea8e7ecb232ea8778676340c9b5e1db42f2"
+  },
+  "intervals.csv": {
+    "byte_identical": true,
+    "rebuilt_bytes": 30609,
+    "rebuilt_sha256": "7ce405462d51d1bbef862146e9a12e12a18dc0c108bf2a460cf06a289feea194",
+    "source_bytes": 30609,
+    "source_sha256": "7ce405462d51d1bbef862146e9a12e12a18dc0c108bf2a460cf06a289feea194"
+  },
+  "predictions.csv": {
+    "byte_identical": true,
+    "rebuilt_bytes": 815,
+    "rebuilt_sha256": "87fa6bae521e9ef3b7d0762902ccf04fa08b21afaaf26e7927e3843731f152f3",
+    "source_bytes": 815,
+    "source_sha256": "87fa6bae521e9ef3b7d0762902ccf04fa08b21afaaf26e7927e3843731f152f3"
+  },
+  "presentation-summary.json": {
+    "byte_identical": true,
+    "rebuilt_bytes": 4864,
+    "rebuilt_sha256": "81590c01b181d7bc94083759c7c2492a8e3f93a60a6ef181f5527040ab51b709",
+    "source_bytes": 4864,
+    "source_sha256": "81590c01b181d7bc94083759c7c2492a8e3f93a60a6ef181f5527040ab51b709"
+  },
+  "reports-v02.csv": {
+    "byte_identical": true,
+    "rebuilt_bytes": 2164,
+    "rebuilt_sha256": "370d75f9db2656774310652a2cdd085c7e24cd21b62f990bb84d8666e5a7eef5",
+    "source_bytes": 2164,
+    "source_sha256": "370d75f9db2656774310652a2cdd085c7e24cd21b62f990bb84d8666e5a7eef5"
+  }
+}

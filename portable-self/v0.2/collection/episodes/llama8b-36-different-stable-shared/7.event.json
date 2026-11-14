@@ -1,0 +1,1 @@
+{"index":7,"payload":{"calibration":null,"console":"c-c4b980fe","memory":[{"note":"north is south","slot":1},{"note":"east is north","slot":2},{"note":"","slot":3},{"note":"","slot":4}],"mode":"act","targets":["north","east","south","west"],"visit":8,"writable_slot":null},"value":{"controls":[null,null,null,null]}}

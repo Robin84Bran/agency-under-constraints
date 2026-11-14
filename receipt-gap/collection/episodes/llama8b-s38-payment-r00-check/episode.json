@@ -1,0 +1,1 @@
+{"action_failure":true,"attempted_calls":2,"counts":[0,0,0,0],"decisions":1,"ended":false,"episode":{"actor":"llama8b","framing":"payment","id":"llama8b-s38-payment-r00-check","receipt_loss":0,"seed":38,"toolkit":"check"},"error":"key","events":[{"action":{"job":1,"key":null,"op":"status"},"observation":{"result":"not_done"}}],"report":null,"trajectory_valid":false}

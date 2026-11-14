@@ -1,0 +1,21 @@
+{
+  "byte_identical": true,
+  "bytes": 565808,
+  "copy_root": "<TMPDIR>/useful-core-rebuild-qugagrj7/useful-core",
+  "excluded": [
+    "__pycache__",
+    ".DS_Store",
+    ".git",
+    "*.lock"
+  ],
+  "excluded_file_count": 1,
+  "not_a_network_clone": true,
+  "omitted_transient_pins": {
+    "collection/collector.lock": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "sha256": "4660c1ed378873e1444184540de6ff11e17cd1a9a357a1facf6214424c454041",
+  "unadapted_baseline_failed_on_excluded_lock": true
+}

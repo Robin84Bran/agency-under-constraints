@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "rg_analysis.py",
+    "--root",
+    "<WORKSPACE>/06_intelligence/AI_research/research/receipt-gap/v0.2",
+    "--output",
+    "<WORKSPACE>/06_intelligence/AI_research/research/receipt-gap/v0.2/delivery/analysis-v02.json"
+  ],
+  "returncode": 1,
+  "output_exists": false,
+  "canonical_analysis_invocations": 1,
+  "collection_repeated": false
+}

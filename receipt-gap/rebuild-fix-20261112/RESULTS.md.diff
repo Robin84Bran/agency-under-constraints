@@ -1,0 +1,10 @@
+--- source/RESULTS.md
++++ rebuilt/RESULTS.md
+@@ -407,5 +407,5 @@
+ 
+ See [README](README.md) for commands. The full v0.2 package is copied with only `__pycache__`, `.DS_Store`, `.git` and `*.lock` removed. The fresh-clone verifier permits only these absent files, reports their saved hashes, and still checks every present file. Historical pre-v0.2 inventory is an archive-preservation statement, not a dependency requiring a sibling checkout. Portable v0.1 results and provenance are under source-v01/. The package manifest covers every delivered nontransient file except its own recursive hash, and lists omitted transient hashes.
+ 
+-Independent copy rebuild evidence will be recorded in `rebuild-verification.json`; no byte-identity claim is made until that check finishes.
+-
++Rebuild evidence: `rebuild-verification.json`. Fresh-clone-style complete copy with lock files absent: native r5 freeze and integrity PASS; adapted frozen analysis and all 13 presentation artifacts byte-identical. Saved-evidence tampering rejected. No model, network, push or Git calls.
++

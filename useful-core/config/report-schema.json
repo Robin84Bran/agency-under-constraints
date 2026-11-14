@@ -1,0 +1,1 @@
+{"additionalProperties":false,"properties":{"delivered":{"enum":[null,"none","core","reduced","full"]}},"required":["delivered"],"type":"object"}

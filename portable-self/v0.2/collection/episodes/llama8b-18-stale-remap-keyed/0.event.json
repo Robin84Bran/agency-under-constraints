@@ -1,0 +1,1 @@
+{"index":0,"payload":{"calibration":[[1,"north"],[2,"south"],[3,"west"],[4,"east"]],"console":"c-8848d64b","memory":[{"note":"","slot":1}],"mode":"write","targets":null,"visit":1,"writable_slot":1},"value":{"note":"Hello, world!  This is a test of the write mode.  The slot is 1 and the control is north.","slot":1}}

@@ -1,0 +1,16 @@
+{
+  "context_policy": "No context override; preserve source request defaults; actual show/ps metadata recorded before first call.",
+  "installed_ollama_binary_sha256": "92b379163dc2a7953f8f427253f2e01569f627027e8a3783c51b161c808311ce",
+  "installed_ollama_version_from_path": "0.33.3",
+  "launch_environment": {
+    "OLLAMA_HOST": "127.0.0.1:11435",
+    "OLLAMA_MODELS": "<RobinOS2>/ANTresidency/Honest_Agent/models/ollama"
+  },
+  "machine": "arm64",
+  "platform": "macOS-26.6-arm64-arm-64bit",
+  "python_version": "3.9.6 (default, Jan  9 2026, 11:03:41) \n[Clang 17.0.0 (clang-1700.6.4.2)]",
+  "reason": "No server metadata request or inference allowed during offline build",
+  "runtime_defaults_and_context": null,
+  "server_actual_version": null,
+  "status": "UNKNOWN"
+}

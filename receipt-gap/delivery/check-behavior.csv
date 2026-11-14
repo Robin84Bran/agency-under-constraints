@@ -1,0 +1,43 @@
+Actor,Loss %,Toolkit,Frame,Queries,Checked retries,After not_done,After done
+Qwen 7B,0,plain,N,0,0,0,0
+Qwen 7B,0,plain,P,0,0,0,0
+Qwen 7B,0,keyed,N,0,0,0,0
+Qwen 7B,0,keyed,P,0,0,0,0
+Qwen 7B,0,check,N,0,0,0,0
+Qwen 7B,0,check,P,0,0,0,0
+Qwen 7B,50,plain,N,0,0,0,0
+Qwen 7B,50,plain,P,0,0,0,0
+Qwen 7B,50,keyed,N,0,0,0,0
+Qwen 7B,50,keyed,P,0,0,0,0
+Qwen 7B,50,check,N,0,0,0,0
+Qwen 7B,50,check,P,0,0,0,0
+Llama 8B,0,plain,N,0,0,0,0
+Llama 8B,0,plain,P,0,0,0,0
+Llama 8B,0,keyed,N,0,0,0,0
+Llama 8B,0,keyed,P,0,0,0,0
+Llama 8B,0,check,N,318,6,1,5
+Llama 8B,0,check,P,410,1,0,1
+Llama 8B,50,plain,N,0,0,0,0
+Llama 8B,50,plain,P,0,0,0,0
+Llama 8B,50,keyed,N,0,0,0,0
+Llama 8B,50,keyed,P,0,0,0,0
+Llama 8B,50,check,N,342,8,1,7
+Llama 8B,50,check,P,406,0,0,0
+Qwen 1.5B,0,plain,N,0,0,0,0
+Qwen 1.5B,0,plain,P,0,0,0,0
+Qwen 1.5B,0,keyed,N,0,0,0,0
+Qwen 1.5B,0,keyed,P,0,0,0,0
+Qwen 1.5B,0,check,N,0,0,0,0
+Qwen 1.5B,0,check,P,0,0,0,0
+Qwen 1.5B,50,plain,N,0,0,0,0
+Qwen 1.5B,50,plain,P,0,0,0,0
+Qwen 1.5B,50,keyed,N,0,0,0,0
+Qwen 1.5B,50,keyed,P,0,0,0,0
+Qwen 1.5B,50,check,N,0,0,0,0
+Qwen 1.5B,50,check,P,0,0,0,0
+Claude,50,plain,N,0,0,0,0
+Claude,50,plain,P,0,0,0,0
+Claude,50,keyed,N,0,0,0,0
+Claude,50,keyed,P,0,0,0,0
+Claude,50,check,N,20,5,5,0
+Claude,50,check,P,24,4,4,0

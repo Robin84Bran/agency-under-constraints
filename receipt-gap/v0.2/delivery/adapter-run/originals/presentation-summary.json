@@ -1,0 +1,179 @@
+{
+  "frozen_v02_analysis_status": "UNKNOWN",
+  "headline": [
+    [
+      "Qwen 7B",
+      "plain",
+      "94/100 (94.0%) / 0/100 (0.0%) / 11/94 (11.7%) / 94/100 (94.0%)",
+      "100/100 (100.0%) / 0/100 (0.0%) / 7/100 (7.0%) / 100/100 (100.0%)"
+    ],
+    [
+      "Qwen 7B",
+      "keyed",
+      "75/100 (75.0%) / 1/100 (1.0%) / 0/75 (0.0%) / 99/100 (99.0%)",
+      "62/100 (62.0%) / 2/100 (2.0%) / 0/62 (0.0%) / 96/100 (96.0%)"
+    ],
+    [
+      "Qwen 7B",
+      "check",
+      "25/100 (25.0%) / 0/100 (0.0%) / 0/25 (0.0%) / 25/100 (25.0%)",
+      "100/100 (100.0%) / 0/100 (0.0%) / 2/100 (2.0%) / 100/100 (100.0%)"
+    ],
+    [
+      "Llama 8B",
+      "plain",
+      "0/100 (0.0%) / 0/100 (0.0%) / UNKNOWN (0/0) / 2/100 (2.0%)",
+      "100/100 (100.0%) / 0/100 (0.0%) / 1/100 (1.0%) / 100/100 (100.0%)"
+    ],
+    [
+      "Llama 8B",
+      "keyed",
+      "0/100 (0.0%) / 0/100 (0.0%) / UNKNOWN (0/0) / 2/100 (2.0%)",
+      "28/100 (28.0%) / 0/100 (0.0%) / 0/28 (0.0%) / 100/100 (100.0%)"
+    ],
+    [
+      "Llama 8B",
+      "check",
+      "4/100 (4.0%) / 0/100 (0.0%) / 0/4 (0.0%) / 67/100 (67.0%)",
+      "100/100 (100.0%) / 0/100 (0.0%) / 10/100 (10.0%) / 100/100 (100.0%)"
+    ],
+    [
+      "Qwen 1.5B",
+      "plain",
+      "4/100 (4.0%) / 0/100 (0.0%) / 0/4 (0.0%) / 0/100 (0.0%)",
+      "100/100 (100.0%) / 0/100 (0.0%) / 0/100 (0.0%) / 100/100 (100.0%)"
+    ],
+    [
+      "Qwen 1.5B",
+      "keyed",
+      "0/100 (0.0%) / 1/100 (1.0%) / UNKNOWN (0/0) / 10/100 (10.0%)",
+      "3/100 (3.0%) / 0/100 (0.0%) / 0/3 (0.0%) / 14/100 (14.0%)"
+    ],
+    [
+      "Qwen 1.5B",
+      "check",
+      "0/100 (0.0%) / 0/100 (0.0%) / UNKNOWN (0/0) / 0/100 (0.0%)",
+      "100/100 (100.0%) / 0/100 (0.0%) / 0/100 (0.0%) / 100/100 (100.0%)"
+    ],
+    [
+      "Claude",
+      "plain",
+      "0/20 (0.0%) / 10/20 (50.0%) / UNKNOWN (0/0) / 20/20 (100.0%)",
+      "0/20 (0.0%) / 10/20 (50.0%) / UNKNOWN (0/0) / 20/20 (100.0%)"
+    ],
+    [
+      "Claude",
+      "keyed",
+      "0/20 (0.0%) / 20/20 (100.0%) / UNKNOWN (0/0) / 20/20 (100.0%)",
+      "0/20 (0.0%) / 20/20 (100.0%) / UNKNOWN (0/0) / 20/20 (100.0%)"
+    ],
+    [
+      "Claude",
+      "check",
+      "0/20 (0.0%) / 11/20 (55.0%) / UNKNOWN (0/0) / 12/20 (60.0%)",
+      "0/20 (0.0%) / 18/20 (90.0%) / UNKNOWN (0/0) / 20/20 (100.0%)"
+    ],
+    [
+      "Qwen 7B",
+      "plain (0% loss)",
+      "94/100 (94.0%) / 0/100 (0.0%) / 7/94 (7.4%) / 94/100 (94.0%)",
+      "100/100 (100.0%) / 0/100 (0.0%) / 5/100 (5.0%) / 100/100 (100.0%)"
+    ],
+    [
+      "Llama 8B",
+      "plain (0% loss)",
+      "0/100 (0.0%) / 0/100 (0.0%) / UNKNOWN (0/0) / 2/100 (2.0%)",
+      "100/100 (100.0%) / 0/100 (0.0%) / 1/100 (1.0%) / 100/100 (100.0%)"
+    ],
+    [
+      "Qwen 1.5B",
+      "plain (0% loss)",
+      "2/100 (2.0%) / 0/100 (0.0%) / 0/2 (0.0%) / 0/100 (0.0%)",
+      "100/100 (100.0%) / 0/100 (0.0%) / 0/100 (0.0%) / 100/100 (100.0%)"
+    ],
+    [
+      "Claude",
+      "plain (0% loss)",
+      "UNKNOWN; uncollected",
+      "UNKNOWN; uncollected"
+    ]
+  ],
+  "predictions": [
+    [
+      "P1",
+      "Local plain duplicate rate \u226530%",
+      "Llama 8B FAILED; Qwen 1.5B UNKNOWN; Qwen 7B MET",
+      "Llama 8B UNKNOWN; Qwen 1.5B UNKNOWN; Qwen 7B UNKNOWN"
+    ],
+    [
+      "P2",
+      "Local key reuse <50%; Claude >90%",
+      "Claude MET; Llama 8B FAILED; Qwen 7B FAILED",
+      "Claude UNKNOWN; Llama 8B UNKNOWN; Qwen 7B UNKNOWN"
+    ],
+    [
+      "P3",
+      "Qwen RQ1 fails despite a lower keyed duplicate estimate",
+      "MET",
+      "UNKNOWN"
+    ],
+    [
+      "P4",
+      "Check reduces duplicates more than keyed",
+      "Llama 8B FAILED; Qwen 7B FAILED",
+      "Llama 8B UNKNOWN; Qwen 7B UNKNOWN"
+    ],
+    [
+      "P5",
+      "Payment has fewer plain duplicates than notification",
+      "Llama 8B FAILED; Qwen 1.5B FAILED; Qwen 7B FAILED",
+      "Llama 8B UNKNOWN; Qwen 1.5B UNKNOWN; Qwen 7B UNKNOWN"
+    ],
+    [
+      "P6",
+      ">50% of duplicates explicitly denied",
+      "Llama 8B FAILED; Qwen 1.5B FAILED; Qwen 7B FAILED",
+      "Llama 8B UNKNOWN; Qwen 1.5B UNKNOWN; Qwen 7B UNKNOWN"
+    ],
+    [
+      "P7",
+      "Claude keyed: zero duplicates and \u226575% exact-once",
+      "MET",
+      "UNKNOWN"
+    ]
+  ],
+  "v01_prediction_counts": {
+    "FAILED": 11,
+    "MET": 4,
+    "UNKNOWN": 1
+  },
+  "v02_prediction_counts": {
+    "UNKNOWN": 16
+  },
+  "v02_resources": {
+    "claude": {
+      "calls": 526,
+      "episodes": 60,
+      "input_tokens": 899051,
+      "output_tokens": 81482
+    },
+    "llama8b": {
+      "calls": 6600,
+      "episodes": 600,
+      "input_tokens": 2503628,
+      "output_tokens": 106951
+    },
+    "qwen1b": {
+      "calls": 4892,
+      "episodes": 600,
+      "input_tokens": 1775342,
+      "output_tokens": 96526
+    },
+    "qwen7b": {
+      "calls": 6516,
+      "episodes": 600,
+      "input_tokens": 2470248,
+      "output_tokens": 93281
+    }
+  }
+}

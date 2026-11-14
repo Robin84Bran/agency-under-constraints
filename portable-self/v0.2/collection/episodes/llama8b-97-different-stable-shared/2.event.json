@@ -1,0 +1,1 @@
+{"index":2,"payload":{"calibration":[[1,"west"],[2,"north"],[3,"east"],[4,"south"]],"console":"c-a58f7c78","memory":[{"note":"east is a direction","slot":1},{"note":"","slot":2},{"note":"","slot":3},{"note":"","slot":4}],"mode":"write","targets":null,"visit":3,"writable_slot":null},"value":{"note":"the calibration list shows the order of controls","slot":1}}

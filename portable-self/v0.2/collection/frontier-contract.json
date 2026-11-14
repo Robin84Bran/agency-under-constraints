@@ -1,0 +1,1 @@
+{"call_id":"claude-08-stale-remap-keyed-0-attempt-1","metrics":{"input_tokens":1479,"num_turns":2,"output_tokens":94,"reported_effort":"UNKNOWN","stop_reason":"tool_use"},"raw_sha256":"f5151206dc0f6d1324777b38e5dc4ff86e8f44454f1d966e39de3819a116716f","strict_valid_structured_output":true,"verified_at":"2026-11-11T19:26:53.719963+00:00"}

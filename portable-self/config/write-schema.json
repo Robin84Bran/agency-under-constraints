@@ -1,0 +1,20 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "note": {
+      "maxLength": 96,
+      "pattern": "^[ -~]*$",
+      "type": "string"
+    },
+    "slot": {
+      "maximum": 4,
+      "minimum": 1,
+      "type": "integer"
+    }
+  },
+  "required": [
+    "slot",
+    "note"
+  ],
+  "type": "object"
+}

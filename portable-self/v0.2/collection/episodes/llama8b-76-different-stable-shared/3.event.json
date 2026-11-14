@@ -1,0 +1,1 @@
+{"index":3,"payload":{"calibration":[[1,"west"],[2,"north"],[3,"east"],[4,"south"]],"console":"c-704a7261","memory":[{"note":"west is stale, east is fresh","slot":1},{"note":"","slot":2},{"note":"","slot":3},{"note":"","slot":4}],"mode":"write","targets":null,"visit":4,"writable_slot":null},"value":{"note":"east is stale, west is fresh","slot":1}}

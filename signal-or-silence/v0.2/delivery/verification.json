@@ -1,0 +1,129 @@
+{
+  "accounting": {
+    "outstanding_usd": "0",
+    "rolling_ledger_history_and_caps": "PASS",
+    "total_usd": "22.135420",
+    "v01_ledger_sha256": "4f64f8332d8f5c28cc6d97e6d7319ab13637f60dead7a4fe138c60e3533b94b2",
+    "v01_usd": "11.053392",
+    "v02_ledger_sha256": "5cdb2b295cafde7e92f9d56998433f3a78cfbb25b7b28b7c79488ec3d70d170d",
+    "v02_usd": "11.082028"
+  },
+  "all_four_freezes_verified": true,
+  "analysis_command": "python3 -B v0.2/sos_v02.py analyze",
+  "authority": "Delegating reviewer Claude; Claude/Codex agreement under semi_autonomous.md.",
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 20261112,
+  "changed_pre_existing_files": [],
+  "collection": {
+    "missing": 0,
+    "v01_saved_outcomes": 5604,
+    "v02_attempt_starts": 1871,
+    "v02_effective_integrity_failures": 0,
+    "v02_effective_transport_failures": 0,
+    "v02_generated_outcomes": 1868,
+    "v02_nonstart_usd": "0",
+    "v02_operational_nonstarts": 3
+  },
+  "delivery_sha256": {
+    "v0.2/PROJECT_STATE-post-analysis.md": "10f52d0c0261f7c0862c40afbdf249289aa155503dc07868b9ccc0ae1c36020f",
+    "v0.2/QUESTIONS-post-analysis.md": "13688a3d0c215f6afb150fa228f8e3287a2eeef7cda9e96269abbb6ee538f29a",
+    "v0.2/README.md": "ed0ab113bd0456ce5abc28d6346ee5deaf5006fc5cee7fa7c32712094da4e0f0",
+    "v0.2/RESULTS.md": "99650a7ee434e327e3941ff080d900b5e0b5977f091d56f5ed7e8ebd2c494c9b",
+    "v0.2/analysis/RESULTS.md": "73dc686f3f26b0779e75b12545696c125329fb2668bc42abd6da2af0e89f51f1",
+    "v0.2/analysis/results.json": "fb68adb5b656df544a59af78950f42c8a007f85e894ccb149d24db1716750041",
+    "v0.2/delivery/rebuild-execution.json": "4281d2bd05cf9b3727173be30ec993a0b9b2e9960eb724fd28ce23329d54167a",
+    "v0.2/delivery/rebuild-source.json": "0714fc13da2606cd118e35c13c32bff0aabc930c3ba917032764dadd067b4356",
+    "v0.2/delivery/render_combined.py": "f2127213e9569ceed716e30cf1824795873bcd6e04a1ce76603337cf9f4a1c87",
+    "v0.2/delivery/verify_delivery.py": "c13838107cc857b4735a8ba0c5d961e9112ee1590e55b72898625d5f542d0d5d"
+  },
+  "freeze_sha256": {
+    "freeze-d1.json": "788660aff78419689a1fa18e0b794e168942121c87d154582ce9d074d2177e65",
+    "freeze.json": "09e07d27f622d4470fe8c4a6910e819cdbd892913c391c9297f4a72212c1a0a8",
+    "v0.2/freeze-usage-limit.json": "5995ec352f834c6e898bf5a228b1ee11c7968c211fd5b3cd553f56dbad0280c1",
+    "v0.2/freeze.json": "ff77f225e74a80b522e5dbe82869213565e86ea032f30fbeae1b7080c1984373"
+  },
+  "frozen_metadata_attribution": "Historical frozen authority strings in raw command logs are retained verbatim; current task decisions came from the Claude/Codex agreement.",
+  "independent_rebuild_executions": 1,
+  "offline_tests": {
+    "errors": 0,
+    "failures": 0,
+    "run": 93
+  },
+  "original_v02_production_executions": 1,
+  "pre_existing_files_byte_identical": 32882,
+  "provenance": {
+    "continuation_request_identity_and_reset_checks": "PASS",
+    "deviation_attestation": {
+      "attested_utc": "2026-11-11T14:04:07.291504+00:00",
+      "deviation_freeze_sha256": "5995ec352f834c6e898bf5a228b1ee11c7968c211fd5b3cd553f56dbad0280c1",
+      "operator": "Claude",
+      "parent_freeze_sha256": "ff77f225e74a80b522e5dbe82869213565e86ea032f30fbeae1b7080c1984373",
+      "scope": "Reviewed harness-only deviation; resume identical requests after stated reset."
+    },
+    "deviation_attestation_before_all_continuations": true,
+    "first_continuation_start": "2026-11-11T14:07:40.997662+00:00",
+    "first_original_start": "2026-11-11T09:13:36.207762+00:00",
+    "last_continuation_start": "2026-11-11T14:07:55.680061+00:00",
+    "last_original_start": "2026-11-11T15:10:55.782947+00:00",
+    "push": {
+      "attested_utc": "2026-11-11T09:13:27.264420+00:00",
+      "commit": "43946c0e5c2eab20c482d703d8b2b9d7785710ff",
+      "freeze_sha256": "ff77f225e74a80b522e5dbe82869213565e86ea032f30fbeae1b7080c1984373",
+      "github_time": "2026-11-11T09:13:09Z",
+      "remote": "https://github.com/Robin84Bran/research",
+      "server_timestamp_source": "GitHub REST API GET /repos/Robin84Bran/research/activity: push 43946c0e5c2eab20c482d703d8b2b9d7785710ff at 2026-11-11T09:13:09Z",
+      "version": "v0.2"
+    },
+    "push_before_all_starts": true,
+    "scope": "Saved operator attestations, not an independent GitHub query."
+  },
+  "rebuild": {
+    "all_byte_identical": true,
+    "comparisons": [
+      {
+        "byte_identical": true,
+        "original": "v0.2/analysis/results.json",
+        "original_sha256": "fb68adb5b656df544a59af78950f42c8a007f85e894ccb149d24db1716750041",
+        "rebuilt": "v0.2/analysis-rebuild-1/results.json",
+        "rebuilt_sha256": "fb68adb5b656df544a59af78950f42c8a007f85e894ccb149d24db1716750041"
+      },
+      {
+        "byte_identical": true,
+        "original": "v0.2/analysis/RESULTS.md",
+        "original_sha256": "73dc686f3f26b0779e75b12545696c125329fb2668bc42abd6da2af0e89f51f1",
+        "rebuilt": "v0.2/analysis-rebuild-1/RESULTS.md",
+        "rebuilt_sha256": "73dc686f3f26b0779e75b12545696c125329fb2668bc42abd6da2af0e89f51f1"
+      }
+    ],
+    "completed_utc": "2026-11-11T16:04:28.266269+00:00",
+    "independent_rebuild_executions": 1,
+    "original_production_executions": 1,
+    "scope": "Independent process in isolated byte-verified copy; not independent reviewer or GitHub fresh clone."
+  },
+  "reports": {
+    "broken_local_links": [],
+    "headline_rows_checked_against_json": 16,
+    "markdown_table_rows_checked": 215,
+    "question_log_original_prefix_byte_identical": true,
+    "readme": "v0.2/README.md",
+    "reason": "Root reports and question/state logs are frozen inherited inputs; versioned combined delivery preserves them.",
+    "results": "v0.2/RESULTS.md"
+  },
+  "scientific_acceptance": "UNKNOWN",
+  "source_integrity": "PASS: 1440 source episodes, 240 primary, 120 receipt pairs; certificates, truth, masks and selections.",
+  "status": "PASS",
+  "unresolved": [
+    "Both versions failed per-view validity quality criterion.",
+    "Independent fresh-GitHub-clone Claude review and findings dispositions pending.",
+    "Historical accounting is not a verified current invoice; hardware/energy/opportunity costs unavailable."
+  ],
+  "v01_claude_structural_identity": {
+    "bootstrap": true,
+    "diversity": true,
+    "instruction_contrasts": true,
+    "primary": true,
+    "receipt_replication": true
+  },
+  "v01_numerical_sha256": "0ac4d9486e96ac10c661b2bc951126bbb5bef356ace85caf4986543c646f6861",
+  "verified_utc": "2026-11-11T16:10:25.491034+00:00"
+}

@@ -1,0 +1,1 @@
+{"action_failure":true,"attempted_calls":1,"counts":[0,0,0,0],"decisions":0,"ended":false,"episode":{"actor":"qwen7b","framing":"payment","id":"qwen7b-s09-payment-r50-check","receipt_loss":0.5,"seed":9,"toolkit":"check"},"error":"action fields","events":[],"report":null,"trajectory_valid":false}

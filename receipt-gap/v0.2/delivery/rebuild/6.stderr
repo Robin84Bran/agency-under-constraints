@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/private/tmp/receipt-gap-v02-postcollection-rebuild-20261112/v0.2/delivery/verify_delivery.py", line 102, in <module>
+    result = verify(fresh=a.fresh_clone)
+  File "/private/tmp/receipt-gap-v02-postcollection-rebuild-20261112/v0.2/delivery/verify_delivery.py", line 77, in verify
+    check(f, expected)
+  File "/private/tmp/receipt-gap-v02-postcollection-rebuild-20261112/v0.2/delivery/verify_delivery.py", line 39, in check
+    raise ValueError('hash mismatch: ' + name)
+ValueError: hash mismatch: collection/STOP.json

@@ -1,0 +1,1 @@
+{"index":1,"payload":{"calibration":[[1,"east"],[2,"south"],[3,"north"],[4,"west"]],"console":"c-0ac19f5b","memory":[{"note":"","slot":2}],"mode":"write","targets":null,"visit":2,"writable_slot":2},"value":{"note":"Replace note in slot 2 with: The console with label 'c-0ac19f5b' is at east.","slot":2}}

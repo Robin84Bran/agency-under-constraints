@@ -1,0 +1,20 @@
+{
+  "binary_sha256": "6b5ec691195e551b02c41df9f7d723f4ea61eaa03c2df90acefe3736f1aeb620",
+  "version": "2.1.312 (user supplied)",
+  "help_sha256": "fc9af56f65f8a84a9e7e98cd538ccac13f57d1cc0e22099666508198ba88d64d",
+  "inspection": "read-only embedded strings; no executable operation except --help",
+  "tokens_present": {
+    "MAX_STRUCTURED_OUTPUT_RETRIES": true,
+    "CLAUDE_CODE_MAX_OUTPUT_TOKENS": true,
+    "CLAUDE_CODE_MAX_RETRIES": true,
+    "CLAUDE_CODE_NONSTREAMING_TIMEOUT_RETRIES": true,
+    "structured_output:r,endsTurn:!0": true
+  },
+  "payload": "outer structured_output object only; no result fallback",
+  "compatibility_status": "UNKNOWN",
+  "one_generation_status": "UNKNOWN",
+  "accounted_output_enforcement_status": "UNKNOWN",
+  "current_rates_status": "UNKNOWN",
+  "dispatch_status": "UNKNOWN",
+  "reason": "Flags/embedded strings do not verify complete print path, internal generation count, subscription charged-output cap or current rates. Frontier preflight refuses dispatch pending reviewed evidence/amendment."
+}

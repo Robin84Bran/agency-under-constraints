@@ -1,0 +1,60 @@
+{
+  "version": "2.1.312",
+  "binary_sha256": "6b5ec691195e551b02c41df9f7d723f4ea61eaa03c2df90acefe3736f1aeb620",
+  "payload_field": "structured_output",
+  "payload_type": "object",
+  "snippets": [
+    {
+      "needle": "result:Cs,structured_output:Ps",
+      "offset": 236184731,
+      "text": "!==void 0&&{api_error_code:Xt},...es!==void 0&&{api_error_origin:es},...ts!==void 0&&{api_error:ts},result:Cs,structured_output:Ps,ttft_ms:!ht&&ws!==null?Math.max(0,Math.round(ws-E)):void 0,deferred_tool_use:os}}),...O};if(Ts&&js.subtype===\"success\")try{a(\"tengu_structured_output_refusal_dropped\",{api_error_latched:ht})}catch(ne){l(ne)}let Ws;if(T.uuid!==void 0)Ws=yt(T.uuid,le!==null?\"cancelled\":QQn(Jt,he));if(Oe.shift(),rt)Vno(is);else if(is!==void 0)yield U(Nt(is,\"warning\"));yield*we(),yield*xe(js,Ws)}while(it.length>0&&!Te?.signal.aborted&&Ye())yield*we(),await J(100);if(it.length>0&&Te?.si"
+    },
+    {
+      "needle": "structured_output:oe().optional()",
+      "offset": 219636132,
+      "text": "ional().describe(XA),permission_denials:C(GA()),queued_turn_count:E().int().optional().describe(QA),structured_output:oe().optional(),deferred_tool_use:WF().optional(),terminal_reason:HA().optional(),interrupted_by_shutdown:T(!0).optional().describe(eR),result_index:E().int().nonnegative().optional().describe(ZA),fast_mode_state:Jt().optional(),fast_mode_disabled_reason:Zt().optional(),origin:To().optional(),uuid:m(),session_id:o()})),QF=f(()=>u({type:T(\"result\"),subtype:F([\"error_during_execution\",\"error_max_turns\",\"error_max_budget_usd\",\"error_max_structured_output_retries\"]),duration_ms:E()"
+    },
+    {
+      "needle": "function nTt(e)",
+      "offset": 220728229,
+      "text": ";if(w?.max_tokens&&w.max_tokens>=4096)r=w.max_tokens,n=Math.min(n,r);return{default:n,upperLimit:r}}function nTt(e){let n=cfe(e);return nqt(\"CLAUDE_CODE_MAX_OUTPUT_TOKENS\",process.env.CLAUDE_CODE_MAX_OUTPUT_TOKENS,n.default,n.upperLimit).effective}function Hui(e){let n=Je(e);return ac(e,n)??Ew(e,n)??Fl(n)?.max_output_tokens?.default??cfe(e).default}function Dui(e){return cfe(e).upperLimit-1}function Op(e){return e.includes(\"claude-3-\")||e===\"claude-opus-4-0\"||e===\"claude-opus-4-1\"||e===\"claude-opus-4-5\"||e===\"claude-opus-4-6\"||e===\"claude-sonnet-4-0\"||e===\"claude-sonnet-4-5\"||e===\"claude-sonne"
+    },
+    {
+      "needle": "function nqt(e,n,r,s)",
+      "offset": 220590412,
+      "text": " 1M, and is tried again after /clear, a compaction, a resume or a provider change.`,{level:\"warn\"})}function nqt(e,n,r,s){if(!n)return{effective:r,status:\"valid\"};let h=Uu(n);if(isNaN(h)||h<=0){let y={effective:r,status:\"invalid\",message:`Invalid value \"${n}\" (using default: ${r})`};return t(`${e} ${y.message}`),y}if(h>s){let y={effective:s,status:\"capped\",message:`Capped from ${h} to ${s}`};return t(`${e} ${y.message}`),y}return{effective:h,status:\"valid\"}}function gv(e){uN().mainLoopCanonical=e}function rqt(){return uN().mainLoopCanonical?.()}function NL(e,n,r){if(e===e){if(r!==void 0)e=e<=r"
+    },
+    {
+      "needle": "--max-turns <turns>",
+      "offset": 237440445,
+      "text": "m number of thinking tokens (only works with --print)\").argParser(io).hideHelp()).addOption(new Ss(\"--max-turns <turns>\",\"Maximum number of agentic turns in non-interactive mode. This will early exit the conversation after the specified number of turns. (only works with --print)\").argParser(io).hideHelp()).addOption(new Ss(\"--max-budget-usd <amount>\",\"Maximum dollar amount to spend on API calls (only works with --print)\").argParser((y)=>{let v=mvi(y);if(v===void 0)throw new g9e(\"--max-budget-usd must be a positive number greater than 0\");return v})).addOption(new Ss(\"--task-budget <tokens>\",\"A"
+    },
+    {
+      "needle": "MAX_STRUCTURED_OUTPUT_RETRIES??",
+      "offset": 241282657,
+      "text": "me,st=Sn?.summary,Ue)Ht(\"progress\",{tokens:Tt+Lt,toolCalls:ht+St})},rn=0,bn=0,fn,Ln,fr=new Set,pr=i.MAX_STRUCTURED_OUTPUT_RETRIES??eUn,sn=Date.now(),Dn=cv(ve)?tZ():void 0;try{T?.(ne,Nt),await qI(Ze,async()=>{for await(let ee of Rx({agentDefinition:wt?Jr(ve,hi):ve,turnPrompt:Oe,promptMessages:so===null?[Ie({content:Oe})]:[Ie({content:so}),Ie({content:Oe})],toolUseContext:Pn,session:R,canUseTool:n,isAsync:!1,querySource:dde(ve.agentType,Dl(ve)),spawnedBySkill:Q.options.spawnedBySkill??Q.options.activeSkill,spawnedByForkedSkill:Q.options.spawnedByForkedSkill,availableTools:Bt,requiresStructuredOu"
+    },
+    {
+      "needle": "maxOutputTokens:nTt(e)",
+      "offset": 227806437,
+      "text": "efault:h.present}}function pc(e,n=sf()){let r=Je(e),s=D8r(e,r);return{model:e,contextWindow:sg(e,n),maxOutputTokens:nTt(e),canonical:r,settingsKey:wK(e),longContextWindowWithoutOptIn:Iui(e,r,s),optIn1mHonored:Tar(e,n),apiContextWindowWithoutOptIn:Math.max(H8r(r),H8r(Je(e,{identity:!0,overridesMap:{}})),H8r(Je(Dt(e))),s?.withoutOptIn??$Xo(e)??0),servedWindow:s,recognized:Ibe(e,r),bytesPerToken:Ey(e),clientDataAutoCompactWindow:iEo(r),thinking:{supported:Uui(e),alwaysOn:Got(e),rejectsDisabled:UFe(e),capsEffortWhenDisabled:Bqr(e)},acceptsTemperature:Par(e)}}function M8(e){return Rhi(e)&&!Nyi()}fu"
+    },
+    {
+      "needle": "let gT=Math.min",
+      "offset": 229520117,
+      "text": "ders??[]);if(fm&&Pk(ut,OA)&&!Hr.includes(OA))Hr.push(OA);Vve(fl,OA,li===\"bedrock\"&&Hr.includes(OA));let gT=Math.min(Vn?.maxTokensOverride||Q.maxOutputTokensOverride||It.maxOutputTokens,It.maxOutputTokens),Bk=i.CLAUDE_CODE_DISABLE_THINKING,yc=Xt.type!==\"disabled\"&&!Bk,uy=()=>It.thinking.rejectsDisabled||qt!==void 0&&UFe(qt),uw=yc&&K3n(Et)&&!sm(ut,mQo)&&(f_===\"idle\"||f_===\"withoutUpdates\"),NS=!uw?void 0:Xt.display===\"highlights\"&&GPn()?\"omitted\":Xt.display,bp=void 0;if(yc&&It.thinking.supported)if(Vot({runtimeOverride:o9e(Q.model),resolvedModel:Et,canonicalModel:mt})===\"adaptive\")bp={type:\"adaptive\",display:NS};else{let Eu=Dui(Et);if(Xt.type===\"enabled\"&&Xt.budgetTokens!==void 0)Eu=Xt.budgetTokens;Eu=Math.max(1024,Math.min(gT-1,Eu)),bp={budget_tokens:Eu,type:\"enabled\",display:NS}}else if(Xt.type===\"disabled\"&&Ce()===\"firstParty\"&&!Bk&&It.thinking.supported&&!uy())bp={type:\"disabled\"};let WO;if(jR){if(!Hr.includes(Hz))Hr.push(Hz);if(Vve(fl,Hz,li===\"bedrock\"),_A!==void 0&&(bp?.type===\"adaptive\"||bp?.type===\"enabled\")&&!(\"thinking\"in fl))bp={...bp,block_binding:{prefix_mismatch_behavior:_A}},WO=_A}let YA=Xt.type===\"disabled\"?void 0:Xt,GO=YA?.display,QA=\"none\";try{QA=asn(GO,YA?.displayEx"
+    },
+    {
+      "needle": "max_tokens:gT",
+      "offset": 229525933,
+      "text": "=void 0&&{tools:Wl.tools},tool_choice:FS,...zF&&p$e(ZR),metadata:ize({agentContext:Q.agentContext}),max_tokens:gT,thinking:bp,...eie!==void 0&&{temperature:eie},...fE&&jv&&Hr.includes(Pfe)&&{context_management:fE},...O5&&lp!==void 0&&{safeguards:[{type:YWe,classifier_context:lp}]},...!Uk&&$S?$S:{},...!Uk&&hT?hT:{},...Bl,...fl,...{},...Object.keys(fd).length>0&&{output_config:fd},...nI!==void 0&&{speed:nI},...Jk!==null&&{thread:Jk.thread},...UR()&&(bt||Q.forkPointUuid!==void 0)&&jv&&!Uk&&{diagnostics:{previous_message_id:lt??null}}};LO=CA!==void 0&&au.context_management===fE,jse=tP&&au.messages.some((aa)=>aa.clear_at!==void 0);let Ip=Xpr(au.thinking,Q.querySource,!VIe);if(Ip!==au.thinking)VIe=!0,au.thinking=Ip;{let aa=au.thinking;$O=aa?.type===\"adaptive\"||aa?.type===\"enabled\"?aa.type:\"disabled\",$g=ufn(aa)}if(nr&&Dmr(au)){try{au=vl(au)}catch{}if(B5e(au),!YIe)YIe=!0,a(\"tengu_lone_surrogate_sanitized\",{source:S(\"queryModel\")})}let Dy=au.output_config?.effort;Yh=typeof Dy===\"string\"&&Uw(Dy)?Dy:void 0;let Em=x8e(Jr);return Wv=Em.effort??null,IO=Em.now,au};{let Vn=zse({model:Q.model},!1),nr=Jr.length,Hr=jv?Vn.betas??[]:[],li=Vn.thinking?.type??\"disabled\",Ka=rE,Hl=xa;Q.getToolPermissionCon"
+    },
+    {
+      "needle": "HSt(",
+      "offset": 225868931,
+      "text": "n)?n:n?[{type:\"text\",text:n}]:[]],{fingerprint:w,agentContext:h,forceAttributionHeader:s})}function HSt(e){let n=[{role:\"user\",content:\".\"}],r={model:e,max_tokens:1,messages:n};try{return{...r,system:d1o({messages:n,agentContext:ld()}),metadata:ize()}}catch(s){return t(`[model-check] sending the ${e} start-up check without the Claude Code billing block and metadata: ${d(s)}`,{level:\"warn\"}),r}}import{isAbsolute as KU,resolve as VU}from\"path\";import{readdir as vU}from\"fs/promises\";import{isAbsolute as TU,join as jk,normalize as PU}from\"path\";class Gk{resultsByHost=new Map;inFlightByHost=new Map}var CU=new W(()=>new Gk),AU=500;function Wk(){return CU.of(U().host)}async function zk(e){let n=await _p(e);return n.kind===\"token\"?n.token:null}async function _p(e){let{resultsByHost:n,inFlightByHost:r}=Wk(),s=n.get(e);if(s!==void 0)return s;let h=r.get(e);if(h!==void 0)return h;let y=OU(e).then((w)=>{if(r.get(e)===y)n.set(e,w);return w}).finally(()=>{if(r.get(e)===y)r.delete(e)});return r.set(e,y),y}function wp(e){let{resultsByHost:n,inFlightByHost:r}=Wk();n.delete(e),r.delete(e)}async function OU(e){let n=So(e)?process.env.GH_TOKEN||process.env.GITHUB_TOKEN:h5e(process.env.GH_HOST,e)?proce"
+    }
+  ],
+  "package_sha256": "4069e9fa14819ca0ea563781d71921746dedc41be3f4d4860563e7192a560e49",
+  "package_version": "2.1.312"
+}

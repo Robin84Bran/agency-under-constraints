@@ -1,0 +1,42 @@
+{
+  "freeze_sha256": "7e0388dc5b9780b4abc016984c476173a49fd116bdedb77aef1a46a7ab14ac37",
+  "frozen_files_unchanged": 54,
+  "original_v01_files_unchanged": 10056,
+  "original_verifier_on_expanded_delivery": "rejects additive documents; intentional inventory boundary, not edited",
+  "post_freeze_additions": {
+    "README.md": "e70e2ab28b2c61dfc7eb9228b523bf729ef38d652d528df14e1fab8e73306bd6",
+    "RESULTS.md": "de37227fca621a144edb1c6dd869615071df7109189a72a6665dc310852e26fc"
+  },
+  "scientific_outputs": {
+    "baselines.csv": {
+      "bytes": 759,
+      "sha256": "cf505c7ea87478094828f5058d01089037e3d55ba2743095850b8ae751af2494"
+    },
+    "episodes.json": {
+      "bytes": 1564644,
+      "sha256": "49c7ce4591abbfaa90c81e135326f02b2ac3920308ee769c3aade5d71a65a49d"
+    },
+    "frontier-seeds.csv": {
+      "bytes": 2926,
+      "sha256": "5b6c778a140fe1a537a00a25d73fb3b0aa06633f7492a90e4115cb005d41a845"
+    },
+    "headline.svg": {
+      "bytes": 4535,
+      "sha256": "a03564981148c22bfadfbf0af55380c3b978cb41a9fb7f53a28a962f3f220305"
+    },
+    "summary.json": {
+      "bytes": 315378,
+      "sha256": "e9bc0a867a3f9af206dd33e5a5f8be7f206fd173c8a698fb2e40aba3e17d61a9"
+    },
+    "tables.csv": {
+      "bytes": 1656,
+      "sha256": "04de03376d57becfdb36a86d46934897c3289799547697e1f4dc672a455390fb"
+    },
+    "tables.md": {
+      "bytes": 2809,
+      "sha256": "28bfcbd675f0fb1e52bb64d84444b4ad5943af7a59d899cc968ccbd50f908c2a"
+    }
+  },
+  "status": "PASS",
+  "verification_method": "frozen byte hashes; unchanged CLI verifies exact-inventory copy in independent rebuild"
+}

@@ -1,0 +1,31 @@
+{
+  "accounting": {
+    "actual_cash_billing_usd": null,
+    "basis": "conservative API-equivalent USD4/20 per million; actual cash billing UNKNOWN",
+    "exposure_micro_usd": 12048407,
+    "ledger_events": 653,
+    "new_settled_micro_usd": 6093738,
+    "outstanding_micro_usd": 293888,
+    "prior_settled_micro_usd": 5660781,
+    "protected_reserve_micro_usd": 1000000,
+    "settled_micro_usd": 11754519,
+    "status": "RECONCILED",
+    "unknown_usage_calls": []
+  },
+  "operational_events": [
+    {
+      "cost_micro_usd": 0,
+      "id": "claude-s00-notification-r50-check-0",
+      "kind": "dns non-start",
+      "model_output": false,
+      "reset_at": null
+    },
+    {
+      "cost_micro_usd": 0,
+      "id": "claude-s00-notification-r50-check-0-attempt1",
+      "kind": "harness non-start",
+      "model_output": false,
+      "reset_at": null
+    }
+  ]
+}

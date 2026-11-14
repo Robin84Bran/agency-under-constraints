@@ -1,0 +1,1 @@
+{"type":"result","subtype":"error_during_execution","is_error":true,"api_error_status":429,"result":"You've hit your 5-hour limit · resets 9:30pm (Asia/Hong_Kong)","usage":{"input_tokens":0,"output_tokens":0,"cache_read_input_tokens":0,"cache_creation_input_tokens":0},"total_cost_usd":0,"modelUsage":{},"num_turns":1}

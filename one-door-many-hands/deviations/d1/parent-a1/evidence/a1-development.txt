@@ -1,0 +1,9 @@
+A1 development verification retained before the audit helper was implemented.
+Original baseline: 43 tests, OK (3.109s), before any edits.
+First A1 suite: 58 tests; one error, all other tests passed (3.823s).
+ERROR: test_exhaustive_raise_and_fatal_inventory (test_a1.A1)
+ModuleNotFoundError: No module named 'od_audit'
+Resolution: implement the requested AST inventory and exact table-coverage regression.
+Subsequent A1 suite: 58 tests, OK (3.983s).
+A later targeted cwd-harness failure regression brings the final suite to 59 tests.
+No provider calls or Git operations were used.

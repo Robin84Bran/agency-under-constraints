@@ -1,0 +1,1 @@
+{"index":7,"payload":{"calibration":null,"console":"c-cf24860a","memory":[{"note":"Console c-52540da8 demonstrated with control: east","slot":1},{"note":"","slot":2},{"note":"Console c-cf24860a demonstrated with control: north","slot":3},{"note":"","slot":4}],"mode":"act","targets":["east","north","west","south"],"visit":8,"writable_slot":null},"value":{"controls":[null,4,1,3]}}

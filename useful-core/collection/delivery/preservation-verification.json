@@ -1,0 +1,8 @@
+{
+  "bytes_compared": 64586407,
+  "canonical_analysis_sha256": "4660c1ed378873e1444184540de6ff11e17cd1a9a357a1facf6214424c454041",
+  "frozen_root_inputs_and_original_collection_evidence_preserved": true,
+  "status": "PASS",
+  "unchanged_nontransient_files_outside_delivery_compared_to_initial_copy": 45135,
+  "write_scope": "Only new collection/analysis-d2-final.json and collection/delivery/ artifacts"
+}

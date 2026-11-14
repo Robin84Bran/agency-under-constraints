@@ -1,0 +1,1 @@
+{"index":5,"payload":{"calibration":null,"console":"c-612a311c","memory":[{"note":"Replace slot 2 with note that north is not the same as west","slot":2}],"mode":"act","targets":["south","east","north","west"],"visit":6,"writable_slot":null},"value":{"controls":[null,null,null,null]}}

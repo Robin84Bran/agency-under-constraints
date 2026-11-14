@@ -1,0 +1,32 @@
+{
+  "audit": {
+    "already_right": 172,
+    "final_sites": 223,
+    "fixed": 25,
+    "original_sites": 197
+  },
+  "errors": 0,
+  "failures": 0,
+  "real_model_calls": 0,
+  "skipped": 0,
+  "source_sha256": {
+    "deviations/a1/audit.py": "a7d3fc3a6cb3c0ef7e834c5d90e51883685fa2302762034c898173d8972a1afe",
+    "deviations/a1/build_audit.py": "a0a806c2f1d984e5277725d19cbe02e886ec4bf2a1345fa0301b0c9af2d1ddbc",
+    "tests/test_a1.py": "04b3ac22fd4c3c4ec2c5fb41a5dbbcd6635de9a420bcc06b5f0fa0d26cb1941a",
+    "tests/test_core.py": "7359ffa4ed93259ba60e6279101742f26f7cc52ad9fe46ca570baa7e8208de49",
+    "tests/test_provenance.py": "e02f165e69cc60705c87f6258d4dfa711061d925eb0bfc7e7a12b31aa1023c32",
+    "tests/test_runtime.py": "5ee0b1478c22e5a7c8008f9bb350c8081f77b13dbc14e48fcb6e3d7f1935ea37",
+    "uc.py": "9636078fa5fd1e3de8819a16890e57a95d440ea62998fab6eb5dcaeacff4e3a8",
+    "uc_analysis.py": "37ab29558bb020b64e0238e8ddf56b66a1718bfdb286445c2c2fda6b0faa0392",
+    "uc_baselines.py": "edfe918cb6ea77c63504a643e3e8de5c541a811b250daf424606aacaa0473e11",
+    "uc_collect.py": "4c83c297493bbe985683de2f8cea04c550d8002de238fef24edd6d8474fdd44e",
+    "uc_core.py": "ce011f25126bb34384d98e8b9fa276d788303b5553d393ff68ae1ad3532e671f",
+    "uc_freeze.py": "5be245294222ef0183877c89a94d7f02ac09a7f9555ec7452fc3ae5e2f5d5657",
+    "uc_manifest.py": "dbc399d08f1659e72b9d33f1d049c635aecb2be2c34677f74519e01da00ca186",
+    "uc_offline.py": "506df7c621879be51821eefdf9e257bb7316d95651d76b451aa49e86ce99e60a",
+    "uc_store.py": "20dcd512eae8722fe83b4f59687f81f2813a91ce02604ec71adb77f25695b8d3",
+    "uc_transport.py": "4c4971194f79145f9bb2fb330af503bb83d4a8167f127443c94b763d73451dcd"
+  },
+  "status": "PASS",
+  "tests": 81
+}

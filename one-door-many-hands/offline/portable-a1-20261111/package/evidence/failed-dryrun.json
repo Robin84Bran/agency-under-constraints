@@ -1,0 +1,1 @@
+{"attempt":"offline/build-dry-run","error":"KeyError: (0, 1, 'rules') in contrast() for two-job fault fixture","kind":"OFFLINE_ENGINEERING_FAILURE_NOT_MODEL_EVIDENCE","resolution":"handle missing fixture pairs; fault scenarios now retain a full planned block; regression test test_partial_fixture_analysis_regression","retained_archive":"offline/failed-first-dry-run.tar.gz"}

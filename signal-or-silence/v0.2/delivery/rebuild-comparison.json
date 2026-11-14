@@ -1,0 +1,23 @@
+{
+  "completed_utc": "2026-11-11T16:04:28.266269+00:00",
+  "comparisons": [
+    {
+      "original": "v0.2/analysis/results.json",
+      "rebuilt": "v0.2/analysis-rebuild-1/results.json",
+      "original_sha256": "fb68adb5b656df544a59af78950f42c8a007f85e894ccb149d24db1716750041",
+      "rebuilt_sha256": "fb68adb5b656df544a59af78950f42c8a007f85e894ccb149d24db1716750041",
+      "byte_identical": true
+    },
+    {
+      "original": "v0.2/analysis/RESULTS.md",
+      "rebuilt": "v0.2/analysis-rebuild-1/RESULTS.md",
+      "original_sha256": "73dc686f3f26b0779e75b12545696c125329fb2668bc42abd6da2af0e89f51f1",
+      "rebuilt_sha256": "73dc686f3f26b0779e75b12545696c125329fb2668bc42abd6da2af0e89f51f1",
+      "byte_identical": true
+    }
+  ],
+  "all_byte_identical": true,
+  "scope": "Independent process in isolated byte-verified copy; not independent reviewer or GitHub fresh clone.",
+  "original_production_executions": 1,
+  "independent_rebuild_executions": 1
+}

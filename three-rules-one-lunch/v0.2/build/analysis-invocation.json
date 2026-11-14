@@ -1,0 +1,13 @@
+{
+  "started_at": "2026-11-11T19:41:55.105193+00:00",
+  "command": [
+    "python3",
+    "-B",
+    "v0.2/trl_analysis.py",
+    "--out",
+    "v0.2/build/analysis-final"
+  ],
+  "freeze_sha256": "7e0388dc5b9780b4abc016984c476173a49fd116bdedb77aef1a46a7ab14ac37",
+  "model_calls": 0,
+  "purpose": "single primary execution of frozen analysis; independent reproduction separately"
+}

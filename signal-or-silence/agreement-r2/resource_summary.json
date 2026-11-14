@@ -1,0 +1,624 @@
+{
+  "groups": [
+    {
+      "cohort": "HA main",
+      "model": "claude",
+      "source": "HA",
+      "view": "final",
+      "calls": 360,
+      "seconds": {
+        "n": 360,
+        "total": 2498.1734752029993,
+        "mean": 6.939370764452777,
+        "median": 6.794619645500003,
+        "min": 5.441371250000003,
+        "max": 10.141441791999995
+      },
+      "seconds_missing": 0,
+      "usd": {
+        "n": 360,
+        "total": 2.7363439999999977,
+        "mean": 0.007600955555555556,
+        "median": 0.007566,
+        "min": 0.005016,
+        "max": 0.0119
+      },
+      "usd_missing": 0,
+      "input_tokens": {
+        "n": 360,
+        "total": 362331,
+        "mean": 1006.475,
+        "median": 1006.5,
+        "min": 992,
+        "max": 1022
+      },
+      "input_tokens_missing": 0,
+      "output_tokens": {
+        "n": 360,
+        "total": 64351,
+        "mean": 178.75277777777777,
+        "median": 177.0,
+        "min": 50,
+        "max": 393
+      },
+      "output_tokens_missing": 0,
+      "cached_input_tokens": null,
+      "cached_input_tokens_missing": 360
+    },
+    {
+      "cohort": "HA main",
+      "model": "claude",
+      "source": "HA",
+      "view": "trace",
+      "calls": 360,
+      "seconds": {
+        "n": 360,
+        "total": 2092.694083456,
+        "mean": 5.81303912071111,
+        "median": 5.825769500000007,
+        "min": 4.569576791999999,
+        "max": 8.871329332999949
+      },
+      "seconds_missing": 0,
+      "usd": {
+        "n": 360,
+        "total": 2.027859999999999,
+        "mean": 0.005632944444444445,
+        "median": 0.005796,
+        "min": 0.0044919999999999995,
+        "max": 0.007472
+      },
+      "usd_missing": 0,
+      "input_tokens": {
+        "n": 360,
+        "total": 420070,
+        "mean": 1166.861111111111,
+        "median": 1180.0,
+        "min": 1038,
+        "max": 1282
+      },
+      "input_tokens_missing": 0,
+      "output_tokens": {
+        "n": 360,
+        "total": 17379,
+        "mean": 48.275,
+        "median": 54.0,
+        "min": 9,
+        "max": 166
+      },
+      "output_tokens_missing": 0,
+      "cached_input_tokens": null,
+      "cached_input_tokens_missing": 360
+    },
+    {
+      "cohort": "Rebel main",
+      "model": "claude",
+      "source": "Rebel",
+      "view": "final",
+      "calls": 1080,
+      "seconds": {
+        "n": 1080,
+        "total": 7060.444747329009,
+        "mean": 6.537448840119446,
+        "median": 6.278590625500101,
+        "min": 5.460039667000274,
+        "max": 13.104827957999987
+      },
+      "seconds_missing": 0,
+      "usd": {
+        "n": 1080,
+        "total": 5.946348000000001,
+        "mean": 0.005505877777777778,
+        "median": 0.005136,
+        "min": 0.004052,
+        "max": 0.010836
+      },
+      "usd_missing": 0,
+      "input_tokens": {
+        "n": 1080,
+        "total": 1045862,
+        "mean": 968.3907407407407,
+        "median": 968.0,
+        "min": 958,
+        "max": 978
+      },
+      "input_tokens_missing": 0,
+      "output_tokens": {
+        "n": 1080,
+        "total": 88145,
+        "mean": 81.61574074074075,
+        "median": 63.0,
+        "min": 9,
+        "max": 348
+      },
+      "output_tokens_missing": 0,
+      "cached_input_tokens": null,
+      "cached_input_tokens_missing": 1080
+    },
+    {
+      "cohort": "Rebel main",
+      "model": "claude",
+      "source": "Rebel",
+      "view": "trace",
+      "calls": 1080,
+      "seconds": {
+        "n": 1080,
+        "total": 6817.634546120991,
+        "mean": 6.31262457974166,
+        "median": 6.122278583000025,
+        "min": 5.3452456659999825,
+        "max": 18.148302540999794
+      },
+      "seconds_missing": 0,
+      "usd": {
+        "n": 1080,
+        "total": 5.755680000000005,
+        "mean": 0.0053293333333333335,
+        "median": 0.004948,
+        "min": 0.00428,
+        "max": 0.011584
+      },
+      "usd_missing": 0,
+      "input_tokens": {
+        "n": 1080,
+        "total": 1149665,
+        "mean": 1064.5046296296296,
+        "median": 1050.0,
+        "min": 1004,
+        "max": 1204
+      },
+      "input_tokens_missing": 0,
+      "output_tokens": {
+        "n": 1080,
+        "total": 57851,
+        "mean": 53.56574074074074,
+        "median": 35.0,
+        "min": 9,
+        "max": 369
+      },
+      "output_tokens_missing": 0,
+      "cached_input_tokens": null,
+      "cached_input_tokens_missing": 1080
+    },
+    {
+      "cohort": "WoP metadata",
+      "model": "llama8b",
+      "source": "HA",
+      "view": "final",
+      "calls": 360,
+      "seconds": {
+        "n": 360,
+        "total": 48.458613905000334,
+        "mean": 0.13460726084722316,
+        "median": 0.1177512914999852,
+        "min": 0.11473237500001687,
+        "max": 5.438462582999989
+      },
+      "seconds_missing": 0,
+      "usd": {
+        "n": 360,
+        "total": 0,
+        "mean": 0,
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "usd_missing": 0,
+      "input_tokens": {
+        "n": 360,
+        "total": 44280,
+        "mean": 123,
+        "median": 123.0,
+        "min": 120,
+        "max": 126
+      },
+      "input_tokens_missing": 0,
+      "output_tokens": {
+        "n": 360,
+        "total": 2520,
+        "mean": 7,
+        "median": 7.0,
+        "min": 7,
+        "max": 7
+      },
+      "output_tokens_missing": 0,
+      "cached_input_tokens": {
+        "n": 360,
+        "total": 41757,
+        "mean": 115.99166666666666,
+        "median": 114.0,
+        "min": 0,
+        "max": 120
+      },
+      "cached_input_tokens_missing": 0
+    },
+    {
+      "cohort": "WoP metadata",
+      "model": "llama8b",
+      "source": "HA",
+      "view": "trace",
+      "calls": 360,
+      "seconds": {
+        "n": 360,
+        "total": 72.7180882550004,
+        "mean": 0.20199468959722333,
+        "median": 0.20229356249996044,
+        "min": 0.1518334579999987,
+        "max": 0.2725776670000073
+      },
+      "seconds_missing": 0,
+      "usd": {
+        "n": 360,
+        "total": 0,
+        "mean": 0,
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "usd_missing": 0,
+      "input_tokens": {
+        "n": 360,
+        "total": 82151,
+        "mean": 228.19722222222222,
+        "median": 230.0,
+        "min": 148,
+        "max": 304
+      },
+      "input_tokens_missing": 0,
+      "output_tokens": {
+        "n": 360,
+        "total": 2520,
+        "mean": 7,
+        "median": 7.0,
+        "min": 7,
+        "max": 7
+      },
+      "output_tokens_missing": 0,
+      "cached_input_tokens": {
+        "n": 360,
+        "total": 42120,
+        "mean": 117,
+        "median": 117.0,
+        "min": 114,
+        "max": 120
+      },
+      "cached_input_tokens_missing": 0
+    },
+    {
+      "cohort": "WoP metadata",
+      "model": "llama8b",
+      "source": "Rebel",
+      "view": "final",
+      "calls": 1040,
+      "seconds": {
+        "n": 1040,
+        "total": 124.31105012799787,
+        "mean": 0.11952985589230565,
+        "median": 0.11844441700003472,
+        "min": 0.11468366700000843,
+        "max": 0.1546574999999848
+      },
+      "seconds_missing": 0,
+      "usd": {
+        "n": 1040,
+        "total": 0,
+        "mean": 0,
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "usd_missing": 0,
+      "input_tokens": {
+        "n": 1040,
+        "total": 97760,
+        "mean": 94,
+        "median": 94.0,
+        "min": 94,
+        "max": 94
+      },
+      "input_tokens_missing": 0,
+      "output_tokens": {
+        "n": 1040,
+        "total": 7280,
+        "mean": 7,
+        "median": 7.0,
+        "min": 7,
+        "max": 7
+      },
+      "output_tokens_missing": 0,
+      "cached_input_tokens": {
+        "n": 1040,
+        "total": 90942,
+        "mean": 87.44423076923077,
+        "median": 88.0,
+        "min": 54,
+        "max": 88
+      },
+      "cached_input_tokens_missing": 0
+    },
+    {
+      "cohort": "WoP metadata",
+      "model": "llama8b",
+      "source": "Rebel",
+      "view": "trace",
+      "calls": 1040,
+      "seconds": {
+        "n": 1040,
+        "total": 173.91376878800145,
+        "mean": 0.16722477768077063,
+        "median": 0.15710268749995748,
+        "min": 0.15075862499998038,
+        "max": 0.24450024999998732
+      },
+      "seconds_missing": 0,
+      "usd": {
+        "n": 1040,
+        "total": 0,
+        "mean": 0,
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "usd_missing": 0,
+      "input_tokens": {
+        "n": 1040,
+        "total": 163384,
+        "mean": 157.1,
+        "median": 147.0,
+        "min": 122,
+        "max": 243
+      },
+      "input_tokens_missing": 0,
+      "output_tokens": {
+        "n": 1040,
+        "total": 7280,
+        "mean": 7,
+        "median": 7.0,
+        "min": 7,
+        "max": 7
+      },
+      "output_tokens_missing": 0,
+      "cached_input_tokens": {
+        "n": 1040,
+        "total": 91520,
+        "mean": 88,
+        "median": 88.0,
+        "min": 88,
+        "max": 88
+      },
+      "cached_input_tokens_missing": 0
+    },
+    {
+      "cohort": "WoP metadata",
+      "model": "qwen7b",
+      "source": "HA",
+      "view": "final",
+      "calls": 360,
+      "seconds": {
+        "n": 360,
+        "total": 41.15375112899994,
+        "mean": 0.11431597535833321,
+        "median": 0.10498118750000174,
+        "min": 0.10232899999999745,
+        "max": 2.8095767499999997
+      },
+      "seconds_missing": 0,
+      "usd": {
+        "n": 360,
+        "total": 0,
+        "mean": 0,
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "usd_missing": 0,
+      "input_tokens": {
+        "n": 360,
+        "total": 51120,
+        "mean": 142,
+        "median": 142.0,
+        "min": 139,
+        "max": 145
+      },
+      "input_tokens_missing": 0,
+      "output_tokens": {
+        "n": 360,
+        "total": 2520,
+        "mean": 7,
+        "median": 7.0,
+        "min": 7,
+        "max": 7
+      },
+      "output_tokens_missing": 0,
+      "cached_input_tokens": {
+        "n": 360,
+        "total": 48562,
+        "mean": 134.89444444444445,
+        "median": 133.0,
+        "min": 0,
+        "max": 139
+      },
+      "cached_input_tokens_missing": 0
+    },
+    {
+      "cohort": "WoP metadata",
+      "model": "qwen7b",
+      "source": "HA",
+      "view": "trace",
+      "calls": 360,
+      "seconds": {
+        "n": 360,
+        "total": 66.24068920800002,
+        "mean": 0.18400191446666678,
+        "median": 0.18423472850000167,
+        "min": 0.131102791,
+        "max": 0.23427920900000743
+      },
+      "seconds_missing": 0,
+      "usd": {
+        "n": 360,
+        "total": 0,
+        "mean": 0,
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "usd_missing": 0,
+      "input_tokens": {
+        "n": 360,
+        "total": 88991,
+        "mean": 247.19722222222222,
+        "median": 249.0,
+        "min": 167,
+        "max": 323
+      },
+      "input_tokens_missing": 0,
+      "output_tokens": {
+        "n": 360,
+        "total": 2520,
+        "mean": 7,
+        "median": 7.0,
+        "min": 7,
+        "max": 7
+      },
+      "output_tokens_missing": 0,
+      "cached_input_tokens": {
+        "n": 360,
+        "total": 48960,
+        "mean": 136,
+        "median": 136.0,
+        "min": 133,
+        "max": 139
+      },
+      "cached_input_tokens_missing": 0
+    },
+    {
+      "cohort": "WoP metadata",
+      "model": "qwen7b",
+      "source": "Rebel",
+      "view": "final",
+      "calls": 1080,
+      "seconds": {
+        "n": 1080,
+        "total": 115.1925916410001,
+        "mean": 0.1066598070750001,
+        "median": 0.10511737500000606,
+        "min": 0.10239124999998239,
+        "max": 0.13338987499999178
+      },
+      "seconds_missing": 0,
+      "usd": {
+        "n": 1080,
+        "total": 0,
+        "mean": 0,
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "usd_missing": 0,
+      "input_tokens": {
+        "n": 1080,
+        "total": 122040,
+        "mean": 113,
+        "median": 113.0,
+        "min": 113,
+        "max": 113
+      },
+      "input_tokens_missing": 0,
+      "output_tokens": {
+        "n": 1080,
+        "total": 7560,
+        "mean": 7,
+        "median": 7.0,
+        "min": 7,
+        "max": 7
+      },
+      "output_tokens_missing": 0,
+      "cached_input_tokens": {
+        "n": 1080,
+        "total": 114804,
+        "mean": 106.3,
+        "median": 107.0,
+        "min": 73,
+        "max": 107
+      },
+      "cached_input_tokens_missing": 0
+    },
+    {
+      "cohort": "WoP metadata",
+      "model": "qwen7b",
+      "source": "Rebel",
+      "view": "trace",
+      "calls": 1080,
+      "seconds": {
+        "n": 1080,
+        "total": 157.6101020810001,
+        "mean": 0.1459352797046297,
+        "median": 0.13484089600001425,
+        "min": 0.13088783300003115,
+        "max": 0.22732283399999176
+      },
+      "seconds_missing": 0,
+      "usd": {
+        "n": 1080,
+        "total": 0,
+        "mean": 0,
+        "median": 0.0,
+        "min": 0,
+        "max": 0
+      },
+      "usd_missing": 0,
+      "input_tokens": {
+        "n": 1080,
+        "total": 189804,
+        "mean": 175.74444444444444,
+        "median": 166.0,
+        "min": 141,
+        "max": 262
+      },
+      "input_tokens_missing": 0,
+      "output_tokens": {
+        "n": 1080,
+        "total": 7560,
+        "mean": 7,
+        "median": 7.0,
+        "min": 7,
+        "max": 7
+      },
+      "output_tokens_missing": 0,
+      "cached_input_tokens": {
+        "n": 1080,
+        "total": 115560,
+        "mean": 107,
+        "median": 107.0,
+        "min": 107,
+        "max": 107
+      },
+      "cached_input_tokens_missing": 0
+    }
+  ],
+  "source_balanced_local_trace_seconds": {
+    "qwen7b": 0.16496859708564823,
+    "llama8b": 0.18460973363899696
+  },
+  "planned": {
+    "primary_per_model": 1440,
+    "receipt_max_per_model": 480,
+    "preflight_per_model": 1,
+    "local_max": 3842,
+    "claude_max": 1921,
+    "local_timeout_seconds": 180,
+    "local_active_cap_seconds": 43200
+  },
+  "estimates": {
+    "local_seconds": 671.5399733220434,
+    "local_1_5x_seconds": 1007.309959983065,
+    "claude_seconds": 12248.689694699913,
+    "all_serial_seconds": 12920.229668021957,
+    "claude_historical_mean_usd": 0.00661695,
+    "claude_1921_historical_usd": 12.71116095,
+    "claude_1921_1_5x_usd": 19.066741425,
+    "reserve_scenario_per_call_usd": 0.01512,
+    "reserve_scenario_total_with_5_usd": 34.04552
+  }
+}

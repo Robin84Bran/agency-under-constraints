@@ -1,0 +1,27 @@
+{
+  "predictions": {
+    "P1": "failed",
+    "P2": "met",
+    "P3": "met",
+    "P4": "met",
+    "P5": "failed",
+    "P6": "met",
+    "P7": "failed"
+  },
+  "valid_episodes": 957,
+  "local_valid": 900,
+  "scheduled_episodes": 960,
+  "scheduled_opportunities": 11520,
+  "opportunity_counts": {
+    "coverage": 5895,
+    "null_rate": 5607,
+    "technical_missing_rate": 18
+  },
+  "local_calls": 8400,
+  "reused_claude_calls": 557,
+  "settled_usd": 7.089251,
+  "cash_billing_usd": null,
+  "preserved_v01_files": 10056,
+  "frozen_v02_files": 54,
+  "reporting": "post hoc presentation only; all intervals read from unchanged frozen outputs"
+}

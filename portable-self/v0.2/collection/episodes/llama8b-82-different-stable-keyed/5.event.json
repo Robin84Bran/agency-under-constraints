@@ -1,0 +1,1 @@
+{"index":5,"payload":{"calibration":null,"console":"c-abd9e9dc","memory":[{"note":"Replace slot 3 with: Console 1: west. Console 2: north. Console 3: south. Console 4: east.","slot":3}],"mode":"act","targets":["west","north","south","east"],"visit":6,"writable_slot":null},"value":{"controls":[null,null,null,null]}}

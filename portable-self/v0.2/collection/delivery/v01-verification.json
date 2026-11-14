@@ -1,0 +1,10 @@
+{
+  "preserved_files_verified": 14894,
+  "mismatches": [],
+  "raw_archive_required_for_v02_rebuild": false,
+  "source": "evidence/v01-evidence-hashes.json",
+  "freezes": {
+    "freeze.json": "716c5abdda450c463ca7e3a6e2df6863c7156d83bd82507e9cb6d72472811c2f",
+    "freeze-a1.json": "44e17293d9619f5df6e0a18e0bc3ce430801a3205e364cc85f51183c54541bdb"
+  }
+}

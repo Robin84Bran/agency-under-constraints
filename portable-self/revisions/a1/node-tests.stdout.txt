@@ -1,0 +1,17 @@
+✔ deterministic replay is exact (4.618875ms)
+✔ all actuator mappings remain bijections (4.021208ms)
+✔ every policy receives exactly the same action budget (0.615791ms)
+✔ frozen manual is perfect when every body has the same mapping (0.0825ms)
+✔ one-use bodies make portable core equivalent to start blank (2.698958ms)
+✔ fresh capability versions prevent stale portable recalls (0.261458ms)
+✔ portable core improves over reset in the frozen default batch (8.848542ms)
+✔ carry-all is not penalized when mappings are identical (5.710459ms)
+✔ invalid controls are rejected (0.330458ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 79.816667

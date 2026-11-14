@@ -1,0 +1,26 @@
+{
+  "checks": "report relative links and table shape; SVG XML; script syntax; source/evidence preservation; numeric accounting; output identity",
+  "collection_files_unchanged": 39008,
+  "documents": {
+    "QUESTIONS-post-analysis.md": {
+      "bytes": 3880,
+      "sha256": "14d3cebf3a0683a0aa1513f75692b050783b967cb639212ff1da2ab7c51f2a90"
+    },
+    "v0.2/README.md": {
+      "bytes": 7529,
+      "sha256": "e70e2ab28b2c61dfc7eb9228b523bf729ef38d652d528df14e1fab8e73306bd6"
+    },
+    "v0.2/RESULTS.md": {
+      "bytes": 35808,
+      "sha256": "de37227fca621a144edb1c6dd869615071df7109189a72a6665dc310852e26fc"
+    }
+  },
+  "links_verified": 24,
+  "original_v01_files_unchanged": 10056,
+  "report_only_failed_attempt": "../report/attempt-status.json",
+  "scientific_analysis_rerun_for_reporting": false,
+  "status": "PASS",
+  "v01_byte_identical_outputs": 5,
+  "v02_byte_identical_outputs": 7,
+  "v02_frozen_inputs_unchanged": 54
+}

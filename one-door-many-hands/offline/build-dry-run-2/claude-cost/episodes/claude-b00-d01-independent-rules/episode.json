@@ -1,0 +1,1 @@
+{"attempted":true,"fatal":"unknown frontier usage/cost; full hold retained","finished_at":"2026-11-11T10:21:10.809684+00:00","first_frozen_compatibility_check":true,"fleet":null,"reason":"Claude usage/cost UNKNOWN; hold retained","schema_valid":false,"status":"ENVELOPE_FAILURE","usage":null}

@@ -1,0 +1,7683 @@
+{
+  "analysis_sha256": "622a8bd6b887a59755c5164c9d0231e1072377d67294cdc28d1142a82343a3e9",
+  "duplicate_explicit_false": {
+    "claude": 0,
+    "llama8b": 1,
+    "qwen1b": 0,
+    "qwen7b": 52
+  },
+  "errors": {
+    "claude": {
+      "frontier envelope, turn limit or truncation mismatch": 1,
+      "key": 7
+    },
+    "llama8b": {
+      "action fields": 13,
+      "job": 24,
+      "key": 247,
+      "status unavailable or key": 177
+    },
+    "qwen1b": {
+      "action fields": 507,
+      "job": 66,
+      "key": 12,
+      "report boolean/null required": 5
+    },
+    "qwen7b": {
+      "action fields": 159,
+      "key": 6
+    }
+  },
+  "failed_episodes": [
+    {
+      "action_failure": true,
+      "id": "claude-s00-notification-r50-check",
+      "reason": "frontier envelope, turn limit or truncation mismatch",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "claude-s01-notification-r50-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "claude-s01-payment-r50-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "claude-s02-notification-r50-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "claude-s03-payment-r50-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "claude-s05-payment-r50-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "claude-s08-notification-r50-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "claude-s09-payment-r50-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s00-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s00-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s00-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s00-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s00-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s00-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s00-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s00-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s01-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s01-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s01-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s01-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s01-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s01-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s01-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s01-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s01-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s01-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s01-payment-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s01-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s02-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s02-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s02-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s02-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s02-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s02-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s02-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s02-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s02-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s02-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s02-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s02-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s03-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s03-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s03-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s03-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s03-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s03-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s03-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s03-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s04-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s04-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s04-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s04-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s04-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s04-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s04-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s04-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s05-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s05-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s05-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s05-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s05-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s05-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s05-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s05-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s06-notification-r00-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s06-payment-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s06-payment-r00-plain",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s06-payment-r50-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s06-payment-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s06-payment-r50-plain",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s07-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s07-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s07-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s07-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s07-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s07-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s07-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s07-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s08-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s08-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s08-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s08-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s08-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s08-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s08-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s08-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s09-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s09-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s09-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s09-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s09-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s09-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s09-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s09-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s10-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s10-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s10-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s10-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s10-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s10-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s10-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s10-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s11-notification-r00-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s11-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s11-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s11-notification-r50-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s11-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s11-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s11-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s11-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s11-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s11-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s12-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s12-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s12-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s12-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s12-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s12-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s12-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s12-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s13-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s13-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s13-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s13-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s13-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s13-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s13-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s13-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s14-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s14-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s14-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s14-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s14-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s14-payment-r00-plain",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s14-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s14-payment-r50-plain",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s15-notification-r00-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s15-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s15-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s15-notification-r50-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s15-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s15-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s15-payment-r00-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s15-payment-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s15-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s15-payment-r50-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s15-payment-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s15-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s16-notification-r00-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s16-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s16-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s16-notification-r50-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s16-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s16-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s16-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s16-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s16-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s16-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s17-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s17-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s17-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s17-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s17-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s17-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s17-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s17-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s18-notification-r00-check",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s18-notification-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s18-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s18-notification-r50-check",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s18-notification-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s18-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s18-payment-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s18-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s18-payment-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s18-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s19-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s19-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s19-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s19-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s19-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s19-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s19-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s19-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s20-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s20-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s20-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s20-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s20-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s20-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s20-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s20-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s20-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s20-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s20-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s20-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s21-notification-r00-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s21-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s21-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s21-notification-r50-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s21-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s21-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s21-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s21-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s21-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s21-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s22-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s22-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s22-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s22-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s22-payment-r00-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s22-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s22-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s22-payment-r50-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s22-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s22-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s23-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s23-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s23-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s23-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s23-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s23-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s23-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s23-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s24-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s24-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s24-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s24-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s24-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s24-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s24-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s24-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s25-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s25-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s25-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s25-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s25-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s25-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s25-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s25-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s26-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s26-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s26-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s26-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s26-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s26-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s26-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s26-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s27-notification-r00-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s27-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s27-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s27-notification-r50-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s27-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s27-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s27-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s27-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s27-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s27-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s28-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s28-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s28-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s28-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s28-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s28-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s28-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s28-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s29-notification-r00-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s29-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s29-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s29-notification-r50-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s29-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s29-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s29-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s29-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s29-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s29-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s30-notification-r00-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s30-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s30-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s30-notification-r50-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s30-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s30-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s30-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s30-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s30-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s30-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s31-notification-r00-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s31-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s31-notification-r50-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s31-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s31-payment-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s31-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s31-payment-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s31-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s32-notification-r00-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s32-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s32-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s32-notification-r50-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s32-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s32-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s32-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s32-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s32-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s32-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s33-notification-r00-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s33-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s33-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s33-notification-r50-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s33-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s33-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s33-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s33-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s33-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s33-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s34-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s34-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s34-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s34-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s34-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s34-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s34-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s34-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s35-notification-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s35-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s35-notification-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s35-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s35-payment-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s35-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s35-payment-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s35-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s36-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s36-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s36-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s36-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s36-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s36-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s36-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s36-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s37-notification-r00-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s37-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s37-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s37-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s37-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s37-payment-r00-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s37-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s37-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s37-payment-r50-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s37-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s37-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s38-notification-r00-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s38-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s38-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s38-notification-r50-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s38-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s38-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s38-payment-r00-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s38-payment-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s38-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s38-payment-r50-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s38-payment-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s38-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s39-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s39-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s39-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s39-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s39-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s39-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s39-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s39-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s40-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s40-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s40-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s40-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s40-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s40-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s40-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s40-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s41-notification-r00-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s41-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s41-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s41-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s41-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s41-payment-r00-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s41-payment-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s41-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s41-payment-r50-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s41-payment-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s41-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s42-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s42-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s42-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s42-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s42-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s42-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s42-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s42-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s43-notification-r00-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s43-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s43-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s43-notification-r50-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s43-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s43-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s43-payment-r00-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s43-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s43-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s43-payment-r50-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s43-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s43-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s44-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s44-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s44-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s44-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s44-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s44-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s44-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s44-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s45-notification-r00-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s45-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s45-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s45-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s45-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s45-payment-r00-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s45-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s45-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s45-payment-r50-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s45-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s45-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s46-notification-r00-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s46-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s46-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s46-notification-r50-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s46-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s46-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s46-payment-r00-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s46-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s46-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s46-payment-r50-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s46-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s46-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s47-notification-r00-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s47-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s47-notification-r50-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s47-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s47-payment-r00-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s47-payment-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s47-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s47-payment-r50-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s47-payment-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s47-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s48-notification-r00-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s48-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s48-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s48-notification-r50-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s48-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s48-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s48-payment-r00-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s48-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s48-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s48-payment-r50-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s48-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s48-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s49-notification-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s49-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s49-notification-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s49-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s49-payment-r00-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s49-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s49-payment-r50-keyed",
+      "reason": "status unavailable or key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "llama8b-s49-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s00-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s00-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s00-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s00-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s00-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s00-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s00-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s00-payment-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s00-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s00-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s00-payment-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s00-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s01-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s01-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s01-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s01-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s01-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s01-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s01-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s01-payment-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s01-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s01-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s01-payment-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s01-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s02-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s02-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s02-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s02-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s02-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s02-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s02-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s02-payment-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s02-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s02-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s02-payment-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s02-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s03-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s03-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s03-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s03-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s03-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s03-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s03-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s03-payment-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s03-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s03-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s03-payment-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s03-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s04-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s04-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s04-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s04-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s04-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s04-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s04-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s04-payment-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s04-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s04-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s04-payment-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s04-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s05-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s05-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s05-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s05-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s05-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s05-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s05-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s05-payment-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s05-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s05-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s05-payment-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s05-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s06-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s06-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s06-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s06-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s06-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s06-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s06-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s06-payment-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s06-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s06-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": false,
+      "id": "qwen1b-s06-payment-r50-keyed",
+      "reason": "report boolean/null required",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s06-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s07-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s07-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s07-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s07-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s07-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s07-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s07-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s07-payment-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s07-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s07-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s07-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s08-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s08-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s08-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s08-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s08-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s08-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s08-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s08-payment-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s08-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s08-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s08-payment-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s08-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s09-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s09-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s09-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s09-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s09-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s09-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s09-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s09-payment-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s09-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s09-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s09-payment-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s09-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s10-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s10-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s10-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s10-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s10-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s10-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s10-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": false,
+      "id": "qwen1b-s10-payment-r00-keyed",
+      "reason": "report boolean/null required",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s10-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s10-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": false,
+      "id": "qwen1b-s10-payment-r50-keyed",
+      "reason": "report boolean/null required",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s10-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s11-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s11-notification-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s11-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s11-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s11-notification-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s11-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s11-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s11-payment-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s11-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s11-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s11-payment-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s11-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s12-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s12-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s12-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s12-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s12-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s12-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s12-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s12-payment-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s12-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s12-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s12-payment-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s12-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s13-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s13-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s13-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s13-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s13-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s13-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s13-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s13-payment-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s13-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s13-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s13-payment-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s13-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s14-notification-r00-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s14-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s14-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s14-notification-r50-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s14-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s14-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s14-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s14-payment-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s14-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s14-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s14-payment-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s14-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s15-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s15-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s15-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s15-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s15-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s15-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s15-payment-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s15-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s15-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s15-payment-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s15-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s16-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s16-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s16-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s16-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s16-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s16-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s16-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s16-payment-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s16-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s16-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s16-payment-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s16-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s17-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s17-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s17-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s17-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s17-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s17-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s17-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s17-payment-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s17-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s17-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s17-payment-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s17-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s18-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s18-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s18-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s18-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s18-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s18-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s18-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s18-payment-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s18-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s18-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s18-payment-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s18-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s19-notification-r00-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s19-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s19-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s19-notification-r50-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s19-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s19-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s19-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s19-payment-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s19-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s19-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s19-payment-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s19-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s20-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s20-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s20-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s20-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s20-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s20-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s20-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s20-payment-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s20-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s20-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s20-payment-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s20-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s21-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": false,
+      "id": "qwen1b-s21-notification-r00-keyed",
+      "reason": "report boolean/null required",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s21-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s21-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s21-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s21-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s21-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s21-payment-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s21-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s21-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s21-payment-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s21-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s22-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s22-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s22-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s22-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s22-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s22-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s22-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s22-payment-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s22-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s22-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s22-payment-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s22-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s23-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s23-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s23-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s23-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s23-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s23-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s23-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s23-payment-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s23-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s23-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s23-payment-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s23-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s24-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s24-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s24-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s24-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s24-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s24-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s24-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s24-payment-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s24-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s24-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s24-payment-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s24-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s25-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s25-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s25-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s25-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s25-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s25-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s25-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s25-payment-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s25-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s25-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s25-payment-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s25-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s26-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s26-notification-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s26-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s26-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s26-notification-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s26-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s26-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s26-payment-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s26-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s26-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s26-payment-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s26-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s27-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s27-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s27-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s27-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s27-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s27-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s27-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s27-payment-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s27-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s27-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s27-payment-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s27-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s28-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s28-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s28-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s28-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s28-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s28-payment-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s28-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s28-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s28-payment-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s28-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s29-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s29-notification-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s29-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s29-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s29-notification-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s29-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s29-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s29-payment-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s29-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s29-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s29-payment-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s29-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s30-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s30-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s30-notification-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s30-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s30-notification-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s30-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s30-payment-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s30-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s30-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s30-payment-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s30-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s31-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s31-notification-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s31-notification-r00-plain",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s31-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s31-notification-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s31-notification-r50-plain",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s31-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s31-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s31-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s31-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s32-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s32-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s32-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s32-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s32-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s32-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s32-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s32-payment-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s32-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s32-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s32-payment-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s32-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s33-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s33-notification-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s33-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s33-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s33-notification-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s33-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s33-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s33-payment-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s33-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s33-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s33-payment-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s33-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s34-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s34-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s34-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s34-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s34-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s34-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s34-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s34-payment-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s34-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s34-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s34-payment-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s34-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s35-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s35-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s35-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s35-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s35-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s35-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s35-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s35-payment-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s35-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s35-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s35-payment-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s35-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s36-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s36-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s36-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s36-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s36-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s36-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s36-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s36-payment-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s36-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s36-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s36-payment-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s36-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s37-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s37-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s37-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s37-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s37-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s37-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s37-payment-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s37-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s37-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s37-payment-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s37-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s38-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s38-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s38-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s38-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s38-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s38-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s38-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s38-payment-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s38-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s38-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s38-payment-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s38-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s39-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s39-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s39-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s39-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s39-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s39-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s39-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s39-payment-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s39-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s39-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s39-payment-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s39-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s40-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s40-notification-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s40-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s40-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s40-notification-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s40-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s40-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s40-payment-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s40-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s40-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s40-payment-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s40-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s41-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s41-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s41-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s41-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s41-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s41-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s41-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s41-payment-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s41-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s41-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s41-payment-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s41-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s42-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s42-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s42-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s42-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s42-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s42-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s42-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s42-payment-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s42-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s42-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s42-payment-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s42-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s43-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s43-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s43-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s43-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s43-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s43-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s43-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s43-payment-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s43-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s43-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s43-payment-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s43-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s44-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s44-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s44-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s44-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s44-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s44-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s44-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s44-payment-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s44-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s44-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s44-payment-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s44-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s45-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s45-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s45-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s45-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s45-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s45-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s45-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s45-payment-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s45-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s45-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": false,
+      "id": "qwen1b-s45-payment-r50-keyed",
+      "reason": "report boolean/null required",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s45-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s46-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s46-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s46-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s46-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s46-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s46-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s46-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s46-payment-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s46-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s46-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s46-payment-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s46-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s47-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s47-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s47-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s47-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s47-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s47-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s47-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s47-payment-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s47-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s47-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s47-payment-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s47-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s48-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s48-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s48-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s48-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s48-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s48-payment-r00-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s48-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s48-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s48-payment-r50-keyed",
+      "reason": "job",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s48-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s49-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s49-notification-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s49-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s49-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s49-notification-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s49-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s49-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s49-payment-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s49-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s49-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s49-payment-r50-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen1b-s49-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s00-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s00-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s00-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s00-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s01-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s01-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s02-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s02-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s02-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s02-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s03-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s03-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s03-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s03-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s05-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s05-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s05-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s05-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s06-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s06-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s06-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s06-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s07-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s07-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s07-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s07-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s08-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s08-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s09-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s09-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s09-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s09-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s10-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s10-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s10-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s10-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s11-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s11-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s11-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s11-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s12-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s12-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s12-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s12-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s13-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s13-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s13-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s13-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s14-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s14-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s14-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s14-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s15-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s15-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s15-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s15-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s16-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s16-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s17-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s17-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s18-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s18-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s19-notification-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s19-notification-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s19-payment-r00-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s19-payment-r50-plain",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s20-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s20-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s21-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s21-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s22-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s22-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s22-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s22-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s23-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s23-notification-r00-keyed",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s23-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s23-notification-r50-keyed",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s24-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s24-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s24-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s24-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s25-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s25-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s25-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s25-payment-r00-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s25-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s25-payment-r50-plain",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s26-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s26-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s26-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s26-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s27-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s27-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s27-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s27-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s28-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s28-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s28-payment-r00-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s28-payment-r50-check",
+      "reason": "key",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s29-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s29-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s29-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s29-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s30-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s30-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s30-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s30-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s31-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s31-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s32-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s32-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s33-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s33-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s33-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s33-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s34-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s34-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s35-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s35-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s36-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s36-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s37-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s37-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s37-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s37-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s38-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s38-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s39-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s39-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s39-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s39-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s40-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s40-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s40-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s40-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s41-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s41-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s42-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s42-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s42-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s42-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s43-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s43-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s43-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s43-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s45-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s45-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s45-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s45-payment-r00-keyed",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s45-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s46-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s46-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s46-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s46-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s47-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s47-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s47-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s47-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s48-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s48-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s48-payment-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s48-payment-r50-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s49-notification-r00-check",
+      "reason": "action fields",
+      "report": null
+    },
+    {
+      "action_failure": true,
+      "id": "qwen7b-s49-notification-r50-check",
+      "reason": "action fields",
+      "report": null
+    }
+  ],
+  "figure_method": "standard-library SVG fallback; matplotlib absent and package retrieval unavailable",
+  "headline": [
+    {
+      "actor": "qwen7b",
+      "counts": {
+        "J_numerator": 0,
+        "duplicates": 94,
+        "exact_once": 0,
+        "known_truth": 100,
+        "planned": 100,
+        "recall_denominator": 94,
+        "recall_numerator": 11,
+        "valid_actions": 94,
+        "valid_reports": 94
+      },
+      "receipt_loss": 0.5,
+      "toolkit": "plain"
+    },
+    {
+      "actor": "qwen7b",
+      "counts": {
+        "J_numerator": 0,
+        "duplicates": 75,
+        "exact_once": 1,
+        "known_truth": 100,
+        "planned": 100,
+        "recall_denominator": 75,
+        "recall_numerator": 0,
+        "valid_actions": 99,
+        "valid_reports": 99
+      },
+      "receipt_loss": 0.5,
+      "toolkit": "keyed"
+    },
+    {
+      "actor": "qwen7b",
+      "counts": {
+        "J_numerator": 0,
+        "duplicates": 25,
+        "exact_once": 0,
+        "known_truth": 100,
+        "planned": 100,
+        "recall_denominator": 25,
+        "recall_numerator": 0,
+        "valid_actions": 25,
+        "valid_reports": 25
+      },
+      "receipt_loss": 0.5,
+      "toolkit": "check"
+    },
+    {
+      "actor": "llama8b",
+      "counts": {
+        "J_numerator": 0,
+        "duplicates": 0,
+        "exact_once": 0,
+        "known_truth": 100,
+        "planned": 100,
+        "recall_denominator": 0,
+        "recall_numerator": 0,
+        "valid_actions": 2,
+        "valid_reports": 2
+      },
+      "receipt_loss": 0.5,
+      "toolkit": "plain"
+    },
+    {
+      "actor": "llama8b",
+      "counts": {
+        "J_numerator": 0,
+        "duplicates": 0,
+        "exact_once": 0,
+        "known_truth": 100,
+        "planned": 100,
+        "recall_denominator": 0,
+        "recall_numerator": 0,
+        "valid_actions": 2,
+        "valid_reports": 2
+      },
+      "receipt_loss": 0.5,
+      "toolkit": "keyed"
+    },
+    {
+      "actor": "llama8b",
+      "counts": {
+        "J_numerator": 4,
+        "duplicates": 4,
+        "exact_once": 0,
+        "known_truth": 100,
+        "planned": 100,
+        "recall_denominator": 4,
+        "recall_numerator": 0,
+        "valid_actions": 67,
+        "valid_reports": 67
+      },
+      "receipt_loss": 0.5,
+      "toolkit": "check"
+    },
+    {
+      "actor": "qwen1b",
+      "counts": {
+        "J_numerator": 0,
+        "duplicates": 4,
+        "exact_once": 0,
+        "known_truth": 100,
+        "planned": 100,
+        "recall_denominator": 4,
+        "recall_numerator": 0,
+        "valid_actions": 0,
+        "valid_reports": 0
+      },
+      "receipt_loss": 0.5,
+      "toolkit": "plain"
+    },
+    {
+      "actor": "qwen1b",
+      "counts": {
+        "J_numerator": 0,
+        "duplicates": 0,
+        "exact_once": 1,
+        "known_truth": 100,
+        "planned": 100,
+        "recall_denominator": 0,
+        "recall_numerator": 0,
+        "valid_actions": 10,
+        "valid_reports": 7
+      },
+      "receipt_loss": 0.5,
+      "toolkit": "keyed"
+    },
+    {
+      "actor": "qwen1b",
+      "counts": {
+        "J_numerator": 0,
+        "duplicates": 0,
+        "exact_once": 0,
+        "known_truth": 100,
+        "planned": 100,
+        "recall_denominator": 0,
+        "recall_numerator": 0,
+        "valid_actions": 0,
+        "valid_reports": 0
+      },
+      "receipt_loss": 0.5,
+      "toolkit": "check"
+    },
+    {
+      "actor": "claude",
+      "counts": {
+        "J_numerator": 0,
+        "duplicates": 0,
+        "exact_once": 10,
+        "known_truth": 20,
+        "planned": 20,
+        "recall_denominator": 0,
+        "recall_numerator": 0,
+        "valid_actions": 20,
+        "valid_reports": 20
+      },
+      "receipt_loss": 0.5,
+      "toolkit": "plain"
+    },
+    {
+      "actor": "claude",
+      "counts": {
+        "J_numerator": 7,
+        "duplicates": 0,
+        "exact_once": 20,
+        "known_truth": 20,
+        "planned": 20,
+        "recall_denominator": 0,
+        "recall_numerator": 0,
+        "valid_actions": 20,
+        "valid_reports": 20
+      },
+      "receipt_loss": 0.5,
+      "toolkit": "keyed"
+    },
+    {
+      "actor": "claude",
+      "counts": {
+        "J_numerator": 10,
+        "duplicates": 0,
+        "exact_once": 11,
+        "known_truth": 20,
+        "planned": 20,
+        "recall_denominator": 0,
+        "recall_numerator": 0,
+        "valid_actions": 12,
+        "valid_reports": 12
+      },
+      "receipt_loss": 0.5,
+      "toolkit": "check"
+    },
+    {
+      "actor": "qwen7b",
+      "counts": {
+        "J_numerator": 0,
+        "duplicates": 94,
+        "exact_once": 0,
+        "known_truth": 100,
+        "planned": 100,
+        "recall_denominator": 94,
+        "recall_numerator": 7,
+        "valid_actions": 94,
+        "valid_reports": 94
+      },
+      "receipt_loss": 0,
+      "toolkit": "plain"
+    },
+    {
+      "actor": "llama8b",
+      "counts": {
+        "J_numerator": 0,
+        "duplicates": 0,
+        "exact_once": 0,
+        "known_truth": 100,
+        "planned": 100,
+        "recall_denominator": 0,
+        "recall_numerator": 0,
+        "valid_actions": 2,
+        "valid_reports": 2
+      },
+      "receipt_loss": 0,
+      "toolkit": "plain"
+    },
+    {
+      "actor": "qwen1b",
+      "counts": {
+        "J_numerator": 0,
+        "duplicates": 2,
+        "exact_once": 0,
+        "known_truth": 100,
+        "planned": 100,
+        "recall_denominator": 2,
+        "recall_numerator": 0,
+        "valid_actions": 0,
+        "valid_reports": 0
+      },
+      "receipt_loss": 0,
+      "toolkit": "plain"
+    },
+    {
+      "actor": "claude",
+      "counts": null,
+      "receipt_loss": 0,
+      "toolkit": "plain"
+    }
+  ],
+  "key_reuse_episode_weighted": {
+    "claude": {
+      "episodes": 20,
+      "rate": 1.0
+    },
+    "llama8b": {
+      "episodes": 65,
+      "rate": 1.0
+    },
+    "qwen1b": {
+      "episodes": 68,
+      "rate": 0.9949579831932771
+    },
+    "qwen7b": {
+      "episodes": 99,
+      "rate": 0.5835337502004169
+    }
+  },
+  "kind": "POST HOC PRESENTATION; no new scoring, intervals or tests",
+  "resources": {
+    "claude": {
+      "calls": 474,
+      "episodes": 60,
+      "input_tokens": 832385,
+      "output_tokens": 80044
+    },
+    "llama8b": {
+      "calls": 2482,
+      "episodes": 600,
+      "input_tokens": 865762,
+      "output_tokens": 47208
+    },
+    "qwen1b": {
+      "calls": 1535,
+      "episodes": 600,
+      "input_tokens": 527565,
+      "output_tokens": 22356
+    },
+    "qwen7b": {
+      "calls": 4958,
+      "episodes": 600,
+      "input_tokens": 1875560,
+      "output_tokens": 69350
+    }
+  },
+  "technical_cells_fail": 34,
+  "technical_cells_pass": 8,
+  "timers": {
+    "claude": {
+      "charged_seconds": 1648.2599063339994,
+      "unsettled_segments": 0
+    },
+    "local": {
+      "charged_seconds": 2629.791903875,
+      "unsettled_segments": 0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "exclusions": [
+    "__pycache__",
+    ".DS_Store",
+    ".git",
+    "*.lock"
+  ],
+  "files": [
+    {
+      "path": "collection/collector.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "saved_hex": ""
+    },
+    {
+      "path": "offline/dry-run/collector.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "saved_hex": ""
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"actual_micro_usd":0,"error":null,"fatal":false,"metrics":{"input_tokens":274,"num_turns":null,"output_tokens":32,"reported_effort":"UNKNOWN","stop_reason":"stop"},"value":{"note":"c-1 controls north, c-2 controls east, c-3 controls south, c-4 controls west","slot":1}}

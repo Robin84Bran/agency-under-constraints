@@ -1,0 +1,98 @@
+"""Serial, locked, reservation-before-start collection; builder uses fake only."""
+from pathlib import Path
+import tempfile
+from od_core import ROOT,ACTORS,render,reserve,canonical,sha
+from od_io import Stop,read,save,lock,now,Ledger,ActiveTime,durable_stop
+from od_transport import Local,Claude,CLAUDE_BIN,request
+from od_identity import verify_preflight
+from od_validation import validate,accounting,cost,ReplyFailure,TransportFailure
+
+
+def run_episode(root,base,ep,transport,ledger,timer,freeze_hash,first=False):
+    directory=base/'episodes'/ep['id']
+    if directory.exists(): raise Stop('existing episode cannot be replayed')
+    directory.mkdir(parents=True)
+    prompt=render(ep);bound=reserve(prompt);req=request(ep,prompt,bound)
+    paid=ep['actor']=='claude';ident=ep['id']
+    began=timer.begin(ident,310 if paid else 190)
+    if paid: ledger.event(event='reserve',id=ident,amount=bound['micro_usd'])
+    save(directory/'request.json',{'episode':ep,'request':req,'prompt_sha256':sha(prompt.encode()),'reservation':bound})
+    save(directory/'start.json',{'id':ident,'started_at':now(),'freeze_sha256':freeze_hash})
+    try:
+        # An empty temporary cwd excludes project hooks/config/files from the CLI.
+        with tempfile.TemporaryDirectory(prefix='one-door-call-') as work: raw=transport.generate(ep,req,Path(work))
+    except Exception as exc: raw={'stdout_b64':'','stderr_b64':'','returncode':None,'transport_error':type(exc).__name__+': '+str(exc)}
+    save(directory/'raw.json',raw)
+    u=accounting(raw,ep['actor']);fatal=None
+    if paid:
+        if u is None: fatal='unknown frontier usage/cost; full hold retained'
+        else:
+            actual=cost(u);ledger.event(event='settle',id=ident,actual=actual)
+            if actual>bound['micro_usd'] or sum(u[k] for k in ('input','cache_read','cache_creation'))>bound['input_tokens'] or u['output']>bound['output_tokens'] or ledger.exposure+1000000>25000000 or ledger.exposure+1000000>=39000000: fatal='frontier reservation/accounting overrun'
+    try: result=validate(raw,ep['actor'],bound)
+    except (Stop,ReplyFailure,TransportFailure) as exc:
+        result={'fleet':None,'schema_valid':False,'status':'TRANSPORT_FAILURE' if isinstance(exc,TransportFailure) else 'REPLY_FAILURE' if isinstance(exc,ReplyFailure) else 'ENVELOPE_FAILURE','reason':str(exc),'usage':u}
+        if isinstance(exc,Stop) or (paid and first): fatal=fatal or str(exc)
+    timer.end(ident,began)
+    if ident in timer.breaches: fatal=fatal or 'cumulative active time exceeded'
+    result.update(attempted=True,first_frozen_compatibility_check=bool(paid and first),fatal=fatal,finished_at=now())
+    save(directory/'episode.json',result)
+    if fatal: durable_stop(base,fatal)
+    return result
+
+
+def check_existing(base,jobs,freeze_hash):
+    expected={e['id']:e for e in jobs}
+    directory=base/'episodes'
+    for p in directory.iterdir() if directory.exists() else []:
+        if p.name not in expected or not p.is_dir() or p.is_symlink(): raise Stop('unexpected episode path')
+        if not (p/'episode.json').exists() or not (p/'start.json').exists() or not (p/'raw.json').exists(): raise Stop('interrupted/reserved episode; never resend')
+        if read(p/'start.json')['freeze_sha256']!=freeze_hash: raise Stop('existing start freeze mismatch')
+    return {p.name for p in directory.iterdir()} if directory.exists() else set()
+
+
+def collect(root=ROOT,cohort='local',binary=CLAUDE_BIN,fake_transport=None,output=None,jobs_override=None):
+    root=Path(root);fake=fake_transport is not None;base=Path(output) if output else root/'collection'
+    if fake and (output is None or base.resolve()==(root/'collection').resolve()): raise Stop('fake must use separate output')
+    if not fake and (jobs_override is not None or output is not None): raise Stop('live fixed schedule/output only')
+    with lock(base):
+        if (base/'STOP.json').exists(): raise Stop('durable STOP: '+read(base/'STOP.json')['reason'])
+        from od_freeze import verify,push_gate
+        freeze_hash='FAKE-OFFLINE' if fake else push_gate(root)
+        jobs=jobs_override if fake and jobs_override is not None else read(root/'config/episodes.json')
+        existing=check_existing(base,jobs,freeze_hash)
+        ledger=Ledger(base/'ledger.jsonl')
+        if set(ledger.reservations)-existing: raise Stop('unresolved reserved episode; no resend')
+        if not fake:
+            # Verify all prior raw/request/terminal/ledger evidence before resuming.
+            from od_analysis import replay
+            replay(root,base,allow_fake=False)
+        if cohort=='claude' and not fake:
+            local=[e for e in jobs if e['actor']!='claude']
+            if any(e['id'] not in existing for e in local): raise Stop('finish all 3600 local episodes before Claude')
+        timer=ActiveTime(base/(cohort+'-time.jsonl'),7200 if cohort=='claude' else 28800)
+        actors=('claude',) if cohort=='claude' else ACTORS[:3]
+        for actor in actors:
+            actor_jobs=[e for e in jobs if e['actor']==actor]
+            pending=[e for e in actor_jobs if e['id'] not in existing]
+            if not pending: continue
+            if not fake: verify(root)
+            t=fake_transport or (Claude(root,binary) if actor=='claude' else Local(root))
+            try:
+                preid=f'preflight-{actor}-{len(timer.holds)}'
+                began=timer.begin(preid,40)
+                preflight=t.preflight(actor)
+                timer.end(preid,began)
+                if preid in timer.breaches: raise Stop('cumulative preflight time exceeded')
+                prepath=base/'preflight'/actor
+                old=sorted(prepath.glob('*.json')) if prepath.exists() else []
+                save(prepath/f'{len(old):04d}.json',preflight)
+                if not fake: verify_preflight(root,actor,preflight)
+                if old and read(old[0])!=preflight: raise Stop('runtime/identity drift across resumes')
+                for ep in pending:
+                    if not fake: verify(root)
+                    result=run_episode(root,base,ep,t,ledger,timer,freeze_hash,first=actor=='claude' and not ledger.reservations)
+                    if result['fatal']: raise Stop(result['fatal'])
+            except Exception as exc:
+                durable_stop(base,exc);raise
+        return {'kind':'FAKE' if fake else 'COLLECTION','cohort':cohort,'spent_micro_usd':ledger.spent,'open_holds_micro_usd':sum(ledger.holds.values())}

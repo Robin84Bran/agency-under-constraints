@@ -1,0 +1,1 @@
+{"amendment_freeze_sha256":"699a9e609fa26a526791f5673320ee49db9836a57e49c1fe192798b5a7e95142","deviation":"D1","episode":{"arm":"registry","id":"qwen7b-38-required-registry","model":"qwen7b","seed":38,"world":"required"},"freeze_sha256":"3353d538c1e27f5759e08ff11179ed20c65c4822c4366859ebb16de6cf9d458b","started":"2026-11-11T09:44:50.260418+00:00"}

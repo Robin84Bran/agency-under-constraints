@@ -1,0 +1,1 @@
+{"attempted":true,"fatal":null,"finished_at":"2026-11-11T11:18:31.961711+00:00","first_frozen_compatibility_check":false,"fleet":24,"input_completeness":"UNKNOWN","returned_effort":null,"schema_valid":true,"status":"CHOICE","usage":{"cache_creation":0,"cache_read":0,"input":273,"output":7,"reported_cost_micro_usd":null}}

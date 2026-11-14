@@ -1,0 +1,1 @@
+{"attempted":true,"fatal":null,"finished_at":"2026-11-11T23:52:20.124945+00:00","first_frozen_compatibility_check":false,"fleet":null,"reason":"provider rejected model structured output","schema_valid":false,"status":"REPLY_FAILURE","usage":{"cache_creation":1545,"cache_read":0,"input":2,"output":512,"reported_cost_micro_usd":22608}}

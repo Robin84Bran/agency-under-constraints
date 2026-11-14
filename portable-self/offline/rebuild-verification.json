@@ -1,0 +1,13 @@
+{
+  "analysis_sha256": "7244311ea1aa38d27bedf6d2b947015c0fed297cfe29d7510c95d8bafd2cd845",
+  "attempted_fake_episodes": 33,
+  "fresh_clone_commit": "7795b82331b51047617a3833003a725f9a5bb430",
+  "kind": "OFFLINE-FAKE fresh local Git clone rebuild",
+  "network_disabled_during_analysis": true,
+  "note": "Synthetic fake transports only; genuine pushed research clone and empirical independent review remain later work.",
+  "planned_episodes": 1080,
+  "primary_status": "UNKNOWN",
+  "real_model_calls": 0,
+  "remote_operations": 0,
+  "same_analysis_bytes": true
+}

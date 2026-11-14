@@ -1,0 +1,146 @@
+[
+  {
+    "actor": "llama8b",
+    "id": "HA/deployment/llama8b/pending/trial-30.json",
+    "source": "HA",
+    "view": "final"
+  },
+  {
+    "actor": "qwen1.5b",
+    "id": "HA/deployment/qwen1.5b/pending/trial-36.json",
+    "source": "HA",
+    "view": "trace"
+  },
+  {
+    "actor": "qwen7b",
+    "id": "HA/deployment/qwen7b/denied/trial-38.json",
+    "source": "HA",
+    "view": "trace"
+  },
+  {
+    "actor": "qwen7b",
+    "id": "HA/deployment/qwen7b/pending/trial-28.json",
+    "source": "HA",
+    "view": "final"
+  },
+  {
+    "actor": "qwen7b",
+    "id": "HA/deployment/qwen7b/pending/trial-28.json",
+    "source": "HA",
+    "view": "trace"
+  },
+  {
+    "actor": "llama8b",
+    "id": "HA/sharing/llama8b/denied/trial-28.json",
+    "source": "HA",
+    "view": "trace"
+  },
+  {
+    "actor": "llama8b",
+    "id": "HA/sharing/llama8b/denied/trial-39.json",
+    "source": "HA",
+    "view": "trace"
+  },
+  {
+    "actor": "llama8b",
+    "id": "HA/sharing/llama8b/granted/trial-36.json",
+    "source": "HA",
+    "view": "final"
+  },
+  {
+    "actor": "qwen1.5b",
+    "id": "HA/sharing/qwen1.5b/pending/trial-32.json",
+    "source": "HA",
+    "view": "final"
+  },
+  {
+    "actor": "qwen1.5b",
+    "id": "HA/sharing/qwen1.5b/pending/trial-36.json",
+    "source": "HA",
+    "view": "trace"
+  },
+  {
+    "actor": "qwen1.5b",
+    "id": "HA/sharing/qwen1.5b/pending/trial-38.json",
+    "source": "HA",
+    "view": "final"
+  },
+  {
+    "actor": "qwen7b",
+    "id": "HA/sharing/qwen7b/denied/trial-32.json",
+    "source": "HA",
+    "view": "final"
+  },
+  {
+    "actor": "llama8b",
+    "id": "Rebel/llama8b-batch-denied-12-prior-1.json",
+    "source": "Rebel",
+    "view": "trace"
+  },
+  {
+    "actor": "llama8b",
+    "id": "Rebel/llama8b-batch-fast-8-prior-4.json",
+    "source": "Rebel",
+    "view": "trace"
+  },
+  {
+    "actor": "llama8b",
+    "id": "Rebel/llama8b-snapshot-medium-12-user-2.json",
+    "source": "Rebel",
+    "view": "final"
+  },
+  {
+    "actor": "llama8b",
+    "id": "Rebel/llama8b-snapshot-slow-4-user-3.json",
+    "source": "Rebel",
+    "view": "final"
+  },
+  {
+    "actor": "qwen1.5b",
+    "id": "Rebel/qwen1.5b-batch-denied-8-user-2.json",
+    "source": "Rebel",
+    "view": "final"
+  },
+  {
+    "actor": "qwen1.5b",
+    "id": "Rebel/qwen1.5b-snapshot-denied-4-prior-0.json",
+    "source": "Rebel",
+    "view": "trace"
+  },
+  {
+    "actor": "qwen1.5b",
+    "id": "Rebel/qwen1.5b-snapshot-slow-8-prior-0.json",
+    "source": "Rebel",
+    "view": "final"
+  },
+  {
+    "actor": "qwen1.5b",
+    "id": "Rebel/qwen1.5b-snapshot-slow-8-user-0.json",
+    "source": "Rebel",
+    "view": "trace"
+  },
+  {
+    "actor": "qwen7b",
+    "id": "Rebel/qwen7b-batch-fast-4-user-1.json",
+    "source": "Rebel",
+    "view": "final"
+  },
+  {
+    "actor": "qwen7b",
+    "id": "Rebel/qwen7b-batch-medium-12-user-4.json",
+    "source": "Rebel",
+    "view": "trace"
+  },
+  {
+    "actor": "qwen7b",
+    "id": "Rebel/qwen7b-batch-slow-4-prior-2.json",
+    "source": "Rebel",
+    "view": "trace"
+  },
+  {
+    "actor": "qwen7b",
+    "id": "Rebel/qwen7b-snapshot-fast-8-neutral-4.json",
+    "source": "Rebel",
+    "view": "final"
+  }
+]

@@ -1,0 +1,1 @@
+{"actual_micro_usd":0,"error":null,"fatal":false,"metrics":{"input_tokens":253,"num_turns":null,"output_tokens":35,"reported_effort":"UNKNOWN","stop_reason":"stop"},"value":{"note":"Use east for target 1, west for target 2, south for target 3, and north for target 4","slot":3}}

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="730" viewBox="0 0 1120 730" role="img" aria-labelledby="title desc">
+<title id="title">Correct planned return actions by actor, condition and memory arm</title>
+<desc id="desc">Bars show Y, with fixed denominators. The adjacent table gives exact values, complete-return performance and technical validity. Claude same-stable is unscheduled.</desc>
+<rect width="1120" height="730" fill="white"/>
+<g font-family="Arial,sans-serif" font-size="13" fill="#17212b">
+<text x="25" y="26" font-size="20">Correct return actions (Y); all planned targets</text>
+<rect x="560" y="12" width="16" height="16" fill="#1967a3"/><text x="582" y="25">keyed</text>
+<rect x="715" y="12" width="16" height="16" fill="#d56a16"/><text x="737" y="25">shared</text>
+<rect x="870" y="12" width="16" height="16" fill="#65747e"/><text x="892" y="25">discard</text>
+<line x1="350.0" y1="62" x2="350.0" y2="680" stroke="#e4e8eb"/><text x="350.0" y="53" text-anchor="middle">0%</text>
+<line x1="505.0" y1="62" x2="505.0" y2="680" stroke="#e4e8eb"/><text x="505.0" y="53" text-anchor="middle">25%</text>
+<line x1="660.0" y1="62" x2="660.0" y2="680" stroke="#e4e8eb"/><text x="660.0" y="53" text-anchor="middle">50%</text>
+<line x1="815.0" y1="62" x2="815.0" y2="680" stroke="#e4e8eb"/><text x="815.0" y="53" text-anchor="middle">75%</text>
+<line x1="970.0" y1="62" x2="970.0" y2="680" stroke="#e4e8eb"/><text x="970.0" y="53" text-anchor="middle">100%</text>
+<text x="25" y="92">Qwen 7B / different-stable</text>
+<rect x="350" y="73" width="37.975" height="9" fill="#1967a3"/><text x="392.975" y="81" font-size="10">6.12</text>
+<rect x="350" y="85" width="98.037" height="9" fill="#d56a16"/><text x="453.038" y="93" font-size="10">15.81</text>
+<rect x="350" y="97" width="24.800" height="9" fill="#65747e"/><text x="379.800" y="105" font-size="10">4.00</text>
+<text x="25" y="142">Qwen 7B / same-stable</text>
+<rect x="350" y="123" width="48.438" height="9" fill="#1967a3"/><text x="403.438" y="131" font-size="10">7.81</text>
+<rect x="350" y="135" width="304.188" height="9" fill="#d56a16"/><text x="659.188" y="143" font-size="10">49.06</text>
+<rect x="350" y="147" width="25.188" height="9" fill="#65747e"/><text x="380.188" y="155" font-size="10">4.06</text>
+<text x="25" y="192">Qwen 7B / stale-remap</text>
+<rect x="350" y="173" width="21.312" height="9" fill="#1967a3"/><text x="376.312" y="181" font-size="10">3.44</text>
+<rect x="350" y="185" width="85.250" height="9" fill="#d56a16"/><text x="440.250" y="193" font-size="10">13.75</text>
+<rect x="350" y="197" width="32.938" height="9" fill="#65747e"/><text x="387.938" y="205" font-size="10">5.31</text>
+<text x="25" y="242">Llama 8B / different-stable</text>
+<rect x="350" y="223" width="5.425" height="9" fill="#1967a3"/><text x="360.425" y="231" font-size="10">0.88</text>
+<rect x="350" y="235" width="3.875" height="9" fill="#d56a16"/><text x="358.875" y="243" font-size="10">0.62</text>
+<rect x="350" y="247" width="0.000" height="9" fill="#65747e"/><text x="355.000" y="255" font-size="10">0.00</text>
+<text x="25" y="292">Llama 8B / same-stable</text>
+<rect x="350" y="273" width="9.688" height="9" fill="#1967a3"/><text x="364.688" y="281" font-size="10">1.56</text>
+<rect x="350" y="285" width="1.938" height="9" fill="#d56a16"/><text x="356.938" y="293" font-size="10">0.31</text>
+<rect x="350" y="297" width="0.000" height="9" fill="#65747e"/><text x="355.000" y="305" font-size="10">0.00</text>
+<text x="25" y="342">Llama 8B / stale-remap</text>
+<rect x="350" y="323" width="5.812" height="9" fill="#1967a3"/><text x="360.812" y="331" font-size="10">0.94</text>
+<rect x="350" y="335" width="0.000" height="9" fill="#d56a16"/><text x="355.000" y="343" font-size="10">0.00</text>
+<rect x="350" y="347" width="0.000" height="9" fill="#65747e"/><text x="355.000" y="355" font-size="10">0.00</text>
+<text x="25" y="392">Qwen 1.5B / different-stable</text>
+<rect x="350" y="373" width="9.688" height="9" fill="#1967a3"/><text x="364.688" y="381" font-size="10">1.56</text>
+<rect x="350" y="385" width="31.000" height="9" fill="#d56a16"/><text x="386.000" y="393" font-size="10">5.00</text>
+<rect x="350" y="397" width="36.812" height="9" fill="#65747e"/><text x="391.812" y="405" font-size="10">5.94</text>
+<text x="25" y="442">Qwen 1.5B / same-stable</text>
+<rect x="350" y="423" width="7.750" height="9" fill="#1967a3"/><text x="362.750" y="431" font-size="10">1.25</text>
+<rect x="350" y="435" width="42.625" height="9" fill="#d56a16"/><text x="397.625" y="443" font-size="10">6.88</text>
+<rect x="350" y="447" width="23.250" height="9" fill="#65747e"/><text x="378.250" y="455" font-size="10">3.75</text>
+<text x="25" y="492">Qwen 1.5B / stale-remap</text>
+<rect x="350" y="473" width="9.688" height="9" fill="#1967a3"/><text x="364.688" y="481" font-size="10">1.56</text>
+<rect x="350" y="485" width="29.062" height="9" fill="#d56a16"/><text x="384.062" y="493" font-size="10">4.69</text>
+<rect x="350" y="497" width="52.312" height="9" fill="#65747e"/><text x="407.312" y="505" font-size="10">8.44</text>
+<text x="25" y="542">Claude / different-stable</text>
+<rect x="350" y="523" width="620.000" height="9" fill="#1967a3"/><text x="975.000" y="531" font-size="10">100.00</text>
+<rect x="350" y="535" width="620.000" height="9" fill="#d56a16"/><text x="975.000" y="543" font-size="10">100.00</text>
+<rect x="350" y="547" width="0.000" height="9" fill="#65747e"/><text x="355.000" y="555" font-size="10">0.00</text>
+<text x="25" y="592">Claude / same-stable</text>
+<text x="355" y="592">not scheduled</text>
+<text x="25" y="642">Claude / stale-remap</text>
+<rect x="350" y="623" width="0.000" height="9" fill="#1967a3"/><text x="355.000" y="631" font-size="10">0.00</text>
+<rect x="350" y="635" width="0.000" height="9" fill="#d56a16"/><text x="355.000" y="643" font-size="10">0.00</text>
+<rect x="350" y="647" width="0.000" height="9" fill="#65747e"/><text x="355.000" y="655" font-size="10">0.00</text>
+<text x="25" y="714">Descriptive frozen scores; abstentions and technical/missing actions are operational misses. No error bars on these cell means.</text></g></svg>

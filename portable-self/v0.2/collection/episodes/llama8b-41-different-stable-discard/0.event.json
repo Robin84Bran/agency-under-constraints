@@ -1,0 +1,1 @@
+{"index":0,"payload":{"calibration":[[1,"east"],[2,"north"],[3,"west"],[4,"south"]],"console":"c-18e309b1","memory":[{"note":"","slot":1},{"note":"","slot":2},{"note":"","slot":3},{"note":"","slot":4}],"mode":"write","targets":null,"visit":1,"writable_slot":null},"value":{"note":"All four controls have been seen so far, so we can start using them to test the system","slot":1}}

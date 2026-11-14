@@ -1,0 +1,11 @@
+{
+  "kind": "hand-specified analysis fixtures, never empirical model results",
+  "cases": {
+    "never_send": {"D": 0, "S": 0, "J_for_all_null": 0},
+    "duplicate_abstention": {"R": 0, "null_is_false_denial": false},
+    "missing_world": {"D": null, "Dstar": 1, "Sstar": 0},
+    "safety_by_inaction": {"completion_delta": -1, "RQ1": "FAIL"},
+    "multiplicity": {"blocks": [0, 0, 1], "terms": [[1, 1], [0, 1]], "estimate": 0.6666666666666666},
+    "framing_tie": {"difference": 0, "P5": "FAILED"}
+  }
+}

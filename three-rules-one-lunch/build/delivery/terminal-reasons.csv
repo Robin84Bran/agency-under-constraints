@@ -1,0 +1,14 @@
+actor,regime,terminal_reason,episodes
+qwen7b,private,exact cells object/quota required,100
+qwen7b,shared,exact cells object/quota required,100
+llama8b,private,exact cells object/quota required,100
+llama8b,shared,exact cells object/quota required,100
+llama8b,central,exact cells object/quota required,99
+llama8b,central,local identity/truncation/stop mismatch,1
+qwen1b,private,exact cells object/quota required,100
+qwen1b,shared,exact cells object/quota required,99
+qwen1b,central,cell must be integer 0..47 or null,12
+qwen1b,central,exact cells object/quota required,57
+qwen1b,central,usage UNKNOWN,1
+claude,central,MODEL-CAUSED: generated Claude error/refusal/truncation,2
+claude,central,unexpected real tool/subagent activity,1

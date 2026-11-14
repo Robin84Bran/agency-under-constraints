@@ -1,0 +1,1 @@
+{"index":4,"payload":{"calibration":null,"console":"c-6937be8d","memory":[{"note":"Console c-6937be8d produced control 1: north","slot":1},{"note":"","slot":2},{"note":"","slot":3},{"note":"","slot":4}],"mode":"act","targets":["east","north","west","south"],"visit":5,"writable_slot":null},"value":{"controls":[null,2,4,3]}}

@@ -1,0 +1,6 @@
+{
+  "status": "FAILED",
+  "scope": "post hoc report-only spend allocation",
+  "reason": "D4 continuation holds carry .d4- suffix; per-episode attribution assertion failed before writing RESULTS/README. Use original ledger normalization; preserve this diagnostic output. No scientific analysis rerun.",
+  "corrected_report": "../report-final/"
+}

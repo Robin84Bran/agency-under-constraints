@@ -1,0 +1,14 @@
+{
+  "duplicate_ids": 0,
+  "invalid_trajectories": 0,
+  "ledger_unmatched_calls": 0,
+  "missing_views": 0,
+  "primary_judgment_statuses": {
+    "abstention": 1001,
+    "valid": 1879
+  },
+  "prompt_identity_mismatches": 0,
+  "reason": "Zeros are established by fail-fast completeness, identity, truth and ledger assertions; invalid input raises before this report is written.",
+  "status": "PASS",
+  "truth_disagreements": 0
+}

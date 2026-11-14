@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "scope": "Separate copied source/evidence tree, fresh process and output directory; builder rebuild, not independent Claude review",
+  "source_files_verified": 10056,
+  "original_and_copy_unchanged": true,
+  "freeze_sha256": "1cedc35349223938514fc2d821c45cb024f39b170d2d97f3409740ae3d4b93da",
+  "commands": [
+    [
+      "/Library/Developer/CommandLineTools/usr/bin/python3",
+      "-B",
+      "trl_freeze.py",
+      "verify"
+    ],
+    [
+      "/Library/Developer/CommandLineTools/usr/bin/python3",
+      "-B",
+      "trl_analysis.py",
+      "--base",
+      "collection",
+      "--out",
+      "../analysis"
+    ]
+  ],
+  "files": {
+    "episodes.json": {
+      "first_sha256": "8749ca46033dda6910bff094908fb9722ffa3dfa4ca773d6cde959efe0303d63",
+      "rebuilt_sha256": "8749ca46033dda6910bff094908fb9722ffa3dfa4ca773d6cde959efe0303d63",
+      "bytes": 1376404,
+      "byte_identical": true
+    },
+    "summary.json": {
+      "first_sha256": "c701e8bbd0caab883a9fdc8a087396aad4c5168d98017e060098d39145f5c2ae",
+      "rebuilt_sha256": "c701e8bbd0caab883a9fdc8a087396aad4c5168d98017e060098d39145f5c2ae",
+      "bytes": 237408,
+      "byte_identical": true
+    },
+    "tables.csv": {
+      "first_sha256": "2df22aee13e3a31c214313a339e72c5adc327a596e64cb0ae3a63b557f4e272c",
+      "rebuilt_sha256": "2df22aee13e3a31c214313a339e72c5adc327a596e64cb0ae3a63b557f4e272c",
+      "bytes": 1246,
+      "byte_identical": true
+    },
+    "tables.md": {
+      "first_sha256": "e4127760660a366d5cace6acd5097aac558c7b6e4fa3fb3a5e063f62939c8a8f",
+      "rebuilt_sha256": "e4127760660a366d5cace6acd5097aac558c7b6e4fa3fb3a5e063f62939c8a8f",
+      "bytes": 2574,
+      "byte_identical": true
+    },
+    "frontier-seeds.csv": {
+      "first_sha256": "5b6c778a140fe1a537a00a25d73fb3b0aa06633f7492a90e4115cb005d41a845",
+      "rebuilt_sha256": "5b6c778a140fe1a537a00a25d73fb3b0aa06633f7492a90e4115cb005d41a845",
+      "bytes": 2926,
+      "byte_identical": true
+    }
+  }
+}

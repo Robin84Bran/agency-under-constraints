@@ -1,0 +1,39 @@
+{
+  "events": [
+    {
+      "attempt_id": "claude-b84-d24-independent-rules",
+      "definite_nonstart": true,
+      "finished_at": "2026-11-11T15:58:41.998225+00:00",
+      "id": "claude-b84-d24-independent-rules",
+      "kind": "verified transport nonstart",
+      "message": "API Error: Can't reach the API server \u2014 check your internet or DNS (ENOTFOUND)",
+      "raw_sha256": "7618db8b67c16943593ff6b48312b04dad05835fdc57dec545fe9697b6851b3d",
+      "request_sha256": "f43ad44a29bc72b5022aa2eef356184515da805041798631c45d5ad106b9171b",
+      "reset_at": "2026-11-11T15:58:41.998225+00:00"
+    },
+    {
+      "attempt_id": "claude-b84-d24-independent-rules@usage-resume-0001",
+      "definite_nonstart": true,
+      "finished_at": "2026-11-11T17:36:40.068766+00:00",
+      "id": "claude-b84-d24-independent-rules",
+      "kind": "usage-limit pause",
+      "message": "You've hit your 5-hour limit \u00b7 resets 2:30am (Asia/Hong_Kong)",
+      "raw_sha256": "13f48ddb7f70be575303eaf98ae0687d83e970f514ae461c66ffd00894539d90",
+      "request_sha256": "f43ad44a29bc72b5022aa2eef356184515da805041798631c45d5ad106b9171b",
+      "reset_at": "2026-11-11T18:30:00+00:00"
+    },
+    {
+      "attempt_id": "claude-b55-d24-independent-rehearsal",
+      "definite_nonstart": true,
+      "finished_at": "2026-11-11T20:39:36.107634+00:00",
+      "id": "claude-b55-d24-independent-rehearsal",
+      "kind": "usage-limit pause",
+      "message": "You've hit your 5-hour limit \u00b7 resets 7:30am (Asia/Hong_Kong)",
+      "raw_sha256": "996715087e5b24f344e4f1ff4f6a62bbd78a9bf6a04c2b52b7bd9f431b111537",
+      "request_sha256": "28fd10ddaf110b37db1bf009695a49e76b51ef8e17be88ceb0852dedadba0008",
+      "reset_at": "2026-11-11T23:30:00+00:00"
+    }
+  ],
+  "usage_limit_refusals": 2,
+  "verified_transport_nonstarts": 1
+}

@@ -1,0 +1,1 @@
+{"index":6,"payload":{"calibration":null,"console":"c-0efd36b0","memory":[{"note":"Replace slot 2 with 'north' to correct stale label.","slot":2}],"mode":"act","targets":["west","east","south","north"],"visit":7,"writable_slot":null},"value":{"controls":[null,null,null,null]}}

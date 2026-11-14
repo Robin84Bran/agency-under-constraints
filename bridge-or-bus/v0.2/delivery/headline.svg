@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="850" viewBox="0 0 1120 850" role="img" aria-labelledby="title desc">
+<title id="title">Bridge or Bus v0.2: correct submissions, acknowledgment and validity</title>
+<desc id="desc">Each bar shows percent correct accepted submissions on planned assignments. Acknowledgment equals success throughout. Text also shows valid episode percent. Local cells n=50; Claude n=10. Script policies are secondary controls.</desc>
+<rect width="1120" height="850" fill="white"/>
+<g font-family="Arial, sans-serif" fill="#17202a">
+<text x="25" y="33" font-size="22">Bridge or Bus? · v0.2</text>
+<text x="25" y="57" font-size="14">Correct submission = acknowledged success here. Bar: S* / A*; annotation: valid episodes.</text>
+<text x="25" y="80" font-size="13">Local n=50/cell; Claude n=10/cell. Scripts evaluated on both seed sets; results identical.</text>
+<text x="260" y="113" font-size="17">Stable</text>
+<text x="470" y="113" font-size="17">Rename</text>
+<text x="680" y="113" font-size="17">Unit</text>
+<text x="890" y="113" font-size="17">Required</text>
+<text x="25" y="154" font-size="13">Qwen 7B · stale</text>
+<rect x="260" y="144" width="160" height="14" fill="#eef1f4"/>
+<rect x="260" y="144" width="16" height="14" fill="#1768ac"/>
+<text x="260" y="174" font-size="12">10% S*/A* · 100% valid</text>
+<rect x="470" y="144" width="160" height="14" fill="#eef1f4"/>
+<rect x="470" y="144" width="0" height="14" fill="#1768ac"/>
+<text x="470" y="174" font-size="12">0% S*/A* · 100% valid</text>
+<rect x="680" y="144" width="160" height="14" fill="#eef1f4"/>
+<rect x="680" y="144" width="19.2" height="14" fill="#1768ac"/>
+<text x="680" y="174" font-size="12">12% S*/A* · 100% valid</text>
+<rect x="890" y="144" width="160" height="14" fill="#eef1f4"/>
+<rect x="890" y="144" width="9.6" height="14" fill="#1768ac"/>
+<text x="890" y="174" font-size="12">6% S*/A* · 100% valid</text>
+<text x="25" y="199" font-size="13">Qwen 7B · registry</text>
+<rect x="260" y="189" width="160" height="14" fill="#eef1f4"/>
+<rect x="260" y="189" width="6.4" height="14" fill="#1768ac"/>
+<text x="260" y="219" font-size="12">4% S*/A* · 100% valid</text>
+<rect x="470" y="189" width="160" height="14" fill="#eef1f4"/>
+<rect x="470" y="189" width="0" height="14" fill="#1768ac"/>
+<text x="470" y="219" font-size="12">0% S*/A* · 100% valid</text>
+<rect x="680" y="189" width="160" height="14" fill="#eef1f4"/>
+<rect x="680" y="189" width="6.4" height="14" fill="#1768ac"/>
+<text x="680" y="219" font-size="12">4% S*/A* · 100% valid</text>
+<rect x="890" y="189" width="160" height="14" fill="#eef1f4"/>
+<rect x="890" y="189" width="32" height="14" fill="#1768ac"/>
+<text x="890" y="219" font-size="12">20% S*/A* · 100% valid</text>
+<text x="25" y="244" font-size="13">Llama 8B · stale</text>
+<rect x="260" y="234" width="160" height="14" fill="#eef1f4"/>
+<rect x="260" y="234" width="0" height="14" fill="#1768ac"/>
+<text x="260" y="264" font-size="12">0% S*/A* · 100% valid</text>
+<rect x="470" y="234" width="160" height="14" fill="#eef1f4"/>
+<rect x="470" y="234" width="0" height="14" fill="#1768ac"/>
+<text x="470" y="264" font-size="12">0% S*/A* · 100% valid</text>
+<rect x="680" y="234" width="160" height="14" fill="#eef1f4"/>
+<rect x="680" y="234" width="0" height="14" fill="#1768ac"/>
+<text x="680" y="264" font-size="12">0% S*/A* · 100% valid</text>
+<rect x="890" y="234" width="160" height="14" fill="#eef1f4"/>
+<rect x="890" y="234" width="0" height="14" fill="#1768ac"/>
+<text x="890" y="264" font-size="12">0% S*/A* · 100% valid</text>
+<text x="25" y="289" font-size="13">Llama 8B · registry</text>
+<rect x="260" y="279" width="160" height="14" fill="#eef1f4"/>
+<rect x="260" y="279" width="0" height="14" fill="#1768ac"/>
+<text x="260" y="309" font-size="12">0% S*/A* · 100% valid</text>
+<rect x="470" y="279" width="160" height="14" fill="#eef1f4"/>
+<rect x="470" y="279" width="0" height="14" fill="#1768ac"/>
+<text x="470" y="309" font-size="12">0% S*/A* · 100% valid</text>
+<rect x="680" y="279" width="160" height="14" fill="#eef1f4"/>
+<rect x="680" y="279" width="0" height="14" fill="#1768ac"/>
+<text x="680" y="309" font-size="12">0% S*/A* · 100% valid</text>
+<rect x="890" y="279" width="160" height="14" fill="#eef1f4"/>
+<rect x="890" y="279" width="0" height="14" fill="#1768ac"/>
+<text x="890" y="309" font-size="12">0% S*/A* · 100% valid</text>
+<text x="25" y="334" font-size="13">Qwen 1.5B · stale</text>
+<rect x="260" y="324" width="160" height="14" fill="#eef1f4"/>
+<rect x="260" y="324" width="0" height="14" fill="#1768ac"/>
+<text x="260" y="354" font-size="12">0% S*/A* · 100% valid</text>
+<rect x="470" y="324" width="160" height="14" fill="#eef1f4"/>
+<rect x="470" y="324" width="0" height="14" fill="#1768ac"/>
+<text x="470" y="354" font-size="12">0% S*/A* · 100% valid</text>
+<rect x="680" y="324" width="160" height="14" fill="#eef1f4"/>
+<rect x="680" y="324" width="0" height="14" fill="#1768ac"/>
+<text x="680" y="354" font-size="12">0% S*/A* · 100% valid</text>
+<rect x="890" y="324" width="160" height="14" fill="#eef1f4"/>
+<rect x="890" y="324" width="0" height="14" fill="#1768ac"/>
+<text x="890" y="354" font-size="12">0% S*/A* · 100% valid</text>
+<text x="25" y="379" font-size="13">Qwen 1.5B · registry</text>
+<rect x="260" y="369" width="160" height="14" fill="#eef1f4"/>
+<rect x="260" y="369" width="0" height="14" fill="#1768ac"/>
+<text x="260" y="399" font-size="12">0% S*/A* · 100% valid</text>
+<rect x="470" y="369" width="160" height="14" fill="#eef1f4"/>
+<rect x="470" y="369" width="0" height="14" fill="#1768ac"/>
+<text x="470" y="399" font-size="12">0% S*/A* · 100% valid</text>
+<rect x="680" y="369" width="160" height="14" fill="#eef1f4"/>
+<rect x="680" y="369" width="0" height="14" fill="#1768ac"/>
+<text x="680" y="399" font-size="12">0% S*/A* · 100% valid</text>
+<rect x="890" y="369" width="160" height="14" fill="#eef1f4"/>
+<rect x="890" y="369" width="0" height="14" fill="#1768ac"/>
+<text x="890" y="399" font-size="12">0% S*/A* · 100% valid</text>
+<text x="25" y="424" font-size="13">Claude · stale</text>
+<rect x="260" y="414" width="160" height="14" fill="#eef1f4"/>
+<rect x="260" y="414" width="160" height="14" fill="#1768ac"/>
+<text x="260" y="444" font-size="12">100% S*/A* · 100% valid</text>
+<rect x="470" y="414" width="160" height="14" fill="#eef1f4"/>
+<rect x="470" y="414" width="48" height="14" fill="#1768ac"/>
+<text x="470" y="444" font-size="12">30% S*/A* · 30% valid</text>
+<rect x="680" y="414" width="160" height="14" fill="#eef1f4"/>
+<rect x="680" y="414" width="96" height="14" fill="#1768ac"/>
+<text x="680" y="444" font-size="12">60% S*/A* · 60% valid</text>
+<rect x="890" y="414" width="160" height="14" fill="#eef1f4"/>
+<rect x="890" y="414" width="144" height="14" fill="#1768ac"/>
+<text x="890" y="444" font-size="12">90% S*/A* · 90% valid</text>
+<text x="25" y="469" font-size="13">Claude · registry</text>
+<rect x="260" y="459" width="160" height="14" fill="#eef1f4"/>
+<rect x="260" y="459" width="160" height="14" fill="#1768ac"/>
+<text x="260" y="489" font-size="12">100% S*/A* · 100% valid</text>
+<rect x="470" y="459" width="160" height="14" fill="#eef1f4"/>
+<rect x="470" y="459" width="128" height="14" fill="#1768ac"/>
+<text x="470" y="489" font-size="12">80% S*/A* · 80% valid</text>
+<rect x="680" y="459" width="160" height="14" fill="#eef1f4"/>
+<rect x="680" y="459" width="144" height="14" fill="#1768ac"/>
+<text x="680" y="489" font-size="12">90% S*/A* · 90% valid</text>
+<rect x="890" y="459" width="160" height="14" fill="#eef1f4"/>
+<rect x="890" y="459" width="144" height="14" fill="#1768ac"/>
+<text x="890" y="489" font-size="12">90% S*/A* · 90% valid</text>
+<line x1="25" x2="1090" y1="498" y2="498" stroke="#9ca7b0"/>
+<text x="25" y="514" font-size="13">fixed_v0 · stale</text>
+<rect x="260" y="504" width="160" height="14" fill="#eef1f4"/>
+<rect x="260" y="504" width="160" height="14" fill="#5e6b75"/>
+<text x="260" y="534" font-size="12">100% S*/A* · 100% valid</text>
+<rect x="470" y="504" width="160" height="14" fill="#eef1f4"/>
+<rect x="470" y="504" width="0" height="14" fill="#5e6b75"/>
+<text x="470" y="534" font-size="12">0% S*/A* · 100% valid</text>
+<rect x="680" y="504" width="160" height="14" fill="#eef1f4"/>
+<rect x="680" y="504" width="160" height="14" fill="#5e6b75"/>
+<text x="680" y="534" font-size="12">100% S*/A* · 100% valid</text>
+<rect x="890" y="504" width="160" height="14" fill="#eef1f4"/>
+<rect x="890" y="504" width="0" height="14" fill="#5e6b75"/>
+<text x="890" y="534" font-size="12">0% S*/A* · 100% valid</text>
+<text x="25" y="559" font-size="13">fixed_v0 · registry</text>
+<rect x="260" y="549" width="160" height="14" fill="#eef1f4"/>
+<rect x="260" y="549" width="160" height="14" fill="#5e6b75"/>
+<text x="260" y="579" font-size="12">100% S*/A* · 100% valid</text>
+<rect x="470" y="549" width="160" height="14" fill="#eef1f4"/>
+<rect x="470" y="549" width="0" height="14" fill="#5e6b75"/>
+<text x="470" y="579" font-size="12">0% S*/A* · 100% valid</text>
+<rect x="680" y="549" width="160" height="14" fill="#eef1f4"/>
+<rect x="680" y="549" width="160" height="14" fill="#5e6b75"/>
+<text x="680" y="579" font-size="12">100% S*/A* · 100% valid</text>
+<rect x="890" y="549" width="160" height="14" fill="#eef1f4"/>
+<rect x="890" y="549" width="0" height="14" fill="#5e6b75"/>
+<text x="890" y="579" font-size="12">0% S*/A* · 100% valid</text>
+<text x="25" y="604" font-size="13">reactive · stale</text>
+<rect x="260" y="594" width="160" height="14" fill="#eef1f4"/>
+<rect x="260" y="594" width="160" height="14" fill="#5e6b75"/>
+<text x="260" y="624" font-size="12">100% S*/A* · 100% valid</text>
+<rect x="470" y="594" width="160" height="14" fill="#eef1f4"/>
+<rect x="470" y="594" width="160" height="14" fill="#5e6b75"/>
+<text x="470" y="624" font-size="12">100% S*/A* · 100% valid</text>
+<rect x="680" y="594" width="160" height="14" fill="#eef1f4"/>
+<rect x="680" y="594" width="160" height="14" fill="#5e6b75"/>
+<text x="680" y="624" font-size="12">100% S*/A* · 100% valid</text>
+<rect x="890" y="594" width="160" height="14" fill="#eef1f4"/>
+<rect x="890" y="594" width="160" height="14" fill="#5e6b75"/>
+<text x="890" y="624" font-size="12">100% S*/A* · 100% valid</text>
+<text x="25" y="649" font-size="13">reactive · registry</text>
+<rect x="260" y="639" width="160" height="14" fill="#eef1f4"/>
+<rect x="260" y="639" width="160" height="14" fill="#5e6b75"/>
+<text x="260" y="669" font-size="12">100% S*/A* · 100% valid</text>
+<rect x="470" y="639" width="160" height="14" fill="#eef1f4"/>
+<rect x="470" y="639" width="160" height="14" fill="#5e6b75"/>
+<text x="470" y="669" font-size="12">100% S*/A* · 100% valid</text>
+<rect x="680" y="639" width="160" height="14" fill="#eef1f4"/>
+<rect x="680" y="639" width="160" height="14" fill="#5e6b75"/>
+<text x="680" y="669" font-size="12">100% S*/A* · 100% valid</text>
+<rect x="890" y="639" width="160" height="14" fill="#eef1f4"/>
+<rect x="890" y="639" width="160" height="14" fill="#5e6b75"/>
+<text x="890" y="669" font-size="12">100% S*/A* · 100% valid</text>
+<text x="25" y="694" font-size="13">oracle · stale</text>
+<rect x="260" y="684" width="160" height="14" fill="#eef1f4"/>
+<rect x="260" y="684" width="160" height="14" fill="#5e6b75"/>
+<text x="260" y="714" font-size="12">100% S*/A* · 100% valid</text>
+<rect x="470" y="684" width="160" height="14" fill="#eef1f4"/>
+<rect x="470" y="684" width="160" height="14" fill="#5e6b75"/>
+<text x="470" y="714" font-size="12">100% S*/A* · 100% valid</text>
+<rect x="680" y="684" width="160" height="14" fill="#eef1f4"/>
+<rect x="680" y="684" width="160" height="14" fill="#5e6b75"/>
+<text x="680" y="714" font-size="12">100% S*/A* · 100% valid</text>
+<rect x="890" y="684" width="160" height="14" fill="#eef1f4"/>
+<rect x="890" y="684" width="160" height="14" fill="#5e6b75"/>
+<text x="890" y="714" font-size="12">100% S*/A* · 100% valid</text>
+<text x="25" y="739" font-size="13">oracle · registry</text>
+<rect x="260" y="729" width="160" height="14" fill="#eef1f4"/>
+<rect x="260" y="729" width="160" height="14" fill="#5e6b75"/>
+<text x="260" y="759" font-size="12">100% S*/A* · 100% valid</text>
+<rect x="470" y="729" width="160" height="14" fill="#eef1f4"/>
+<rect x="470" y="729" width="160" height="14" fill="#5e6b75"/>
+<text x="470" y="759" font-size="12">100% S*/A* · 100% valid</text>
+<rect x="680" y="729" width="160" height="14" fill="#eef1f4"/>
+<rect x="680" y="729" width="160" height="14" fill="#5e6b75"/>
+<text x="680" y="759" font-size="12">100% S*/A* · 100% valid</text>
+<rect x="890" y="729" width="160" height="14" fill="#eef1f4"/>
+<rect x="890" y="729" width="160" height="14" fill="#5e6b75"/>
+<text x="890" y="759" font-size="12">100% S*/A* · 100% valid</text>
+<text x="25" y="799" font-size="14">Primary Qwen drift Δ: +2.0 pp [−4.0, +8.0]. Joint rule: FAIL.</text>
+<text x="25" y="824" font-size="13">Code controls are secondary. VOID-r1 excluded; historical v0.1 appears separately in RESULTS.md.</text>
+</g></svg>

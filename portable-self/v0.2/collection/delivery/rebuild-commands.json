@@ -1,0 +1,44 @@
+[
+  {
+    "arguments": [
+      "--fresh-clone"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout": "{\"freeze_sha256\": \"eeacae1853e959be9bc8ccf2a70abdac7eb2b0b6ab487c16d5950652acf6341d\", \"fresh_clone\": true, \"verified\": true}\n"
+  },
+  {
+    "arguments": [
+      "--fresh-clone"
+    ],
+    "returncode": 1,
+    "stderr": "Traceback (most recent call last):\n  File \"/private/tmp/portable-self-v02-independent-7hdq71ht/v0.2/collection/delivery/reproduce.py\", line 91, in <module>\n    main()\n  File \"/private/tmp/portable-self-v02-independent-7hdq71ht/v0.2/collection/delivery/reproduce.py\", line 74, in main\n    freeze = ps_freeze.push_gate(ROOT)\n  File \"/private/tmp/portable-self-v02-independent-7hdq71ht/v0.2/ps_freeze.py\", line 244, in push_gate\n    root=Path(root);h=verify(root)\n  File \"/private/tmp/portable-self-v02-independent-7hdq71ht/v0.2/collection/delivery/reproduce.py\", line 53, in fresh_verify\n    digest = ORIGINAL_VERIFY(view)\n  File \"/private/tmp/portable-self-v02-independent-7hdq71ht/v0.2/ps_freeze.py\", line 95, in verify\n    if actual!=changed: raise Stop('undeclared envelope deviation')\nps_io.Stop: undeclared envelope deviation\n",
+    "stdout": ""
+  },
+  {
+    "arguments": [
+      "--fresh-clone"
+    ],
+    "returncode": 1,
+    "stderr": "Traceback (most recent call last):\n  File \"/private/tmp/portable-self-v02-independent-7hdq71ht/v0.2/collection/delivery/reproduce.py\", line 91, in <module>\n    main()\n  File \"/private/tmp/portable-self-v02-independent-7hdq71ht/v0.2/collection/delivery/reproduce.py\", line 68, in main\n    import ps_freeze\n  File \"/private/tmp/portable-self-v02-independent-7hdq71ht/v0.2/ps_freeze.py\", line 8, in <module>\n    from ps_core import ROOT, ARMS, WORLDS, P, SCHEMAS, canonical, sha, fixture, schedule, render, maximal_payload, reservation, episode_reservation\n  File \"/private/tmp/portable-self-v02-independent-7hdq71ht/v0.2/ps_core.py\", line 19, in <module>\n    P = json.loads((ROOT/'config/prompts.json').read_text())\n  File \"/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py\", line 1256, in read_text\n    with self.open(mode='r', encoding=encoding, errors=errors) as f:\n  File \"/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py\", line 1242, in open\n    return io.open(self, mode, buffering, encoding, errors, newline,\n  File \"/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/pathlib.py\", line 1110, in _opener\n    return self._accessor.open(self, flags, mode)\nFileNotFoundError: [Errno 2] No such file or directory: '/private/tmp/portable-self-v02-independent-7hdq71ht/v0.2/config/prompts.json'\n",
+    "stdout": ""
+  },
+  {
+    "arguments": [
+      "--fresh-clone"
+    ],
+    "returncode": 1,
+    "stderr": "Traceback (most recent call last):\n  File \"/private/tmp/portable-self-v02-independent-7hdq71ht/v0.2/collection/delivery/reproduce.py\", line 91, in <module>\n    main()\n  File \"/private/tmp/portable-self-v02-independent-7hdq71ht/v0.2/collection/delivery/reproduce.py\", line 74, in main\n    freeze = ps_freeze.push_gate(ROOT)\n  File \"/private/tmp/portable-self-v02-independent-7hdq71ht/v0.2/ps_freeze.py\", line 244, in push_gate\n    root=Path(root);h=verify(root)\n  File \"/private/tmp/portable-self-v02-independent-7hdq71ht/v0.2/collection/delivery/reproduce.py\", line 35, in fresh_verify\n    assert {n for n in actual if not transient(n)} == {n for n in expected if not transient(n)}, 'substantive inventory changed'\nAssertionError: substantive inventory changed\n",
+    "stdout": ""
+  },
+  {
+    "arguments": [
+      "--fresh-clone",
+      "--output",
+      "/private/tmp/portable-self-v02-independent-7hdq71ht/analysis-rebuilt.json"
+    ],
+    "returncode": 0,
+    "stderr": "",
+    "stdout": "{\"freeze_sha256\": \"eeacae1853e959be9bc8ccf2a70abdac7eb2b0b6ab487c16d5950652acf6341d\", \"analysis_sha256\": \"ce11027738d94086487471f5be7334c5c68fa1f669ddd2e939089c867384e6b9\", \"byte_identical\": true, \"bytes\": 3894883, \"fresh_clone\": true, \"network_and_subprocess_guard\": true}\n"
+  }
+]

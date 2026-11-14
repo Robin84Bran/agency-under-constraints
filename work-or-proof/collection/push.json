@@ -1,0 +1,9 @@
+{
+  "attested_by": "Claude",
+  "commit": "63dd76114c2adab2ae59d8e06220cbee56e5b234",
+  "freeze_sha256": "75e19187ace057a67afb72b45505d8b4cf419b25a3abf0302dbaab629ae07bf7",
+  "note": "Offline attestation supplied by operator; build does not contact GitHub.",
+  "pushed_at": "2026-11-11T04:11:53+00:00",
+  "remote": "https://github.com/Robin84Bran/research",
+  "server_timestamp_source": "GitHub REST API GET /repos/Robin84Bran/research/activity: branch_creation 63dd761 at 2026-11-11T04:11:53Z"
+}

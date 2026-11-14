@@ -1,0 +1,33 @@
+{
+  "active_inputs_matched": 406,
+  "collection_files": 47263,
+  "freezes": {
+    "freeze-d1.json": {
+      "kind": "pre-inference provenance amendment",
+      "registered_inputs": 398,
+      "sha256": "06d0707a7819f44fc1c9ec28cbb6beeb23230b3b2187b7986ae24093078b76cc"
+    },
+    "freeze-d2.json": {
+      "kind": "pre-analysis harness amendment after saved-response exposure",
+      "registered_inputs": 402,
+      "sha256": "0c39d5a478880aa4037b0d5bfa55bc9c120514ca7994e3d43e08e84a5da4c197"
+    },
+    "freeze-d3.json": {
+      "kind": "pre-analysis harness amendment after saved-response exposure",
+      "registered_inputs": 406,
+      "sha256": "ffad862a61664d579c8bb9b96970634a30df82e4c933d22a75aca00305f3a09b"
+    },
+    "freeze.json": {
+      "kind": "pre-inference offline freeze",
+      "registered_inputs": 395,
+      "sha256": "289eaa2a465b82e889ee5e36406621ff336975cf5e14aa2f9db40c86b0a76269"
+    }
+  },
+  "note": "Active verify validates all parent hashes and permitted amendment scopes. Historical superseded code is not represented as unchanged current code.",
+  "registered_readme_sha256": "e3ebd7b56782f541d902e16f1a6e95b983cc0d7edd630364d762e30719650b91",
+  "tests": {
+    "failed": 0,
+    "run": 120,
+    "skipped": 0
+  }
+}

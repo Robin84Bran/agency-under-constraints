@@ -1,0 +1,1 @@
+{"index":3,"payload":{"calibration":[[1,"east"],[2,"south"],[3,"west"],[4,"north"]],"console":"c-4161a74a","memory":[{"note":"initial notes","slot":1},{"note":"","slot":2},{"note":"","slot":3},{"note":"","slot":4}],"mode":"write","targets":null,"visit":4,"writable_slot":null},"value":{"note":"east is not a direction","slot":1}}

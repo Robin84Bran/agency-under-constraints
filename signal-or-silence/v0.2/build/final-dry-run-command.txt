@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "scope": "isolated temporary fixture only; not scientific collection",
+  "fixture_calls": 1868,
+  "resumed_new_calls": 0,
+  "cumulative_fixture_accounted_usd": "12.062112",
+  "real_model_calls": 0,
+  "network_or_model_subprocesses": 0,
+  "versioned_ids": true,
+  "checked_utc": "2026-11-11T09:07:58.184298+00:00",
+  "adapter_sha256": "059956d8260b4b3737e8bb8234926882c1b88bf9dad955cd8e3d6fbb632a411d"
+}

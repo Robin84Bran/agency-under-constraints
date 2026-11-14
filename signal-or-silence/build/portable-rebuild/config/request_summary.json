@@ -1,0 +1,13 @@
+{
+  "by_model": {
+    "claude": 1868,
+    "llama8b": 1868,
+    "qwen7b": 1868
+  },
+  "claude_all_reservations_usd": 24.261584,
+  "jobs": 5604,
+  "max_prompt_characters": 1887,
+  "planning_reserve_usd": 5,
+  "preflight_jobs": 0,
+  "zero_reuse_assumed": true
+}

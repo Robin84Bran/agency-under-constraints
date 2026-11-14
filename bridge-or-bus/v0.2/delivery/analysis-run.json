@@ -1,0 +1,10 @@
+{
+  "frozen_analysis_exit_status": 0,
+  "independent_rebuild": "separate filtered COPY only; not collection",
+  "latest_freeze_sha256": "41998f58e147abccc8dad7edd472f5ebabdc9c0d21364ad95f34f9e41e823a51",
+  "no_collection_reruns": true,
+  "original_folder_command": "python3 -B bob.py analyze",
+  "original_folder_invocations": 1,
+  "preflight_evidence": "../build/pre-analysis-verification.json",
+  "result_sha256": "daec3a018eac0db5bd7d031274da07dd91c62221f647e69e5901bfd12c5ff9f5"
+}

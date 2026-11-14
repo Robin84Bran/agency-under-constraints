@@ -1,0 +1,1 @@
+{"index":3,"payload":{"calibration":[[1,"south"],[2,"west"],[3,"east"],[4,"north"]],"console":"c-a3339dc9","memory":[{"note":"","slot":1},{"note":"","slot":2},{"note":"","slot":3},{"note":"","slot":4}],"mode":"write","targets":null,"visit":4,"writable_slot":null},"value":{"note":"c1 produced south, c2 produced west, c3 produced east, c4 produced north","slot":1}}

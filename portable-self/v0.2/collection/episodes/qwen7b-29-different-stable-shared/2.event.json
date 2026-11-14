@@ -1,0 +1,1 @@
+{"index":2,"payload":{"calibration":[[1,"north"],[2,"east"],[3,"south"],[4,"west"]],"console":"c-5812430c","memory":[{"note":"Console c-1a176acf produces north.","slot":1},{"note":"","slot":2},{"note":"","slot":3},{"note":"","slot":4}],"mode":"write","targets":null,"visit":3,"writable_slot":null},"value":{"note":"Console c-5812430c produces north.","slot":1}}

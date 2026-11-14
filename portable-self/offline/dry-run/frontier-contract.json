@@ -1,0 +1,1 @@
+{"call_id":"claude-00-different-stable-discard-0","metrics":{"input_tokens":105,"num_turns":2,"output_tokens":30,"reported_effort":"UNKNOWN","stop_reason":"tool_use"},"raw_sha256":"0e084dbe6ff6b2f69e95de8f77b561dac67c329d6644f095c88acdba4932d520","strict_valid_structured_output":true,"verified_at":"2026-11-11T10:23:37.133635+00:00"}

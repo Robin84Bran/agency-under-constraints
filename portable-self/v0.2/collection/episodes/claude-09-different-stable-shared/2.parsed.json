@@ -1,0 +1,1 @@
+{"actual_micro_usd":11860,"error":null,"fatal":false,"metrics":{"input_tokens":1597,"num_turns":2,"output_tokens":164,"reported_effort":"UNKNOWN","stop_reason":"tool_use"},"value":{"note":"c-a417dcc1: N=1 E=2 S=4 W=3 (1=north 2=east 3=west 4=south)","slot":3}}

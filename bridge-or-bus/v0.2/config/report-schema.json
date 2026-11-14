@@ -1,0 +1,1 @@
+{"additionalProperties":false,"anyOf":[{"additionalProperties":false,"properties":{"submitted":{"type":"boolean"}},"required":["submitted"],"type":"object"},{"additionalProperties":false,"properties":{"submitted":{"type":"null"}},"required":["submitted"],"type":"object"}],"properties":{"submitted":{"type":["boolean","null"]}},"required":["submitted"],"type":"object"}

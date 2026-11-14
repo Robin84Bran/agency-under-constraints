@@ -1,0 +1,36 @@
+{
+  "capacity_status": "UNKNOWN",
+  "claude_active_seconds": 7200,
+  "claude_binary": "<WORKSPACE>/<external-tooling>/tooling/node_modules/.bin/claude",
+  "claude_effort": "medium",
+  "claude_model": "claude-opus-5-5",
+  "claude_timeout_seconds": 420,
+  "claude_version": "2.1.312 (user supplied; --help inspected only)",
+  "collection_authorized_in_build": false,
+  "local_active_seconds": 43200,
+  "local_endpoint": "http://127.0.0.1:11435",
+  "local_format": "phase schema object",
+  "local_options": {
+    "num_ctx": 8192,
+    "num_predict": 192,
+    "temperature": 0.6,
+    "top_k": 16
+  },
+  "local_runtime_version": "0.33.3",
+  "local_timeout_seconds": 180,
+  "pins": {
+    "llama8b": {
+      "sha256": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+      "tag": "llama3.1:8b"
+    },
+    "qwen1b": {
+      "sha256": "65ec06548149b04c096a120e4a6da9d4017ea809c91734ea5631e89f96ddc57b",
+      "tag": "qwen2.5:1.5b"
+    },
+    "qwen7b": {
+      "sha256": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+      "tag": "qwen2.5:7b"
+    }
+  },
+  "runtime_status": "UNKNOWN"
+}

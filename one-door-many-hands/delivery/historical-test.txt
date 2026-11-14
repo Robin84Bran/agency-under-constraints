@@ -1,0 +1,6 @@
+test_real_clearance_attestation_and_prefixes (test_d3.D3) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 1.057s
+
+OK

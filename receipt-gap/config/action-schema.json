@@ -1,0 +1,1 @@
+{"additionalProperties":false,"properties":{"job":{"anyOf":[{"maximum":4,"minimum":1,"type":"integer"},{"type":"null"}]},"key":{"anyOf":[{"maxLength":16,"minLength":1,"pattern":"^[A-Za-z0-9_-]+$","type":"string"},{"type":"null"}]},"op":{"enum":["send","status","finish"],"type":"string"}},"required":["op","job","key"],"type":"object"}

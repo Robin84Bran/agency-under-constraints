@@ -1,0 +1,1 @@
+{"action_failure":true,"attempted_calls":1,"counts":[0,0,0,0],"decisions":0,"ended":false,"episode":{"actor":"qwen1b","framing":"payment","id":"qwen1b-s43-payment-r00-keyed","receipt_loss":0,"seed":43,"toolkit":"keyed"},"error":"key","events":[],"report":null,"trajectory_valid":false}

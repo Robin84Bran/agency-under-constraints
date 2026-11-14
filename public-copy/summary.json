@@ -1,0 +1,15 @@
+{
+ "files_redacted": 30400,
+ "files_tracked": 796225,
+ "files_withheld": 25,
+ "replacements_by_rule": {
+  "agent_scratch_path": 82,
+  "external_tooling_name": 6158,
+  "external_tooling_path": 10605,
+  "home_path": 14799,
+  "login_name": 14909,
+  "os_temp_path": 3357,
+  "session_or_message_id": 27994,
+  "workspace_path": 56475
+ }
+}

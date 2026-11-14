@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "source_episodes": 1440,
+  "primary_episodes": 240,
+  "receipt_episodes": 120,
+  "truth_certificates_masks_and_selections": "PASS",
+  "v01_freezes_verified": true,
+  "prior_accounting": {
+    "accounted_usd": "11.053392",
+    "settled_usd": "11.053392",
+    "outstanding_usd": "0",
+    "reserves": 1868,
+    "settlements": 1868,
+    "sha256": "4f64f8332d8f5c28cc6d97e6d7319ab13637f60dead7a4fe138c60e3533b94b2"
+  },
+  "reservation_census": {
+    "version": "v0.2",
+    "prior": {
+      "accounted_usd": "11.053392",
+      "settled_usd": "11.053392",
+      "outstanding_usd": "0",
+      "reserves": 1868,
+      "settlements": 1868,
+      "sha256": "4f64f8332d8f5c28cc6d97e6d7319ab13637f60dead7a4fe138c60e3533b94b2"
+    },
+    "operational_stop_usd": "39",
+    "absolute_cap_usd": "40",
+    "new_reservations_usd": "33.520640",
+    "all_reservations_plus_prior_usd": "44.574032",
+    "all_reservations_plus_prior_plus_cushion_usd": "49.574032",
+    "initial_operational_remaining_usd": "27.946608",
+    "max_input_tokens": {
+      "plain": 2560,
+      "explicit": 3136
+    },
+    "output_tokens": 448,
+    "system_utf8_bytes": 68,
+    "historical_input_usd_per_million": "4",
+    "historical_output_usd_per_million": "20",
+    "current_invoiced_cost_status": "UNKNOWN",
+    "subscription_opportunity_cost_usd": null,
+    "amendment": "Rolling settled/conservatively charged spend + open reserves + proposed reserve <= USD39 across both versions. Full-plan plus USD5 feasibility test is relaxed by explicit agreement; may stop incomplete. No cap increase.",
+    "empirical_allowances_are_hard_limits": false,
+    "one_call_in_flight": true,
+    "mean_cost_forecast_new_usd": "11.053392",
+    "forecast_project_usd": "22.106784",
+    "planning_1_5x_new_usd": "16.580088",
+    "planning_project_plus_cushion_usd": "32.633480"
+  },
+  "new_model_calls": 0
+}

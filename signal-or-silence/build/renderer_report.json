@@ -1,0 +1,37 @@
+{
+  "status": "INCOMPLETE",
+  "scheduled_jobs": 5604,
+  "saved_calls": 0,
+  "missing_calls": 5604,
+  "bootstrap_replicates": 16,
+  "output_sha256": "cc1aeff4d8c82f13fa108f51e987f61e4d25309cbcee12bf62fa6506f55b51c1",
+  "outputs": [
+    "build/renderer-smoke/analysis/results.json",
+    "build/renderer-smoke/RESULTS.md",
+    "build/renderer-smoke/README.md"
+  ],
+  "retrospective_judgments": 4320,
+  "calibration_judgments": 90,
+  "sibling_original_judgments": 5760,
+  "sibling_replays_excluded": 48,
+  "sufficiency_statuses": {
+    "HA_v031_claude": {
+      "final": "INSUFFICIENT",
+      "trace": "DECISIVE"
+    },
+    "Rebel_v022_claude": {
+      "final": "INSUFFICIENT",
+      "trace": "DECISIVE"
+    },
+    "gpt_monitor": {
+      "final": "INSUFFICIENT",
+      "trace": "DECISIVE"
+    },
+    "gpt_referee": {
+      "final": "INSUFFICIENT",
+      "trace": "DECISIVE"
+    }
+  },
+  "main_results_absent": true,
+  "main_readme_absent": true
+}

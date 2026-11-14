@@ -1,0 +1,1 @@
+{"call":"claude-s00-calm-fallback-1","error":null,"failure_kind":null,"fatal":false,"freeze_sha256":"25e43f2fedd5448738844d8201b3e3f13384ef247ddffdcf08f78fbfcd7fa70b","num_turns":2,"returned_effort":"UNKNOWN","scored_and_charged":true,"status":"PASS","strict_valid":true,"structured_output_only":true}

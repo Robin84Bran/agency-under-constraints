@@ -1,0 +1,1 @@
+{"index":3,"payload":{"calibration":[[1,"south"],[2,"north"],[3,"east"],[4,"west"]],"console":"c-9a7c4c55","memory":[{"note":"","slot":1},{"note":"","slot":2},{"note":"","slot":3},{"note":"","slot":4}],"mode":"write","targets":null,"visit":4,"writable_slot":null},"value":{"note":"Console c-9a7c4c55 returned control 3: east","slot":3}}

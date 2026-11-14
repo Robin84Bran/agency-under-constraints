@@ -1,0 +1,1 @@
+{"index":5,"payload":{"calibration":null,"console":"c-8848d64b","memory":[{"note":"Console c-d32dcb34:1 produced west, 2 produced north, 3 produced east, 4 produced south.","slot":1},{"note":"","slot":2},{"note":"","slot":3},{"note":"","slot":4}],"mode":"act","targets":["west","east","south","north"],"visit":6,"writable_slot":null},"value":{"controls":[null,2,4,3]}}

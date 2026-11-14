@@ -1,0 +1,1 @@
+{"returncode":0,"stderr":"","stdout":"{\"done\":true,\"done_reason\":\"stop\",\"eval_count\":30,\"model\":\"qwen2.5:7b\",\"prompt_eval_count\":545,\"response\":\"{\\\"controls\\\":[4,1,3,2]}\"}"}

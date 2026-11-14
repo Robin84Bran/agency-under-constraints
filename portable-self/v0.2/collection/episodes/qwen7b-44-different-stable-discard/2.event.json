@@ -1,0 +1,1 @@
+{"index":2,"payload":{"calibration":[[1,"north"],[2,"south"],[3,"east"],[4,"west"]],"console":"c-ca529165","memory":[{"note":"","slot":1},{"note":"","slot":2},{"note":"","slot":3},{"note":"","slot":4}],"mode":"write","targets":null,"visit":3,"writable_slot":null},"value":{"note":"Console c-ca529165 produced north on first demonstration and south on return.","slot":1}}

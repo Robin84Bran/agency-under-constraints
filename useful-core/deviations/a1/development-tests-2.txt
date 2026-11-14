@@ -1,0 +1,209 @@
+test_content_streaks_do_not_pause_and_break_transport_streak (test_a1.CohortTests) ... ok
+test_many_frontier_content_failures_continue_in_frozen_order (test_a1.CohortTests) ... ok
+test_pause_is_cohort_wide_durable_and_reconstructed_after_crash (test_a1.CohortTests) ... ok
+test_prefix_evidence_allows_append_but_rejects_edits_and_truncation (test_a1.CohortTests) ... ok
+test_bad_reports_preserve_committed_utility (test_a1.FailureTests) ... ERROR
+test_cache_classes_count_once_and_missing_stays_unknown (test_a1.FailureTests) ... ok
+test_each_action_validator_ends_only_episode_in_both_cohorts (test_a1.FailureTests) ... test_exhausted_schema_generation_is_content_with_known_accounting (test_a1.FailureTests) ... ok
+test_first_frontier_content_failure_revalidates_and_continues (test_a1.FailureTests) ... ERROR
+test_incomplete_local_does_not_hide_integrity_failure (test_a1.FailureTests) ... ok
+test_length_keeps_first_identity_usage_and_turn_gates (test_a1.FailureTests) ... ok
+test_local_malformed_payloads_preserve_usage (test_a1.FailureTests) ... ok
+test_paid_transport_uncertainty_is_immediately_fatal (test_a1.FailureTests) ... ok
+test_payload_duplicates_nonfinite_and_metadata_strictness (test_a1.FailureTests) ... ERROR
+test_unexpected_adapter_and_decoder_errors_are_harness_fatal (test_a1.FailureTests) ... FAIL
+test_a1_activity_attestation_binds_both_freezes_and_all_blobs (test_a1.LineageTests) ... ok
+test_current_original_freeze_and_every_archived_source_hash (test_a1.LineageTests) ... ok
+test_parent_and_scientific_inputs_and_archives_are_immutable (test_a1.LineageTests) ... ok
+test_scope_rejection_before_seal_and_starts_block_revision (test_a1.LineageTests) ... ok
+test_bootstrap_paired_seed_multiplicity (test_core.AnalysisTests) ... ok
+test_fixed_denominator_fixture_scores (test_core.AnalysisTests) ... ok
+test_sizing_and_schedule (test_core.AnalysisTests) ... ok
+test_coverage_and_complete_block_gates (test_core.PrimaryRuleTests) ... ok
+test_joint_pass_and_separate_calm_guard (test_core.PrimaryRuleTests) ... ok
+test_null_reports_cannot_rescue_joint_rule (test_core.PrimaryRuleTests) ... ok
+test_action_shapes (test_core.StrictTests) ... ok
+test_json_adversaries (test_core.StrictTests) ... ok
+test_report (test_core.StrictTests) ... ok
+test_independent_draw_and_all_health_vectors (test_core.ToyTests) ... ok
+test_node_vectors_reproduce (test_core.ToyTests) ... ok
+test_all_baseline_fixtures (test_core.WorldTests) ... ok
+test_hidden_information_excluded (test_core.WorldTests) ... ok
+test_intermediate_not_deliverable_and_no_auto_downgrade (test_core.WorldTests) ... ok
+test_persistent_outage_order_and_repeat (test_core.WorldTests) ... ok
+test_refs_pairing_and_issuance (test_core.WorldTests) ... ok
+test_replay_rejects_forged_events (test_core.WorldTests) ... ok
+test_wait_exhaustion_none_no_free_delivery (test_core.WorldTests) ... ok
+test_activity_record_required_fields (test_provenance.ProvenanceTests) ... ok
+test_attestation_checks_all_blobs_and_writes_here_only (test_provenance.ProvenanceTests) ... ok
+test_gate_detects_freeze_source_and_start_changes (test_provenance.ProvenanceTests) ... ok
+test_inventory_added_source_and_symlink_rejected (test_provenance.ProvenanceTests) ... ok
+test_no_refreeze_or_nonseparate_clone (test_provenance.ProvenanceTests) ... ok
+test_rejects_wrong_committed_input (test_provenance.ProvenanceTests) ... ok
+test_rejects_wrong_origin_and_remote_head (test_provenance.ProvenanceTests) ... ok
+test_command_isolation_and_cost (test_runtime.AdapterTests) ... ok
+test_local_incomplete_and_length_episode_only (test_runtime.AdapterTests) ... ok
+test_local_running_context (test_runtime.AdapterTests) ... ok
+test_missing_payload_is_model_failure (test_runtime.AdapterTests) ... ok
+test_paid_contract_failures (test_runtime.AdapterTests) ... ok
+test_real_template_system_chain_and_override (test_runtime.AdapterTests) ... ok
+test_two_turn_and_one_turn_strict_payload (test_runtime.AdapterTests) ... ok
+test_append_race_and_partial_tail (test_runtime.LedgerTests) ... ok
+test_crash_timer_full_timeout_retained (test_runtime.LedgerTests) ... ok
+test_lock_rejects_second_collector (test_runtime.LedgerTests) ... ok
+test_prefix_tamper_and_truncation (test_runtime.LedgerTests) ... ok
+test_reservation_settlement_and_resume (test_runtime.LedgerTests) ... ok
+test_rolling_gate_and_full_overrun (test_runtime.LedgerTests) ... ok
+test_ambiguous_start_never_resends (test_runtime.RunnerTests) ... ok
+test_analysis_import_does_not_load_providers (test_runtime.RunnerTests) ... ok
+test_collector_frontier_requires_local_accounting (test_runtime.RunnerTests) ... ok
+test_collector_pauses_three_failures_and_persists_no_resend (test_runtime.RunnerTests) ... ok
+test_crash_after_paid_start_retains_unknown_hold_in_analysis (test_runtime.RunnerTests) ... ok
+test_crash_after_settlement_reconciles_cost_without_terminal (test_runtime.RunnerTests) ... ok
+test_fatal_and_known_episode_failures_audit (test_runtime.RunnerTests) ... ok
+test_first_content_failure_continues_without_probe (test_runtime.RunnerTests) ... ok
+test_frontier_contract_retained_and_revalidated (test_runtime.RunnerTests) ... ok
+test_independent_audit_rejects_forged_failure (test_runtime.RunnerTests) ... ok
+test_later_bad_reply_is_episode_failure (test_runtime.RunnerTests) ... ok
+test_local_transport_ends_episode_without_report (test_runtime.RunnerTests) ... ok
+test_nonobject_envelope_fails_closed_with_evidence (test_runtime.RunnerTests) ... ok
+test_overrun_settled_in_full (test_runtime.RunnerTests) ... ok
+test_partial_local_transport_bytes_are_episode_failure (test_runtime.RunnerTests) ... ok
+test_raw_unicode_bytes_preserved (test_runtime.RunnerTests) ... ok
+test_report_failure_preserves_delivery (test_runtime.RunnerTests) ... ok
+test_report_null_valid_abstention (test_runtime.RunnerTests) ... ok
+test_unknown_paid_usage_holds_and_stops (test_runtime.RunnerTests) ... ok
+test_valid_first_contract_and_independent_audit (test_runtime.RunnerTests) ... ok
+
+======================================================================
+ERROR: test_bad_reports_preserve_committed_utility (test_a1.FailureTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<WORKSPACE>/06_intelligence/AI_research/research/useful-core/tests/test_a1.py", line 62, in test_bad_reports_preserve_committed_utility
+    ep,r,l,c=self.run_one(Mutant(actor,change),actor+str(i))
+  File "<WORKSPACE>/06_intelligence/AI_research/research/useful-core/tests/test_a1.py", line 37, in run_one
+    calls=audit_episode(self.base,ep,terminal,True);audit_ledger(self.base,[ep],calls)
+  File "<WORKSPACE>/06_intelligence/AI_research/research/useful-core/uc_analysis.py", line 340, in audit_ledger
+    ep=lookup[ident]
+KeyError: 'claude0'
+
+======================================================================
+ERROR: test_each_action_validator_ends_only_episode_in_both_cohorts (test_a1.FailureTests) (actor='claude', value={'op': [], 'ref': None, 'tier': None})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<WORKSPACE>/06_intelligence/AI_research/research/useful-core/tests/test_a1.py", line 50, in test_each_action_validator_ends_only_episode_in_both_cohorts
+    ep,r,l,c=self.run_one(Mutant(actor,change),actor+str(i))
+  File "<WORKSPACE>/06_intelligence/AI_research/research/useful-core/tests/test_a1.py", line 37, in run_one
+    calls=audit_episode(self.base,ep,terminal,True);audit_ledger(self.base,[ep],calls)
+  File "<WORKSPACE>/06_intelligence/AI_research/research/useful-core/uc_analysis.py", line 340, in audit_ledger
+    ep=lookup[ident]
+KeyError: 'claude0'
+
+======================================================================
+ERROR: test_each_action_validator_ends_only_episode_in_both_cohorts (test_a1.FailureTests) (actor='claude', value={'op': 'read', 'ref': True, 'tier': None})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<WORKSPACE>/06_intelligence/AI_research/research/useful-core/tests/test_a1.py", line 50, in test_each_action_validator_ends_only_episode_in_both_cohorts
+    ep,r,l,c=self.run_one(Mutant(actor,change),actor+str(i))
+  File "<WORKSPACE>/06_intelligence/AI_research/research/useful-core/tests/test_a1.py", line 37, in run_one
+    calls=audit_episode(self.base,ep,terminal,True);audit_ledger(self.base,[ep],calls)
+  File "<WORKSPACE>/06_intelligence/AI_research/research/useful-core/uc_analysis.py", line 340, in audit_ledger
+    ep=lookup[ident]
+KeyError: 'claude0'
+
+======================================================================
+ERROR: test_each_action_validator_ends_only_episode_in_both_cohorts (test_a1.FailureTests) (actor='claude', value={'op': 'read', 'ref': None, 'tier': False})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<WORKSPACE>/06_intelligence/AI_research/research/useful-core/tests/test_a1.py", line 50, in test_each_action_validator_ends_only_episode_in_both_cohorts
+    ep,r,l,c=self.run_one(Mutant(actor,change),actor+str(i))
+  File "<WORKSPACE>/06_intelligence/AI_research/research/useful-core/tests/test_a1.py", line 37, in run_one
+    calls=audit_episode(self.base,ep,terminal,True);audit_ledger(self.base,[ep],calls)
+  File "<WORKSPACE>/06_intelligence/AI_research/research/useful-core/uc_analysis.py", line 340, in audit_ledger
+    ep=lookup[ident]
+KeyError: 'claude0'
+
+======================================================================
+ERROR: test_each_action_validator_ends_only_episode_in_both_cohorts (test_a1.FailureTests) (actor='claude', value={'op': 'read', 'ref': 'aaaaaaaaaaaa', 'tier': None})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<WORKSPACE>/06_intelligence/AI_research/research/useful-core/tests/test_a1.py", line 50, in test_each_action_validator_ends_only_episode_in_both_cohorts
+    ep,r,l,c=self.run_one(Mutant(actor,change),actor+str(i))
+  File "<WORKSPACE>/06_intelligence/AI_research/research/useful-core/tests/test_a1.py", line 37, in run_one
+    calls=audit_episode(self.base,ep,terminal,True);audit_ledger(self.base,[ep],calls)
+  File "<WORKSPACE>/06_intelligence/AI_research/research/useful-core/uc_analysis.py", line 340, in audit_ledger
+    ep=lookup[ident]
+KeyError: 'claude0'
+
+======================================================================
+ERROR: test_each_action_validator_ends_only_episode_in_both_cohorts (test_a1.FailureTests) (actor='claude', value={'op': 'check', 'ref': None, 'tier': None})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<WORKSPACE>/06_intelligence/AI_research/research/useful-core/tests/test_a1.py", line 50, in test_each_action_validator_ends_only_episode_in_both_cohorts
+    ep,r,l,c=self.run_one(Mutant(actor,change),actor+str(i))
+  File "<WORKSPACE>/06_intelligence/AI_research/research/useful-core/tests/test_a1.py", line 37, in run_one
+    calls=audit_episode(self.base,ep,terminal,True);audit_ledger(self.base,[ep],calls)
+  File "<WORKSPACE>/06_intelligence/AI_research/research/useful-core/uc_analysis.py", line 340, in audit_ledger
+    ep=lookup[ident]
+KeyError: 'claude0'
+
+======================================================================
+ERROR: test_each_action_validator_ends_only_episode_in_both_cohorts (test_a1.FailureTests) (actor='claude', value={'op': 'deliver', 'ref': 'bbbbbbbbbbbb', 'tier': 'none'})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<WORKSPACE>/06_intelligence/AI_research/research/useful-core/tests/test_a1.py", line 50, in test_each_action_validator_ends_only_episode_in_both_cohorts
+    ep,r,l,c=self.run_one(Mutant(actor,change),actor+str(i))
+  File "<WORKSPACE>/06_intelligence/AI_research/research/useful-core/tests/test_a1.py", line 37, in run_one
+    calls=audit_episode(self.base,ep,terminal,True);audit_ledger(self.base,[ep],calls)
+  File "<WORKSPACE>/06_intelligence/AI_research/research/useful-core/uc_analysis.py", line 340, in audit_ledger
+    ep=lookup[ident]
+KeyError: 'claude0'
+
+======================================================================
+ERROR: test_each_action_validator_ends_only_episode_in_both_cohorts (test_a1.FailureTests) (actor='claude', value={'op': 'wait', 'ref': None, 'tier': None, 'key': 'illegal'})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<WORKSPACE>/06_intelligence/AI_research/research/useful-core/tests/test_a1.py", line 50, in test_each_action_validator_ends_only_episode_in_both_cohorts
+    ep,r,l,c=self.run_one(Mutant(actor,change),actor+str(i))
+  File "<WORKSPACE>/06_intelligence/AI_research/research/useful-core/tests/test_a1.py", line 37, in run_one
+    calls=audit_episode(self.base,ep,terminal,True);audit_ledger(self.base,[ep],calls)
+  File "<WORKSPACE>/06_intelligence/AI_research/research/useful-core/uc_analysis.py", line 340, in audit_ledger
+    ep=lookup[ident]
+KeyError: 'claude0'
+
+======================================================================
+ERROR: test_first_frontier_content_failure_revalidates_and_continues (test_a1.FailureTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<WORKSPACE>/06_intelligence/AI_research/research/useful-core/tests/test_a1.py", line 74, in test_first_frontier_content_failure_revalidates_and_continues
+    next_ep,nr,nl,nc=self.run_one(Fake('claude'),'next')
+  File "<WORKSPACE>/06_intelligence/AI_research/research/useful-core/tests/test_a1.py", line 37, in run_one
+    calls=audit_episode(self.base,ep,terminal,True);audit_ledger(self.base,[ep],calls)
+  File "<WORKSPACE>/06_intelligence/AI_research/research/useful-core/uc_analysis.py", line 340, in audit_ledger
+    ep=lookup[ident]
+KeyError: 'case'
+
+======================================================================
+ERROR: test_payload_duplicates_nonfinite_and_metadata_strictness (test_a1.FailureTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<WORKSPACE>/06_intelligence/AI_research/research/useful-core/tests/test_a1.py", line 90, in test_payload_duplicates_nonfinite_and_metadata_strictness
+    ep,r,l,c=self.run_one(Mutant('claude',raw_change=raw_change),str(i))
+  File "<WORKSPACE>/06_intelligence/AI_research/research/useful-core/tests/test_a1.py", line 37, in run_one
+    calls=audit_episode(self.base,ep,terminal,True);audit_ledger(self.base,[ep],calls)
+  File "<WORKSPACE>/06_intelligence/AI_research/research/useful-core/uc_analysis.py", line 340, in audit_ledger
+    ep=lookup[ident]
+KeyError: '0'
+
+======================================================================
+FAIL: test_unexpected_adapter_and_decoder_errors_are_harness_fatal (test_a1.FailureTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "<WORKSPACE>/06_intelligence/AI_research/research/useful-core/tests/test_a1.py", line 135, in test_unexpected_adapter_and_decoder_errors_are_harness_fatal
+    self.assertTrue(r['fatal']);self.assertIn('harness',r['error'])
+AssertionError: 'harness' not found in 'unexpected adapter exception; ambiguous start'
+
+----------------------------------------------------------------------
+Ran 77 tests in 1.085s
+
+FAILED (failures=1, errors=10)

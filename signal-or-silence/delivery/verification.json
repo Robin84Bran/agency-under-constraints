@@ -1,0 +1,95 @@
+{
+  "all_generated_artifacts_byte_identical": true,
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 20261112,
+  "both_freezes_verified": true,
+  "collection": {
+    "calls_by_judge": {
+      "claude": 1868,
+      "llama8b": 1868,
+      "qwen7b": 1868
+    },
+    "integrity_flags_retained": 1,
+    "ledger_sha256": "4f64f8332d8f5c28cc6d97e6d7319ab13637f60dead7a4fe138c60e3533b94b2",
+    "outstanding_reserved_usd": "0",
+    "saved_calls": 5604,
+    "settled_usd": "11.053392",
+    "starts": 5604,
+    "transport_failures": 0
+  },
+  "comparison_scope": "All three generated artifacts; narrative root Markdown is expanded delivery prose.",
+  "comparisons": [
+    {
+      "byte_identical": true,
+      "original": "analysis/results.json",
+      "original_sha256": "0ac4d9486e96ac10c661b2bc951126bbb5bef356ace85caf4986543c646f6861",
+      "rebuilt": "analysis-rebuild-1/analysis/results.json",
+      "rebuilt_sha256": "0ac4d9486e96ac10c661b2bc951126bbb5bef356ace85caf4986543c646f6861"
+    },
+    {
+      "byte_identical": true,
+      "original": "delivery/frozen-analysis/RESULTS.md",
+      "original_sha256": "1959c53fa709a8d777a2d96b6047cbb446a98a78d73ff70a48729b13749136c4",
+      "rebuilt": "analysis-rebuild-1/RESULTS.md",
+      "rebuilt_sha256": "1959c53fa709a8d777a2d96b6047cbb446a98a78d73ff70a48729b13749136c4"
+    },
+    {
+      "byte_identical": true,
+      "original": "delivery/frozen-analysis/README.md",
+      "original_sha256": "2a77dd16d94db948ab47727d6b21ba4c87e0371cbcfa5d55427016e0cd0494f8",
+      "rebuilt": "analysis-rebuild-1/README.md",
+      "rebuilt_sha256": "2a77dd16d94db948ab47727d6b21ba4c87e0371cbcfa5d55427016e0cd0494f8"
+    }
+  ],
+  "delivery_sha256": {
+    "PROJECT_STATE-post-analysis.md": "68819edb572ef4729db987b3816b3845a42f1c627712b702d77e057d6f7b237b",
+    "QUESTIONS-post-analysis.md": "32b04428420cfa9efbddff39e3c2f1d57795b0c83db59c40b0e8b5f9f1f39416",
+    "README.md": "ac9a460cb383ac8f09c93d75f480e71d52a4b07d716e82aea1d2b80e259e3648",
+    "RESULTS.md": "370450ea5261ff6af842fb5ec0558deca68102a604aae7cfd8cfcc5cfae57204",
+    "delivery/render_reports.py": "5510f82987a7a9aeb779646f9ed12c3b70ca2fd44ae6763cad4fb2db7a125025",
+    "delivery/verify_delivery.py": "c23397acb4316283e7c7f62911fcc30a598a9e82d1cf25d79a9ad7d5fe7ce7bc"
+  },
+  "freeze_content_sha256": "13e0606432083a25aef6c6346c1e0d6c005b2e30822c508438e428ac5f588a67",
+  "frozen_project_state_preserved": {
+    "current_state": "PROJECT_STATE-post-analysis.md",
+    "path": "PROJECT_STATE.md",
+    "reason": "Bound by freeze-d1.json; current task also prohibits editing frozen files.",
+    "sha256": "3845c7ecb1c3f5d3a6a6296798d0276c8d5d86d8ac7095e5b40214657c103e31"
+  },
+  "original_analysis_command": "python3 -B sos.py analyze",
+  "original_production_executions": 1,
+  "provenance": [
+    {
+      "attestation": "collection/push.json",
+      "commit": "2e5aa1a5469731850953f94b4d400256d6345f3e",
+      "earliest_start": "2026-11-11T04:49:21.263975+00:00",
+      "github_time": "2026-11-11T04:49:10Z",
+      "manifest": "freeze.json",
+      "push_before_every_start": true,
+      "scope": "Saved operator attestations and hashes; no independent GitHub query.",
+      "sha256": "09e07d27f622d4470fe8c4a6910e819cdbd892913c391c9297f4a72212c1a0a8",
+      "starts": 3738
+    },
+    {
+      "attestation": "collection/push-d1.json",
+      "commit": "a71614eb795a2674cdc1c049824e0f217a62e7f7",
+      "earliest_start": "2026-11-11T05:11:23.684963+00:00",
+      "github_time": "2026-11-11T05:11:09Z",
+      "manifest": "freeze-d1.json",
+      "push_before_every_start": true,
+      "scope": "Saved operator attestations and hashes; no independent GitHub query.",
+      "sha256": "788660aff78419689a1fa18e0b794e168942121c87d154582ce9d074d2177e65",
+      "starts": 1866
+    }
+  ],
+  "rebuild_command": "python3 -B sos.py analyze --output analysis-rebuild-1",
+  "requested_rebuild_executions": 1,
+  "review_scope": "Same-workspace independent offline execution, not a fresh-clone or independent-reviewer rebuild.",
+  "scientific_acceptance": "UNKNOWN",
+  "status": "PASS",
+  "unresolved": [
+    "Claude primary F/R validity acceptance criterion is unmet.",
+    "Fresh-clone independent Claude review and findings dispositions pending."
+  ],
+  "verified_utc": "2026-11-11T08:38:27.202295+00:00"
+}

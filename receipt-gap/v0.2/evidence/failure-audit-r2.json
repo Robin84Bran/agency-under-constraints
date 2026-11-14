@@ -1,0 +1,467 @@
+{
+  "note": "r2 saved-byte envelope revision; generation errors are episode failures; exact 429 pauses; zero-generation DNS requires a programme ruling. Original audits retained.",
+  "raises": [
+    {
+      "file": "rg_core.py",
+      "line": 42,
+      "raise": "raise ValueError('nonfinite JSON constant: ' + value)",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_core.py",
+      "line": 49,
+      "raise": "raise ValueError('text required')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_core.py",
+      "line": 98,
+      "raise": "raise ValueError('toolkit')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_core.py",
+      "line": 100,
+      "raise": "raise ModelOutputError('action fields')",
+      "scope": "episode model output"
+    },
+    {
+      "file": "rg_core.py",
+      "line": 103,
+      "raise": "raise ModelOutputError('op')",
+      "scope": "episode model output"
+    },
+    {
+      "file": "rg_core.py",
+      "line": 119,
+      "raise": "raise ModelOutputError('report fields')",
+      "scope": "episode model output"
+    },
+    {
+      "file": "rg_core.py",
+      "line": 121,
+      "raise": "raise ModelOutputError('report boolean/null required')",
+      "scope": "episode model output"
+    },
+    {
+      "file": "rg_core.py",
+      "line": 191,
+      "raise": "raise ValueError('unknown phase')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_core.py",
+      "line": 46,
+      "raise": "raise ValueError('nonfinite JSON number')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_core.py",
+      "line": 74,
+      "raise": "raise ValueError('nonfinite JSON number')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_core.py",
+      "line": 80,
+      "raise": "raise ValueError('provider envelope must be an object')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_core.py",
+      "line": 93,
+      "raise": "raise ValueError('invalid provider envelope: ' + str(exc)) from exc",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_core.py",
+      "line": 106,
+      "raise": "raise ModelOutputError('finish fields')",
+      "scope": "episode model output"
+    },
+    {
+      "file": "rg_core.py",
+      "line": 109,
+      "raise": "raise ModelOutputError('job')",
+      "scope": "episode model output"
+    },
+    {
+      "file": "rg_core.py",
+      "line": 111,
+      "raise": "raise ModelOutputError('status unavailable or key')",
+      "scope": "episode model output"
+    },
+    {
+      "file": "rg_core.py",
+      "line": 113,
+      "raise": "raise ModelOutputError('key')",
+      "scope": "episode model output"
+    },
+    {
+      "file": "rg_core.py",
+      "line": 143,
+      "raise": "raise ValueError('action horizon ended')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_core.py",
+      "line": 38,
+      "raise": "raise ValueError('duplicate JSON key')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_core.py",
+      "line": 84,
+      "raise": "raise ValueError('duplicate envelope key')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_core.py",
+      "line": 68,
+      "raise": "raise ValueError('duplicate JSON key')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_core.py",
+      "line": 89,
+      "raise": "raise",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 289,
+      "raise": "raise Stop('unexpected permission denials')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 307,
+      "raise": "raise Stop('transport failure or uncertain start')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 355,
+      "raise": "raise Stop('push attestation mismatch')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 359,
+      "raise": "raise Stop('invalid server push time')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 364,
+      "raise": "raise Stop('retained server event differs from attestation')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 393,
+      "raise": "raise Stop('historical ledger snapshot changed')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 398,
+      "raise": "raise Stop('v0.1 ledger missing or advanced after v0.2 registration')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 411,
+      "raise": "raise Stop('episode already terminal')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 414,
+      "raise": "raise Stop('started episode cannot be retried')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 148,
+      "raise": "raise Stop('cumulative active-time cap')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 196,
+      "raise": "raise Stop('local identity/template preflight failed')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 220,
+      "raise": "raise Stop('CLI binary changed since offline verification')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 223,
+      "raise": "raise Stop('schema flag disappeared')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 261,
+      "raise": "raise Stop('invalid reported API-equivalent cost')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 270,
+      "raise": "raise Stop(str(exc)) from exc",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 279,
+      "raise": "raise Stop('malformed activity count: ' + label)",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 313,
+      "raise": "raise Stop('unverified frontier identity')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 315,
+      "raise": "raise Stop('conflicting frontier effort')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 320,
+      "raise": "raise Stop('frontier envelope, turn limit or truncation mismatch')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 322,
+      "raise": "raise Stop('unknown frontier usage; hold retained')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 324,
+      "raise": "raise Stop('frontier reservation overrun')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 326,
+      "raise": "raise ModelOutputError('provider rejected generated model output')",
+      "scope": "episode model output"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 328,
+      "raise": "raise ModelOutputError('truncated model output')",
+      "scope": "episode model output"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 330,
+      "raise": "raise ModelOutputError(payload_error)",
+      "scope": "episode model output"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 333,
+      "raise": "raise ModelOutputError('structured_output must be an object; no fallback')",
+      "scope": "episode model output"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 336,
+      "raise": "raise Stop('local identity, truncation or stop mismatch')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 338,
+      "raise": "raise Stop('local context usage unknown or exhausted')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 341,
+      "raise": "raise Stop('returned running identity/context mismatch')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 343,
+      "raise": "raise ModelOutputError('truncated model output')",
+      "scope": "episode model output"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 384,
+      "raise": "raise Stop('call must follow its attested v0.2 freeze push')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 537,
+      "raise": "raise Stop('fake data cannot admit production collection')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 560,
+      "raise": "raise Stop('explicit verified Claude binary required')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 61,
+      "raise": "raise Stop('concurrent collector admission rejected')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 88,
+      "raise": "raise Stop('invalid project spend carry')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 259,
+      "raise": "raise Stop('invalid reported API-equivalent cost') from exc",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 281,
+      "raise": "raise Stop('unexpected positive activity count: ' + label)",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 347,
+      "raise": "raise ModelOutputError(str(exc)) from exc",
+      "scope": "episode model output"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 429,
+      "raise": "raise Stop('saved request differs on resume')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 434,
+      "raise": "raise Stop('prior response without reviewed pause')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 438,
+      "raise": "raise Stop('invalid prior history on resume')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 441,
+      "raise": "raise Stop('saved prior event differs on resume')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 450,
+      "raise": "raise Stop('pause lacks zero settlement')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 541,
+      "raise": "raise Stop('durable STOP: ' + read(base / stop_name)['reason'])",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 544,
+      "raise": "raise Stop('durable r2 STOP: ' + read(base / stop_name)['reason'])",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 95,
+      "raise": "raise Stop('reservation cap or duplicate episode')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 137,
+      "raise": "raise Stop('duplicate timer')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 142,
+      "raise": "raise Stop('invalid timer ledger')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 551,
+      "raise": "raise Stop('local cohort must finish or be explicitly accounted before frontier')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 582,
+      "raise": "raise Stop('uncertain started episode')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 590,
+      "raise": "raise Stop(read(base / stop_name)['reason'])",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 100,
+      "raise": "raise Stop('invalid settlement')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 588,
+      "raise": "raise",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 106,
+      "raise": "raise Stop('non-start must settle at zero')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 112,
+      "raise": "raise Stop('invalid non-start reservation restore')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 121,
+      "raise": "raise Stop('unknown ledger operation')",
+      "scope": "fatal or fail-closed evidence validation"
+    },
+    {
+      "file": "rg_collect.py",
+      "line": 117,
+      "raise": "raise Stop('invalid release')",
+      "scope": "fatal or fail-closed evidence validation"
+    }
+  ]
+}
