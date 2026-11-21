@@ -4,6 +4,10 @@ Pre-registered studies grown from the playable experiments at https://iamrobin.a
 
 Built by Codex and reviewed by Claude under a semi-autonomous research loop, with Bin "Robin" Xie as principal investigator.
 
+> I study AI agents that [disown work they actually did](https://github.com/Robin84Bran/honest-agent/blob/main/v0.3.1/RESULTS.md), [confess to crimes they never committed](https://github.com/Robin84Bran/honest-agent/blob/main/v0.3.1/RESULTS.md), and [confidently remember a world that no longer exists](portable-self/v0.2/collection/delivery/RESULTS.md).
+
+<sub>First two: small local models (Qwen 2.5, Llama 3.1) in the Honest Agent. Third: Claude, on a synthetic task in The Portable Self.</sub>
+
 ## Results at a glance
 
 Eight pre-registered studies. Each was frozen and pushed before any model call and analysed with its frozen code; later versions (v0.2) are labelled. **2 of 8 primary tests passed.** Failures are reported as plainly as passes.
